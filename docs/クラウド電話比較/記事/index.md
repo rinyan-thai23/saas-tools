@@ -40,3 +40,4 @@ updated: 2026-11-07
 - [通話録音と個人情報の確認ポイント](/articles/jp-privacy-recording/)
 - [電気通信の決まりを総務省の資料で確認](/articles/jp-telecom-rules/)
 - [料金早見表（10製品）](/articles/buy-fee-table/)
+- [無料トライアル比較](/articles/buy-trial-compare/)

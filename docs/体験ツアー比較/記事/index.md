@@ -20,6 +20,7 @@ updated: 2026-11-07
 - [Regiondo の評判・口コミ](/articles/regiondo/)
 - [Zaui の評判・口コミ](/articles/zaui/)
 - [rezio の評判・料金](/articles/rezio/)
+- [OMUSUBI の評判・料金](/articles/omusubi/)
 
 ## 比較
 

@@ -27,3 +27,4 @@ updated: 2026-11-07
 - [Aircall と Dialpad を比較](/articles/vs-aircall-dialpad/)
 - [Nextiva と RingEX を比較](/articles/vs-nextiva-ringex/)
 - [RingEX の代替](/articles/alt-ringex/)
+- [Dialpad の代替](/articles/alt-dialpad/)

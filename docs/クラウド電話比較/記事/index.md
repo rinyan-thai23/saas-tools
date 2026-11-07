@@ -37,3 +37,4 @@ updated: 2026-11-07
 - [110・119にかけられる？緊急通報の扱いと備え](/articles/jp-emergency-calls/)
 - [日本語で使える？日本語の公式サイト・画面・サポート](/articles/jp-language-support/)
 - [通話料・円の請求・インボイスの確認ポイント](/articles/jp-billing-invoice/)
+- [通話録音と個人情報の確認ポイント](/articles/jp-privacy-recording/)

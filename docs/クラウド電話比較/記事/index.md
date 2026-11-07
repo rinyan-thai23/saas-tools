@@ -12,3 +12,4 @@ updated: 2026-11-07
 
 - [RingEX（RingCentral）の評判・口コミ](/articles/ringex/)
 - [Nextiva の評判・口コミ](/articles/nextiva/)
+- [CallHippo の評判・口コミ](/articles/callhippo/)

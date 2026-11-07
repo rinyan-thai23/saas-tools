@@ -1,12 +1,12 @@
 ---
-title: 【体験・ツアー】予約システム9製品の比較表｜料金・日本語・日本で使えるか
+title: 【体験・ツアー】予約システム10製品の比較表｜料金・日本語・日本で使えるか
 slug: compare-table
 type: 固定
-description: 体験・ツアー事業者向けの海外予約システム9製品を、料金・日本語・口コミ数・日本の事業者向けの確認事項で比べた早見表。各製品の商品ページの内容をまとめたものです。
+description: 体験・ツアー事業者向けの予約システム10製品を、料金・日本語・口コミ数・日本の事業者向けの確認事項で比べた早見表。各製品の商品ページの内容をまとめたものです。
 updated: 2026-11-07
 ---
 
-# 体験・ツアー予約システム9製品の比較表
+# 体験・ツアー予約システム10製品の比較表
 
 各製品の商品ページの内容をまとめた早見表です。**どれも公式の発表と海外の口コミが材料で、日本の事業者の実感ではありません。** 料金や仕様は変わるため、申込前に公式で確認してください。
 
@@ -23,6 +23,7 @@ updated: 2026-11-07
 | [Bookeo](/articles/bookeo/) | $39.95から（Capterra掲載の説明） | なし（決済会社の手数料は別） | 30日 |
 | [Regiondo](/articles/regiondo/) | €59／€99 | 公式の表記に食い違いあり | 記載なし（デモ） |
 | [Zaui](/articles/zaui/) | $0 | お客さんのオンライン予約に6% | 記載なし（デモ） |
+| [rezio](/articles/rezio/) | ¥0／¥990／¥3,300／¥11,000（30日・税込） | Web直販3.5%〜2.5%、OTA経由0%（rezio側） | 日本語ページに「無料体験」の案内（条件は未確認） |
 
 ## 日本の事業者として、まず確認すること
 
@@ -37,6 +38,7 @@ updated: 2026-11-07
 | Bookeo | Capterra表記は日本語あり。公式は英独仏伊西 | 記載なし | 記載なし |
 | Regiondo | 日本語なし | 記載なし | 記載なし |
 | Zaui | 英語 | 記載なし | 記載なし |
+| rezio | **日本語サイト・日本の電話窓口（平日9〜18時）** | 円の料金表。JCB対応 | KKday、Viator、Google。日本の大手は記載なし |
 
 「記載なし」は、公式で見つけられなかった、という意味です。「できない」と確認したわけではありません。
 
@@ -53,9 +55,10 @@ updated: 2026-11-07
 | Bookeo | 43 | 7% | 0人 | 米国 |
 | Regiondo | 27 | 15% | 0人 | 欧州（イタリア・ドイツ） |
 | Zaui | 25 | 12% | 0人 | カナダ |
+| rezio | 0（Capterraで取得できず） | － | － | － |
 
 件数が少ない製品（Bookeo、Regiondo、Zaui）は、1件の重みが大きいので、割合は参考程度です。
 
 ## 関連
 
-- [FareHarbor](/articles/fareharbor/)、[Bókun](/articles/bokun/)、[Xola](/articles/xola/)、[Checkfront](/articles/checkfront/)、[Rezdy](/articles/rezdy/)、[TrekkSoft](/articles/trekksoft/)、[Bookeo](/articles/bookeo/)、[Regiondo](/articles/regiondo/)、[Zaui](/articles/zaui/)
+- [FareHarbor](/articles/fareharbor/)、[Bókun](/articles/bokun/)、[Xola](/articles/xola/)、[Checkfront](/articles/checkfront/)、[Rezdy](/articles/rezdy/)、[TrekkSoft](/articles/trekksoft/)、[Bookeo](/articles/bookeo/)、[Regiondo](/articles/regiondo/)、[Zaui](/articles/zaui/)、[rezio](/articles/rezio/)

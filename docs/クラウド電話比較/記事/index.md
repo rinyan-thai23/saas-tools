@@ -29,3 +29,4 @@ updated: 2026-11-07
 - [RingEX の代替](/articles/alt-ringex/)
 - [Dialpad の代替](/articles/alt-dialpad/)
 - [Zoom Phone の代替](/articles/alt-zoom-phone/)
+- [Aircall の代替](/articles/alt-aircall/)

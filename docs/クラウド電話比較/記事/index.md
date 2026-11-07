@@ -41,3 +41,4 @@ updated: 2026-11-07
 - [電気通信の決まりを総務省の資料で確認](/articles/jp-telecom-rules/)
 - [料金早見表（10製品）](/articles/buy-fee-table/)
 - [無料トライアル比較](/articles/buy-trial-compare/)
+- [申込前チェックリスト](/articles/buy-checklist/)

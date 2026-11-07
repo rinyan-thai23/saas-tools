@@ -33,3 +33,4 @@ updated: 2026-11-07
 - [固定電話・スマホからクラウド電話へ乗り換える手順](/articles/switch-from-landline/)
 - [今の電話番号をそのままクラウド電話へ移せる？](/articles/switch-keep-number/)
 - [乗り換え・導入前のチェックリスト](/articles/switch-checklist/)
+- [日本の電話番号の取り方と審査](/articles/jp-number-acquisition/)

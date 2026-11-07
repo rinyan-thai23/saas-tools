@@ -1,0 +1,331 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>【体験・ツアー】予約システムの手数料・月額の早見表｜月の売上別の費用を計算（円の製品・ドルの製品）</title><meta name="description" content="体験・ツアー予約システムの月額と予約手数料を、月の売上別に計算した早見表。円で払う国産・日本版（OMUSUBI、rezio、JTB BÓKUN）と、ドルで払う海外版を分けて比較。事前決済を使うと実質の手数料がどう変わるかも計算しました。"><meta name="robots" content="noindex,nofollow"><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "【体験・ツアー】予約システムの手数料・月額の早見表｜月の売上別の費用を計算（円の製品・ドルの製品）", "description": "体験・ツアー予約システムの月額と予約手数料を、月の売上別に計算した早見表。円で払う国産・日本版（OMUSUBI、rezio、JTB BÓKUN）と、ドルで払う海外版を分けて比較。事前決済を使うと実質の手数料がどう変わるかも計算しました。", "dateModified": "2026-11-07", "inLanguage": "ja", "mainEntityOfPage": "https://rinyan-thai23.github.io/saas-tools/tour/articles/buy-fee-table/"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "一番安い予約システムはどれですか？", "acceptedAnswer": {"@type": "Answer", "text": "売上と事前決済の割合で変わります。売上が小さいうちは、月額0円のプランが安く、売上が増えると、手数料の割合が低いプランが得になります。この記事の計算を、自分の売上に当てはめてください。"}}, {"@type": "Question", "name": "手数料に消費税はかかりますか？", "acceptedAnswer": {"@type": "Answer", "text": "製品で表示が違います（rezio は税込、JTB BÓKUN は税別、ドルのものは税抜き）。税の扱いは、見積りで確認してください。"}}, {"@type": "Question", "name": "事前決済は使うべきですか？", "acceptedAnswer": {"@type": "Answer", "text": "無断キャンセルが心配なら、使えます。ただし、実質の手数料が増えます（上の計算）。"}}]}]}</script><style>:root{--bg:#fff;--fg:#1b1f23;--mut:#5b6670;--line:#d8dee4;--acc:#0b5cad;--soft:#f5f7fa}
+@media(prefers-color-scheme:dark){:root{--bg:#14181c;--fg:#e6e9ec;--mut:#9aa5af;--line:#2d353d;--acc:#6db3f2;--soft:#1c2228}}
+*{box-sizing:border-box}body{overflow-wrap:anywhere;margin:0;background:var(--bg);color:var(--fg);font:16px/1.85 -apple-system,"Hiragino Sans","Noto Sans JP",sans-serif}
+header,main,footer{max-width:820px;margin:0 auto;padding:0 16px}header{padding-top:14px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+header a{color:var(--fg);text-decoration:none;font-weight:700}nav a{margin-right:14px;font-weight:400;font-size:14px;color:var(--mut)}
+h1{font-size:1.6rem;line-height:1.4;margin:1.4em 0 .6em}h2{font-size:1.25rem;margin:2em 0 .6em;padding-bottom:.3em;border-bottom:1px solid var(--line)}h3{font-size:1.05rem;margin:1.5em 0 .4em}
+a{color:var(--acc)}blockquote{margin:1em 0;padding:.6em 1em;background:var(--soft);border-left:4px solid var(--acc)}blockquote p{margin:.4em 0}
+.tw{overflow-x:auto;margin:1em 0}table{border-collapse:collapse;font-size:14px;line-height:1.6;min-width:100%}th,td{border:1px solid var(--line);padding:6px 9px;vertical-align:top;text-align:left}th{background:var(--soft);white-space:nowrap}
+code{background:var(--soft);padding:1px 4px;border-radius:3px;font-size:.9em}footer{padding-top:20px;padding-bottom:40px;color:var(--mut);font-size:13px;border-top:1px solid var(--line);margin-top:3em}
+ul,ol{padding-left:1.4em}li{margin:.2em 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:1em 0}
+.card{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--soft);text-decoration:none;color:var(--fg);line-height:1.5}
+details.src{margin:2em 0;padding:10px 14px;border:1px solid var(--line);border-radius:8px;background:var(--soft)}details.src summary{cursor:pointer;font-weight:700}details.src h2{display:none}details.src li{font-size:14px}
+.card b{display:block;margin-bottom:4px}.card span{font-size:13px;color:var(--mut)}.card:hover{border-color:var(--acc)}</style></head><body>
+<header><a href="/saas-tools/tour/">体験・ツアー予約システム比較</a><nav><a href="/saas-tools/tour/compare-table/">総合比較表</a><a href="/saas-tools/tour/disclosure/">広告表示と運営方針</a><a href="/saas-tools/tour/changelog/">更新履歴</a></nav></header>
+<main><h1>【体験・ツアー】予約システムの手数料・月額の早見表｜月の売上別の費用を計算</h1>
+<h2>先に結論</h2>
+<blockquote>
+<ul>
+<li><strong>月の売上が小さいうちは「月額0円」の製品が安く、売上が増えるほど「月額は高いが手数料が低い」プランが得になります。</strong> 分かれ目は、製品ごとに違います（下の計算を参照）。</li>
+<li><strong>事前決済（予約のときのカード決済）を使うと、国産の「予約手数料が無料」のプランでも、実質は3〜5%になります。</strong> 予約手数料と決済手数料は、合算して見てください（計算）。</li>
+<li><strong>円の製品とドルの製品は、為替が違うので、別々の表にしました。</strong> 為替手数料は、どちらにも含みません。</li>
+<li><strong>この記事の数字は、すべて公式の料金表（自社の発表）を使った「計算」です。</strong> 実際の請求は、プランの機能、最低保証、税、為替で変わります。</li>
+</ul>
+</blockquote>
+<h2>計算の前提</h2>
+<ul>
+<li><strong>オンラインの直販予約の売上だけ</strong>で計算します（自社サイト経由）。予約サイト（OTA）経由の手数料、店頭・電話の予約は含みません。</li>
+<li><strong>手数料はすべて事業者が払う</strong>として計算します（お客さんに上乗せする場合、事業者の負担は減ります。→ <a href="/saas-tools/tour/articles/buy-fee-payer/">手数料を誰が払うか</a>）。</li>
+<li>月額は、公式の表示のまま（rezio は税込、JTB BÓKUN は税別、ドルのものは税抜き）。税の違いは調整していません。</li>
+<li>プランごとの機能の差は、含みません。</li>
+</ul>
+<h2>1. 円で払う製品（国産・日本版）</h2>
+<p><strong>月のWeb直販の売上別の、月額＋予約手数料の合計（計算）</strong></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>製品・プラン</th>
+<th>月額</th>
+<th>予約手数料</th>
+<th>¥20万</th>
+<th>¥50万</th>
+<th>¥100万</th>
+<th>¥300万</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OMUSUBI フリー</td>
+<td>¥0</td>
+<td>WEB予約は無料</td>
+<td>¥0</td>
+<td>¥0</td>
+<td>¥0</td>
+<td>¥0</td>
+</tr>
+<tr>
+<td>OMUSUBI 成果報酬制</td>
+<td>¥0（※）</td>
+<td>2.0%</td>
+<td>¥4,000</td>
+<td>¥10,000</td>
+<td>¥20,000</td>
+<td>¥60,000</td>
+</tr>
+<tr>
+<td>OMUSUBI 月額制</td>
+<td>¥11,000</td>
+<td>WEB予約は無料</td>
+<td>¥11,000</td>
+<td>¥11,000</td>
+<td>¥11,000</td>
+<td>¥11,000</td>
+</tr>
+<tr>
+<td>rezio ENTRY</td>
+<td>¥0</td>
+<td>3.5%</td>
+<td>¥7,000</td>
+<td>¥17,500</td>
+<td>¥35,000</td>
+<td>¥105,000</td>
+</tr>
+<tr>
+<td>rezio STANDARD</td>
+<td>¥990</td>
+<td>3.5%</td>
+<td>¥7,990</td>
+<td>¥18,490</td>
+<td>¥35,990</td>
+<td>¥105,990</td>
+</tr>
+<tr>
+<td>rezio ADVANCE</td>
+<td>¥3,300</td>
+<td>3%</td>
+<td>¥9,300</td>
+<td>¥18,300</td>
+<td>¥33,300</td>
+<td>¥93,300</td>
+</tr>
+<tr>
+<td>rezio PREMIUM</td>
+<td>¥11,000</td>
+<td>2.5%</td>
+<td>¥16,000</td>
+<td>¥23,500</td>
+<td>¥36,000</td>
+<td>¥86,000</td>
+</tr>
+<tr>
+<td>JTB BÓKUN エントリー</td>
+<td>¥1,900</td>
+<td>3.5%</td>
+<td>¥8,900</td>
+<td>¥19,400</td>
+<td>¥36,900</td>
+<td>¥106,900</td>
+</tr>
+<tr>
+<td>JTB BÓKUN ベーシック</td>
+<td>¥4,900</td>
+<td>1.5%</td>
+<td>¥7,900</td>
+<td>¥12,400</td>
+<td>¥19,900</td>
+<td>¥49,900</td>
+</tr>
+<tr>
+<td>JTB BÓKUN アドバンス</td>
+<td>¥24,900</td>
+<td>1.25%</td>
+<td>¥27,400</td>
+<td>¥31,150</td>
+<td>¥37,400</td>
+<td>¥62,400</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li><strong>※ OMUSUBI 成果報酬制</strong>：利用開始から12か月間のWEB予約手数料の合計が36,000円（税込）に満たない場合、13か月目以降は最低保証（月3,000円・税別）と、1予約あたり30円（税別）がかかります（公式）。上の計算には入っていません。</li>
+<li><strong>JTB BÓKUN</strong>：税別です。従量課金がどの予約にかかるかは、JTB の資料から読み取れませんでした（資料には「グローバル OTA やマーケットプレイス経由の予約は、別途各社へ販売手数料」とあります）。</li>
+<li><strong>OMUSUBI フリー／月額制</strong>は、WEB予約の手数料が無料ですが、<strong>自社サイトへのリンク設置が原則必須</strong>、プランの機能の差（予約メールの自動取込、多言語化は成果報酬制）があります。</li>
+</ul>
+<p><strong>この計算で分かること</strong>：</p>
+<ul>
+<li>売上が小さい（¥20万）うちは、OMUSUBI のフリープランが最も安いです。</li>
+<li>¥100万の月では、OMUSUBI 月額制（¥11,000）、JTB BÓKUN ベーシック（¥19,900）、OMUSUBI 成果報酬制（¥20,000）が低めです。</li>
+<li>¥300万の月では、OMUSUBI 月額制（¥11,000）が突出して安く、次に OMUSUBI 成果報酬制（¥60,000）、JTB BÓKUN ベーシック（¥49,900）が続きます。ただし、プランの機能が違います。</li>
+</ul>
+<h3>事前決済を使うと、実質の手数料はどうなる？（OMUSUBI・計算）</h3>
+<p>OMUSUBI は、事前決済の手数料（フリー・月額制は3.5%、成果報酬制は3.0%）が、予約手数料とは別にかかります（公式）。<strong>すべてのお客さんが事前決済を使った場合</strong>の、月額＋手数料の合計です。</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>OMUSUBI のプラン</th>
+<th>実質の割合</th>
+<th>¥20万</th>
+<th>¥50万</th>
+<th>¥100万</th>
+<th>¥300万</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>フリー（事前決済3.5%）</td>
+<td>3.5%</td>
+<td>¥7,000</td>
+<td>¥17,500</td>
+<td>¥35,000</td>
+<td>¥105,000</td>
+</tr>
+<tr>
+<td>月額制（¥11,000＋事前決済3.5%）</td>
+<td>¥11,000＋3.5%</td>
+<td>¥18,000</td>
+<td>¥28,500</td>
+<td>¥46,000</td>
+<td>¥116,000</td>
+</tr>
+<tr>
+<td>成果報酬制（予約2.0%＋事前決済3.0%）</td>
+<td>5.0%</td>
+<td>¥10,000</td>
+<td>¥25,000</td>
+<td>¥50,000</td>
+<td>¥150,000</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>事前決済をすべての予約で使うと、「予約手数料が無料」でも、3.5%〜5%かかります。</strong> rezio の「予約手数料」と「オンライン決済の手数料」は、公式の表記が別々で、同じ扱いかは確認できていません。</p>
+<h2>2. ドルで払う製品（海外版）</h2>
+<p><strong>月のオンライン売上別の、月額＋予約手数料の合計（計算）</strong></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>製品・プラン</th>
+<th>月額</th>
+<th>予約手数料</th>
+<th>$2,000</th>
+<th>$5,000</th>
+<th>$10,000</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bókun Start</td>
+<td>$49</td>
+<td>1.5%</td>
+<td>$79</td>
+<td>$124</td>
+<td>$199</td>
+</tr>
+<tr>
+<td>Bókun Plus</td>
+<td>$149</td>
+<td>1.25%</td>
+<td>$174</td>
+<td>$211.5</td>
+<td>$274</td>
+</tr>
+<tr>
+<td>Bókun Premium</td>
+<td>$499</td>
+<td>1%</td>
+<td>$519</td>
+<td>$549</td>
+<td>$599</td>
+</tr>
+<tr>
+<td>Rezdy Foundation</td>
+<td>$49</td>
+<td>3%</td>
+<td>$109</td>
+<td>$199</td>
+<td>$349</td>
+</tr>
+<tr>
+<td>Rezdy Accelerate</td>
+<td>$99</td>
+<td>3%</td>
+<td>$159</td>
+<td>$249</td>
+<td>$399</td>
+</tr>
+<tr>
+<td>Rezdy Expansion</td>
+<td>$249</td>
+<td>3%</td>
+<td>$309</td>
+<td>$399</td>
+<td>$549</td>
+</tr>
+<tr>
+<td>Checkfront</td>
+<td>$99</td>
+<td>3%</td>
+<td>$159</td>
+<td>$249</td>
+<td>$399</td>
+</tr>
+<tr>
+<td>Bookeo</td>
+<td>$39.95から（Capterra 掲載の公式の説明）</td>
+<td>なし</td>
+<td>$39.95</td>
+<td>$39.95</td>
+<td>$39.95</td>
+</tr>
+<tr>
+<td>Zaui Free</td>
+<td>$0</td>
+<td>6%</td>
+<td>$120</td>
+<td>$300</td>
+<td>$600</td>
+</tr>
+<tr>
+<td>Xola</td>
+<td>なし</td>
+<td>2.39%＋$0.30/件（米国）</td>
+<td>$53.8</td>
+<td>$134.5</td>
+<td>$269</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li><strong>Xola</strong> は、1件あたり平均$100の予約と仮定した計算です（$0.30は1件ごと）。</li>
+<li><strong>Bookeo</strong> は、公式の料金ページに今回接続できず、現在の金額を確認できていません。</li>
+<li><strong>FareHarbor</strong>（月額・手数料の公式の数字なし）、<strong>TrekkSoft</strong>（€建て）、<strong>Regiondo</strong>（手数料が不明）は、計算の対象外です。</li>
+<li>決済会社の手数料と、為替手数料は含みません。</li>
+</ul>
+<p><strong>この計算で分かること</strong>：</p>
+<ul>
+<li>同じ月額$49なら、Bókun（1.5%）は Rezdy（3%）の半分の手数料です。</li>
+<li>Bookeo の月額のみの形は、売上が増えても費用が増えません（金額の確認が必要）。</li>
+<li>Zaui の「月額$0」は、売上が増えるほど費用が大きくなります（6%）。</li>
+</ul>
+<h2>費用を決める4つの要素</h2>
+<ol>
+<li><strong>月のオンライン売上</strong>：小さいうちは月額0円、増えたら月額が高くても手数料が低いプラン。</li>
+<li><strong>事前決済の割合</strong>：事前決済を使うと、決済手数料が上乗せされます。</li>
+<li><strong>手数料を誰が払うか</strong>：お客さんに上乗せできる製品は、事業者の負担が減ります。</li>
+<li><strong>必要な機能</strong>：安いプランでは、予約メールの自動取込、多言語化、API などが使えないことがあります。</li>
+</ol>
+<h2>申し込む前に聞くこと</h2>
+<ol>
+<li><strong>予約手数料と決済手数料は、合算して何%か。</strong> 海外発行カードの場合は。</li>
+<li>自分の売上の規模で、<strong>一番安いプラン</strong>はどれか（見積りを書面で）。</li>
+<li>安いプランで、<strong>使えない機能</strong>は何か。</li>
+<li>最低保証、初期費用、解約の違約金はあるか。</li>
+<li>為替手数料は、誰が、いくら払うか。</li>
+</ol>
+<h2>よくある質問</h2>
+<h3>一番安い予約システムはどれですか？</h3>
+<p>売上と事前決済の割合で変わります。売上が小さいうちは、月額0円のプランが安く、売上が増えると、手数料の割合が低いプランが得になります。この記事の計算を、自分の売上に当てはめてください。</p>
+<h3>手数料に消費税はかかりますか？</h3>
+<p>製品で表示が違います（rezio は税込、JTB BÓKUN は税別、ドルのものは税抜き）。税の扱いは、見積りで確認してください。</p>
+<h3>事前決済は使うべきですか？</h3>
+<p>無断キャンセルが心配なら、使えます。ただし、実質の手数料が増えます（上の計算）。</p>
+<h2>関連記事</h2>
+<ul>
+<li>買う直前：<a href="/saas-tools/tour/articles/buy-fee-payer/">手数料を誰が払うか</a></li>
+<li>比較・代替：<a href="/saas-tools/tour/articles/vs-bokun-rezdy/">Bókun と Rezdy</a>、<a href="/saas-tools/tour/articles/vs-bokun-checkfront/">Bókun と Checkfront</a>、<a href="/saas-tools/tour/articles/vs-bookeo-checkfront/">Bookeo と Checkfront</a></li>
+<li>商品ページ：<a href="/saas-tools/tour/articles/omusubi/">OMUSUBI</a>、<a href="/saas-tools/tour/articles/rezio/">rezio</a>、<a href="/saas-tools/tour/articles/bokun/">Bókun</a></li>
+<li>ほかの買う直前の記事は、順次追加します。</li>
+</ul>
+<p>情報は、各社の公式の料金ページ、JTBの資料、検索で読んだ料金比較の解説を元にした計算です。確認日 2026-11-07。料金は変わるため、申込前に公式で再確認してください。</p></main>
+<footer>最終確認日 2026-11-07 ／ 料金・仕様は変わるため、申込前に公式ページで再確認してください。<br><a href="/saas-tools/tour/disclosure/">広告表示と運営方針</a></footer></body></html>

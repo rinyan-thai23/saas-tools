@@ -51,3 +51,8 @@ updated: 2026-11-07
 - [日本語対応の比較（管理画面・予約画面・サポート）](/articles/jp-language-support/)
 - [旅行業法の登録が関わるか確認する窓口と、聞くこと](/articles/jp-travel-agency-law/)
 - [訪日客向けの外国語の予約画面（言語・決済・事前決済）](/articles/jp-inbound-multilingual/)
+
+## 買う直前
+
+- [手数料・月額の早見表（月の売上別に計算）](/articles/buy-fee-table/)
+- [予約手数料は誰が払う？](/articles/buy-fee-payer/)

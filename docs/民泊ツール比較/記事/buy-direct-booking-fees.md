@@ -1,97 +1,81 @@
 ---
-title: ダイレクト予約の手数料と自社予約サイト：民泊ツール9製品の比較
+title: 【民泊】直接予約サイトの手数料・決済を比較｜予約手数料0%でも、決済の1%や4%に注意
 slug: buy-direct-booking-fees
 type: 買う直前
-products: [guesty, hostaway, lodgify, ownerrez, hospitable, igms, uplisting, beds24, sirvoy]
-description: 自社の予約サイトで受ける予約（ダイレクト予約）にかかる手数料、サイト機能、決済手段、日本語・円の扱いを、公式の記載で比較。申込前に確認する項目つき。
-cards: [Guesty, Hostaway, Lodgify, OwnerRez, Hospitable, iGMS, Uplisting, Beds24, Sirvoy]
-updated: 2026-11-05
+products: [lodgify, hostaway, ownerrez, guesty, hospitable, igms, uplisting, beds24, sirvoy]
+description: 民泊の管理ツールで自分の予約サイト（直接予約）を持つときの手数料と決済を比較。予約手数料0%でも別にかかる決済手数料、米国限定の決済、日本で使えるかを、9製品で整理します。
+cards: [Lodgify, Hostaway, OwnerRez, Guesty, Hospitable, iGMS, Uplisting, Beds24, Sirvoy]
+updated: 2026-11-07
 pr: true
 ---
 
-# ダイレクト予約の手数料・自社予約サイト機能の比較
+# 【民泊】直接予約サイトの手数料・決済を比較｜予約手数料0%でも、決済の1%や4%に注意
 
-この記事にはアフィリエイトリンク（PR）が含まれます。内容は公式ページ等の記載（取得日 2026-11-05）に基づき、リンクの有無では変えていません。Sirvoy には申込リンクを付けていません。PriceLabs と Hostfully Guidebooks は予約を扱わないため対象外です。
+この記事にはアフィリエイトリンク（PR）が含まれます。紹介報酬の有無で、内容や順番は変えていません。
 
-> **結論**
-> - 「手数料0%」の意味は製品で違います。ツール側の予約手数料が0%でも、決済会社（Stripe 等）の手数料は別にかかります。
-> - ツール側に率が書かれていたのは、Hospitable、Hostaway（上位サイトのみ）、Guesty Lite の従量プラン（1%）、Lodgify（決済ゲートウェイ経由の支払いに1%）、iGMS の無料プラン（4%）、Uplisting の従量プラン（3%／1.5%）です。
-> - 日本での決済可否と、予約サイトの日本語・円表示は、ほとんどの製品で公式に確認できませんでした。日本語が公式に確認できたのは Sirvoy の予約エンジンと、Beds24 のゲスト言語（予約ページ・メールの言語コードに ja）です。
+## 先に結論：「予約手数料0%」の外に、別の手数料がある
 
-## 比較表：ツール側の手数料
+> - **予約手数料が0%と明記されているのは、Lodgify、OwnerRez、Beds24、Sirvoy。** ただし、決済会社（Stripe など）の手数料は別にかかります。Lodgify はそれとは別に、サイト経由の決済に1%です。
+> - **手数料が目立つのは、Hospitable**（直接予約は Professional 以上で、Basic 1%、Premium 4%＋決済3%）と、**iGMS の無料プラン**（Stripe 経由の決済に4%）、**Hostaway**（上位版は月$49＋0.5%、ゲストに1.8%を上乗せ。米国のみ）。
+> - **決済が使えるか**：Lodgify Payments は米国のホストのみ、GuestyPay は米国・カナダ・EU/UK のみ。**日本で使える決済は、各社に確認が必要**です。
+> - **Stripe の日本での手数料率は、今回確認していません。** 決済会社の料金は、Stripe の料金ページで確認してください。
+> - **直接予約には、サイトの運営費用もかかります**（ドメイン、広告、ゲスト対応）。OTA の手数料と単純比較して得とは限りません（販売会社の指摘）。
 
-率は公式の記載のとおりです。【確認済】は公式ページを開いて確認。決済会社の手数料は含みません。Lodgify は公式サイトの本体を開けず、公式の公開コピー（webflow-mkt.lodgify.com）で確認しています。本体サイトとの一致は照合していません。
+## 手数料・決済の比較（公式の記載）
 
-| 製品 | ダイレクト予約にかかるツール側の費用 |
+| ツール | 予約手数料（ツール側） | 別にかかるもの | 決済の手段 |
+|---|---|---|---|
+| [Lodgify](/articles/lodgify/) | 0% | サイト経由のオンライン決済に別途1%（ゲートウェイ手数料とは別） | Stripe・PayPal など。Lodgify Payments は米国のホストのみ |
+| [OwnerRez](/articles/ownerrez/) | なし（手数料・ゲスト手数料・予約ごとの手数料なし） | 決済会社の手数料。独自ドメインのサイト（Hosted Sites）は別料金 | Stripe・PayPal など多数 |
+| [Beds24](/articles/beds24/) | なし | 決済会社の手数料（日本の販売会社の案内：Stripe は決済ごとに3.6%）。独自の名前（Private label）は月€19 | Stripe など |
+| [Sirvoy](/articles/sirvoy/) | 0% | 決済会社の手数料。サイトのカスタムドメインは Starter 以上 | Stripe・PayPal など |
+| [Hostaway](/articles/hostaway/) | 予約サイトは契約に含まれる。上位版は月$49＋対象予約の0.5% | ゲストに1.8%を上乗せ（米国のみ） | マーケットプレイスの Stripe・Braintree など |
+| [Guesty](/articles/guesty/) | ダイレクト予約の率ベースの手数料はなし。ただし Lite の従量プランは予約ごとに1% | 決済会社の手数料。キャンセルされた予約は、固定$3か、契約の手数料率×総額の大きい方 | GuestyPay は米国・カナダ・EU/UK のみ。外部決済は Stripe（Lite）、Stripe・Merchant Warrior・Hyp（Pro） |
+| [Hospitable](/articles/hospitable/) | **Professional・Mogul のみ：Basic 1%、Premium 4%＋決済3%（予約ごと）**。Host・Essentials は直接予約不可 | Vrbo の決済方式によって3.9%など | Stripe など |
+| [iGMS](/articles/igms/) | FLEX は0%。**無料プランの Stripe 経由の決済に4%**。PRO・PRO+ の率は公式に載っていない | Stripe の手数料 | Stripe |
+| [Uplisting](/articles/uplisting/) | 従量プラン（3%／1.5%）以外は、公式に載っていない | Stripe の手数料。上位のサイト（Plus）は月£30 | Stripe のアカウントが必要 |
+
+**「ほかのツールの比較ページ」の数字に注意**：OwnerRez の紹介ページには、「Hostaway は2%の予約手数料を導入した」「1.8%の手数料」といった記述があります。競合の主張で、数字がページごとに違います。Hostaway の公式の記載は、上の表のとおりです。
+
+## 手数料の見え方（例）
+
+直接予約の売上が、年間$40,000の物件だと**仮定**した試算例です（私の計算で、実際のデータではありません。決済会社の手数料は除く）。
+
+| 条件 | 年間のツール側の手数料 |
 |---|---|
-| Guesty | 公式：予約エンジンに "percentage-based fees" はなし。ただし Lite の Pay as you grow は予約ごとに1%【確認済】。第三者は Pro で2〜3.5%と報告（公式と食い違い、未検証） |
-| Hostaway | Booking Website は契約に含む。上位の Booking Website Pro は月$49＋対象予約の0.5%。【確認済】。これとは別の記載として「ゲストに1.8%を上乗せ（米国のみ）」もあるが、どの商品にかかるかは公式の文面から不明 |
-| Lodgify | 予約手数料0%。決済ゲートウェイ（Stripe・PayPal 等）経由の支払いに別途1%。手動入金（現金・銀行振込）は手数料なし【確認済】 |
-| OwnerRez | "No commissions, no guest fees, or per-booking fees"【確認済】。サイトは別料金のプレミアム機能（下記） |
-| Hospitable | Professional・Mogul のみ。Basic 1%、Premium 4%＋決済手数料3%（予約ごと）。Host・Essentials は不可【確認済】。アップセルは7〜10%、デポジットは2%の処理手数料 |
-| iGMS | PRO・PRO+ の iGMS 側の手数料率は価格ページに明記なし【未確認】。FLEX は "0% booking fee"。無料プラン（pilot）は Stripe 経由の決済に4% |
-| Uplisting | 定額プランのツール側手数料は記載なし【未確認】。従量プランは予約ごとに3%（1〜4物件）／1.5%（5〜10物件）。決済は Stripe |
-| Beds24（海外公式の情報。日本の販売会社の案内は別記） | 予約手数料なし（"Beds24 never charges commissions on bookings"）【確認済】。日本の販売会社版の案内では「Stripe決済ごとに3.6%」（Stripe が利用者から徴収） |
-| Sirvoy | 予約エンジンの手数料0%（全プラン）【確認済】 |
+| 予約手数料0%（Lodgify の予約手数料、OwnerRez など） | $0（Lodgify はさらに決済の1%：$400） |
+| 手数料3%の仕組み | $1,200 |
+| Hospitable の Premium（4%＋決済3%） | 合計7%：$2,800 |
 
-月100万円のダイレクト売上なら、率だけの計算で 0.5%＝5,000円、1%＝1万円、4%＝4万円です。決済会社の手数料は別です。
+**手数料率の違いは、売上が大きいほど響きます。** 一方、月額のツール費用も別にかかります。
 
-## 比較表：予約サイトの機能と決済
+## 日本で直接予約を取るときの注意
 
-| 製品 | 予約サイト | 決済・通貨 |
-|---|---|---|
-| Guesty | 全プランに予約エンジン。30言語。日本語が含まれるかは公式で未確認（ヘルプ抜粋に日本語の記載、第三者のみ） | GuestyPay は米国・カナダ・EU/UK のみ。外部決済は Stripe（Lite）、Stripe・Merchant Warrior・Hyp（Pro）。日本での Stripe 利用は未確認 |
-| Hostaway | Booking Website（テンプレート、コード不要）。言語は English・Spanish・French・Italian（記事により Portuguese）で日本語なし【言語は第三者のみ】 | Payment Processing。マーケットプレイスに Stripe、Braintree 等。日本での利用可否は未確認 |
-| Lodgify | Starter 以上。ノーコード、ウィジェット、年払いは独自ドメイン無料。表示言語は「32」（日本語の有無は未確認） | Stripe・PayPal。Lodgify Payments は米国のみ。価格表示は EUR/USD/GBP、JPY は未確認 |
-| OwnerRez | Hosted Sites（独自ドメイン可）と WordPress Plugin＋Integrated Sites はプレミアム（Hosted Sites は1物件目$15、2物件目$5、3〜9物件目各$3。5室で$29【計算値】）。予約ウィジェットは基本料金内 | Stripe、PayPal 等。1物件に設定できる通貨は1つで、決済事業者も同じ通貨が必要。Stripe の日本の対応は未確認 |
-| Hospitable | Professional 以上で Direct Booking Website。チャージバック／損害補償付き | 手数料は上の表。ダイレクト予約の決済の日本対応は未確認 |
-| iGMS | PRO 以上。Bookable Website、独自ドメイン、ブランド管理、複数物件検索 | Stripe。円の設定は第三者のみ・未確認 |
-| Uplisting | Basic（全プラン）／Plus（月£30、Manager は込み）。多言語は料金表で "Coming soon"、ヘルプにはGoogle翻訳の記事があり不一致 | Stripe アカウントが必要。日本発行カード等の可否は未確認。JPY は未確認 |
-| Beds24（海外公式） | 予約エンジン、ウィジェット、WordPress プラグインが月額に含まれる。独自サブドメインは月€19。「デザインが簡素」という声（第三者のみ）。ゲスト言語コードに ja あり | Stripe、PayPal 等。宿泊料の通貨に JPY が含まれる記載は公式Wiki（Airbnb 連携の通貨設定）の抜粋にあるが、日本の Stripe で円決済が使える旨の公式記載は見つかっていない |
-| Sirvoy | 1ページの簡易ビルダー、WordPress プラグイン。予約エンジンは日本語を含む31言語。独自ドメインは Starter・Pro | Stripe、PayPal 等。日本での利用可否は未確認 |
+- **決済**：Lodgify Payments や GuestyPay は、日本では使えません（対象地域が限定）。Stripe や PayPal の**日本での利用条件と手数料**は、各決済会社で確認してください（今回は調べていません）。
+- **予約サイトの表示言語**：Hostaway は英・仏・西・伊などで日本語なし（第三者の情報）。Sirvoy は日本語を含む31言語。Beds24 は日本語を含む20以上の言語。Guesty は30言語（日本語は第三者の情報では含まれる）。Lodgify は「32言語」（一覧は未確認）。
+- **請求通貨**：ゲストへの請求は、物件の通貨（円など）に設定できるかを確認してください。ツールへの支払いは、Beds24 の日本の販売会社版以外はドルなどです。
+- **民泊新法の人は先に確認**：Airbnb のヘルプには、日本の民泊新法の宿について「ソフト連携で作った掲載は受け付けない」とあります。例外は、Airbnb と契約した日本のAPIパートナーです。直接予約は Airbnb とは別の経路ですが、**民泊新法の届出番号の表示など、自分のサイトで守るべきこと**があります（[住宅宿泊事業法への対応](/articles/jp-minpaku-law/)）。
+- **日本の制度との関係**：年180日の上限は、届出住宅ごとに数えます（観光庁の説明）。直接予約の宿泊日数をどう数えるかは、観光庁などの一次資料で確認してください。ツール内で日数を管理できるかは、公式ページに記載が見つかりませんでした。
 
-## 条件別の選び方
+[Lodgify の料金と無料トライアル（PR）](/go/lodgify/) ／ [OwnerRez を14日間無料で試す（PR）](/go/ownerrez/) ／ [Beds24 海外公式を見る（PR）](/go/beds24/)
 
-- **ツール側の予約手数料を避けたい人**：Lodgify、OwnerRez、Beds24、Sirvoy は「0%」「手数料なし」と公式に書かれています（Lodgify は決済経由に1%が別）。
-- **日本語の予約画面が要る人**：確認できたのは Sirvoy と Beds24 です（Sirvoy は部屋の説明文を言語ごとに自分で入力）。Hostaway は日本語なしとされています（第三者のみ）。Guesty は第三者の抜粋にあり、公式では未確認。
-- **円で決済したい人**：日本のStripeでの円決済が使えると公式に確認できた製品はありません。Beds24 は宿泊料の通貨に JPY が含まれる記載が公式Wikiにありますが、日本の Stripe での円決済が使える旨の記載ではありません。申込前に確認が必要です。
+## よくある質問
 
-[Guesty](/go/guesty/)（PR）／ [Hostaway](/go/hostaway/)（PR）／ [Lodgify](/go/lodgify/)（PR）／ [OwnerRez](/go/ownerrez/)（PR）／ [Hospitable](/go/hospitable/)（PR）／ [iGMS](/go/igms/)（PR）／ [Uplisting](/go/uplisting/)（PR）／ [Beds24（海外公式。PRリンク）](/go/beds24/)
+### 予約手数料0%のツールは？
+Lodgify、OwnerRez、Beds24、Sirvoy が明記しています。ただし、決済会社の手数料は別です。Lodgify は、サイト経由のオンライン決済に別途1%かかります。
 
-Beds24 のリンクは海外公式（beds24.com）側の紹介リンクです。表にある「3.6%」などの日本の販売会社（WeIns / Co-Reception）の案内は日本の販売会社版の情報で、その申込は海外公式のリンクとは別です。
+### 直接予約の手数料が高いツールは？
+Hospitable の Premium（4%＋決済3%）、iGMS の無料プランの Stripe 経由の決済（4%）、Hostaway の上位版（月$49＋0.5%、ゲストに1.8%上乗せ。米国のみ）です。
 
-## 申し込む前に確認すること
+### 日本で使える決済は？
+Lodgify Payments（米国のみ）と GuestyPay（米国・カナダ・EU/UK のみ）は、日本では使えません。Stripe や PayPal が日本で使えるかは、決済会社で確認してください。
 
-- [ ] ツール側の手数料率（Hostaway の Pro、Hospitable のプラン、iGMS・Uplisting の定額プラン）を書面で確認した
-- [ ] 決済会社（Stripe 等）の手数料を、自分の決済額で計算した
-- [ ] その決済会社を日本の事業者として使えるか、円で受け取れるかを確認した
-- [ ] 予約サイトに日本語の画面と円の価格表示があるか、実画面で確認した
-- [ ] 届出番号などの表示欄を、自社の予約サイトに置けるかを確認した
+### 直接予約を増やすなら、どれが向きますか？
+自分の予約サイトを作りやすいのは Lodgify（テンプレート、年払いなら独自ドメインが無料）、費用を抑えるなら Beds24 や Sirvoy です。デザインや表示言語は、トライアルで確認してください。
 
-## 未確認のこと
+## 関連記事
 
-- 日本のStripeアカウントでの利用可否（Guesty、Hostaway、Lodgify、OwnerRez、Hospitable、iGMS、Uplisting、Beds24、Sirvoy）、円での価格設定
-- Guesty・Lodgify・Uplisting の予約サイトの日本語の有無
-- Beds24 の日本発行カードでの Stripe 利用可否
+- 選び方：[物件数別の料金早見表](/articles/buy-price-by-listings/)、[申込前チェックリスト](/articles/buy-checklist/)
+- 比較：[Hostaway と Lodgify](/articles/vs-hostaway-lodgify/)、[OwnerRez と Lodgify](/articles/vs-ownerrez-lodgify/)
 
-この記事は法的な助言ではありません。
-
-## 出典
-
-取得日はすべて 2026-11-05。表記は「製品名：URL」。
-
-- Guesty：https://www.guesty.com/pricing/ ／ https://www.guesty.com/features/guesty-websites/ ／ https://www.guesty.com/features/guestypay/
-- Hostaway：https://www.hostaway.com/features/direct-booking/ ／ https://www.hostaway.com/features/operations/
-- Lodgify（公式の公開コピーを開いた。本体サイトとの一致は未照合）：https://webflow-mkt.lodgify.com/pricing ／ https://webflow-mkt.lodgify.com/lodgify-payments
-- OwnerRez：https://www.ownerrez.com/pricing ／ https://www.ownerrez.com/support/articles/costs-and-fees ／ https://www.ownerrez.com/forums/general-help/booking-page-show-prices-in-other-currency
-- Hospitable：https://help.hospitable.com/en/articles/4596748-how-does-our-pricing-work ／ https://hospitable.com/pricing
-- iGMS：https://www.igms.com/pricing/ ／ https://igms.com/go/free-plan/ ／ https://www.igms.com/direct-booking-payment-processing-for-hosts/
-- Uplisting：https://www.uplisting.io/pricing ／ https://support.uplisting.io/en/article/accept-payments-via-stripe-6um8cf/ ／ https://support.uplisting.io/en/article/adding-and-managing-site-languages-deiamw/
-- Beds24：https://beds24.com/en/pricing/pricing ／ https://co-reception.com/pricing/ ／ https://wiki.beds24.com/index.php/Setting/properties.airbnbxmlcurrency
-- Sirvoy：https://sirvoy.com/pricing ／ https://help.sirvoy.com/en_US/adjusting-the-booking-engine/support-up-to-31-languages-in-booking-engine
-
-<!-- 追加調査依頼: 日本の事業者・日本のStripeアカウントで、各製品のダイレクト予約の決済（円）が使えるか -->
-<!-- 追加調査依頼: iGMS PRO・PRO+、Uplisting 定額プランでのダイレクト予約の手数料率（営業へ問い合わせ） -->
-<!-- 追加調査依頼: Guesty・Lodgify の予約サイトの対応言語に日本語が含まれるか（公式ヘルプ） -->
-<!-- 追加調査依頼: 各製品の予約サイトに、住宅宿泊事業法の届出番号などの法定表示欄を置けるか -->
-<!-- 追加調査依頼: Hospitable ダイレクト予約の決済手数料の表記（Basic 1%／Premium 4%＋3%）の正確な意味 -->
+情報は、各ツールの公式サイトとヘルプ、比較サイトを読んで日本語にまとめたものです。確認日 2026-11-07。手数料は変わるため、申込前に公式で再確認してください。法律・税務の助言ではありません。

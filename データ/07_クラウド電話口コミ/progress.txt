@@ -4,3 +4,4 @@ CallHippo done
 GoToConnect done
 Dialpad done
 Aircall done
+CloudTalk done

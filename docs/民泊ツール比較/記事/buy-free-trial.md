@@ -1,97 +1,104 @@
 ---
-title: 無料トライアル比較：日数・カード要否を民泊ツール11製品で整理
+title: 【民泊】管理ツールの無料トライアル比較｜期間・カード・無料プランと、トライアルで試すこと
 slug: buy-free-trial
 type: 買う直前
-products: [guesty, hostaway, lodgify, ownerrez, hospitable, igms, uplisting, beds24, sirvoy, hostfully, pricelabs]
-description: 民泊の管理ツール（PMS・チャネルマネージャー）の無料トライアルの有無・日数・カード要否を、公式ページの記載で比較。申込前にトライアルで試すこともまとめた。
-cards: [Guesty, Hostaway, Lodgify, OwnerRez, Hospitable, iGMS, Uplisting, Beds24, Sirvoy, Hostfully-Guidebooks, PriceLabs]
-updated: 2026-11-05
+products: [guesty, hostaway, lodgify, hospitable, ownerrez, igms, uplisting, beds24, sirvoy, pricelabs, hostfully-guidebooks]
+description: 民泊の管理ツール11製品の無料トライアルを比較。期間、カード登録の要否、無料プランの有無と、トライアルの14日間で試すべきことを、日本の民泊の運営者向けに整理します。
+cards: [Guesty, Hostaway, Lodgify, Hospitable, OwnerRez, iGMS, Uplisting, Beds24, Sirvoy, PriceLabs, Hostfully-Guidebooks]
+updated: 2026-11-07
 pr: true
 ---
 
-# 無料トライアル比較：申し込む前に、何日・カード要否・何を試すか
+# 【民泊】管理ツールの無料トライアル比較｜期間・カード・無料プランと、トライアルで試すこと
 
-この記事にはアフィリエイトリンク（PR）が含まれます。内容は公式ページ等の記載（取得日 2026-11-05）に基づきます。Sirvoy と Hostfully には申込リンクを付けていません。
+この記事にはアフィリエイトリンク（PR）が含まれます。紹介報酬の有無で、内容や順番は変えていません。
 
-> **結論**
-> - 14日・カード不要と公式に確認できたのは Guesty Lite、Hospitable、iGMS、Uplisting、Sirvoy です。Lodgify は7日、PriceLabs は30日（どちらもカード不要）。
-> - Hostaway は無料トライアルの記載を公式で確認できませんでした（デモ申込はあります）。Guesty の Pro（4室以上）も記載を確認できていません。
-> - 条件つきなのは Beds24（本番運用の前に入金と本人確認）と OwnerRez（カード要否の記載が見つからない）です。
+## 先に結論：カード不要で試せるツールが多い。期間は7日〜30日
 
-## 比較表
+> - **カード不要で試せる：Guesty Lite（14日）、Lodgify（7日）、Hospitable（14日）、iGMS（14日）、Uplisting（14日）、Sirvoy（14日）、PriceLabs（30日）、Beds24 海外公式（14日。ただし本番運用の前に支払いと本人確認が必要）。**
+> - **無料プランがある：iGMS、Hospitable、Sirvoy（1室）、Hostfully Guidebooks（1冊）。** ただし機能や上限に制限があります。
+> - **試せない：Hostaway。** 公式ページでは無料トライアルを確認できず、デモの申込のみです。
+> - **Lodgify は最短の7日間。** 設定と接続に時間がかかる人は、早めに始めてください。
+> - **トライアル中に、実際に使う予約サイトを接続して、二重予約の防止が効くかを確かめる**のが、いちばん大事です。
 
-【確認済】は公式ページを開いて確認。金額は載せていません（料金は別記事）。
+## 無料トライアル・無料プランの比較
 
-| 製品 | 無料トライアル | カード | 気をつける点 |
+| ツール | 無料トライアル | カード | 無料プラン |
 |---|---|---|---|
-| Guesty | Lite（1〜3室）：14日【確認済】。Pro：記載を確認できず【未確認】 | Lite：不要 | 4室以上は Pro。Pro にトライアルがあるかは未確認 |
-| Hostaway | 公式ページで確認できず【未確認】 | － | デモ申込ページ（get-free-demo）はある。トライアルと同じとは言えません |
-| Lodgify | 7日【確認済】 | 不要 | トライアルのある製品の中では最短。無料プランの記載は見つからなかった |
-| OwnerRez | 14日。期間中は全機能が無料（プレミアム機能も、継続して有効なら終了後に請求）【確認済】 | 記載が見つからなかった | 支払い方法はカードのみ。損害保護（RentalGuardian経由）だけはトライアル中も有料 |
-| Hospitable | 14日、全機能【確認済】 | 不要 | 別に月額$0の Essentials プランがあるが、機能制限あり。サポートは AI とコミュニティのみ |
-| iGMS | 14日【確認済】 | 不要 | トライアル終了までにプランを選ばないとアカウントがブロックされる（ヘルプ記事）。別に月額$0の無料プラン（pilot、予約5件まで）がある |
-| Uplisting | 14日【確認済】 | 不要 | 公式の表記は "14 days free · no card · cancel anytime" |
-| Beds24（公式） | 14日。公式ページは "No credit card required to start"【確認済】 | 開始時は不要 | 予約受付・チャネル接続の前に、初回入金・アカウント情報・本人確認が必要（規約） |
-| Beds24（日本の販売会社） | 1か月無料、初期費用無料【確認済】 | トライアル後にカード登録、次月から自動引落 | 公式（14日）とは別の条件。どちらで契約するかで変わる |
-| Sirvoy | 14日【確認済】 | 不要 | 別に1室だけの Free プランがある |
-| Hostfully Guidebooks | 期間のあるトライアルなし。1冊までの Free プランがずっと無料【確認済】 | 不要（公式表記） | ガイドブック専用で、予約管理ツールではありません |
-| PriceLabs（価格ツール） | 30日、全機能【確認済】 | 不要 | 最初にリスティングを追加した時から30日 |
+| [Guesty](/articles/guesty/) | Lite：14日間。Pro：確認できず | Lite は不要 | なし |
+| [Hostaway](/articles/hostaway/) | 公式では確認できず。デモの申込はある | － | なし |
+| [Lodgify](/articles/lodgify/) | 7日間 | 不要 | なし |
+| [Hospitable](/articles/hospitable/) | 14日間（全機能） | 不要 | あり（Essentials。機能に制限、サポートはAIとコミュニティのみ） |
+| [OwnerRez](/articles/ownerrez/) | 14日間（プレミアム機能も期間中は無料。損害保護のみ有料）。導入時に無料の通話（1時間）つき | 公式の記載は「契約なし」 | なし |
+| [iGMS](/articles/igms/) | 14日間。期間内にプランを選ばないと、アカウントはブロック | 不要 | あり（予約5件・メッセージ10件まで） |
+| [Uplisting](/articles/uplisting/) | 14日間 | 不要 | なし |
+| [Beds24](/articles/beds24/) | 海外公式：14日間（全機能）。日本の販売会社：1か月 | 海外公式は、本番運用の前に支払いと本人確認が必要 | なし |
+| [Sirvoy](/articles/sirvoy/) | 14日間 | 不要 | あり（1室まで。予約サイト連携なし） |
+| [PriceLabs](/articles/pricelabs/) | 30日間（全機能） | 不要 | なし |
+| [Hostfully Guidebooks](/articles/hostfully-guidebooks/) | なし（無料プランがずっと使える） | 不要 | あり（1冊まで。スポンサー付きのおすすめが表示される） |
 
-## トライアルの落とし穴（記載があったもの）
+**注意**：OwnerRez のカードの要否は、公式ページでは確認できませんでした。申込前に確認してください。
 
-- **自動で切れる・ブロックされる**：iGMS は、期限までにプランを選ばないとアカウントがブロックされます。Beds24（日本の販売会社）は、トライアル後にカードを登録すると、次月から自動で引き落とされます。
-- **トライアル中でも有料になるもの**：OwnerRez の損害保護。
-- **トライアルの記載が見つからなかったもの**：Guesty の Pro、Hostaway。対象外と確認したわけではありません。
-- **本番前に追加手続き**：Beds24 公式は、本番の予約受付とチャネル接続の前に入金と本人確認を求めます。
+## 無料トライアルの落とし穴
 
-## 条件別の選び方
+- **iGMS**：トライアルの終了までにプランを選ばないと、アカウントがブロックされます（ヘルプ）。
+- **PriceLabs**：トライアル後に請求が始まります。口コミに、「トライアルが自動で有料に切り替わった」という低評価があります。止める手順を先に確認してください。
+- **Guesty**：無料トライアルで Airbnb をつなぐと、使っていた別の管理ツールが外れた、という警告があります（2024年の口コミ）。**既に別のツールを使っているときは、接続の影響を確認してから**。
+- **Beds24**：海外公式は、本番運用の前（予約を受ける、チャネルをつなぐ）に、支払い・本人確認が必要です。
+- **Hospitable の Essentials**：サポートは、人間のチャットやメールが使えず、AIとコミュニティのみです。
 
-- **カードを出さずに、まず画面を触りたい人**：Guesty Lite、Hospitable、iGMS、Uplisting、Lodgify、Sirvoy、PriceLabs（30日）は「カード不要」と公式に書かれています。Beds24 公式も開始時は不要です（本番前に入金と本人確認）。ただし Lodgify は7日です。Lodgify の確認は公開コピー（webflow-mkt）に基づき、www の公式ページとの一致は未照合です。
-- **ずっと無料の範囲で試したい人**：Hospitable の Essentials、iGMS の無料プラン（pilot、規約上いつ変わるか分からない）、Sirvoy の Free（1室）。いずれも機能・件数に制限があります。
-- **4室以上で Guesty か Hostaway を検討する人**：公式にトライアルの記載が確認できないため、デモ申込で営業に「試用できる期間と範囲」を聞くのが先です。
-- **日本語で相談しながら始めたい人**：Beds24 の日本の販売会社（WeIns、Co-Reception）は1か月無料ですが、契約条件は海外公式と別です（契約・解約は別記事）。
+## トライアルで試すこと（14日間のチェックリスト）
 
-[Guesty](/go/guesty/)（PR）／ [Hostaway](/go/hostaway/)（PR）／ [Lodgify](/go/lodgify/)（PR）／ [OwnerRez](/go/ownerrez/)（PR）／ [Hospitable](/go/hospitable/)（PR）／ [iGMS](/go/igms/)（PR）／ [Uplisting](/go/uplisting/)（PR）／ [Beds24（海外公式。PRリンク）](/go/beds24/)／ [PriceLabs](/go/pricelabs/)（PR）
+販売会社の資料にも、「実際の物件データでトライアルを使う」と書かれています。次の順で試してください。
 
-上の Beds24 のリンクは海外公式（beds24.com）側の紹介リンクです。日本の販売会社のリンクは付けておらず、1か月無料・日本語サポートなどは日本の販売会社版の情報で、その申込は海外公式のリンクとは別になります。
+### 1〜2日目：接続
+- [ ] 実際に使う予約サイト（Airbnb・Booking.com・Vrbo など）を接続できたか
+- [ ] **今の掲載を壊さないか**（手動でブロックした日、ルール、料金が残っているか）
+- [ ] **民泊新法の人**：Airbnb に、既存の掲載をツールにつなげられるかを確認した
 
-## 申し込む前に確認すること
+### 3〜7日目：二重予約の防止
+- [ ] 1つのサイトで予約（またはテスト）を入れて、**ほかのサイトの同じ日が閉じるか**
+- [ ] 閉じるまでの時間（秒か、分か）
+- [ ] キャンセル・日付の変更でも、ほかのサイトに反映されるか
 
-- [ ] 自分の物件数が、そのトライアルの対象プランに入っているか（Guesty は Lite が1〜3室）
-- [ ] カード登録の要否と、トライアル終了後に自動で課金されるかを、申込画面で確認した
-- [ ] 終了日をカレンダーに入れ、期限前にプランを選ぶか解約するかを決めた
-- [ ] 試したい機能（楽天トラベル・じゃらんの接続、日本語での自動メッセージ、決済）が、トライアル中に使えるかを問い合わせた
-- [ ] トライアル期間内に、既存予約の取り込みと二重予約の動きを1件ずつ確かめた
-- [ ] 英語の管理画面で、自分とスタッフが運用できるかを触って確かめた
-- [ ] 本番に切り替える前に、Beds24 のように入金や本人確認が要る製品かを確認した
+### 8〜10日目：日々の運営
+- [ ] ゲストへの**自動メッセージ**が、意図したタイミングで送られるか（重複しないか）
+- [ ] 日本語のゲスト向けに、メッセージをどう運用できるか
+- [ ] **清掃タスク**が予約に連動して作られるか
+- [ ] スマートロック（Akerun・SESAME など）の連携の可否
 
-## 未確認のこと
+### 11〜14日目：お金と契約
+- [ ] **請求通貨**（円か、ドルか）と、実質の手数料
+- [ ] 料金が、自分の物件数・使いたい機能で、いくらになるか（見積りを書面で）
+- [ ] **契約期間・自動更新・解約の方法**（トライアルが終わったあとの条件）
+- [ ] サポートに**日本語で**、または日本時間に問い合わせてみた（返信の速さ）
+- [ ] 自分と、清掃スタッフが**英語の画面で運用できる**か
 
-- Guesty Pro、Hostaway の無料トライアルの有無
-- OwnerRez のトライアルでカード登録が必要かどうか
-- どの製品も、トライアル中に実際の予約サイトへ接続してよいか（Beds24 以外は、記載を確認できなかった）
-- 各製品のトライアルが、日本の物件・円での設定で同じように使えるか
+## 日本の民泊で、トライアルの前に確認すること
 
-この記事は法的な助言ではありません。
+- **民泊新法の人は先に確認**：Airbnb のヘルプには、日本の民泊新法の宿について「ソフト連携で作った掲載は受け付けない」とあります。例外は、Airbnb と契約した日本のAPIパートナーです。**トライアルで接続できても、掲載が受け付けられない可能性があります。** 接続の前に、Airbnb に確認してください。
+- **日本語**：Beds24（日本の販売会社経由）以外は、公式に日本語の管理画面・サポートを確認できません。
+- 年180日の管理、届出番号、定期報告などの機能は、各ツールの公式ページに記載が見つかりませんでした。トライアルで、画面を確かめてください。
 
-## 出典
+[OwnerRez を14日間無料で試す（PR）](/go/ownerrez/) ／ [Hospitable を無料で試す（PR）](/go/hospitable/) ／ [iGMS を14日間無料で試す（PR）](/go/igms/) ／ [Lodgify の無料トライアル（PR）](/go/lodgify/)
 
-取得日はすべて 2026-11-05。表記は「製品名：URL」。
+## よくある質問
 
-- Guesty：https://www.guesty.com/packages/guesty-lite/ ／ https://www.guesty.com/pricing/
-- Hostaway：https://www.hostaway.com/get-free-demo/
-- Lodgify：https://webflow-mkt.lodgify.com/pricing
-- OwnerRez：https://www.ownerrez.com/pricing ／ https://www.ownerrez.com/support/articles/costs-and-fees
-- Hospitable：https://hospitable.com/pricing ／ https://help.hospitable.com/en/articles/4605159-how-to-contact-hospitable-support
-- iGMS：https://www.igms.com/pricing/ ／ https://help.igms.com/en/articles/9927745-how-to-choose-your-igms-subscription-plan ／ https://igms.com/go/free-plan/
-- Uplisting：https://www.uplisting.io/pricing
-- Beds24：https://beds24.com/en/pricing/pricing ／ https://beds24.com/en/company/eula-november ／ https://co-reception.com/ ／ https://co-reception.com/beds24利用規約/
-- Sirvoy：https://sirvoy.com/pricing
-- Hostfully Guidebooks：https://www.hostfully.com/digital-guidebooks/ ／ https://www.hostfully.com/pricing/digital-guidebooks/
-- PriceLabs：https://pricelabs.co/plans/ ／ https://help.pricelabs.co/portal/en/kb/articles/billing
+### カード登録なしで試せるのは？
+Guesty Lite、Lodgify、Hospitable、iGMS、Uplisting、Sirvoy、PriceLabs です。Beds24 の海外公式も無料ですが、本番運用の前に支払いと本人確認が必要です。
 
-<!-- 追加調査依頼: Guesty Pro（4室以上）の無料トライアルまたは試用の有無と条件（営業資料・デモで） -->
-<!-- 追加調査依頼: Hostaway の無料トライアルの有無（デモ申込と別に、サンドボックス等の試用があるか） -->
-<!-- 追加調査依頼: OwnerRez の14日トライアルでクレジットカード登録が必要か（申込画面で） -->
-<!-- 追加調査依頼: 各製品のトライアル中に、実際のチャネル（Airbnb 等）へ接続して本番の予約を受けてよいか（Beds24 以外） -->
-<!-- 追加調査依頼: Beds24 の日本の販売会社（Co-Reception）の1か月無料トライアルと、公式の14日トライアルの違い（契約主体を含む） -->
+### 最長の無料トライアルは？
+PriceLabs の30日間（価格ツール）です。予約管理では、Beds24 の日本の販売会社の1か月です。
+
+### Hostaway は試せますか？
+無料トライアルは、公式ページでは確認できませんでした。デモの申込のみです。契約前に試せるかを、問い合わせで確認してください。
+
+### 無料プランで、本番運用できますか？
+iGMS は予約5件・メッセージ10件まで、Hospitable は機能に制限があり、Sirvoy は1室まで（予約サイト連携なし）です。小さく試す用途には向きますが、本番運用には上限を確認してください。
+
+## 関連記事
+
+- 選び方：[物件数別の料金早見表](/articles/buy-price-by-listings/)、[最低契約・解約条件](/articles/buy-contract-cancel/)、[申込前チェックリスト](/articles/buy-checklist/)
+- 切り替え：[移行チェックリスト（二重予約の防ぎ方）](/articles/switch-checklist-double-booking/)
+
+情報は、各ツールの公式サイトとヘルプ、販売会社の資料を読んで日本語にまとめたものです。確認日 2026-11-07。トライアルの条件は変わるため、申込前に公式で再確認してください。法律の助言ではありません。

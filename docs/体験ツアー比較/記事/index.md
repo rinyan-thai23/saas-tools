@@ -50,3 +50,4 @@ updated: 2026-11-07
 - [アソビュー・じゃらん・楽天など日本の予約サイトとの連携](/articles/jp-ota-integration/)
 - [日本語対応の比較（管理画面・予約画面・サポート）](/articles/jp-language-support/)
 - [旅行業法の登録が関わるか確認する窓口と、聞くこと](/articles/jp-travel-agency-law/)
+- [訪日客向けの外国語の予約画面（言語・決済・事前決済）](/articles/jp-inbound-multilingual/)

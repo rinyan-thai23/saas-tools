@@ -20,3 +20,4 @@ updated: 2026-11-07
 - [Zoom Phone の評判・口コミ](/articles/zoom-phone/)
 - [JustCall の評判・口コミ](/articles/justcall/)
 - [Telnyx の評判・口コミ](/articles/telnyx/)
+- [RingEX と Dialpad を比較](/articles/vs-ringex-dialpad/)

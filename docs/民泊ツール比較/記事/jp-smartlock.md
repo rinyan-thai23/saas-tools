@@ -1,102 +1,100 @@
 ---
-title: スマートロック連携は日本のロックで使える？民泊管理ツール各社の公式の連携先を確認
+title: 【民泊】スマートロック連携｜海外の管理ツールで、Akerun・SESAME など日本のロックはつながる？
 slug: jp-smartlock
 type: 日本対応
-products: [guesty, hostaway, lodgify, ownerrez, hospitable, igms, uplisting, beds24, sirvoy, hostfully]
-description: 海外の民泊管理ツールが公式に挙げているスマートロックの連携先を整理。Akerun・SESAME は開けた範囲の公式一覧に記載なし。キーポ・KEYVOX などを挙げていたのは Beds24 の日本の販売会社だけ。
-cards: [Guesty, Hostaway, Lodgify, OwnerRez, Hospitable, iGMS, Uplisting, Beds24, Sirvoy, Hostfully-Guidebooks]
-updated: 2026-11-05
+products: [guesty, hostaway, lodgify, hospitable, ownerrez, igms, uplisting, beds24, sirvoy, hostfully-guidebooks]
+description: 民泊のスマートロックと管理ツールの連携を、10製品で比較。Nuki・igloohome・TTLock など海外製はつながるが、Akerun・SESAME など日本製は公式の一覧になし。日本の販売会社経由の Beds24 の例と、確認する質問を整理します。
+cards: [Guesty, Hostaway, Lodgify, Hospitable, OwnerRez, iGMS, Uplisting, Beds24, Sirvoy, Hostfully-Guidebooks]
+updated: 2026-11-07
 pr: true
 ---
 
-この記事にはアフィリエイトリンク（PR）が含まれます。
+# 【民泊】スマートロック連携｜海外の管理ツールで、Akerun・SESAME など日本のロックはつながる？
 
-# スマートロック連携は日本のロックで使える？公式の連携先を確認
+この記事にはアフィリエイトリンク（PR）が含まれます。紹介報酬の有無で、内容や順番は変えていません。
 
-> **結論**
-> - Akerun・SESAME のほか、キーポ（美和ロック提供）、KEYVOX、RemoteLOCK を連携先として挙げていたのは、Beds24 の日本の販売会社（株式会社WeIns）だけ。ほかの製品の一覧に日本製が含まれるかは、ブランドごとの確認まではしていない。
-> - Akerun・SESAME は、確認した10製品のうち開けた範囲の公式一覧には記載が見つからなかった（Guesty は一覧の全文を開けず、Hostaway はサイトマップの範囲のみ）。「使えない」と確認したのではなく、載っていないという意味。
-> - 他社は Nuki、igloohome、Schlage、August などの海外ロックが中心。国内で使えるかは公式の一覧からは分からない。
+## 先に結論：海外ツールの連携先に、Akerun・SESAME などの日本製は載っていない
 
-## 連携先の一覧（公式の記載、取得日 2026-11-05）
+> - **今回調べた海外ツールの公式の連携一覧に、Akerun・SESAME は、どれも載っていません。** 「つながらない」と確認したわけではなく、**記載が見つからなかった**ということです。
+> - **連携が載っているのは、Nuki、igloohome、TTLock、August、Yale、Schlage など海外製**。ツールによって、対応するロックが違います。
+> - **日本の販売会社経由の Beds24 は、キーポ（美和ロック）、KEYVOX、RemoteLOCK との連携を案内**しています。KEYVOX は SESAME 連携にも対応する、という解説記事もあります。
+> - **管理ツールを入れても、どのロックとも自動でつながるわけではありません。** ツールとロックが API で直接つながるかを確認する必要があります（解説記事の指摘）。
+> - **連携の目的は、予約の期間に合わせて暗証番号を発行し、終了後に失効させること。** ツール側の連携が無くても、ロック側のアプリで手動で発行する方法は残ります。
 
-「連携一覧に載っている」ことと、日本で実際に動くことは別です。日本での動作は、どの製品も未確認です。
+## スマートロック連携の比較（公式の記載）
 
-| 製品 | 公式に挙がっていたロック | 追加料金などの記載 |
-|---|---|---|
-| Beds24（日本の販売会社） | キーポ（美和ロック提供）、KEYVOX、RemoteLOCK。チェックインタブレット：maneKEY、民泊IN、KEY STATION ほか | 「ロックによってはBeds24の月額が上がる」との注記あり（日本の販売会社と海外公式のどちらの一覧の注記かは切り分けられていない）。金額は未確認 |
-| Beds24（海外公式） | RemoteLock、Jervis、Nuki.io、Yacan、Chekin 等 | 上の注記が海外公式にも当たるかは未確認 |
-| Guesty | LocksManager（有料アドオン）。"40+ smart lock brands" と自社が記載。Nuki、RemoteLock、Tedee、Brivo ほか | 金額は未確認。ブランド一覧の全文はヘルプが開けず未取得（Akerun・SESAME が含まれるかは未確認） |
-| Hostaway | "hundreds of supported devices"。Nuki、igloohome、TTLock、Salto、August、Schlage、Yale ほか | 未確認 |
-| Lodgify | 自社 Lodgify Smart Locks。連携一覧に igloohome、Nuki、Schlage、Tedee、August ほか | 自社ロック連携は1台あたり月 $7 |
-| OwnerRez | 直接連携：Schlage、igloohome、Hubitat。ほかに RemoteLock、Jervis ほか | 直接連携は1台あたり月 $4 |
-| Hospitable | August、igloohome、Jervis、Nuki、Schlage、SmartThings、TTLock、Yale。Professional 以上 | 「スマートデバイス」として Professional は1物件2台、Mogul は4台まで込み、超過は1台 $5（ロックがこの数に入るかは未確認） |
-| iGMS | August、Yale、Schlage、igloohome、Nuki ほか。RemoteLock は連携ページで「Coming soon」表示 | 未確認 |
-| Uplisting | August、Yale、Schlage、Kwikset、SmartThings、TTLock、Nuki、igloohome、Salto ほか | 料金ページは Independent Host に月 £10、ヘルプは1ロック月 £4。**ページ間で食い違い**（現行は未確認） |
-| Sirvoy | Telkey、WeAccess、Locky、Invite（Invite は予約情報の書き出しで、双方向ではない） | 未確認 |
-| Hostfully Guidebooks | 自社の Hostfully Devices と連携し、予約ごとの暗証番号をガイドブックに表示 | 他社ロックとの連携は確認できず |
+| ツール | 連携するロック | 追加費用 | Akerun・SESAME |
+|---|---|---|---|
+| [Hostaway](/articles/hostaway/) | Nuki、igloohome、TTLock、Salto、August、Yale ほか多数 | 記載なし | 公式の一覧になし |
+| [Hospitable](/articles/hospitable/) | August、igloohome、Jervis、Nuki、Schlage、SmartThings、TTLock、Yale（Professional 以上） | プランに含まれる | 公式の一覧になし |
+| [Uplisting](/articles/uplisting/) | August、Yale、Schlage、Kwikset、SmartThings、TTLock、Nuki、igloohome、Salto。RemoteLock なども | Independent Host は月£10（Operator 以上は込み）。ヘルプでは「1台£4」の記載もあり、食い違い | 記載なし |
+| [Lodgify](/articles/lodgify/) | 自社の Smart Locks のほか、igloohome、Nuki、Schlage、Tedee、August、Kwikset、Yale ほか | 自社の Smart Locks は月$7/台 | 一覧になし |
+| [OwnerRez](/articles/ownerrez/) | 直接連携：Schlage、igloohome、Hubitat。ほか PointCentral、Kaba、RemoteLock、Brivo など | 直接連携は月$4/台 | 一覧になし |
+| [iGMS](/articles/igms/) | August、Yale、Schlage、igloohome、Nuki、Google Nest、Keycafe、RemoteLock ほか | 記載なし | 記載なし |
+| [Guesty](/articles/guesty/) | LocksManager（有料アドオン）。「40以上のブランド」と公式が主張 | 有料アドオン（金額は未確認） | 未確認 |
+| [Beds24](/articles/beds24/) | 海外公式：RemoteLock、Jervis、Nuki、Yacan など。**日本の販売会社：キーポ（美和ロック）、KEYVOX、RemoteLOCK** | ロックによって月額が上がる | 海外公式・日本の販売会社とも一覧になし。KEYVOX 経由の可能性は、解説記事の記述 |
+| [Sirvoy](/articles/sirvoy/) | Telkey、WeAccess、Locky、Invite（Invite は予約情報のエクスポート） | 記載なし | 記載なし |
+| [Hostfully Guidebooks](/articles/hostfully-guidebooks/) | 同社のスマートロック等（Hostfully Devices）。予約ごとの暗証番号をガイドブックに自動表示 | － | 記載なし |
 
-PriceLabs は価格ツールのため、この機能はありません。
+## 日本で選ぶときの考え方
 
-### 補足（確度の注意）
+### 1. 日本製のロックを使う（Akerun、SESAME など）
+- 海外ツールの公式の一覧には、載っていません。**直接つなぐのではなく、間に入るサービスを使う**方法があります。
+- 解説記事によると、**KEYVOX は OTA・PMS 連携があり、SESAME 連携にも対応**します。SESAME は、既存のロックをつなぐと合鍵と履歴をクラウドで管理できる（SESAME Biz）、Akerun は法人・ホテル向けの管理型で、入退室ログや複数拠点の管理に対応する、とされています。
+- ただし、**Akerun・SESAME が、民泊の管理ツールと API でつながるかは、公式の情報で確認できていません。**
 
-- Guesty の「物理キーパッド付きのロックのみ対応」という記述は、検索結果の抜粋で見えただけで、公式ヘルプは開けませんでした（第三者のみ）。
-- Hostaway は、Akerun・SESAME がマーケットプレイスのサイトマップに見当たりませんでした。サイトマップが全件かは未確認です。
-- Beds24 の日本の販売会社の一覧は、WeIns のサイトの記載です。海外公式の一覧とは別です。どちらの窓口で契約するかで、確認先が変わります。
-- 日本のロックの有無は、Akerun・SESAME と、Beds24 の日本の販売会社が挙げる各ブランドについてだけ見ています。そのほかの製品の一覧にある各ロックの国籍までは調べていません。
-- Guesty のヘルプ記事（出典欄）は開けず、検索結果の抜粋のみを見ています。
+### 2. 海外製のロックを使う（Nuki、igloohome、TTLock など）
+- 海外ツールの連携は、こちらが中心です。igloohome や TTLock は、複数のツールが対応しています。
+- **日本で購入・利用できるか、日本の住宅事情（ドアの形、電波の規制）に合うか**は、メーカーに確認してください（今回は調べていません）。
 
-## 条件別の選び方
+### 3. 日本の販売会社経由の Beds24
+- キーポ、KEYVOX、RemoteLOCK との連携が、日本の販売会社の案内にあります。チェックイン用のタブレット（maneKEY、KEYVOX、民泊IN など）との連携も案内されています。
+- 詳しくは [Beds24 の評判・口コミ](/articles/beds24/) へ。
 
-| あなたの条件 | 確認できた範囲で言えること |
-|---|---|
-| Akerun・SESAME を使いたい | 開けた範囲の公式一覧のどれにも記載なし（Guesty の一覧全文は未取得）。申込前に各社へ文面で確認する |
-| キーポ、KEYVOX など国内のロック・チェックイン端末を使いたい | Beds24 の日本の販売会社の一覧に記載あり。最新の対応状況は未確認なので、申込時に確認 |
-| Nuki、igloohome、Schlage、August などを使いたい | 製品ごとに、載っているブランドが違う。例：OwnerRez の直接連携は Schlage・igloohome、Guesty と Beds24 海外公式は Nuki を挙げ、Hostaway・Lodgify・iGMS・Uplisting は複数ブランドを挙げている。型番まで各社の一覧で確認する |
-| ロック1台ごとの追加料金を抑えたい | OwnerRez は1台 $4、Lodgify の自社ロックは1台 $7。Hospitable は Professional 以上で一定台数まで込み（ロックがその台数に入るかは未確認）。Uplisting は記載が食い違う |
+## 暗証番号の運用のポイント
 
-## 申し込みページ（PR）
+1. **予約の期間に合わせて**、暗証番号を発行し、チェックアウト後に失効させる。
+2. 予約が**変更・キャンセル**されたとき、番号が更新されるか（同期の速さ）。
+3. **停電・電池切れ・通信障害**のときの代替（物理キー、キーボックス）。
+4. ゲストへの**案内**を、日本語（や、ゲストの言語）で送れるか。
+5. **本人確認**との組み合わせ：無人のチェックインでも、宿泊の開始までに、宿泊者それぞれの本人確認が必要です（[宿泊者名簿・本人確認](/articles/jp-guest-register/)）。
+6. **清掃スタッフ**用の番号を別に発行できるか。
 
-[Guesty](/go/guesty/) ／ [Hostaway](/go/hostaway/) ／ [Lodgify](/go/lodgify/) ／ [OwnerRez](/go/ownerrez/) ／ [Hospitable](/go/hospitable/) ／ [iGMS](/go/igms/) ／ [Uplisting](/go/uplisting/) ／ [Beds24（海外公式。PRリンク）](/go/beds24/)
+## 日本で使うときの注意
 
-上の Beds24 のリンクは海外公式（beds24.com）側の紹介リンクです。日本の販売会社（WeIns、Co-Reception）のリンクは付けていません。日本語UI・日本語サポート・円建てなどは日本の販売会社版の情報で、その申込は海外公式のリンクとは別になります。Sirvoy と Hostfully は、公式サイトで直接確認してください（このサイトのリンクは付けていません）。
+- **民泊新法の人は先に確認**：Airbnb のヘルプには、日本の民泊新法の宿について「ソフト連携で作った掲載は受け付けない」とあります。例外は、Airbnb と契約した日本のAPIパートナーです。ロックの連携の前に、予約サイトの接続を確認してください。
+- **日本語**：ツールの管理画面は、Beds24 の日本の販売会社以外は、日本語の記載がありません。
+- 年180日の管理、届出番号などの機能は、各ツールの公式ページに記載が見つかりませんでした。
 
-## 申し込む前に確認すること
+## 申し込む前に聞く質問
 
-- [ ] 使いたいロックの型番が、連携一覧に載っているか（ブランド名だけでなく型番）
-- [ ] そのロックが日本で使えるか（通信方式・認証などを含め、各社に文面で確認）
-- [ ] 連携が使えるプランか（Hospitable は Professional 以上）
-- [ ] 1台あたりの月額、アドオン代、台数の上限
-- [ ] 暗証番号の自動発行のタイミングと、予約変更・キャンセル時の扱い
+1. 使いたいロック（機種名）が、連携の一覧にあるか。なければ、API で個別に対応できるか。
+2. 連携の**追加費用**（1台あたり、月額）。
+3. 予約の変更・キャンセルで、暗証番号が自動で更新されるか。
+4. 停電・通信障害のときの対応。
+5. 日本語のゲストに、暗証番号の案内をどう送るか。
 
-## 未確認のこと
+より細かい項目は [申込前チェックリスト](/articles/buy-checklist/) にあります。
 
-- Akerun・SESAME との連携（開けた範囲の公式一覧に記載なし）
-- Guesty の LocksManager の対応ブランド全文、Hostaway のサイトマップが全件か
-- 各製品の連携が日本で動作するか
-- Beds24 の日本の販売会社が挙げるロックの追加料金の金額
-- Uplisting のロック料金の現行値、Hostfully Guidebooks と他社ロックの連携
+[Beds24 海外公式を見る（PR）](/go/beds24/)
 
-この記事は法的な助言ではありません。
+## よくある質問
 
-<!-- 追加調査依頼: Akerun・SESAME・Qrio など日本のスマートロックを、各PMSが公式に連携対象としているか（各社ヘルプ・マーケットプレイスの全件一覧で）。Guesty LocksManager の対応ブランド全文、Hostaway のマーケットプレイス全件 -->
-<!-- 追加調査依頼: Beds24 日本の販売会社（WeIns）の「ロックによってBeds24の月額が上がる」の金額と対象ロック。キーポ・KEYVOX・RemoteLOCK の連携手順 -->
-<!-- 追加調査依頼: Uplisting のスマートロック料金の現行値（料金ページの月£10 か、ヘルプの1ロック月£4 か） -->
-<!-- 追加調査依頼: Guesty LocksManager・Hostaway のスマートロック連携の追加料金（金額） -->
-<!-- 追加調査依頼: 海外製ロック（Nuki、igloohome、Schlage、TTLock 等）の日本国内での利用可否・販売状況（各メーカー公式の一次資料の範囲で） -->
-<!-- 追加調査依頼: Hostfully Guidebooks が Hostfully Devices 以外のロックと連携するか -->
+### Akerun や SESAME は、海外の管理ツールとつながりますか？
+今回調べたツールの公式の連携一覧には、載っていません。KEYVOX が SESAME 連携に対応する、という解説記事の記述がありますが、民泊の管理ツールと直接つながるかは、確認できていません。
 
-## 出典
+### 日本で使えるスマートロックと連携できるのは？
+Beds24 の日本の販売会社が、キーポ（美和ロック）、KEYVOX、RemoteLOCK との連携を案内しています。そのほかの海外ツールは、Nuki、igloohome、TTLock など海外製の連携が中心です。
 
-取得日はすべて 2026-11-05。
+### スマートロックの連携は、無料ですか？
+ツールによります。Hospitable は Professional 以上のプランに含まれ、Uplisting は Operator 以上に込み、OwnerRez の直接連携は月$4/台、Lodgify の自社ロックは月$7/台です。
 
-- Beds24：https://beds24.com/en/marketplace ／ https://co-reception.com/interfacing-with-other-systems/
-- Guesty：https://www.guesty.com/features/guesty-locks-manager/ ／ https://help.guesty.com/hc/en-gb/articles/11287556275101-Which-brands-are-supported-by-Guesty-Locks-Manager（開けず。検索抜粋のみ）
-- Hostaway：https://www.hostaway.com/features/smart-locks/
-- Lodgify：https://webflow-mkt.lodgify.com/integrations ／ https://webflow-mkt.lodgify.com/smart-locks
-- OwnerRez：https://www.ownerrez.com/integrations ／ https://www.ownerrez.com/support/articles/costs-and-fees
-- Hospitable：https://hospitable.com/integrations/smart-locks-integration-partners ／ https://help.hospitable.com/en/articles/4596748-how-does-our-pricing-work
-- iGMS：https://www.igms.com/pricing/ ／ https://igms.com/integrations
-- Uplisting：https://www.uplisting.io/pricing ／ https://support.uplisting.io/en/article/automate-guest-access-with-uplisting-smart-locks-16g6006/
-- Sirvoy：https://sirvoy.com/integrations
-- Hostfully Guidebooks：https://www.hostfully.com/digital-guidebooks/
+### ツールがロックに対応していなくても、運用できますか？
+ロック側のアプリで、暗証番号を手動で発行する方法があります。ただし、予約のたびに手作業になります。
+
+## 関連記事
+
+- 日本対応：[宿泊者名簿・本人確認](/articles/jp-guest-register/)、[清掃管理](/articles/jp-cleaning/)、[日本語UI・日本語サポート](/articles/jp-japanese-ui-support/)
+- 選び方：[申込前チェックリスト](/articles/buy-checklist/)
+
+情報は、各ツールの公式サイトとヘルプ、日本の販売会社の案内、検索で見つかった解説記事を読んで日本語にまとめたものです。確認日 2026-11-07。対応するロックは変わるため、申込前に公式で再確認してください。

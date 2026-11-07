@@ -22,3 +22,4 @@ updated: 2026-11-07
 - [Telnyx の評判・口コミ](/articles/telnyx/)
 - [RingEX と Dialpad を比較](/articles/vs-ringex-dialpad/)
 - [Dialpad と Zoom Phone を比較](/articles/vs-dialpad-zoom-phone/)
+- [RingEX と Zoom Phone を比較](/articles/vs-ringex-zoom-phone/)

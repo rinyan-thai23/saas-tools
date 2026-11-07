@@ -21,3 +21,4 @@ updated: 2026-11-07
 - [JustCall の評判・口コミ](/articles/justcall/)
 - [Telnyx の評判・口コミ](/articles/telnyx/)
 - [RingEX と Dialpad を比較](/articles/vs-ringex-dialpad/)
+- [Dialpad と Zoom Phone を比較](/articles/vs-dialpad-zoom-phone/)

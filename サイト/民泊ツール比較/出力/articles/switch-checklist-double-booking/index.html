@@ -1,0 +1,114 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>管理ツールを乗り換えるときのダブルブッキング防止チェックリスト</title><meta name="description" content="民泊の管理ツールを乗り換える3〜15室の運営者向け。API と iCal の違い、各社の公式ヘルプにある切り替え時の注意を根拠に、二重予約を防ぐ確認項目を前・中・後に分けて整理。"><meta name="robots" content="noindex,nofollow"><style>:root{--bg:#fff;--fg:#1b1f23;--mut:#5b6670;--line:#d8dee4;--acc:#0b5cad;--soft:#f5f7fa}
+@media(prefers-color-scheme:dark){:root{--bg:#14181c;--fg:#e6e9ec;--mut:#9aa5af;--line:#2d353d;--acc:#6db3f2;--soft:#1c2228}}
+*{box-sizing:border-box}body{overflow-wrap:anywhere;margin:0;background:var(--bg);color:var(--fg);font:16px/1.85 -apple-system,"Hiragino Sans","Noto Sans JP",sans-serif}
+header,main,footer{max-width:820px;margin:0 auto;padding:0 16px}header{padding-top:14px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+header a{color:var(--fg);text-decoration:none;font-weight:700}nav a{margin-right:14px;font-weight:400;font-size:14px;color:var(--mut)}
+h1{font-size:1.6rem;line-height:1.4;margin:1.4em 0 .6em}h2{font-size:1.25rem;margin:2em 0 .6em;padding-bottom:.3em;border-bottom:1px solid var(--line)}h3{font-size:1.05rem;margin:1.5em 0 .4em}
+a{color:var(--acc)}blockquote{margin:1em 0;padding:.6em 1em;background:var(--soft);border-left:4px solid var(--acc)}blockquote p{margin:.4em 0}
+.tw{overflow-x:auto;margin:1em 0}table{border-collapse:collapse;font-size:14px;line-height:1.6;min-width:100%}th,td{border:1px solid var(--line);padding:6px 9px;vertical-align:top;text-align:left}th{background:var(--soft);white-space:nowrap}
+code{background:var(--soft);padding:1px 4px;border-radius:3px;font-size:.9em}footer{padding-top:20px;padding-bottom:40px;color:var(--mut);font-size:13px;border-top:1px solid var(--line);margin-top:3em}
+ul,ol{padding-left:1.4em}li{margin:.2em 0}</style></head><body>
+<header><a href="/">民泊ツール比較</a><nav><a href="/compare-table/">総合比較表</a><a href="/disclosure/">広告表示と運営方針</a><a href="/changelog/">更新履歴</a></nav></header>
+<main><p>この記事にはアフィリエイトリンク（PR）が含まれます。内容は公式ページ等の記載（取得日 2026-11-05）に基づき、リンクの有無では変えていません。</p>
+<h1>管理ツールを乗り換えるときのダブルブッキング防止チェックリスト</h1>
+<blockquote>
+<p><strong>結論</strong></p>
+<ul>
+<li>各社のヘルプには、API と iCal の併用の禁止（OwnerRez・iGMS）、接続が切れている間の二重予約の可能性（Hospitable の Vrbo）、Airbnb のフルアクセスは1社のみ（Uplisting）といった注意があります。乗り換え中に二重予約が実際に起きる頻度を示すデータは、今回は見つけられませんでした。</li>
+<li>切り替えの手順はツールごとに違います。Hospitable の移行ガイドは、Airbnb は旧ツールを切ってから接続、Booking.com は一時停止を推奨、Vrbo は公式の引き継ぎです。Uplisting は、Airbnb を読み取り専用で先に接続し、最後に既存のソフトを切断します。必ず乗り換え先の公式手順に従ってください。</li>
+<li>国内の予約サイトは、手順を今回確認できたのは Beds24 の日本の販売会社だけです。ほかは、売り止めを含めて個別確認が必要です。</li>
+</ul>
+</blockquote>
+<h2>同期の方式で分かること</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>方式</th>
+<th>公式ヘルプの記載</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>API（双方向）</td>
+<td>iGMS：Booking.com の予約が Airbnb・Vrbo の同じ日付をすぐにブロックする。Guesty：1件の予約が全チャネルの日付を同時にブロックする</td>
+</tr>
+<tr>
+<td>iCal</td>
+<td>Hospitable：一方向（取り込みのみ）で、20分ごとに確認する。iGMS：1時間ごとに更新、物件へのグルーピング不可。Sirvoy：一方向のものは予約が自動で入らない場合がある（間隔の記載は確認できず）</td>
+</tr>
+<tr>
+<td>併用</td>
+<td>OwnerRez：同じチャネルで API 連携と iCal を併用してはならない。iGMS：併用すると二重ブロックになるため、直接接続したら iCal を外す。Hospitable：Booking.com 接続時は iCal 取り込みを外す（検索要約、第三者のみ）</td>
+</tr>
+<tr>
+<td>接続が切れた場合</td>
+<td>Hospitable：Vrbo は、接続が切れた状態でゲストが予約すると予約をすぐ作れず、二重予約になりうる</td>
+</tr>
+<tr>
+<td>公式の主張</td>
+<td>Lodgify の「二重予約なし」は公式の主張で、実際の精度は未検証。利用者の声には、Vrbo・Booking.com の接続に日数がかかった、との投稿がある（第三者のみ）</td>
+</tr>
+</tbody>
+</table></div>
+<h2>乗り換え前</h2>
+<ul>
+<li>[ ] <strong>未来の予約をすべて一覧にした。</strong> 全チャネル・ダイレクト予約・手入力の予約を含める。</li>
+<li>根拠：Guesty は、将来の予約を含む既存データを事前に新PMSへ移す進め方を公式FAQで案内。Hospitable は、ダイレクト・手動予約は自動では移らない（少数なら手入力、大量なら CSV を Support が取り込む）。</li>
+<li>[ ] <strong>手動で入れたブロック日を控えた。</strong> 根拠：iGMS で、API 接続後に Airbnb の手動ブロック日が消えた、という口コミ（2026-07、真偽は未検証）。</li>
+<li>[ ] <strong>接続の一覧を作った。</strong> どのチャネルが API で、どれが iCal か（物件×チャネル）。</li>
+<li>[ ] <strong>国内予約サイトの手順を確認した。</strong> Beds24 の日本の販売会社は、他社サイトコントローラーと連動中の場合は事前に解除が必要で、解除後は OTA 側で売り止めする、と案内。新規のOTA連動は4営業日。楽天トラベルの手順では、既存予約は自動で取り込まれず手入力。</li>
+<li>[ ] <strong>切り替えの日程を、更新日・締切から逆算した。</strong> 例：Lodgify の解約はアカウント画面から終了の1日前まで。Guesty は更新拒否が終了の30日前までの書面。</li>
+<li>[ ] <strong>乗り換え先の公式の移行手順を読んだ。</strong> Hospitable は移行ガイドで、Airbnb・Booking.com・Vrbo・Agoda ごとの接続手順を載せている。Uplisting は7ステップを公開。</li>
+<li>[ ] <strong>試用で先に設定した。</strong> Hospitable は14日間の試用中に設定を進められる。Uplisting は最初に Airbnb を読み取り専用で接続でき、既存のソフトとは干渉しない、と記載。</li>
+</ul>
+<h2>切り替え中</h2>
+<ul>
+<li>[ ] <strong>Airbnb のフルアクセスの接続は1社だけにした。</strong> Uplisting の公式ページ：フルアクセスで接続できる Airbnb の公式ソフトは同時に1つ。</li>
+<li>[ ] <strong>（Hospitable の移行ガイドの場合）Airbnb は旧ツールを切ってから新ツールをつないだ。</strong> 根拠：Hospitable の移行ガイド。Uplisting の公式手順は順序が逆で、Airbnb を読み取り専用で先に接続し、最後に既存のソフトを切断してフルアクセスを付ける。Hostaway から Airbnb の切断解放に24〜48時間かかることがある、とも記載。この時間は他の組み合わせでも同じかは未確認。</li>
+<li>[ ] <strong>Booking.com は接続変更中、掲載を一時停止した。</strong> Hospitable は最大10分程度の停止を推奨。Guesty は、ほとんどのチャネルで約30分のダウンタイムがあると公式FAQに記載。</li>
+<li>[ ] <strong>Vrbo は公式の引き継ぎ手順を使った。</strong> Hospitable：公式の Software Switch で直接引き継ぐ。</li>
+<li>[ ] <strong>新旧の併用は、主接続を決めた。</strong> Hospitable：Airbnb・Vrbo は制限付き接続で旧PMSと併用できるが、価格・空室の管理は Hospitable を主接続にする必要がある。</li>
+<li>[ ] <strong>各チャネルの掲載を物件に結合した。</strong> Hospitable のヘルプ：これは同期と二重予約防止に欠かせない手順。</li>
+<li>[ ] <strong>iCal を外した。</strong> API でつないだチャネルは、iCal 取り込みを外す（iGMS・OwnerRez）。</li>
+<li>[ ] <strong>Sirvoy など取り込み予約を使う場合は、取り込んだ予約がどのチャネルとも紐づかないことを理解し、変更・キャンセルの扱いを各チャネルで確認した。</strong> （Sirvoy 公式ヘルプ：取り込んだ予約はどのチャネルとも紐づかない）</li>
+</ul>
+<h2>切り替え後</h2>
+<ul>
+<li>[ ] 全チャネルで、控えた未来の予約とブロック日が一致するか確認した。</li>
+<li>[ ] 各チャネルのカレンダーに、同じ日の予約が重ならないか確認した。</li>
+<li>[ ] 価格の同期を確認した。Hostaway では、価格の同期漏れで設定より約$400安く予約が入った、との利用者の報告がある（第三者のみ、検索抜粋）。</li>
+<li>[ ] 接続が切れていないか確認した。Hospitable のヘルプでは、Vrbo は切断中に予約を作れない場合がある。</li>
+<li>[ ] 旧ツールを解約する前に、旧ツールの請求・停止手順を確認した。Guesty は、全リスティングの停止手順が終わるまで契約が続く、と規約にある。</li>
+<li>[ ] 旧ツールのデータ（テンプレート・メモ）を消す前に控えた。iGMS はアカウント削除で消える。</li>
+</ul>
+<h2>日本の予約サイトと、届出番号の注意</h2>
+<ul>
+<li>楽天トラベルとじゃらんnet は、公式の参画案内で住宅宿泊事業法（民泊新法）の施設を対象外としています。民泊新法の物件の楽天トラベルへの経路は Rakuten Oyado で、ツールで管理する場合も先に Rakuten Oyado への施設登録が必要です。</li>
+<li>Airbnb のヘルプでは、届出番号はツールを使っていても自分でログインして追加する必要があります。ツールを切り替えたときにこの登録が残るかは、今回は確認できていません。切り替え後に Airbnb の画面で届出番号の表示を確認してください。</li>
+<li>Airbnb のヘルプには、日本の民泊新法の施設について「ソフト連携で作成されたリスティング」を受け付けない、例外はライセンス契約を結んだ日本のAPIパートナー、とあります。例外の会社名は確認できていません。既存のリスティングをつなぎ直す場合の扱いは未確認です。</li>
+<li>楽天トラベル・じゃらんは、民泊新法・特区民泊を対象外と明記しています。旅館業法の許可施設について海外ツールから接続できるかは、ツールごとに未確認です（手順を確認できたのは Beds24 の日本の販売会社のみ）。</li>
+</ul>
+<h2>公式の移行手順と、申し込みページ（PR）</h2>
+<p>公式の移行手順（広告ではないリンク）：<a href="https://help.hospitable.com/en/articles/16309227-switching-to-hospitable-from-another-pms" rel="nofollow noopener" target="_blank">Hospitable の移行ガイド</a>／<a href="https://www.uplisting.io/switch-to-uplisting" rel="nofollow noopener" target="_blank">Uplisting の7ステップ</a>／<a href="https://www.guesty.com/switch-to-pms/" rel="nofollow noopener" target="_blank">Guesty の移行FAQ</a>。Sirvoy は公式ヘルプ（<a href="https://help.sirvoy.com/en_US/import-bookings/import-your-existing-bookings" rel="nofollow noopener" target="_blank">既存予約の取り込み</a>）を参照してください。</p>
+<p>申し込みページ（いずれも広告リンク）：<a href="/go/hospitable/" rel="sponsored nofollow noopener" target="_blank">Hospitable（PR）</a>／<a href="/go/uplisting/" rel="sponsored nofollow noopener" target="_blank">Uplisting（PR）</a>／<a href="/go/guesty/" rel="sponsored nofollow noopener" target="_blank">Guesty（PR）</a>／<a href="/go/ownerrez/" rel="sponsored nofollow noopener" target="_blank">OwnerRez（PR）</a>／<a href="/go/igms/" rel="sponsored nofollow noopener" target="_blank">iGMS（PR）</a>／<a href="/go/hostaway/" rel="sponsored nofollow noopener" target="_blank">Hostaway（PR）</a>／<a href="/go/lodgify/" rel="sponsored nofollow noopener" target="_blank">Lodgify（PR）</a>／<a href="/go/beds24/" rel="sponsored nofollow noopener" target="_blank">Beds24（海外公式。PRリンク）</a>。Beds24 の日本の販売会社（WeIns／Co-Reception）は別窓口で、リンクは付けていません。表計算管理からの移行は <a href="/articles/switch-spreadsheet-to-pms/">別の記事</a> にまとめています。</p>
+<h2>未確認のこと</h2>
+<ul>
+<li>乗り換え中の二重予約の実際の頻度、チャネルごとの切り替え所要時間（Hostaway・Lodgify・OwnerRez・Beds24・Sirvoy の切り替え手順）</li>
+<li>楽天トラベル・じゃらんの在庫を、海外ツールに切り替えるときの手順</li>
+<li>iCal の更新間隔（Guesty・Hostaway・Lodgify・Uplisting・Sirvoy）</li>
+</ul>
+<p>この記事は法的な助言ではありません。手順は、各社の公式ヘルプを優先してください。</p>
+<h2>出典</h2>
+<p>取得日はすべて 2026-11-05。</p>
+<ul>
+<li><strong>Hospitable</strong>：§3 チャネル、§7 乗り換え https://help.hospitable.com/en/articles/16309227-switching-to-hospitable-from-another-pms ／ https://help.hospitable.com/en/articles/14189123-understanding-how-reservations-sync-across-channels ／ https://hospitable.com/switch-to-hospitable</li>
+<li><strong>iGMS</strong>：§3 チャネル、§8 注意 https://www.igms.com/features/channel-manager/ ／ https://help.igms.com/en/articles/9927919-how-does-the-channel-manager-work ／ https://www.capterra.com/p/157033/iGMS/reviews/</li>
+<li><strong>Guesty</strong>：§4、§7 https://www.guesty.com/pricing/ ／ https://www.guesty.com/switch-to-pms/ ／ https://www.guesty.com/terms-of-service/</li>
+<li><strong>OwnerRez</strong>：§3 https://www.ownerrez.com/support/articles/channel-management-calendar-import-export ／ <strong>Uplisting</strong>：§7 https://www.uplisting.io/switch-to-uplisting</li>
+<li><strong>Lodgify</strong>：§2、§4、§8 https://webflow-mkt.lodgify.com/vacation-rental-channel-manager ／ https://webflow-mkt.lodgify.com/terms ／ <strong>Hostaway</strong>：§8 https://www.capterra.com/p/152433/Hostaway/reviews/?page=8</li>
+<li><strong>Sirvoy</strong>：§3、§7 https://sirvoy.com/channel-manager ／ https://help.sirvoy.com/en_US/import-bookings/import-your-existing-bookings</li>
+<li><strong>Beds24</strong>：§7 https://co-reception.com/jalan-rakuten-ikyu/ ／ https://co-reception.com/support-ticket/ ／ https://co-reception.com/beds24-application-form/</li>
+<li><strong>日本のOTA連携</strong>：1-1-01、1-1-10 https://travel.rakuten.co.jp/info/hotel_msg.html ／ https://vacation-stay.com/host.html ／ 1-2-01 https://www.jalan.net/jalan/doc/howto/10sankaku.html ／ 1-5-02 https://www.airbnb.com/help/article/2351 ／ 1-5-04 https://www.airbnb.com/help/article/2177</li>
+</ul></main>
+<footer>最終確認日 2026-11-05 ／ 料金・仕様は変わるため、申込前に公式ページで再確認してください。<br><a href="/disclosure/">広告表示と運営方針</a></footer></body></html>

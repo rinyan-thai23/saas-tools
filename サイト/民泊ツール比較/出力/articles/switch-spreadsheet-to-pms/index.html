@@ -1,0 +1,429 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>表計算（スプレッドシート）管理から民泊管理ツールへ｜3〜15室の料金の切り替わり点と注意点</title><meta name="description" content="表計算での民泊管理から管理ツールへ。1〜20室の月額の目安、料金体系が切り替わる室数、予約データの取り込み方を整理。"><meta name="robots" content="noindex,nofollow"><style>:root{--bg:#fff;--fg:#1b1f23;--mut:#5b6670;--line:#d8dee4;--acc:#0b5cad;--soft:#f5f7fa}
+@media(prefers-color-scheme:dark){:root{--bg:#14181c;--fg:#e6e9ec;--mut:#9aa5af;--line:#2d353d;--acc:#6db3f2;--soft:#1c2228}}
+*{box-sizing:border-box}body{overflow-wrap:anywhere;margin:0;background:var(--bg);color:var(--fg);font:16px/1.85 -apple-system,"Hiragino Sans","Noto Sans JP",sans-serif}
+header,main,footer{max-width:820px;margin:0 auto;padding:0 16px}header{padding-top:14px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+header a{color:var(--fg);text-decoration:none;font-weight:700}nav a{margin-right:14px;font-weight:400;font-size:14px;color:var(--mut)}
+h1{font-size:1.6rem;line-height:1.4;margin:1.4em 0 .6em}h2{font-size:1.25rem;margin:2em 0 .6em;padding-bottom:.3em;border-bottom:1px solid var(--line)}h3{font-size:1.05rem;margin:1.5em 0 .4em}
+a{color:var(--acc)}blockquote{margin:1em 0;padding:.6em 1em;background:var(--soft);border-left:4px solid var(--acc)}blockquote p{margin:.4em 0}
+.tw{overflow-x:auto;margin:1em 0}table{border-collapse:collapse;font-size:14px;line-height:1.6;min-width:100%}th,td{border:1px solid var(--line);padding:6px 9px;vertical-align:top;text-align:left}th{background:var(--soft);white-space:nowrap}
+code{background:var(--soft);padding:1px 4px;border-radius:3px;font-size:.9em}footer{padding-top:20px;padding-bottom:40px;color:var(--mut);font-size:13px;border-top:1px solid var(--line);margin-top:3em}
+ul,ol{padding-left:1.4em}li{margin:.2em 0}</style></head><body>
+<header><a href="/">民泊ツール比較</a><nav><a href="/compare-table/">総合比較表</a><a href="/disclosure/">広告表示と運営方針</a><a href="/changelog/">更新履歴</a></nav></header>
+<main><p>この記事にはアフィリエイトリンク（PR）が含まれます。</p>
+<h1>表計算（スプレッドシート）管理から民泊管理ツールへ｜何物件から検討するか</h1>
+<blockquote>
+<p><strong>結論</strong></p>
+<ul>
+<li>「何物件から元が取れるか」は、時間の節約や売上の増加を示す根拠が確認できた資料にないため、この記事では答えを出しません。費用の側（月額の目安と、料金体系が切り替わる室数）だけを並べます。</li>
+<li>3〜5室のあたりで料金の仕組みが変わる製品が多いです（Guesty Lite は3室まで、Hospitable の Host プランは2室まで、Uplisting の Independent Host は4室まで、Lodgify の Basic は1室・Starter は2室まで）。</li>
+<li>楽天トラベル・じゃらんも同じ画面で管理したい人は、公式ページで確認できたのは Beds24 の日本の販売会社版（WeIns / Co-Reception）だけです。申込は海外公式（PRリンク）とは別です。ほかの製品は公式ページに記載が見つからず「未確認」です。</li>
+</ul>
+</blockquote>
+<h2>先に知っておくこと（日本で使うときの前提）</h2>
+<p>表計算で管理している人が、ツールに移したくなる作業の候補と、公式ページでわかっていることを分けます。</p>
+<p><strong>1. 日本の制度の作業（公式資料の引用の範囲。法的な判断はしません）</strong></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>作業</th>
+<th>制度側の事実（観光庁・e-Gov の引用）</th>
+<th>ツール側</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>年間の宿泊日数の管理（住宅宿泊事業＝民泊新法の場合）</td>
+<td>年180日の上限。数え方は毎年4月1日正午から翌年4月1日正午まで、正午から翌日の正午までを1日とする。届出住宅ごとに算定する（法第2条第3項、規則第3条、民泊制度ポータル）</td>
+<td>9製品とも、180日の自動カウント機能の記載は公式ページで見つからなかった（未確認）。Beds24 の日本の販売会社が「count-180days-automatically」という解説記事を出しているが、本文は開いていない</td>
+</tr>
+<tr>
+<td>定期報告（住宅宿泊事業＝民泊新法の場合）</td>
+<td>2・4・6・8・10・12月の15日までに、直前2か月分の宿泊日数・宿泊者数・延べ宿泊者数・国籍別の内訳（規則第12条）</td>
+<td>Beds24 の日本の販売会社が、定期報告のデータを自動生成する無料の外部シートを配布している（システム本体の機能ではない）。ほかは記載が見つからなかった（未確認）</td>
+</tr>
+<tr>
+<td>宿泊者名簿</td>
+<td>全員分を記載。作成の日から3年間保存。電磁的記録でもよい（規則第7条、ポータル）</td>
+<td>Beds24 の日本の販売会社に有料オプションの名簿機能（月1,650円/施設）あり。ほかの製品が日本の名簿の様式に合うかは未確認</td>
+</tr>
+</tbody>
+</table></div>
+<p>なお、旅館業法には営業日数の上限を定める条文が見当たらず（B-05）、特区民泊も要件に上限の記載がありません（C-05）。同じ180日の上限が旅館業・特区民泊にも当てはまる、とは読めませんでした（制度の判断はしません）。</p>
+<p><strong>2. 国内の予約サイトを使っている・使いたい場合</strong></p>
+<ul>
+<li>楽天トラベルの公式ページには、民泊新法（住宅宿泊事業法）の施設は参画できないという趣旨の記載があり、民泊新法・特区民泊の施設の案内先は楽天グループの「Rakuten Oyado」とされています。</li>
+<li>じゃらんnet の公式ページにも、民泊新法・特区民泊に基づく施設は掲載できないという趣旨の記載があります。</li>
+<li>両社とも民泊新法・特区民泊は対象外と明記していますが、旅館業法の許可施設に各ツールが接続できるかは、どのツールも未確認です。</li>
+<li>つまり、物件がどの制度（届出・許可）に基づくかで、国内予約サイトにつなぐ方法が変わります。</li>
+</ul>
+<p><strong>3. 通貨と言語</strong></p>
+<ul>
+<li>9製品のうち、日本語の管理画面が確認できるのは、Beds24 の日本の販売会社版（株式会社WeIns）だけです。日本語サポートも同じですが、Sirvoy はヘルプ記事に日本語が含まれ、公式FAQには日本語がなく食い違っています（実態は未確認）。Guesty の公式サポート言語一覧には日本語がありません。ほかの製品の管理画面に日本語は見つかりませんでした。</li>
+<li>請求通貨は、公式の記載で円（JPY）が確認できた製品はありません（Beds24 は日本の販売会社が円建てで請求）。</li>
+</ul>
+<h2>比較表1：月額料金の目安（物件数別）</h2>
+<ul>
+<li>金額は各社の表示通貨のままです。円への換算はしていません。</li>
+<li>「計算値」は、公式の料金表や計算式から当サイトが掛け算・足し算した値で、公式がその合計を載せているわけではありません。</li>
+<li>全室が稼働している前提です。税・追加機能・決済手数料は含みません。</li>
+</ul>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>製品（通貨・プラン）</th>
+<th>1室</th>
+<th>3室</th>
+<th>5室</th>
+<th>10室</th>
+<th>20室</th>
+<th>確度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Beds24 公式（EUR、2チャネル接続、各室が別の部屋タイプの場合）</td>
+<td>€16.60</td>
+<td>€24.00</td>
+<td>€31.40</td>
+<td>€49.90</td>
+<td>€86.90</td>
+<td>計算値（公式の計算機スクリプトの定数から算出）。同じ型の部屋が複数なら、部屋タイプ数が減って安くなりうる</td>
+</tr>
+<tr>
+<td>OwnerRez（USD）</td>
+<td>$40</td>
+<td>$70</td>
+<td>$88</td>
+<td>$127</td>
+<td>$196</td>
+<td>公式の料金表。5室の$88は公式ページの表示、ほかは計算値。最低料金は月$40</td>
+</tr>
+<tr>
+<td>Hospitable Professional（USD、月払い）</td>
+<td>$59</td>
+<td>$74</td>
+<td>$104</td>
+<td>$179</td>
+<td>$329</td>
+<td>計算値</td>
+</tr>
+<tr>
+<td>Hospitable Mogul（USD、月払い）</td>
+<td>$99</td>
+<td>$99</td>
+<td>$159</td>
+<td>$309</td>
+<td>$609</td>
+<td>計算値。20室を超えると別扱い（Enterprise）</td>
+</tr>
+<tr>
+<td>iGMS PRO（USD、月払い）</td>
+<td>$48</td>
+<td>約$70</td>
+<td>約$99</td>
+<td>約$174</td>
+<td>約$284</td>
+<td>計算値（公式の1物件あたり単価×物件数）</td>
+</tr>
+<tr>
+<td>iGMS PRO（USD、年払い）</td>
+<td>$38</td>
+<td>約$62</td>
+<td>約$87</td>
+<td>$150</td>
+<td>約$227</td>
+<td>計算値</td>
+</tr>
+<tr>
+<td>Uplisting（GBP）</td>
+<td>£40（Independent Host）</td>
+<td>£72（Independent Host）</td>
+<td>£90（Operator）</td>
+<td>£160（Operator）</td>
+<td>£320（Operator）／£260（Manager）</td>
+<td>計算値（公式料金ページの計算ロジックから算出）</td>
+</tr>
+<tr>
+<td>Guesty Lite（USD）</td>
+<td>$9＋予約の1%（Pay as you grow）</td>
+<td>$27＋予約の1%（計算値）</td>
+<td>Lite は3室まで</td>
+<td>Lite は3室まで</td>
+<td>Lite は3室まで</td>
+<td>Lite の単価は確認済み。Pro（4室以上）の価格は非公開（見積り）</td>
+</tr>
+<tr>
+<td>Hostaway</td>
+<td>公式は非公開（見積り）</td>
+<td>同左</td>
+<td>同左</td>
+<td>同左</td>
+<td>同左</td>
+<td>第三者の推定はあるが、数字がサイトごとに大きく異なり、公式の裏付けもない</td>
+</tr>
+<tr>
+<td>Lodgify（USD、1物件）</td>
+<td>Basic $14／Starter $26／Professional $47／Ultimate $68</td>
+<td>未確認</td>
+<td>未確認</td>
+<td>未確認</td>
+<td>未確認</td>
+<td>1物件の表示価格のみ。支払周期は推定。3室以上はスライダー計算で取得できなかった。公式サイトの確認は公開コピー由来で、本体（www）との一致は未照合</td>
+</tr>
+<tr>
+<td>Sirvoy（USD、月払い）</td>
+<td>Free $0／Starter $15／Pro $54</td>
+<td>$20／$73</td>
+<td>$20／$73</td>
+<td>$28／$98</td>
+<td>$38／$135</td>
+<td>公式の料金データを室数に当てはめたもの。チャネルマネージャーは Pro のみ</td>
+</tr>
+</tbody>
+</table></div>
+<p>補足:</p>
+<ul>
+<li>Beds24 の日本の販売会社（WeIns）は円建ての参考価格を載せています。「一棟貸切・部屋タイプ1・Airbnb／Booking.com／Expedia」で月4,580円、「部屋タイプ3・10室・5つの予約サイト（じゃらん・楽天トラベル含む）」で月17,280円、「部屋タイプ5・20室・同5サイト」で月24,210円です。公式は「プランではなく参考価格」としており、3例が税込かは明記がなく、3室・5室の価格は未確認です。国内予約サイト（じゃらん・楽天トラベル・Yahoo!トラベル）の接続には、部屋タイプあたり月1,200円（税込）と初期費用3,000円（税込）の料金表記もあります（3つ目の予約サイトは初期費用のみ）。ただし、これが上の3例の金額に含まれるのか別なのかは未確認です。</li>
+<li>Hostaway の第三者の推定は、1〜4室で月$125〜$175、5〜9室で月$175〜$250といった例がありますが、公式の裏付けはなく、1室あたり$25〜$50という別の報告もあります。参考にとどめてください。</li>
+<li>Hospitable は、機能で絞ると料金が変わります。スマートロック連携は Professional 以上、オーナーポータルは Mogul のみです。</li>
+</ul>
+<h2>比較表2：料金体系が切り替わる室数</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>製品</th>
+<th>切り替わり</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Guesty</td>
+<td>Lite は1〜3室、Pro は4〜199室（Pro は見積り）</td>
+</tr>
+<tr>
+<td>Hospitable</td>
+<td>Host は最大2物件。3室以上は Professional か Mogul</td>
+</tr>
+<tr>
+<td>Lodgify</td>
+<td>Basic は1物件以下、Starter は2物件以下。3室以上は Professional 以上が前提（ページの記載から読み取れる範囲）</td>
+</tr>
+<tr>
+<td>Uplisting</td>
+<td>Independent Host は4物件まで。5物件以上は Operator（5物件までは月£90が下限）。従量プラン（月£0＋予約ごとの手数料）は10物件まで</td>
+</tr>
+<tr>
+<td>Sirvoy</td>
+<td>Free は1室のみ。チャネルマネージャーは Pro のみ（Starter 以下には予約サイト連携がない）</td>
+</tr>
+<tr>
+<td>iGMS</td>
+<td>単価が物件数に応じて下がる方式。1物件目の後は、その月に予約のあった物件だけが課金対象</td>
+</tr>
+<tr>
+<td>OwnerRez</td>
+<td>1物件目$40、2〜3物件目各$15、4物件目$10、5〜9物件目各$8、10〜19物件目各$7、20〜49物件目各$6</td>
+</tr>
+<tr>
+<td>Beds24</td>
+<td>基本料＋部屋数＋「部屋タイプ数×チャネル数」で計算（式は公式の計算機スクリプトから読み取り）</td>
+</tr>
+</tbody>
+</table></div>
+<h2>何物件から検討する価値があるか：言えること／言えないこと</h2>
+<ul>
+<li><strong>言えること</strong>：上の2つの表のとおり、費用は製品ごとに仕組みが違い、3〜5室のあたりで切り替わるものが複数あります。</li>
+<li><strong>言えないこと</strong>：どの物件数から元が取れるか。確認できた資料に、時間の節約量や売上の増加を示す根拠がないためです。</li>
+<li>表計算を続ける費用（手作業の時間など）は、この記事では扱いません。ご自身の運営で、二重予約や返信の遅れが実際に何件起きているかを数えたうえで、上の月額と見比べる使い方を想定しています。</li>
+</ul>
+<h2>予約データの取り込み：表計算から移すとき</h2>
+<p>表計算の予約データをツールに入れる方法として、公式ページに書かれているものです。</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>製品</th>
+<th>公式に書かれている取り込み</th>
+<th>書かれていない点</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sirvoy</td>
+<td>内蔵の予約インポート。5件未満は手入力、15件未満はスプレッドシート風フォーム、多数はファイル取り込み。必須列・日付形式の要件あり</td>
+<td>取り込んだ予約はどのチャネルとも紐づかない（変更・キャンセルは各チャネルで確認が必要）。列名の詳細は未確認</td>
+</tr>
+<tr>
+<td>OwnerRez</td>
+<td>Excel テンプレートで予約・請求・入金・返金を一括取り込み（Tools &gt; Import/Export）。Airbnb の掲載情報は1回限りのインポート</td>
+<td>データ移行の代行は記載なし。無料の1時間「Jumpstart」通話はある</td>
+</tr>
+<tr>
+<td>Hospitable</td>
+<td>リスティングは作り直さず既存の掲載に接続。ダイレクト・手動の予約は自動で移らず、少数なら手入力、大量なら CSV をサポートが取り込む</td>
+<td>CSV の形式は未確認</td>
+</tr>
+<tr>
+<td>Beds24</td>
+<td>既存の掲載を取り込む機能（公式）。日本の販売会社の楽天トラベル連動の手順では、既存の予約は自動で取り込まれず手入力が必要</td>
+<td>表計算ファイルの取り込み形式は未確認</td>
+</tr>
+<tr>
+<td>Lodgify</td>
+<td>「オンボーディングチームが、現在のシステムからリスティング・予約・ゲストデータを取り込む」と記載（料金ページでは Starter 以上の1:1オンボーディング。乗り換えページの無料オンボーディングが Basic にも及ぶかは記載が揃わず不明）</td>
+<td>具体的な形式・対応元は公式ページに記載なし（未確認）</td>
+</tr>
+<tr>
+<td>Guesty</td>
+<td>大量データ向けに「templates and bulk tools」を提供と記載。Pro は専任担当者が設定・データ移行を行う</td>
+<td>形式・手順は未確認</td>
+</tr>
+<tr>
+<td>Uplisting</td>
+<td>Airbnb を読み取り専用で接続してリスティング・料金・予約を取り込み、既存の直接予約のインポートも手順に含まれる。全プランに無料の1:1オンボーディング</td>
+<td>直接予約の取り込み方法の詳細は未確認</td>
+</tr>
+<tr>
+<td>iGMS</td>
+<td>他ツールからの自動データ移行機能は記載が見つからなかった</td>
+<td>10物件以上は無料のセットアップセッションあり</td>
+</tr>
+<tr>
+<td>Hostaway</td>
+<td>公式ブログに「24/7 customer support and live onboarding」の記載</td>
+<td>インポート方法は未確認（ヘルプセンターを開けていない）</td>
+</tr>
+</tbody>
+</table></div>
+<p>利用者が自分で表計算ファイルを取り込む手順が公式に書かれているのは、Sirvoy と OwnerRez だけでした（どちらも列の詳細は確認していません）。Hospitable は大量の場合に CSV をサポートが取り込むと書かれていますが、形式は未確認です。</p>
+<h2>予約サイトの範囲（Airbnb 以外）</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>製品</th>
+<th>公式APIで接続</th>
+<th>国内予約サイト（楽天トラベル・じゃらん）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Guesty</td>
+<td>Airbnb・Booking.com・Vrbo・Expedia（Lite は Airbnb・Booking.com・Vrbo の3つ）</td>
+<td>公式のチャネル一覧の表示分に記載なし（未確認）</td>
+</tr>
+<tr>
+<td>Hostaway</td>
+<td>Airbnb・Booking.com・Vrbo・Expedia</td>
+<td>公式の一覧に記載なし（未確認）</td>
+</tr>
+<tr>
+<td>Lodgify</td>
+<td>Airbnb・Vrbo・Booking.com（Expedia はページにより記述が食い違う）。ほかは iCal</td>
+<td>連携一覧に記載なし（未確認）</td>
+</tr>
+<tr>
+<td>OwnerRez</td>
+<td>Airbnb・Booking.com・Vrbo・Google Vacation Rentals</td>
+<td>記載なし（未確認）</td>
+</tr>
+<tr>
+<td>Hospitable</td>
+<td>Airbnb・Vrbo・Booking.com・Agoda（Expedia は iCal のみ）</td>
+<td>記載なし（未確認）</td>
+</tr>
+<tr>
+<td>iGMS</td>
+<td>Airbnb・Vrbo・Booking.com（Expedia・Tripadvisor は iCal）</td>
+<td>記載なし（未確認）</td>
+</tr>
+<tr>
+<td>Uplisting</td>
+<td>Airbnb・Booking.com・Vrbo（Expedia は Vrbo 経由か iCal）</td>
+<td>記載なし（未確認）</td>
+</tr>
+<tr>
+<td>Beds24</td>
+<td>Airbnb・Booking.com・Vrbo・Expedia・Agoda（XML/API）</td>
+<td>楽天トラベルは公式Wikiに記載あり（Vacation STAY＝Rakuten Oyado 経由）。日本の販売会社は別手順（R-Connect 申請など）を記載しており、現行方式は未確認。じゃらんは日本の販売会社が提供（公式の英語チャネル一覧・Wikiには記載なし）</td>
+</tr>
+<tr>
+<td>Sirvoy（公式サイトで確認）</td>
+<td>Airbnb・Booking.com・Expedia・Agoda（Pro）。Vrbo は iCal</td>
+<td>公式ページに記載なし</td>
+</tr>
+</tbody>
+</table></div>
+<p>「記載なし」は「接続できない」という意味ではありません。記載を見つけられなかっただけです。</p>
+<h2>条件別の選び方</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>あなたの条件</th>
+<th>見る順番</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>楽天トラベル・じゃらんも一緒に管理したい／日本語の画面とサポートが必要</td>
+<td>公式で確認できたのは Beds24 の日本の販売会社版（WeIns / Co-Reception。リンクなし）。申込は <a href="/go/beds24/" rel="sponsored nofollow noopener" target="_blank">Beds24（海外公式。PRリンク）</a>とは別です。じゃらんは民泊新法の施設は掲載対象外とされています。お知らせ一覧に連動エラーの投稿が複数ある（件名のみ確認）こと、解約の締切（毎月20日までにメール）などの契約条件も、必ず確認してください</td>
+</tr>
+<tr>
+<td>Airbnb・Booking.com・Vrbo が中心。英語の画面で運用できる。費用を物件数に応じて増やしたい</td>
+<td><a href="/go/ownerrez/" rel="sponsored nofollow noopener" target="_blank">OwnerRez</a>（月$40から、契約縛りなし、返金なし）、<a href="/go/hospitable/" rel="sponsored nofollow noopener" target="_blank">Hospitable</a>（月払いは縛りなし。物件が増えると追加課金）、<a href="/go/igms/" rel="sponsored nofollow noopener" target="_blank">iGMS</a>（単価が物件数で下がる）の順に、自分の室数の行を比べる。Sirvoy（Pro：5室 $73、10室 $98。Vrbo は iCal、JPY なし）も比較表1にある</td>
+</tr>
+<tr>
+<td>都市部で10室以上を持つ予定</td>
+<td><a href="/go/uplisting/" rel="sponsored nofollow noopener" target="_blank">Uplisting</a> は公式が「10〜300+物件の都市型管理者」向けと説明している。ただし規約は「最低12か月・自動更新」、料金ページは「契約なし」と食い違うので、申込前に確認</td>
+</tr>
+<tr>
+<td>料金が見積り制でもよい。担当者との相談で決めたい</td>
+<td><a href="/go/guesty/" rel="sponsored nofollow noopener" target="_blank">Guesty</a>（Pro は4室以上で見積り）、<a href="/go/hostaway/" rel="sponsored nofollow noopener" target="_blank">Hostaway</a>（料金ページは入力フォームのみ）</td>
+</tr>
+<tr>
+<td>自社の予約サイトも作りたい</td>
+<td>予約サイト機能は多くの製品にあります（OwnerRez・Hospitable・iGMS・Beds24・Sirvoy・Guesty・Uplisting・Hostaway。プラン条件あり。例：Hospitable は Professional 以上、iGMS は PRO 以上）。比較表1の価格で選びます。<a href="/go/lodgify/" rel="sponsored nofollow noopener" target="_blank">Lodgify</a> はサイト作成が中心（Starter 以上。ただし3室以上の価格は未確認、請求は EUR/USD/GBP）</td>
+</tr>
+<tr>
+<td>1室だけ。まず無料で試したい</td>
+<td>Sirvoy の Free（1室のみ。予約サイト連携は Pro のみ）、Hospitable の Essentials（$0。人のサポートなし。価格ツールとの外部連携は有料プランが必要で、予約サイトの接続は全プラン共通）、iGMS の無料プラン（予約5件・メッセージ10件まで、試験提供）。いずれも制限が大きいので、条件を読んでから</td>
+</tr>
+</tbody>
+</table></div>
+<h2>申し込む前に確認すること</h2>
+<ul>
+<li>[ ] 自分の物件が、どの制度（住宅宿泊事業の届出、旅館業の許可、特区民泊）に基づくか。国内予約サイトにつなぐ方法が変わる</li>
+<li>[ ] 年180日の管理と2か月ごとの定期報告を、今は表計算でやっているか。やっているなら、移したあとの方法を決める（ツール側の対応はほぼ未確認）</li>
+<li>[ ] 宿泊者名簿（全員分・3年保存）と旅券の写しの保存場所を、移したあとも決められるか</li>
+<li>[ ] 請求通貨と支払い方法：円で請求されるか（Beds24 の日本の販売会社以外は、円の記載が見つからなかった）。支払いはカードのみの製品が多い（OwnerRez・Beds24 の日本の販売会社など）</li>
+<li>[ ] 無料トライアルの日数と、カード登録の要否：Beds24 公式14日（本番前に入金・本人確認が必要）／日本の販売会社1か月無料、OwnerRez 14日、Hospitable 14日（カード不要）、iGMS 14日（カード不要）、Uplisting 14日（カード不要）、Guesty Lite 14日（カード不要）、Lodgify 7日（カード不要）、Sirvoy 14日（カード不要）。Hostaway は無料トライアルが公式で確認できず（デモ申込はある）</li>
+<li>[ ] 解約条件：Guesty は規約上13か月の初期期間＋自動更新（契約書の記載が優先）、Lodgify は規約上、更新前の通知なしで自動更新（料金ページには「no long-term contract, cancel any time」ともあり、両方の記載がある）、iGMS の年払い（10物件未満）は返金なし、Beds24 の日本の販売会社は最低1か月・日割りなし・再登録に5万円</li>
+<li>[ ] 価格の通知ルール：値上げの通知期間（Hostaway 14日前、Lodgify 30日前、iGMS 30日前、Beds24 公式6週間前、Uplisting は規約に「年1回以上、5%」の値上げ条項）</li>
+<li>[ ] 表計算の予約データの列と日付形式を、取り込み方法（上の表）に合わせて整える。必要な列は製品ごとに異なる</li>
+<li>[ ] 乗り換え後の最初の1か月は、表計算の控えを残しておく（旧データとの突き合わせ用）</li>
+</ul>
+<h2>未確認のこと</h2>
+<ul>
+<li>管理ツールを導入して時間や二重予約がどう変わるか（効果）。確認できた資料に根拠がありません</li>
+<li>180日の自動カウント・届出番号の表示・定期報告の機能（9製品とも公式ページで記載が見つからなかった。Beds24 の日本の販売会社の外部シートを除く）</li>
+<li>Lodgify の3・5・10・20室の料金、Hostaway の公式料金、Guesty Pro の公式料金</li>
+<li>円（JPY）での請求の可否（Guesty・Hostaway・Hospitable・iGMS・OwnerRez・Lodgify・Uplisting）</li>
+<li>楽天トラベル・じゃらんへの接続（Beds24 以外の8製品）</li>
+<li>表計算ファイルから取り込む形式（Guesty・Hostaway・Lodgify・Hospitable〔サポートが CSV を取り込むが形式は未確認〕・iGMS・Uplisting）</li>
+<li>日本のインボイス制度（適格請求書）への対応</li>
+</ul>
+<h2>出典</h2>
+<p>取得日はすべて 2026-11-05。</p>
+<ul>
+<li><strong>Beds24</strong>：§2 料金（2-1 公式、2-2 日本の販売会社）https://beds24.com/en/pricing/pricing ／ https://co-reception.com/ ／ https://co-reception.com/pricing/ ／ https://co-reception.com/jalan-rakuten-ikyu/ ／ https://co-reception.com/beds24利用規約/。§5 日本対応（名簿・定期報告シート）https://co-reception.com/new-guestregistration-news/ ／ https://co-reception.com/民泊新法の定期報告を自動化：データ自動生成シ/ 。§7 乗り換え https://beds24.com/en/channel-manager/channel-manager</li>
+<li><strong>OwnerRez</strong>：§2 料金、§7 乗り換え（インポート方法）https://www.ownerrez.com/support/articles/costs-and-fees ／ https://www.ownerrez.com/pricing ／ https://www.ownerrez.com/support/articles/importing-outside-bookings ／ https://www.ownerrez.com/support/articles/jumpstart</li>
+<li><strong>Hospitable</strong>：§2 料金、§7 乗り換え https://help.hospitable.com/en/articles/4596748-how-does-our-pricing-work ／ https://hospitable.com/switch-to-hospitable ／ https://help.hospitable.com/en/articles/16309227-switching-to-hospitable-from-another-pms</li>
+<li><strong>iGMS</strong>：§2 料金、§7 乗り換え https://www.igms.com/pricing/ ／ https://igms.com/terms/ ／ https://igms.com/go/free-plan/</li>
+<li><strong>Uplisting</strong>：§2 料金、§7 乗り換え https://www.uplisting.io/pricing ／ https://www.uplisting.io/switch-to-uplisting ／ https://www.uplisting.io/legal/terms-and-conditions ／ https://support.uplisting.io/en/article/is-uplisting-right-for-me-hjm9f5/</li>
+<li><strong>Guesty</strong>：§2 料金、§7 乗り換え https://www.guesty.com/pricing/ ／ https://www.guesty.com/packages/guesty-lite/ ／ https://www.guesty.com/terms-of-service/ ／ https://www.guesty.com/onboarding/</li>
+<li><strong>Hostaway</strong>：§2 料金、§7 乗り換え https://www.hostaway.com/pricing/ ／ https://www.hostaway.com/terms/ ／ https://www.hostaway.com/blog/switching-pms-platforms/ ／ https://www.roommaster.com/blog/hostaway-pricing（第三者の推定）</li>
+<li><strong>Lodgify</strong>：§2 料金、§7 乗り換え https://webflow-mkt.lodgify.com/pricing ／ https://webflow-mkt.lodgify.com/switching-software ／ https://webflow-mkt.lodgify.com/terms（<code>www.lodgify.com</code> は開けず、同内容の公開コピーを開いた）</li>
+<li><strong>Sirvoy</strong>：料金、乗り換え https://sirvoy.com/pricing ／ https://help.sirvoy.com/en_US/import-bookings/import-your-existing-bookings</li>
+<li><strong>日本のOTA連携</strong>：1-1-01・1-1-02（楽天トラベル）https://travel.rakuten.co.jp/info/hotel_msg.html ／ 1-2-01（じゃらんnet）https://www.jalan.net/jalan/doc/howto/10sankaku.html ／ 3章 海外PMS 9社</li>
+<li><strong>日本の制度</strong>：A-07〜A-09（年180日）、A-16・A-17・A-19・A-20（宿泊者名簿）、A-26（定期報告）https://laws.e-gov.go.jp/law/429AC0000000065 ／ https://laws.e-gov.go.jp/law/429M60000900002 ／ https://www.mlit.go.jp/kankocho/minpaku/overview/minpaku/law1.html ／ https://www.mlit.go.jp/kankocho/minpaku/business/host/responsibility01.html</li>
+</ul></main>
+<footer>最終確認日 2026-11-05 ／ 料金・仕様は変わるため、申込前に公式ページで再確認してください。<br><a href="/disclosure/">広告表示と運営方針</a></footer></body></html>

@@ -1,0 +1,682 @@
+製品ID	製品名	アフィリエイト	アフィリ種別	申込URL	判定の根拠	確認日	備考
+168389	Google Workspace	あり	CJ Affiliate（第三者）	https://workspace.google.com/intl/lv/affiliate-program	Google公式の affiliate-program ページ	2026-11-04	年100人以上は Affiliate、未満は Referral の2段構え。参加は CJ 経由とされる
+160756	Google Docs	あり	CJ Affiliate（第三者）	https://workspace.google.com/intl/lv/affiliate-program	Google Workspace のプログラムに含まれる（単体のプログラムではない）	2026-11-04	Workspace と同じ
+179251	PayPal Payments	要確認	自社パートナー／FlexOffers	https://www.flexoffers.com/affiliate-programs/paypal-us-affiliate-program	FlexOffers に掲載あり。ただし報酬は0と表示	2026-11-04	公式はビジネス向けのパートナー制度。一般向けアフィリエイトの有無が割れる
+135003	Slack	要確認	PartnerStack（第三者）	https://partnerstack.com/account/slack	PartnerStack 上に Slack のページがある	2026-11-04	報酬は情報源ごとに食い違う（最大150ドル／4ドル）。公式のアフィリエイトページは未発見
+1010321	Trello	見つからず			Atlassian スタッフが「アフィリエイトはない」と回答（コミュニティ投稿）	2026-11-04	紹介特典（旧 Gold 1か月）は廃止の可能性
+141633	Microsoft PowerPoint	あり	Rakuten Advertising（第三者）	https://uppromote.com/affiliate-directory/microsoft-365/	ディレクトリ情報。Microsoft 365 全体のプログラム	2026-11-04	公式ページは未確認。申込は Rakuten 経由とされる
+176574	Microsoft Excel	あり	Rakuten Advertising（第三者）	https://uppromote.com/affiliate-directory/microsoft-365/	ディレクトリ情報。Microsoft 365 全体のプログラム	2026-11-04	公式ページは未確認。申込は Rakuten 経由とされる
+61368	Salesforce Sales Cloud	見つからず			公開のアフィリエイトはなく、リファラルパートナー制度（Partner Community 経由）	2026-11-04	リード紹介の報酬あり。一般向けのリンク型ではない
+180345	WhatsApp	見つからず			Meta公式のアフィリエイトは見つからず。アフィリエイトがあるのは API 提供各社（Wati、Gallabox など）	2026-11-04	Meta の WhatsApp Business パートナー制度は申請制（別物）
+19319	Jira	要確認	Impact（第三者）？	https://affi.io/m/atlassian	Atlassian が Impact にあるとするブログと、FlexOffers で Closed の掲載が食い違う	2026-11-04	開発者向けパートナー制度は別にある
+131687	WordPress	あり	自社（Automattic Affiliate Program）／Impact	https://wordpress.com/affiliates/	Automattic 公式のヘルプサイトに記載あり。申込ページのURLは検索結果内のパスから推定（未開封）	2026-11-04	Automattic Creator Program の一部。承認は Impact 経由とする情報あり
+144037	Zoom Workplace	あり	FlexOffers／Impact（第三者）＋自社の紹介パートナー	https://www.revshare.so/programs/advertiser/zoom-8a15a2d7	Zoom のパートナーページに「アフィリエイトマーケティング」の記載、第三者に掲載	2026-11-04	申込ページは未確認。自社の紹介制度は法人向けで別物
+58688	Microsoft 365	あり	Rakuten Advertising（第三者）	https://uppromote.com/affiliate-directory/microsoft-365/	ディレクトリ情報と2024年のレビュー記事	2026-11-04	公式ページは未確認
+120550	Asana	見つからず			Asana 公式フォーラムで「アフィリエイトはない」と回答。ディレクトリの記載は食い違う	2026-11-04	パートナー（再販）制度とアンバサダー制度はある
+168956	Canva	あり	自社（Canvassador Program）	https://www.canva.com/en_in/help/canva-affiliate-marketing-program/	Canva 公式ヘルプ：アフィリエイト特典は Canvassador Program 経由のみ	2026-11-04	以前は Impact で運営。報酬は情報が古く食い違う
+122252	TeamViewer	あり	CJ Affiliate（第三者）	https://www.revshare.so/programs/advertiser/teamviewer	複数のディレクトリが CJ と記載	2026-11-04	公式スタッフ回答：個人の紹介向けで、一般サイトでの宣伝は対象外
+169607	Clockify	あり	自社	https://cake.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://clockify.me
+155928	Zoho CRM	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+169007	Wix	あり	Impact（第三者）	https://www.wix.com/about/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://wix.com
+83891	Shopify	あり	Impact（第三者）	https://www.shopify.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://shopify.com
+171840	HubSpot Marketing Hub	あり	Impact（第三者）	https://www.hubspot.com/partners/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://hubspot.com
+1011679	Yodeck	あり	自社	https://www.yodeck.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://yodeck.com
+140428	Awardco	要確認	自社	https://www.awardco.com/partnership	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://awardco.com
+152373	HubSpot CRM	あり	Impact（第三者）	https://www.hubspot.com/partners/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://hubspot.com
+159351	Zoho Social	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+143461	Squarespace	あり	Impact（第三者）	https://www.squarespace.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://squarespace.com
+158456	Jotform	あり	自社	https://www.jotform.com/enterprise/?jtm_medium=referral&jtm_source=jotform.com&jtm_content=JotForm_Enterprise&jtm_campaign=enterprise_common_footer	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://jotform.com
+186596	Notion	あり	PartnerStack（第三者）	https://www.notion.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://notion.com
+151988	LastPass	あり	Impact（第三者）	https://www.lastpass.com/partner/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://lastpass.com
+151962	Semrush	あり	Impact（第三者）	https://www.semrush.com/lp/affiliate-program/en/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://semrush.com
+171165	PayPal Point of Sale	要確認	自社	https://www.paypal.com/us/business/partners/directory?locale.x=en_US	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://paypal.com
+169505	Zoho Desk	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+219972	Writesonic	あり	FirstPromoter（第三者）	https://writesonic.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://writesonic.com
+170018	ManageEngine Endpoint Central	あり	自社	https://www.manageengine.com/affiliate/?pos=MEhome&cat=MEHeader&loc=SecMenu	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manageengine.com
+102188	LiveAgent	あり	Post Affiliate Pro（第三者）	https://www.liveagent.com/affiliate-program/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://liveagent.com
+62194	LiveChat	あり	自社	https://www.text.com/partners/find-a-partner/?internal_campaign=partner-program-header	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://livechat.com
+181775	Zoho Assist	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+144797	Dropbox Sign	要確認	自社	https://www.dropbox.com/refer	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://dropbox.com
+142138	Fresha	要確認	自社	https://www.fresha.com/for-business	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://fresha.com
+125768	Zoho Recruit	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+142384	Zoho Expense	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+158461	Doxy.me	あり	自社	https://doxy.me/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://doxy.me
+151915	ESET Endpoint Security	あり	CJ Affiliate（第三者）	https://www.eset.com/us/business/partner/online-affiliates/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://eset.com
+1011548	Movavi Video Editor	あり	自社	https://www.movavi.com/partners/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://movavi.com
+26318	Cvent Event Management	要確認	自社	https://www.cvent.com:443/en/become-partner	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://cvent.com
+181589	Fotor	あり	自社	https://www.fotor.com/affiliates.html	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://fotor.com
+122348	Vimeo	あり	自社	https://vimeo.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://vimeo.com
+174694	Zoho Mail	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+137289	Typeform	要確認	PartnerStack（第三者）	https://www.typeform.com/refer-a-friend	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://typeform.com
+210401	Duolingo	あり	自社	https://www.duolingo.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://duolingo.com
+202121	Zoho Meeting	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+119653	Okta	要確認	自社	https://www.okta.com/partners/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://okta.com
+132201	ManageEngine Mobile Device Manager Plus	あり	自社	https://www.manageengine.com/affiliate/?pos=MEhome&cat=MEHeader&loc=SecMenu	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manageengine.com
+170318	Avast Ultimate Business Security	あり	Impact（第三者）	https://www.avast.com/business/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://avast.com
+169468	Elementor	あり	自社	https://elementor.com/affiliates/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://elementor.com
+169455	Zoho Projects	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+158591	Unity	あり	Partnerize（第三者）	https://unity.com/partners/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://unity.com
+135053	Zoho Invoice	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+167799	Webnode	あり	自社	https://www.webnode.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://webnode.com
+137033	Paymo	あり	FirstPromoter（第三者）	https://www.paymoapp.com/affiliates/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://paymoapp.com
+134507	Zoho Books	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+152263	Pixpa	あり	FirstPromoter（第三者）	https://www.pixpa.com:443/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://pixpa.com
+157843	Dialpad AI Meetings	要確認	自社	https://www.dialpad.com/customer-referral/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://dialpad.com
+132935	TalentLMS	あり	自社	https://www.talentlms.com:443/partners	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://talentlms.com
+176340	Ahrefs	あり	自社	https://ahrefs.com/blog/ahrefs-affiliate-program/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://ahrefs.com
+134775	NiCE CXone	要確認	自社	https://cxexchange.niceincontact.com/en-US/home	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://nice.com
+132175	Xola	あり	自社	https://www.xola.com/articles/affiliate-partnerships-tour-and-activity-operators/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://xola.com
+190976	Dialpad Connect	要確認	自社	https://www.dialpad.com/customer-referral/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://dialpad.com
+109268	Jobvite	要確認	自社	https://www.jobvite.com/products/employee-referral-program-software/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://jobvite.com
+144637	Keeper Business Password Manager	あり	PartnerStack／Rakuten（第三者）	https://www.keepersecurity.com/partnerships.html	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://keepersecurity.com
+140219	HubSpot Sales Hub	あり	Impact（第三者）	https://www.hubspot.com/partners/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://hubspot.com
+128481	Schoology	あり	自社	https://www.schoology.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://schoology.com
+178663	AfterShip	あり	自社	https://www.aftership.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://aftership.com
+125957	Olark	あり	Tapfiliate（第三者）	https://www.olark.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://olark.com
+145175	Signeasy	あり	自社	https://signeasy.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://signeasy.com
+131426	Zoho Survey	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+148193	PDFelement	あり	Awin／CJ Affiliate／Impact（第三者）	https://www.wondershare.com/business/affiliate.html	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://pdfelement.com
+146809	Tango	あり	自社	https://tango.me/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://tango.me
+100468	eMaint CMMS	要確認	自社	https://www.emaint.com/partner-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://emaint.com
+100468	eMaint CMMS	要確認	自社	https://www.emaint.com/partner-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://emaint.com
+146241	Zoho Inventory	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+179288	ManageEngine Patch Manager Plus	あり	自社	https://www.manageengine.com/affiliate/?pos=MEhome&cat=MEHeader&loc=SecMenu	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manageengine.com
+146241	Zoho Inventory	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+179288	ManageEngine Patch Manager Plus	あり	自社	https://www.manageengine.com/affiliate/?pos=MEhome&cat=MEHeader&loc=SecMenu	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manageengine.com
+178111	Ziflow	要確認	自社	https://www.ziflow.com/partnership	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://ziflow.com
+149633	Route4Me	要確認	自社	https://route4me.com/partner-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://route4me.com
+178111	Ziflow	要確認	自社	https://www.ziflow.com/partnership	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://ziflow.com
+188155	EaseUS Data Recovery Wizard	あり	CJ Affiliate／Impact／Partnerize（第三者）	https://www.easeus.com/partner/affiliate.html	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://easeus.com
+141544	Renderforest	あり	Impact（第三者）	https://www.renderforest.com/partners/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://renderforest.com
+149633	Route4Me	要確認	自社	https://route4me.com/partner-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://route4me.com
+188155	EaseUS Data Recovery Wizard	あり	CJ Affiliate／Impact／Partnerize（第三者）	https://www.easeus.com/partner/affiliate.html	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://easeus.com
+141544	Renderforest	あり	Impact（第三者）	https://www.renderforest.com/partners/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://renderforest.com
+110931	Zoho People	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+167140	BigMarker	あり	自社	https://www.bigmarker.com/communities/affiliate/conferences	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://bigmarker.com
+110931	Zoho People	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+167140	BigMarker	あり	自社	https://www.bigmarker.com/communities/affiliate/conferences	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://bigmarker.com
+144389	Yotpo	要確認	自社	https://www.yotpo.com/platform/loyalty/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://yotpo.com
+144389	Yotpo	要確認	自社	https://www.yotpo.com/platform/loyalty/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://yotpo.com
+149069	Diligent Boards	要確認	自社	https://www.diligent.com/partners/showcase	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://diligent.com
+128631	Podio	要確認	自社	https://www.progress.com/podio/partners	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://podio.com
+149069	Diligent Boards	要確認	自社	https://www.diligent.com/partners/showcase	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://diligent.com
+129749	Zoho Analytics	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+141080	Mitti (by SafetyCulture)	あり	自社	https://mitti.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://mitti.com
+128631	Podio	要確認	自社	https://www.progress.com/podio/partners	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://podio.com
+129749	Zoho Analytics	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+92390	ExpensePoint	要確認	自社	https://www.expensepoint.com/partner-program/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://expensepoint.com
+141080	Mitti (by SafetyCulture)	あり	自社	https://mitti.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://mitti.com
+168854	ManageEngine OpManager	あり	自社	https://www.manageengine.com/affiliate/?pos=MEhome&cat=MEHeader&loc=SecMenu	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manageengine.com
+92390	ExpensePoint	要確認	自社	https://www.expensepoint.com/partner-program/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://expensepoint.com
+168854	ManageEngine OpManager	あり	自社	https://www.manageengine.com/affiliate/?pos=MEhome&cat=MEHeader&loc=SecMenu	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manageengine.com
+112491	Vtiger CRM	あり	自社	https://www.vtiger.com/partner-programs/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://vtiger.com
+112491	Vtiger CRM	あり	自社	https://www.vtiger.com/partner-programs/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://vtiger.com
+218549	UserWay Accessibility Widget	あり	自社	https://userway.org/partner/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://userway.org
+134005	PrestaShop	あり	Impact（第三者）	https://prestashop.com/become-affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://prestashop.com
+218549	UserWay Accessibility Widget	あり	自社	https://userway.org/partner/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://userway.org
+134005	PrestaShop	あり	Impact（第三者）	https://prestashop.com/become-affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://prestashop.com
+207199	Padlet	あり	自社	https://padlet.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://padlet.com
+207199	Padlet	あり	自社	https://padlet.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://padlet.com
+141243	ONLYOFFICE Workspace	あり	Rewardful（第三者）	https://www.onlyoffice.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://onlyoffice.com
+141243	ONLYOFFICE Workspace	あり	Rewardful（第三者）	https://www.onlyoffice.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://onlyoffice.com
+147812	Zoho Campaigns	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+147812	Zoho Campaigns	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+157033	iGMS	あり	自社	https://try.igms.com/referral-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://igms.com
+157033	iGMS	あり	自社	https://try.igms.com/referral-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://igms.com
+169569	Zoho Sprints	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+169569	Zoho Sprints	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+141357	MindMeister	あり	自社	https://www.mindmeister.com/pages/partners	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://mindmeister.com
+141357	MindMeister	あり	自社	https://www.mindmeister.com/pages/partners	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://mindmeister.com
+172274	ManageEngine Network Configuration Manager	あり	自社	https://www.manageengine.com/affiliate/?pos=MEhome&cat=MEHeader&loc=SecMenu	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manageengine.com
+172274	ManageEngine Network Configuration Manager	あり	自社	https://www.manageengine.com/affiliate/?pos=MEhome&cat=MEHeader&loc=SecMenu	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manageengine.com
+210662	Jungle Scout	あり	Tolt（第三者）	https://jungleai.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://jungleai.com
+147623	Dashlane for Business	あり	自社	https://www.dashlane.com/lp/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://dashlane.com
+147623	Dashlane for Business	あり	自社	https://www.dashlane.com/lp/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://dashlane.com
+5520	Boomi	要確認	自社	https://boomi.com/partners/find-a-partner/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://boomi.com
+5520	Boomi	要確認	自社	https://boomi.com/partners/find-a-partner/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://boomi.com
+172323	ManageEngine Applications Manager	あり	自社	https://www.manageengine.com/affiliate/?pos=MEhome&cat=MEHeader&loc=SecMenu	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manageengine.com
+172323	ManageEngine Applications Manager	あり	自社	https://www.manageengine.com/affiliate/?pos=MEhome&cat=MEHeader&loc=SecMenu	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manageengine.com
+145693	HubSpot Data Hub	あり	Impact（第三者）	https://www.hubspot.com/partners/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://hubspot.com
+145693	HubSpot Data Hub	あり	Impact（第三者）	https://www.hubspot.com/partners/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://hubspot.com
+172277	ManageEngine Firewall Analyzer	あり	自社	https://www.manageengine.com/affiliate/?pos=MEhome&cat=MEHeader&loc=SecMenu	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manageengine.com
+172277	ManageEngine Firewall Analyzer	あり	自社	https://www.manageengine.com/affiliate/?pos=MEhome&cat=MEHeader&loc=SecMenu	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manageengine.com
+205337	Shopify POS	あり	Impact（第三者）	https://www.shopify.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://shopify.com
+205337	Shopify POS	あり	Impact（第三者）	https://www.shopify.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://shopify.com
+96371	Acumatica Cloud ERP	要確認	自社	https://www.acumatica.com/partners/alliance/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://acumatica.com
+96371	Acumatica Cloud ERP	要確認	自社	https://www.acumatica.com/partners/alliance/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://acumatica.com
+122854	Brightspace	あり	自社	https://www.d2l.com:443/partners/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://brightspace.com
+122854	Brightspace	あり	自社	https://www.d2l.com:443/partners/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://brightspace.com
+166064	Animaker	あり	自社	https://www.animaker.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://animaker.com
+166064	Animaker	あり	自社	https://www.animaker.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://animaker.com
+144154	Concord	要確認	自社	https://concord.net/intake-referral-processing/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://concord.net
+165004	Zenkit	あり	自社	https://zenkit.com/en/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zenkit.com
+144154	Concord	要確認	自社	https://concord.net/intake-referral-processing/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://concord.net
+179501	ManageEngine ServiceDesk Plus	あり	自社	https://www.manageengine.com/affiliate/?pos=MEhome&cat=MEHeader&loc=SecMenu	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manageengine.com
+165004	Zenkit	あり	自社	https://zenkit.com/en/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zenkit.com
+179501	ManageEngine ServiceDesk Plus	あり	自社	https://www.manageengine.com/affiliate/?pos=MEhome&cat=MEHeader&loc=SecMenu	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manageengine.com
+156177	WorkTango	要確認	自社	https://www.worktango.com/customer-referral-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://worktango.com
+156177	WorkTango	要確認	自社	https://www.worktango.com/customer-referral-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://worktango.com
+214769	Acronis Cyber Protect	あり	CJ Affiliate（第三者）	https://www.acronis.com/en/partners/affiliates/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://acronis.com
+214769	Acronis Cyber Protect	あり	CJ Affiliate（第三者）	https://www.acronis.com/en/partners/affiliates/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://acronis.com
+1058643	Jotform Sign	あり	自社	https://www.jotform.com/enterprise/?jtm_medium=referral&jtm_source=jotform.com&jtm_content=JotForm_Enterprise&jtm_campaign=enterprise_common_footer	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://jotform.com
+127628	Creately	あり	Tolt（第三者）	https://creately.com/affiliate-program/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://creately.com
+1058643	Jotform Sign	あり	自社	https://www.jotform.com/enterprise/?jtm_medium=referral&jtm_source=jotform.com&jtm_content=JotForm_Enterprise&jtm_campaign=enterprise_common_footer	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://jotform.com
+127628	Creately	あり	Tolt（第三者）	https://creately.com/affiliate-program/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://creately.com
+132888	Thinkific	あり	自社	https://www.thinkific.com/affiliates/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://thinkific.com
+132888	Thinkific	あり	自社	https://www.thinkific.com/affiliates/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://thinkific.com
+144871	iSpring LMS	あり	GoAffPro／Impact（第三者）	https://www.ispringfilter.com/pages/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://ispringfilter.com
+182476	HubSpot Service Hub	あり	Impact（第三者）	https://www.hubspot.com/partners/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://hubspot.com
+182476	HubSpot Service Hub	あり	Impact（第三者）	https://www.hubspot.com/partners/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://hubspot.com
+204793	Airmeet	あり	自社	https://www.airmeet.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://airmeet.com
+204793	Airmeet	あり	自社	https://www.airmeet.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://airmeet.com
+161573	pCloud Business	あり	自社	https://www.pcloud.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://pcloud.com
+136904	Tipalti	あり	自社	https://tipalti.com/industries/affiliates-and-influencers-solutions/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://tipalti.com
+161573	pCloud Business	あり	自社	https://www.pcloud.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://pcloud.com
+136904	Tipalti	あり	自社	https://tipalti.com/industries/affiliates-and-influencers-solutions/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://tipalti.com
+211755	Zoho Creator	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+211755	Zoho Creator	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+184192	Chmeetings	あり	自社	https://www.chmeetings.com/partner-program/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://chmeetings.com
+184192	Chmeetings	あり	自社	https://www.chmeetings.com/partner-program/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://chmeetings.com
+1012384	Pictory	あり	自社	https://pictory.ai/partner-with-pictory	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://pictory.ai
+212346	Malwarebytes for Teams	あり	Partnerize（第三者）	https://www.malwarebytes.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://malwarebytes.com
+1012384	Pictory	あり	自社	https://pictory.ai/partner-with-pictory	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://pictory.ai
+212346	Malwarebytes for Teams	あり	Partnerize（第三者）	https://www.malwarebytes.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://malwarebytes.com
+172452	Zoho Forms	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+172452	Zoho Forms	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+167966	Sonix	あり	自社	https://sonix.ai/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://sonix.ai
+181145	Manatal	あり	自社	https://www.manatal.com/affiliate-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manatal.com
+116750	xMatters	要確認	自社	https://www.xmatters.com/company/partners	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://xmatters.com
+167966	Sonix	あり	自社	https://sonix.ai/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://sonix.ai
+156723	Gladly	要確認	自社	https://www.gladly.ai/partner/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://gladly.ai
+181145	Manatal	あり	自社	https://www.manatal.com/affiliate-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manatal.com
+1036120	Trackdesk	あり	自社	https://trackdesk.com/affiliate-network	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://trackdesk.com
+116750	xMatters	要確認	自社	https://www.xmatters.com/company/partners	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://xmatters.com
+156811	AppsFlyer	要確認	自社	https://www.appsflyer.com/products/deep-linking/referral-to-app/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://appsflyer.com
+156723	Gladly	要確認	自社	https://www.gladly.ai/partner/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://gladly.ai
+201794	Workvivo	あり	自社	https://www.workvivo.com/smb-solutions/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://workvivo.com
+165046	Loxo	要確認	自社	https://www.loxo.co/referrals	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://loxo.co
+1036120	Trackdesk	あり	自社	https://trackdesk.com/affiliate-network	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://trackdesk.com
+73473	Board	あり	自社	https://onlinewhiteboard.org/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://onlinewhiteboard.org
+156811	AppsFlyer	要確認	自社	https://www.appsflyer.com/products/deep-linking/referral-to-app/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://appsflyer.com
+201794	Workvivo	あり	自社	https://www.workvivo.com/smb-solutions/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://workvivo.com
+1016725	FlexClip	あり	Awin（第三者）	https://www.flexclip.com/affiliates.html	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://flexclip.com
+165046	Loxo	要確認	自社	https://www.loxo.co/referrals	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://loxo.co
+172276	ManageEngine OpUtils	あり	自社	https://www.manageengine.com/affiliate/?pos=MEhome&cat=MEHeader&loc=SecMenu	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manageengine.com
+1016725	FlexClip	あり	Awin（第三者）	https://www.flexclip.com/affiliates.html	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://flexclip.com
+188396	Bandicam	あり	Awin（第三者）	https://www.bandicam.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://bandicam.com
+172276	ManageEngine OpUtils	あり	自社	https://www.manageengine.com/affiliate/?pos=MEhome&cat=MEHeader&loc=SecMenu	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manageengine.com
+1044046	Zoho LandingPage	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+189151	Hostfully Guidebooks	あり	PartnerStack（第三者）	https://www.hostfully.com/affiliates-referrals/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://hostfully.com
+188396	Bandicam	あり	Awin（第三者）	https://www.bandicam.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://bandicam.com
+171845	Shopify Plus	あり	Impact（第三者）	https://www.shopify.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://shopify.com
+1044046	Zoho LandingPage	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+189151	Hostfully Guidebooks	あり	PartnerStack（第三者）	https://www.hostfully.com/affiliates-referrals/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://hostfully.com
+128088	XMind	あり	自社	https://xmind.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://xmind.com
+198210	Pixlr	あり	Awin（第三者）	https://pixlr.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://pixlr.com
+171845	Shopify Plus	あり	Impact（第三者）	https://www.shopify.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://shopify.com
+128088	XMind	あり	自社	https://xmind.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://xmind.com
+198210	Pixlr	あり	Awin（第三者）	https://pixlr.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://pixlr.com
+102848	Cority	要確認	自社	https://www.cority.com/partners/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://cority.com
+143496	ManageEngine ADManager Plus	あり	自社	https://www.manageengine.com/affiliate/?pos=MEhome&cat=MEHeader&loc=SecMenu	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manageengine.com
+102848	Cority	要確認	自社	https://www.cority.com/partners/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://cority.com
+135902	Zabbix	要確認	自社	https://www.zabbix.com/partners	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zabbix.com
+167639	Zoho Cliq	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+162429	Zoho Billing	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+108889	Comm100	要確認	自社	https://partners.comm100.com/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://comm100.com
+143496	ManageEngine ADManager Plus	あり	自社	https://www.manageengine.com/affiliate/?pos=MEhome&cat=MEHeader&loc=SecMenu	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manageengine.com
+135902	Zabbix	要確認	自社	https://www.zabbix.com/partners	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zabbix.com
+172000	Stack Team App	要確認	自社	https://www.stackct.com/partner-referrals/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://stackct.com
+167639	Zoho Cliq	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+162429	Zoho Billing	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+1012650	ONLYOFFICE Docs	あり	Rewardful（第三者）	https://www.onlyoffice.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://onlyoffice.com
+108889	Comm100	要確認	自社	https://partners.comm100.com/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://comm100.com
+210774	ManageEngine ADAudit Plus	あり	自社	https://www.manageengine.com/affiliate/?pos=MEhome&cat=MEHeader&loc=SecMenu	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manageengine.com
+145696	Alteryx	要確認	自社	https://www.alteryx.com/partners	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://alteryx.com
+160936	Mentimeter（メンチメーター）	要確認	自社	https://www.mentimeter.com/auth/signup?referral=homepage	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://mentimeter.com
+145411	Zoho WorkDrive	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+1012650	ONLYOFFICE Docs	あり	Rewardful（第三者）	https://www.onlyoffice.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://onlyoffice.com
+170833	Adobe Acrobat Reader	要確認	Partnerize（第三者）	https://www.adobe.com/fi/affiliates.html	Adobe 公式の affiliate ページ。対象は有料の Creative Cloud／Document Cloud	2026-11-04	Reader 自体は無料製品。Document Cloud（Acrobat）が対象
+1010286	Adobe Illustrator	あり	Partnerize（第三者）	https://www.adobe.com/fi/affiliates.html	Adobe 公式の affiliate ページ（Creative Cloud が対象）	2026-11-04	Adobe 全体のプログラム
+1012240	Adobe Acrobat	あり	Partnerize（第三者）	https://www.adobe.com/fi/affiliates.html	Adobe 公式の affiliate ページ（Document Cloud が対象）	2026-11-04	一部の国のみ対象
+1012156	Adobe Photoshop	あり	Partnerize（第三者）	https://www.adobe.com/fi/affiliates.html	Adobe 公式の affiliate ページ（Creative Cloud が対象）	2026-11-04	Adobe 全体のプログラム
+121506	Docusign	あり	Impact（第三者）／自社	https://community.docusign.com/docusign-partners-133/become-a-docusign-affiliate-today-support-your-audience-and-boost-your-earnings-21924	Docusign 公式コミュニティの募集投稿。ネットワークは affi.io の情報	2026-11-04	公式の申込ページは未確認
+733	Webex Suite	見つからず			FlexOffers で提供停止、affi.io で closed。Cisco はリセラー制度	2026-11-04	アンバサダー制度はあるが報酬は別物
+154969	Evernote Teams	要確認	PartnerStack（第三者）？	https://getlasso.co/affiliate/evernote/	第三者ディレクトリのみ。公式未確認	2026-11-04	旧リファラル制度は終了
+147657	monday AI Work Platform	あり	PartnerStack（第三者）	https://market.partnerstack.com/page/mondaycom	monday.com の公式ページ monday.com/affiliate-program と PartnerStack の掲載	2026-11-04	monday CRM と同じプログラム
+128285	Acuity Scheduling	あり	PartnerStack（第三者）	https://acuityscheduling.com/partners/referral-program	公式のリファラルプログラム（PartnerStack 運営、1件50ドルとの記載）	2026-11-04	Squarespace 傘下
+148766	Box	要確認	Impact（第三者）？	https://affi.io/m/box-inc-	affi.io に Box Inc.（Impact）が open、別掲載は closed。公式未確認	2026-11-04	
+164283	Zendesk Suite	あり	PartnerStack（第三者）	https://www.zendesk.com/programs/affiliate-program	Zendesk 公式の affiliate-program ページ（PartnerStack で応募）	2026-11-04	既存パートナー・リセラーは対象外
+110968	BambooHR	要確認	自社	https://www.bamboohr.com/partner-programs/overview	公式のパートナープログラム（コンサル・ブローカー向けの紹介報酬）	2026-11-04	リンク型のアフィリエイトではなく紹介パートナー制度
+186749	TaxDome	あり	自社	https://blog.taxdome.com/the-taxdome-partner-program-officially-launched	公式ブログのパートナープログラム告知（5%の報酬）	2026-11-04	2021年の告知で古い可能性。紹介特典（無料月）も別にある
+210774	ManageEngine ADAudit Plus	あり	自社	https://www.manageengine.com/affiliate/?pos=MEhome&cat=MEHeader&loc=SecMenu	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://manageengine.com
+79104	Smartsheet	要確認	PartnerStack／Impact（第三者）？	https://market.partnerstack.com/program/smartsheet	PartnerStack に掲載ページがある一方、ディレクトリは「公開の有料プログラムなし」	2026-11-04	公式の案内は未確認
+123889	Stripe Payments	見つからず			公式のアフィリエイトはなし。パートナー制度の紹介インセンティブのみ	2026-11-04	Stripe 連携のアフィリエイト管理ツールは多数ある（別物）
+154907	Square Point of Sale	あり	Impact（第三者）	https://squareup.com/us/en/affiliate	Square 公式のアフィリエイトページ（運営は Impact とする情報）	2026-11-04	Square Payments／Hardware／Payroll が対象
+170278	Square Payments	あり	Impact（第三者）	https://squareup.com/us/en/affiliate	Square 公式のアフィリエイトページ	2026-11-04	Square Payments が対象に明記
+156399	Kahoot!	見つからず			アフィリエイトは見つからず。パートナーページ・学生アンバサダー制度のみ	2026-11-04	チャネルパートナー制度はある
+146136	Lucidchart	あり	PartnerStack（第三者）	https://market.partnerstack.com/page/lucidsoftware	PartnerStack の掲載ページ（Lucidchart／Lucidspark）	2026-11-04	affi.io は closed と表記。公式のコミュニティ回答は partners ページを案内
+380	SAP Concur	見つからず			アフィリエイトは見つからず。Sell／Endorse／Extend のパートナー制度のみ	2026-11-04	Endorse（紹介）パートナーの報酬条件は未確認
+40229	Mindbody	要確認	自社？	https://affonso.io/affiliate-programs/mindbody	第三者ディレクトリのみ。公式は顧客向けリファラル制度と開発者プログラム	2026-11-04	公式の affiliate 募集は確認できず
+77260	Tableau	見つからず			アフィリエイトは見つからず。リセラー／紹介パートナー制度のみ	2026-11-04	Tableau Ambassadors は報酬制度ではない
+135757	NetSuite	あり	自社（SuiteReferral）	https://www.netsuite.com/portal/partners/referral-program.shtml	NetSuite 公式の紹介プログラム（初年度ライセンスの10%とされる）	2026-11-04	「referral and affiliate program」と案内。公式の最新条件は未確認
+176245	AVG Antivirus Business Edition	あり	Impact（第三者）	https://www.avg.com/en/affiliate	AVG 公式の affiliate ページ（Impact で参加）	2026-11-04	個人向け製品が主か、法人版が対象かは未確認。CJ とする情報もある
+145696	Alteryx	要確認	自社	https://www.alteryx.com/partners	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://alteryx.com
+170983	Google Cloud	あり	CJ Affiliate（第三者）	https://cloud.google.com/affiliate-program	Google Cloud 公式の affiliate-program ページ	2026-11-04	現在の対象は米国・カナダの事業者。SNS・メール告知は禁止
+174303	Google Cloud Storage	あり	CJ Affiliate（第三者）	https://cloud.google.com/affiliate-program	Google Cloud のプログラムに含まれる	2026-11-04	Google Cloud 全体のプログラム
+177042	Google Analytics 360	要確認	CJ Affiliate（第三者）？	https://cloud.google.com/affiliate-program	Google Cloud のプログラム。GA360 は Google Marketing Platform 側で対象外の可能性	2026-11-04	対象かは未確認
+213340	Google Calendar	あり	CJ Affiliate（第三者）	https://workspace.google.com/intl/lv/affiliate-program	Google Workspace のプログラムに含まれる（単体のプログラムではない）	2026-11-04	Workspace と同じ
+186631	Google Classroom	要確認	CJ Affiliate（第三者）？	https://workspace.google.com/intl/lv/affiliate-program	Classroom は Workspace for Education の一部で、対象かは未確認	2026-11-04	単体は無料
+168668	Microsoft Teams	あり	Rakuten Advertising（第三者）	https://uppromote.com/affiliate-directory/microsoft-365/	ディレクトリ情報。Microsoft 365 全体のプログラム	2026-11-04	公式ページは未確認
+1167	Microsoft SharePoint	あり	Rakuten Advertising（第三者）	https://uppromote.com/affiliate-directory/microsoft-365/	ディレクトリ情報。Microsoft 365 全体のプログラム	2026-11-04	公式ページは未確認
+1010347	Microsoft To Do	要確認	Rakuten Advertising（第三者）？	https://uppromote.com/affiliate-directory/microsoft-365/	To Do は無料アプリで、Microsoft 365 のプログラムの対象かは未確認	2026-11-04	
+1010319	Microsoft Word	あり	Rakuten Advertising（第三者）	https://uppromote.com/affiliate-directory/microsoft-365/	ディレクトリ情報。Microsoft 365 全体のプログラム	2026-11-04	公式ページは未確認
+1010311	Microsoft Outlook	あり	Rakuten Advertising（第三者）	https://uppromote.com/affiliate-directory/microsoft-365/	ディレクトリ情報。Microsoft 365 全体のプログラム	2026-11-04	公式ページは未確認
+201133	Visio	あり	Rakuten Advertising（第三者）	https://uppromote.com/affiliate-directory/microsoft-365/	ディレクトリ情報。Microsoft 365 のプログラムが対象と推定	2026-11-04	Visio 単体が対象かは未確認
+101288	Microsoft Visual Studio	見つからず			アフィリエイトは見つからず。パートナーセンターの特典のみ	2026-11-04	
+1417	Microsoft SQL Server	見つからず			アフィリエイトは見つからず	2026-11-04	
+176586	Microsoft Power BI	見つからず			アフィリエイトは見つからず。パートナー向け特典のみ	2026-11-04	
+157279	Dynamics 365	見つからず			アフィリエイトは見つからず。パートナー制度のみ	2026-11-04	
+136446	Confluence	要確認	Impact（第三者）？	https://affi.io/m/atlassian	Atlassian 全体の情報（Jira と同じ）。Impact とするブログと、FlexOffers で Closed の掲載が食い違う	2026-11-04	Trello は Atlassian スタッフが「ない」と回答
+168960	GIMP (GNU Image Manipulation Program)	見つからず			OSS のため検索せず	2026-11-04	
+80691	Moodle	見つからず			OSS のため検索せず	2026-11-04	公式パートナー制度はある可能性
+158981	LibreOffice	見つからず			OSS のため検索せず	2026-11-04	
+11482	MySQL	見つからず			OSS（Oracle）のため検索せず	2026-11-04	
+204717	iCloud	要確認	Partnerize（第三者）？	https://uppromote.com/affiliate-directory/apple/	Apple の Performance Partners Program は Apple Music 等が対象。iCloud が対象かは未確認	2026-11-04	
+213257	Meta for Business	見つからず			広告主向けのアフィリエイトは見つからず	2026-11-04	クリエイター向けの Facebook Affiliate Partnerships は別物
+218046	Autodesk Forma (formerly Autodesk Construction Cloud)	要確認	CJ Affiliate（第三者）	https://www.autodesk.com/affiliate-program	Autodesk 公式の affiliate-program ページ（報酬7%〜、60日）	2026-11-04	Forma が対象かは未確認
+125813	MATLAB	見つからず			アフィリエイトは見つからず。Connections Program（企業パートナー向け）のみ	2026-11-04	
+86962	BeyondTrust Remote Support	見つからず			アフィリエイトは見つからず。チャネルパートナー制度（Partner Perks で1件最大1,000ドル）	2026-11-04	チャネル向けの紹介報酬あり
+127214	Canvas	見つからず			アフィリエイトは見つからず。Referral Partner／Channel Partner 制度は2022年資料	2026-11-04	法人向けの紹介パートナー制度あり
+160936	Mentimeter（メンチメーター）	要確認	自社	https://www.mentimeter.com/auth/signup?referral=homepage	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://mentimeter.com
+145411	Zoho WorkDrive	あり	自社	https://www.zoho.com/affiliate/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	ドメイン:https://zoho.com
+217242	Jasper	あり	自社	https://www.jasper.ai/legal/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://jasper.ai（推測）
+135618	Odoo	あり	自社	https://www.odoo.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://odoo.com（既知）
+140086	SimplyBook.me	あり	自社	https://simplybook.me/en/affiliate-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://simplybook.me（推測）
+136010	IntelliJ IDEA	あり	自社	https://www.jetbrains.com/legal/docs/privacy/third-parties/affiliates/2.0/	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://jetbrains.com（推測）
+139990	MeisterTask	あり	自社	https://www.meistertask.com/pages/partners	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://meistertask.com（推測）
+179296	MaintainX	要確認	自社	https://www.getmaintainx.com/legal/referral-program-terms-and-conditions	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://getmaintainx.com（既知）
+122035	Setmore	あり	自社	https://www.setmore.com/partners	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://setmore.com（推測）
+113729	Microsoft Viva Engage	要確認	自社	https://www.microsoft.com/en-us/partner	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://microsoft.com（既知）
+204998	Bigin by Zoho CRM	あり	自社	https://www.bigin.com/partners/affiliate-partner-program.html	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://bigin.com（既知）
+162972	Splashtop	要確認	自社	https://www.splashtop.com:443/referral	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://splashtop.com（既知）
+155563	Freshsales	あり	自社	https://www.freshworks.com/partners/	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://freshworks.com（推測）
+1012058	Firefox	要確認	自社	https://www.youtube.com/@firefox/podcasts?utm_source=www.firefox.com&utm_medium=referral&utm_campaign=nav&utm_content=resources	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://firefox.com（推測）
+118042	WebHR	あり	自社	https://web.hr/partner-with-us/affiliate-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://web.hr（推測）
+107225	SysAid	要確認	自社	https://www.sysaid.com/referral-program	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://sysaid.com（既知）
+190789	AVS Video Editor	あり	自社	https://avs.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://avs.com（推測）
+209649	Snagit	あり	自社	https://www.techsmith.com/resources/partner-information/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://techsmith.com（推測）
+1006974	Square for Retail	要確認	自社	https://squareup.com/us/en/partnerships	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://squareup.com（既知）
+141178	Bizness Apps	あり	自社	https://www.namepros.com/forums/affiliate-marketing-and-cpa-programs.68/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://namepros.com（推測）
+141178	Bizness Apps	あり	自社	https://www.namepros.com/forums/affiliate-marketing-and-cpa-programs.68/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://namepros.com（推測）
+141178	Bizness Apps	あり	自社	https://www.namepros.com/forums/affiliate-marketing-and-cpa-programs.68/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://namepros.com（推測）
+183761	TWIPLA	あり	自社	https://www.twipla.com/en/partner-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://twipla.com（推測）
+183761	TWIPLA	あり	自社	https://www.twipla.com/en/partner-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://twipla.com（推測）
+141178	Bizness Apps	あり	自社	https://www.namepros.com/forums/affiliate-marketing-and-cpa-programs.68/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://namepros.com（推測）
+119119	Domo	要確認	自社	https://www.domo.com/referral	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://domo.com（既知）
+1025299	Microsoft Forms	要確認	自社	https://www.microsoft.com/en-us/partner	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://microsoft.com（既知）
+119119	Domo	要確認	自社	https://www.domo.com/referral	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://domo.com（既知）
+130909	Ideals Virtual Data Room	要確認	自社	https://astradomains.com/partners	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://astradomains.com（推測）
+1019633	Simplified	あり	自社	https://simplified.com/affiliate-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://simplified.com（推測）
+173925	Tailor Brands	あり	自社	https://www.tailorbrands.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://tailorbrands.com（推測）
+1025299	Microsoft Forms	要確認	自社	https://www.microsoft.com/en-us/partner	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://microsoft.com（既知）
+130909	Ideals Virtual Data Room	要確認	自社	https://astradomains.com/partners	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://astradomains.com（推測）
+103570	Sirvoy	あり	自社	https://sirvoy.com/sirvoy-partnership	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://sirvoy.com（推測）
+103570	Sirvoy	あり	自社	https://sirvoy.com/sirvoy-partnership	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://sirvoy.com（推測）
+169053	Looker	あり	自社	https://cloud.google.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://cloud.google.com（推測）
+1019633	Simplified	あり	自社	https://simplified.com/affiliate-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://simplified.com（推測）
+173925	Tailor Brands	あり	自社	https://www.tailorbrands.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://tailorbrands.com（推測）
+169053	Looker	あり	自社	https://cloud.google.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://cloud.google.com（推測）
+153149	Xoxoday	要確認	自社	https://www.xoxoday.com:443/partners/referral	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://xoxoday.com（推測）
+153149	Xoxoday	要確認	自社	https://www.xoxoday.com:443/partners/referral	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://xoxoday.com（推測）
+118828	Lavu	要確認	自社	https://lavu.com/join-the-referral-program/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://lavu.com（推測）
+118828	Lavu	要確認	自社	https://lavu.com/join-the-referral-program/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://lavu.com（推測）
+160354	Aspect Workforce	要確認	自社	https://www.aspect.com/company/partners	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://aspect.com（推測）
+183761	TWIPLA	あり	自社	https://www.twipla.com/en/partner-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://twipla.com（推測）
+136258	Influitive	要確認	自社	https://influitive.com/customer-stories/built-customer-referral-programs/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://influitive.com（推測）
+136258	Influitive	要確認	自社	https://influitive.com/customer-stories/built-customer-referral-programs/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://influitive.com（推測）
+160354	Aspect Workforce	要確認	自社	https://www.aspect.com/company/partners	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://aspect.com（推測）
+144450	Spectrio	あり	自社	https://www.spectrio.com/partner-program/	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://spectrio.com（既知）
+144450	Spectrio	あり	自社	https://www.spectrio.com/partner-program/	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://spectrio.com（既知）
+146659	RepairDesk	あり	自社	https://www.repairdesk.co/partners/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://repairdesk.co（推測）
+156209	ClickCease	あり	自社	https://www.clickcease.com/affiliates.html	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://clickcease.com（推測）
+1011458	BrainCert	あり	FirstPromoter（第三者）	https://www.braincert.com/partner-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://braincert.com（推測）
+183761	TWIPLA	あり	自社	https://www.twipla.com/en/partner-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://twipla.com（推測）
+156209	ClickCease	あり	自社	https://www.clickcease.com/affiliates.html	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://clickcease.com（推測）
+1011458	BrainCert	あり	FirstPromoter（第三者）	https://www.braincert.com/partner-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://braincert.com（推測）
+185599	LiveWebinar	あり	自社	https://www.livewebinar.com/become-an-affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://livewebinar.com（推測）
+185599	LiveWebinar	あり	自社	https://www.livewebinar.com/become-an-affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://livewebinar.com（推測）
+211077	PrinterLogic	あり	自社	https://vasion.com/partners/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://vasion.com（推測）
+71152	Benchmark Email	あり	自社	https://www.benchmarkemail.com/partners/affiliates/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://benchmarkemail.com（推測）
+199328	Dynamics 365 Business Central	要確認	自社	https://www.microsoft.com/en-us/partner	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://microsoft.com（推測）
+182363	PDF Reader Pro	あり	Awin（第三者）	https://www.pdfreaderpro.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://pdfreaderpro.com（推測）
+199328	Dynamics 365 Business Central	要確認	自社	https://www.microsoft.com/en-us/partner	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://microsoft.com（推測）
+145800	Easy LMS	あり	自社	https://www.easystore.co/en-us/affiliates-referrals	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://easystore.co（推測）
+182363	PDF Reader Pro	あり	Awin（第三者）	https://www.pdfreaderpro.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://pdfreaderpro.com（推測）
+211077	PrinterLogic	あり	自社	https://vasion.com/partners/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://vasion.com（推測）
+71152	Benchmark Email	あり	自社	https://www.benchmarkemail.com/partners/affiliates/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://benchmarkemail.com（推測）
+145800	Easy LMS	あり	自社	https://www.easystore.co/en-us/affiliates-referrals	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://easystore.co（推測）
+158117	Freshchat	あり	自社	https://www.freshworks.com/partners/	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://freshworks.com（推測）
+1025310	LinkedIn Learning	あり	自社	https://linkedin.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://linkedin.com（推測）
+145718	Cacoo	あり	PartnerStack（第三者）	https://nulab.com/affiliate-program/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://nulab.com（推測）
+1025310	LinkedIn Learning	あり	自社	https://linkedin.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://linkedin.com（推測）
+122770	123FormBuilder	あり	自社	https://www.123formbuilder.com/affiliate-program/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://123formbuilder.com（推測）
+127236	SkyPrep	あり	自社	https://skyprep.com/affiliate-program/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://skyprep.com（推測）
+135075	Classe365	あり	自社	https://referral.365.software/program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://classe365.com（推測）
+135075	Classe365	あり	自社	https://referral.365.software/program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://classe365.com（推測）
+218230	Referral Factory	あり	自社	https://referral.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://referral.com（推測）
+138738	InviteReferrals	要確認	自社	https://www.nvecta.com:443/products/referral-and-loyalty	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://nvecta.com（推測）
+158117	Freshchat	あり	自社	https://www.freshworks.com/partners/	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://freshworks.com（推測）
+218230	Referral Factory	あり	自社	https://referral.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://referral.com（推測）
+138738	InviteReferrals	要確認	自社	https://www.nvecta.com:443/products/referral-and-loyalty	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://nvecta.com（推測）
+38574	ServiceChannel	要確認	自社	https://servicechannel.com/referral/	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://servicechannel.com（既知）
+130598	GreenRope	あり	自社	https://www.greenrope.com/affiliate-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://greenrope.com（推測）
+131314	MangoApps	要確認	自社	https://www.mangoapps.com/referral-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://mangoapps.com（推測）
+176567	Microsoft Bookings	要確認	自社	https://www.microsoft.com/en-us/partner	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://microsoft.com（既知）
+145718	Cacoo	あり	PartnerStack（第三者）	https://nulab.com/affiliate-program/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://nulab.com（推測）
+176567	Microsoft Bookings	要確認	自社	https://www.microsoft.com/en-us/partner	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://microsoft.com（既知）
+130044	LearnUpon	要確認	自社	https://www.learnupon.com/referral-program/	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://learnupon.com（推測）
+215113	WorkInSync	あり	自社	https://workinsync.ai/partners/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://workinsync.ai（推測）
+171443	Chili Piper	要確認	自社	https://www.chilipiper.com/partnership	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://chilipiper.com（推測）
+122770	123FormBuilder	あり	自社	https://www.123formbuilder.com/affiliate-program/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://123formbuilder.com（推測）
+119952	VelocityEHS | EHS Software to Outpace Risk	要確認	自社	https://www.ehs.com/referral/	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://ehs.com（既知）
+127236	SkyPrep	あり	自社	https://skyprep.com/affiliate-program/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://skyprep.com（推測）
+119952	VelocityEHS | EHS Software to Outpace Risk	要確認	自社	https://www.ehs.com/referral/	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://ehs.com（既知）
+141052	HR Avatar	あり	自社	https://hravatar.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://hravatar.com（推測）
+145745	Wishpond	あり	FirstPromoter（第三者）	https://wishpond.com/affiliates/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://wishpond.com（推測）
+38574	ServiceChannel	要確認	自社	https://servicechannel.com/referral/	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://servicechannel.com（既知）
+130598	GreenRope	あり	自社	https://www.greenrope.com/affiliate-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://greenrope.com（推測）
+163329	PayKickstart	あり	自社	https://paykickstart.com/affiliate-management/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://paykickstart.com（推測）
+129610	ProProfs Quiz Maker	あり	FirstPromoter（第三者）	https://www.proprofs.com:443/affiliates/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://proprofs.com（推測）
+163329	PayKickstart	あり	自社	https://paykickstart.com/affiliate-management/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://paykickstart.com（推測）
+145745	Wishpond	あり	FirstPromoter（第三者）	https://wishpond.com/affiliates/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://wishpond.com（推測）
+131314	MangoApps	要確認	自社	https://www.mangoapps.com/referral-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://mangoapps.com（推測）
+130044	LearnUpon	要確認	自社	https://www.learnupon.com/referral-program/	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://learnupon.com（推測）
+119119	Domo	要確認	自社	https://www.domo.com/referral	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://domo.com（既知）
+119119	Domo	要確認	自社	https://www.domo.com/referral	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://domo.com（既知）
+128501	NoviSign	要確認	自社	https://www.novisign.com/partners/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://novisign.com（推測）
+141052	HR Avatar	あり	自社	https://hravatar.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://hravatar.com（推測）
+1025299	Microsoft Forms	要確認	自社	https://www.microsoft.com/en-us/partner	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://microsoft.com（既知）
+1021191	AVS Audio Editor	あり	自社	https://avs.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://avs.com（推測）
+156745	Scalefusion	要確認	自社	https://scalefusion.com/referral-program/	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://scalefusion.com（既知）
+1021191	AVS Audio Editor	あり	自社	https://avs.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://avs.com（推測）
+128501	NoviSign	要確認	自社	https://www.novisign.com/partners/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://novisign.com（推測）
+190739	Speexx	要確認	自社	https://www.speexx.com/partners/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://speexx.com（推測）
+1025299	Microsoft Forms	要確認	自社	https://www.microsoft.com/en-us/partner	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://microsoft.com（既知）
+137808	WizIQ LMS	あり	自社	https://www.wiziq.com/partners	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://wiziq.com（推測）
+145874	TopNotepad	要確認	自社	https://topnotepad.com/referral-program	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://topnotepad.com（推測）
+150508	Octoparse	あり	FirstPromoter（第三者）	https://www.octoparse.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://octoparse.com（既知）
+130909	Ideals Virtual Data Room	要確認	自社	https://astradomains.com/partners	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://astradomains.com（推測）
+171443	Chili Piper	要確認	自社	https://www.chilipiper.com/partnership	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://chilipiper.com（推測）
+130909	Ideals Virtual Data Room	要確認	自社	https://astradomains.com/partners	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://astradomains.com（推測）
+129610	ProProfs Quiz Maker	あり	FirstPromoter（第三者）	https://www.proprofs.com:443/affiliates/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://proprofs.com（推測）
+99249	Checkfront	あり	自社	https://www.checkfront.com/affiliate-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://checkfront.com（推測）
+190739	Speexx	要確認	自社	https://www.speexx.com/partners/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://speexx.com（推測）
+150508	Octoparse	あり	FirstPromoter（第三者）	https://www.octoparse.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://octoparse.com（既知）
+156466	Clinked	要確認	自社	https://www.clinked.com/partner-with-clinked	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://clinked.com（推測）
+137808	WizIQ LMS	あり	自社	https://www.wiziq.com/partners	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://wiziq.com（推測）
+178227	JivoChat	あり	自社	https://www.jivochat.com/partnership/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://jivochat.com（推測）
+191072	Videolinq	あり	ShareASale（第三者）	https://www.videolinq.com/affiliates	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://videolinq.com（推測）
+1019633	Simplified	あり	自社	https://simplified.com/affiliate-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://simplified.com（推測）
+1019633	Simplified	あり	自社	https://simplified.com/affiliate-program	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://simplified.com（推測）
+145874	TopNotepad	要確認	自社	https://topnotepad.com/referral-program	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://topnotepad.com（推測）
+103570	Sirvoy	あり	自社	https://sirvoy.com/sirvoy-partnership	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://sirvoy.com（推測）
+191072	Videolinq	あり	ShareASale（第三者）	https://www.videolinq.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://videolinq.com（推測）
+103570	Sirvoy	あり	自社	https://sirvoy.com/sirvoy-partnership	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://sirvoy.com（推測）
+173925	Tailor Brands	あり	自社	https://www.tailorbrands.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://tailorbrands.com（推測）
+173925	Tailor Brands	あり	自社	https://www.tailorbrands.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://tailorbrands.com（推測）
+169053	Looker	あり	自社	https://cloud.google.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://cloud.google.com（推測）
+169053	Looker	あり	自社	https://cloud.google.com/affiliate	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://cloud.google.com（推測）
+156745	Scalefusion	要確認	自社	https://scalefusion.com/referral-program/	公式サイトの追加パス／sitemap で検出（自動判定）	2026-11-04	再確認 ドメイン:https://scalefusion.com（既知）
+156466	Clinked	要確認	自社	https://www.clinked.com/partner-with-clinked	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://clinked.com（推測）
+1013010	UpViral	あり	自社	https://www.upviral.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://upviral.com（推測）
+1013010	UpViral	あり	自社	https://www.upviral.com/affiliates	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://upviral.com（推測）
+178227	JivoChat	あり	自社	https://www.jivochat.com/partnership/	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://jivochat.com（推測）
+135402	Weebly	要確認	ShareASale（第三者）	https://getlasso.co/affiliate/weebly/	第三者ディレクトリに ShareASale の掲載。ただし「現在は利用不可」とする記事もある	2026-11-04	Square 傘下。公式の案内は未確認
+173963	iLovePDF	要確認	自社？（GoAffPro？）	https://partners.ilovepdf.com/	公式のパートナーページあり。報酬条件・プラットフォームは未確認	2026-11-04	GoAffPro との連携ページがあるが推測
+149595	AnyDesk	あり	Awin（第三者）	https://anydesk.com/en/partners/influencer	AnyDesk 公式の Affiliates & Influencers ページ。Awin に地域別プログラム	2026-11-04	US は closed とする情報もある
+124358	iSpring Suite	あり	自社（Post Affiliate Pro）	https://ispringsolutions.com/affiliate-program	iSpring 公式のアフィリエイトページ	2026-11-04	報酬は情報源で食い違う（10%／25%）
+124823	CorelDRAW	あり	自社（Alludo）	https://referrals.alludo.com/v2/2/access	Alludo（Corel の親会社）の紹介プログラムの登録ページ	2026-11-04	FlexOffers 等にも Corel のプログラムが掲載
+97594	Expensify	要確認	自社	https://use.expensify.com/blog/earn-50000-by-referring-your-friends-to-expensify	公式ブログの紹介プログラムと、会計士向けレベニューシェア（0.5%）	2026-11-04	リンク型の公開アフィリエイトかは未確認
+182500	GoDaddy Website Builder	あり	CJ Affiliate（第三者）	https://uppromote.com/affiliate-directory/godaddy/	第三者ディレクトリ。CJ で運営とする情報	2026-11-04	公式の申込ページは未確認
+142562	Asset Panda	見つからず			検索で該当なし	2026-11-04	
+17313	OpenTable	要確認	自社（開発者ポータル）	https://uppromote.com/affiliate-directory/opentable/	開発者ポータルでパートナー申請する形（承認制）の情報	2026-11-04	公式ページ未確認
+99984	Emburse Expense Professional	要確認	Impact（第三者）？	https://affi.io/m/emburse	affi.io は closed、LinkClicky は Impact とする。食い違う	2026-11-04	Emburse 全体のプログラム
+98408	Emburse Expense Enterprise	要確認	Impact（第三者）？	https://affi.io/m/emburse	Emburse Expense Professional と同じ	2026-11-04	Emburse 全体のプログラム
+174232	Adobe Express	あり	Partnerize（第三者）	https://www.adobe.com/uk/express/affiliate	Adobe 公式の Adobe Express affiliate ページ	2026-11-04	Adobe 全体のプログラム。サポート対応の不満の投稿あり
+159806	GitLab	見つからず			アフィリエイトは見つからず。チャネルパートナー制度に紹介料（Referral）がある	2026-11-04	パートナー契約が必要
+132178	RingEX	あり	Awin等（第三者）／自社	https://www.ringcentral.com/us/en/blog/ringcentrals-affiliate-program/	RingCentral 公式ブログのアフィリエイトプログラム紹介（2020年更新）。Awin に英国版	2026-11-04	最新の公式条件は未確認
+173614	Any.do	あり	FirstPromoter（第三者）	https://www.any.do/ambassadors/tos	Any.do 公式の Ambassador Program 規約（FirstPromoter で運営）	2026-11-04	呼称は Ambassador Program
+140423	Kudos	見つからず			公開のアフィリエイトは見つからず	2026-11-04	
+179337	Blynk	見つからず			検索で該当なし	2026-11-04	
+211798	SketchUp	見つからず			検索で該当なし	2026-11-04	
+172606	Smallpdf	見つからず			検索で該当なし	2026-11-04	
+113540	Bitrix24	見つからず			公式パートナーサイトに「アフィリエイトはなく、リセラー制度のみ」と記載	2026-11-04	Bitrix24 Market 向けの affiliate 状態は別
+121586	Bluebeam Revu	見つからず			検索で該当なし。リセラー型のパートナー制度のみ	2026-11-04	
+120390	Teamwork.com	あり	PartnerStack（第三者）	https://market.partnerstack.com/page/teamwork	Teamwork 公式ブログと PartnerStack の掲載ページ（2020年開始）	2026-11-04	別に既存顧客向けの紹介制度もある
+143754	Teamwork Desk	要確認	自社／PartnerStack？	https://support.teamwork.com/desk/desk-general-info/teamwork-desk-referral-program	Teamwork Desk の紹介プログラムのヘルプ記事。Teamwork 本体は PartnerStack	2026-11-04	Desk 単体のアフィリエイトかは未確認
+156752	SurveyLegend	見つからず			検索で該当なし	2026-11-04	
+127957	Sogolytics	あり	自社（紹介プログラム）	https://www.sogolytics.com/partners/referral/	公式の紹介パートナープログラム（固定報酬＋最長2年の継続報酬、専用リンク）	2026-11-04	リセラー制度も別にある
+135186	UiPath	見つからず			アフィリエイトは見つからず。技術・ビジネス・学習パートナー制度のみ	2026-11-04	
+147442	Post Affiliate Pro	あり	自社	https://www.postaffiliatepro.com/affiliate-program/	公式サイトのアフィリエイトプログラム（個人向けに募集）	2026-11-04	報酬条件は未確認
+143648	Ecwid	あり	自社（WebPartner／Affiliate）	https://www.ecwid.com/webpartners	Ecwid 公式ブログのパートナー案内（有料ストアごとに報酬）	2026-11-04	報酬20%は第三者情報。URLは第三者記載
+135455	QuestionPro	要確認	自社？	https://theaffiliatemonkey.com/affiliate/questionpro-affiliate-program/	第三者ディレクトリのみ。公式はリセラー型のパートナーチャネル	2026-11-04	公式のアフィリエイトは未確認
+155191	Cloudflare	見つからず			Cloudflare コミュニティで「アフィリエイトはない」と回答。パートナー制度（PowerUP）のみ	2026-11-04	WARP+ の紹介制度は2024年に終了
+161328	NAKIVO Backup & Replication	見つからず			アフィリエイトは見つからず。リセラー型のパートナー制度のみ	2026-11-04	
+150632	Loyverse POS	見つからず			検索で該当なし	2026-11-04	
+153149	Xoxoday	要確認	自社	https://www.xoxoday.com:443/partners/referral	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://xoxoday.com（推測）
+211429	360Learning	見つからず			アフィリエイトは見つからず。パートナー制度に紹介料（referral fee）あり	2026-11-04	名前が似た 360training は別会社（CJ のプログラムあり）
+178518	Bókun	あり	PartnerStack（第三者）	https://market.partnerstack.com/page/bokuntripadvisor	PartnerStack の掲載ページ（月額の30%を最長1年）	2026-11-04	Tripadvisor 傘下
+65868	ABBYY FineReader PDF	あり	FlexOffers（第三者）	https://www.flexoffers.com/affiliate-programs/abbyy-usa-affiliate-program	FlexOffers に米国版・欧州版の掲載	2026-11-04	ABBYY 公式の案内は未確認
+140321	Powtoon	見つからず			募集停止中（Affonso・affi.io）。新プログラムを予定とされる	2026-11-04	別に紹介（Referral）プログラムがある
+170829	PDFCreator	見つからず			検索で該当なし	2026-11-04	
+114491	ActiveCollab	見つからず			検索で該当なし	2026-11-04	
+168192	Site24x7	あり	自社（ManageEngine Affiliate）	https://www.manageengine.com/affiliate.html	Site24x7 の公式パートナーページに Affiliate の記載。ManageEngine の公式アフィリエイトページ	2026-11-04	ManageEngine 全体のプログラム
+119448	XLSTAT	見つからず			検索で該当なし	2026-11-04	
+72549	Alchemer Survey	見つからず			検索で該当なし。パートナー制度のみ	2026-11-04	
+109731	Minitab	見つからず			検索で該当なし。リセラー型のパートナー制度のみ	2026-11-04	
+137568	Quire	見つからず			検索で該当なし	2026-11-04	
+127616	SEO PowerSuite	あり	自社（Avangate運営）	https://www.link-assistant.com/partners/affiliates.html	公式の affiliates ページ（報酬33%、120日と記載）	2026-11-04	
+154951	RingCX	あり	Awin等（第三者）／自社	https://www.ringcentral.com/us/en/blog/ringcentrals-affiliate-program/	RingCentral 全体のアフィリエイトプログラム（RingEX と同じ）	2026-11-04	RingCX が対象かは未確認
+199711	Square Online	あり	Impact（第三者）	https://squareup.com/us/en/affiliate	Square 公式のアフィリエイトページ（Square 全体）	2026-11-04	Square Online が対象かは未確認
+86955	Sisense	要確認	自社？	https://www.startuphub.ai/startups/sisense-3/affiliate-program	第三者サイトのみが affiliate を記載。公式は実装パートナー制度	2026-11-04	公式の affiliates ページは未確認
+147528	SignRequest	見つからず			公式のアフィリエイトは見つからず。ベータの紹介制度（25%）の言及のみで、古い可能性	2026-11-04	
+206096	Sage HR	要確認	Impact／Awin（第三者）？	https://www.sage.com/en-za/support/affiliate-programme/	Sage 公式のアフィリエイトページ（Sage 全体）。Sage HR が対象かは未確認	2026-11-04	FlexOffers では closed の掲載もある
+61763	Absorb	見つからず			検索で該当なし	2026-11-04	
+122249	Appointy	あり	ShareASale／Awin（第三者）	https://help.appointy.com/hc/en-us/articles/900001791683-Appointy-Affiliate-Program	Appointy 公式ヘルプのアフィリエイトプログラム記事	2026-11-04	報酬は30%（公式ブログ）。第三者は食い違う
+152920	Nicereply	見つからず			検索で該当なし	2026-11-04	
+122215	M-Files	見つからず			アフィリエイトは見つからず。パートナーの紹介・共同販売制度と顧客紹介フォームのみ	2026-11-04	
+151871	Phrase	見つからず			アフィリエイトは見つからず。チャネル／テクノロジーのパートナー制度のみ	2026-11-04	
+1015185	CleanMyMac	あり	複数ネットワーク（第三者）	https://www.flexoffers.com/affiliate-programs/macpaw-affiliate-program/	FlexOffers 等に MacPaw のプログラム掲載。公式は別にリセラー制度	2026-11-04	MacPaw 全体のプログラム
+203823	TestGorilla	あり	PartnerStack（第三者）	https://market.partnerstack.com/page/testgorilla	PartnerStack の掲載ページ（初年度10%）	2026-11-04	FirstPromoter の紹介制度も別にあるとされる
+141708	Pure Chat	要確認	自社？	https://getlasso.co/affiliate/pure-chat/	第三者ディレクトリ。公式パートナーページにアフィリエイト層の記載	2026-11-04	公式の申込ページは未確認
+122257	Bynder	見つからず			アフィリエイトは見つからず。顧客向け Champion Program のみ	2026-11-04	
+152602	Storypark	見つからず			検索で該当なし	2026-11-04	
+142169	SE Ranking	あり	自社	https://seranking.com/affiliate-program.html	SE Ranking 公式のアフィリエイトプログラムページ（30%、120日）	2026-11-04	
+133660	Litmos	見つからず			公開のアフィリエイトは見つからず。パートナー制度に紹介インセンティブ	2026-11-04	
+2018	ARCHICAD	見つからず			検索で該当なし	2026-11-04	
+146034	WebTitan	見つからず			アフィリエイトは見つからず。MSP向けパートナー制度のみ	2026-11-04	
+170838	PDF-XChange	要確認	自社？	https://pdf-xchange.com/resellers	公式のリセラー／配布ページに「自分のサイトで宣伝」の記載。アフィリエイトか未確認	2026-11-04	
+87751	SuperSaaS	あり	自社	https://d.supersaas.com/info/affiliate	SuperSaaS 公式のアフィリエイトページ（紹介リンク、購読者ごとに報酬）	2026-11-04	報酬条件は未確認
+21581	PRTG	要確認	FlexOffers／Webgains（第三者）	https://affi.io/m/paessler	Paessler のプログラムが第三者ネットワークに掲載。FlexOffers 米国版は提供停止の表記	2026-11-04	公式の案内は未確認
+127213	Docebo	見つからず			アフィリエイトは見つからず。パートナープログラムのみ（2012年資料に旧アフィリエイト層）	2026-11-04	
+182965	Profit.co	見つからず			検索で該当なし（名前が似た別会社のみ）	2026-11-04	
+148773	Soda PDF	あり	自社	https://www.sodapdf.com/resellers/?tabId=3	Soda PDF 公式のパートナーページ（アフィリエイトで最大75%と記載）	2026-11-04	第三者は closed／低い報酬率とする記載もある
+166265	Guitar Pro	要確認	Affilae（第三者）	https://shopper.com/partnerships/guitar-pro-com-affiliate-program	音楽系アフィリエイトのまとめ記事と掲載ページ。公式未確認	2026-11-04	
+153149	Xoxoday	要確認	自社	https://www.xoxoday.com:443/partners/referral	公式サイトの affiliate／referral ページ（自動判定）	2026-11-04	再確認 ドメイン:https://xoxoday.com（推測）
+157048	Brandwatch	見つからず			検索で該当なし	2026-11-04	
+119740	Criteria	見つからず			検索で該当なし（配信・連携の提携のみ）	2026-11-04	
+125693	PagerDuty	見つからず			アフィリエイトは見つからず。連携パートナー制度のみ	2026-11-04	
+158766	ON24	見つからず			アフィリエイトは見つからず。テクノロジー／ソリューションのパートナー制度に紹介申請がある	2026-11-04	
+135461	Taskworld	見つからず			検索で該当なし	2026-11-04	
+133390	CleanCloud	見つからず			検索で該当なし	2026-11-04	
+210695	Bitwarden	要確認	自社？	https://websiterating.com/blog/password-managers/best-password-manager-affiliate-programs	第三者情報のみ（15%／30%と食い違う）。公式はリセラー型のパートナー制度	2026-11-04	公式の affiliate は未確認
+166825	Freshteam	あり	PartnerStack（第三者）	https://market.partnerstack.com/page/freshworks4391	Freshworks の PartnerStack プログラムに Freshteam が含まれる	2026-11-04	Freshworks 全体のプログラム。公式の案内あり
+162784	Claris FileMaker	見つからず			アフィリエイトは見つからず。Claris Partner Program のみ	2026-11-04	
+187650	Remo	見つからず			アフィリエイトは見つからず。代理店向けの Agency Partner Program のみ	2026-11-04	第三者に20%とする未確認の記載
+82970	EdrawMax	あり	FlexOffers／Daisycon（第三者）	https://www.flexoffers.com/affiliate-programs/wondershare-edrawsoft-affiliate-program	Wondershare（Edrawsoft）のプログラムが第三者ネットワークに掲載	2026-11-04	公式の案内は未確認。報酬は情報が古い
+148607	Badger Maps	見つからず			アフィリエイトは見つからず。購読者向けの紹介制度のみ	2026-11-04	
+66908	Workday HCM	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+130072	Adaptive from Workday	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+114628	Dayforce	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+5938	Oracle Database	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+170920	Oracle Analytics Cloud	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+118711	Oracle Aconex	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+140375	JD Edwards EnterpriseOne	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+144575	SAP SuccessFactors HCM	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+92075	SAP BusinessObjects Business Intelligence	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+77372	SAP Customer Experience	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+94317	Splunk Enterprise	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+21409	Genesys Cloud CX	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+176649	Cisco Meraki	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+153202	Cisco Duo	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+197616	Citrix Workspace	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+166552	OpenText Core Endpoint Protection​	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+130185	MuleSoft Anypoint Platform	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+7723	Salesforce Marketing Cloud	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+136189	Salesforce Service Cloud	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+132665	Salesforce Starter	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+18561	Adobe Workfront	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+83890	Adobe Commerce	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+75130	Marketo Engage	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+124575	Automation Anywhere	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+72396	Qualtrics Market Research	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+152924	XM for Customer Experience	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+62308	CCH Tagetik	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+145530	Qlik Sense	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+158330	Xactly	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+147228	IBM Targetprocess	見つからず			未検索（推定）：エンタープライズ向けで公開アフィリエイトの情報なし	2026-11-04	大手ベンダー。パートナー／リセラー制度はある可能性
+168669	Workplace from Meta	見つからず			未検索（推定）：無料サービス、または広告・クラウド基盤のため対象外と推定	2026-11-04	
+1017169	Pinterest	見つからず			未検索（推定）：無料サービス、または広告・クラウド基盤のため対象外と推定	2026-11-04	
+1012179	Pages	見つからず			未検索（推定）：無料サービス、または広告・クラウド基盤のため対象外と推定	2026-11-04	
+1025298	Keynote	見つからず			未検索（推定）：無料サービス、または広告・クラウド基盤のため対象外と推定	2026-11-04	
+202337	Google Alerts	見つからず			未検索（推定）：無料サービス、または広告・クラウド基盤のため対象外と推定	2026-11-04	
+203196	Google Contacts	見つからず			未検索（推定）：無料サービス、または広告・クラウド基盤のため対象外と推定	2026-11-04	
+1013631	Google翻訳	見つからず			未検索（推定）：無料サービス、または広告・クラウド基盤のため対象外と推定	2026-11-04	
+1010739	Google Maps	見つからず			未検索（推定）：無料サービス、または広告・クラウド基盤のため対象外と推定	2026-11-04	
+213339	Google Ads	見つからず			未検索（推定）：無料サービス、または広告・クラウド基盤のため対象外と推定	2026-11-04	
+160941	Firebase	見つからず			未検索（推定）：無料サービス、または広告・クラウド基盤のため対象外と推定	2026-11-04	
+166985	draw.io	見つからず			未検索（推定）：OSS のため対象外と推定	2026-11-04	
+161648	Joomla	見つからず			未検索（推定）：OSS のため対象外と推定	2026-11-04	
+119594	Drupal	見つからず			未検索（推定）：OSS のため対象外と推定	2026-11-04	
+205298	Eclipse IDE	見つからず			未検索（推定）：OSS のため対象外と推定	2026-11-04	
+1025431	Android Studio	見つからず			未検索（推定）：OSS のため対象外と推定	2026-11-04	
+197945	Zulip	見つからず			未検索（推定）：OSS のため対象外と推定	2026-11-04	
+152761	OpenProject	見つからず			未検索（推定）：OSS のため対象外と推定	2026-11-04	
+161572	Nextcloud	見つからず			未検索（推定）：OSS のため対象外と推定	2026-11-04	
+143516	OpenCart	見つからず			未検索（推定）：OSS のため対象外と推定	2026-11-04	
+158599	Unreal Engine	見つからず			未検索（推定）：OSS のため対象外と推定	2026-11-04	
+180158	Twilio	見つからず			Twilio の検索で公開アフィリエイトは見つからず（パートナー制度のみ）	2026-11-04	前回の検索結果を適用
+178774	Stripe Billing	見つからず			Stripe の検索で公式アフィリエイトは見つからず	2026-11-04	前回の検索結果を適用
+170547	Azure DevOps	見つからず			Microsoft の検索でアフィリエイトは見つからず（Visual Studio と同様）	2026-11-04	前回の検索結果を適用
+205397	AWS CloudFormation	見つからず			未検索（推定）：AWS はアフィリエイトでなくパートナー制度	2026-11-04	
+1012579	AWS Management Console	見つからず			未検索（推定）：AWS はアフィリエイトでなくパートナー制度	2026-11-04	
+138769	JIRA Service Management	要確認	Impact（第三者）？	https://affi.io/m/atlassian	Atlassian 全体の情報（Jira と同じ）	2026-11-04	Jira と同じ判定
+181977	Adobe Captivate	要確認	Partnerize（第三者）？	https://www.adobe.com/fi/affiliates.html	Adobe のプログラム。Captivate が対象かは未確認	2026-11-04	
+1015716	Adobe Photoshop Elements	要確認	Partnerize（第三者）？	https://www.adobe.com/fi/affiliates.html	Adobe のプログラム。Elements が対象かは未確認	2026-11-04	
+170524	Mattermost	見つからず			未検索（推定）：OSS 中心。パートナー制度はある可能性	2026-11-04	
+32191	Canto	見つからず			アフィリエイトは見つからず。パートナープログラムのみ	2026-11-04	
+144064	Sine	見つからず			アフィリエイトは見つからず。パートナープログラムのみ	2026-11-04	
+1011692	Pepper	見つからず			検索で該当なし（名前が似た別会社のみ）	2026-11-04	製品の特定が難しい
+1046517	Progress ShareFile	見つからず			アフィリエイトは見つからず	2026-11-04	
+172519	Nifty	あり	PromoteKit（第三者）	https://docs.nifty.ai/subscriptions/referrals-and-discounts	Nifty 公式ドキュメントに紹介プログラム（アフィリエイトダッシュボードは PromoteKit）	2026-11-04	第三者の掲載もあるが条件は食い違う
+143770	PCRecruiter	見つからず			アフィリエイトは見つからず。顧客向け紹介制度のみ	2026-11-04	
+169259	LogMeIn Central	見つからず			アフィリエイトは見つからず。パートナーネットワークのみ	2026-11-04	
+161344	LogMeIn Rescue	見つからず			アフィリエイトは見つからず。パートナーネットワークのみ	2026-11-04	
+154051	Slido	見つからず			検索で該当なし	2026-11-04	
+128370	Rydoo	見つからず			検索で該当なし	2026-11-04	
+155854	Post Planner	あり	ShareASale（第三者）	https://help.postplanner.com/en/articles/8797715-is-there-an-affiliate-program	Post Planner 公式ヘルプのアフィリエイト記事（30%、60日）	2026-11-04	
+160239	eM Client	要確認	自社／CJ（第三者）？	https://www.emclient.com/em-client-partner-program	公式のパートナープログラム（ライセンス販売の手数料）。アフィリエイトは closed とする掲載もある	2026-11-04	
+156308	Optmyzr	あり	Tapfiliate（第三者）	https://help.optmyzr.com/en/articles/6025204-optmyzr-s-affiliate-program	Optmyzr 公式ヘルプのアフィリエイト記事	2026-11-04	招待制の可能性あり
+198258	Gurucan	あり	自社	https://www.gurucan.com/affiliate-program	Gurucan 公式のアフィリエイトページ（30%の継続報酬、120日）	2026-11-04	
+148148	Award Force	見つからず			アフィリエイトは見つからず。リセラー型のパートナー制度のみ	2026-11-04	
+133857	Punchpass	見つからず			公式に「公開アフィリエイトはない」と記載。管理者向けの招待型リファラルのみ	2026-11-04	例外申請は可能
+129287	Iperius Backup	見つからず			検索で該当なし	2026-11-04	
+122390	VideoPad	あり	CJ Affiliate（第三者）	https://www.nch.com.au/reseller/cj.html	NCH Software 公式のアフィリエイトページ（CJ 運営）	2026-11-04	NCH 全体のプログラム
+143592	iSmartRecruit	見つからず			アフィリエイトは見つからず。顧客向けの紹介制度のみ	2026-11-04	
+1022863	ELSA Speak	要確認	Impact（第三者）	https://blog.elsaspeak.com/en/empower-language-learners-elsas-affiliate-program	ELSA 公式ブログ（Impact 運営）。ただし第三者では paused／closed の掲載もある	2026-11-04	
+1014954	MEGA	要確認	FlexOffers（第三者）	https://marketplace.referly.so/affiliate-programs/mega	第三者ディレクトリのみ（20%を6か月とする情報）。公式ページは未確認	2026-11-04	
+154170	Culture Amp	見つからず			アフィリエイトは見つからず。パートナー制度に紹介報酬あり（条件は非公開）	2026-11-04	
+219412	DeepL Pro	見つからず			アフィリエイトは見つからず。B2B のパートナー制度（紹介・リセラー）のみ	2026-11-04	
+209689	Udemy Business	あり	自社（紹介パートナー）／Impact	https://business.udemy.com/partner-with-udemy/	Udemy 公式のパートナーページに referral／affiliate の記載。コースの affiliate は Impact	2026-11-04	Udemy Business の紹介パートナーは別条件（21席以上）
+155423	Braze	見つからず			検索で該当なし	2026-11-04	
+148577	MasterControl Quality Excellence	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+129478	SolarWinds Service Desk	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+179421	SolarWinds Web Help Desk	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+5782	Deltek Replicon Time Tracking	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+214960	Deltek Polaris	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+14500	Blackboard	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+133283	Alma SIS	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+92752	SiteLink Web Edition	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+176109	Redzone	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+96050	WhatsUp Gold	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+75768	Planview AdaptiveWork	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+192416	MicroStation	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+164678	PTC Creo	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+130910	Datasite Diligence	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+130198	Jedox	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+143239	TeamMate Audit	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+158210	GoAnywhere MFT	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+120208	Conga Composer	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+159708	xTuple	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+153900	BoardPAC	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+106991	Sunbird DCIM	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+136111	QualityQuest	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+191759	Showell	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+164070	UJET	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+186568	GlobalLink	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+117329	Eptura Visitor	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+152350	Access Vincere Evo	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+131558	Lime Connect	見つからず			未検索（推定）：法人向け・エンタープライズ系で、公開アフィリエイトの情報なし	2026-11-04	パートナー／リセラー制度はある可能性
+146892	ISL Light	見つからず			検索で該当なし	2026-11-04	
+143607	kintone	見つからず			アフィリエイトは見つからず。Cybozu Partner Network（販売・連携パートナー）のみ	2026-11-04	国内製品（日本語対応・国内製品表示あり）
+163622	Monitask	見つからず			アフィリエイトは見つからず。リセラープログラムのみ	2026-11-04	
+78945	SmartDraw	見つからず			検索で該当なし	2026-11-04	
+210333	BatchGeo	見つからず			検索で該当なし	2026-11-04	
+151292	Crisp	要確認	自社（パートナーシップ）	https://help.crisp.chat/en/article/getting-started-with-the-partnership-program-1ji0ujo	公式ヘルプのパートナーシッププログラム（審査制、紹介コミッション）	2026-11-04	第三者の20%継続は古い可能性
+183552	Classtime	見つからず			アフィリエイトは見つからず。教員向けの紹介制度（プレミアム2か月分）のみ	2026-11-04	
+148753	Ideanote	要確認	自社	https://ideanote.io/partner-program	公式のパートナープログラムページ。報酬条件は未確認	2026-11-04	
+141483	Bookafy	あり	PartnerStack（第三者）	https://bookafy.com/affiliate-program-faq/	Bookafy 公式のアフィリエイトFAQ（Partner Dashboard は PartnerStack）	2026-11-04	FAQ は2021年1月付
+172642	CS-Cart Multi-Vendor	見つからず			公式のアフィリエイトは見つからず。第三者のみ（15%／20%と食い違う）	2026-11-04	
+171805	Repsly	見つからず			アフィリエイトは見つからず。リセラー・紹介パートナーを募集中とする掲載のみ	2026-11-04	
+131830	Wimi	見つからず			検索で該当なし	2026-11-04	
+113351	Kashoo	見つからず			検索で該当なし	2026-11-04	
+170641	TickTick	あり	自社（Ambassador Program）	https://ticktick.com/ambassador_program	TickTick 公式の Ambassador Program（Premium 購入額に応じた報酬）	2026-11-04	呼称はアンバサダー
+163517	Mouseflow	あり	自社（Affiliate Partner）	https://mouseflow.com/de/?p=16244	Mouseflow 公式のパートナープログラム（認定／代理店／アフィリエイトの3種）	2026-11-04	報酬は10%継続とされる（第三者情報）
+156845	ProRankTracker.com	あり	Impact（第三者）	https://proranktracker.com/affiliates	ProRankTracker 公式の affiliates ページ（Impact 運営）	2026-11-04	別会社の Ranktracker と混同に注意
+140176	Yext	見つからず			アフィリエイトは見つからず。パートナープログラムのみ	2026-11-04	
+152564	SentinelOne Singularity Endpoint	見つからず			アフィリエイトは見つからず。PartnerOne プログラムのみ	2026-11-04	
+133218	Filecamp	見つからず			検索で該当なし	2026-11-04	
+213175	inPixio Photo Studio	あり	自社	https://inpixio.com/affiliate-program	inPixio 公式のアフィリエイトページ（最大50%と記載）	2026-11-04	第三者は5〜10%とする掲載もある
+215487	EasyWeek	見つからず			検索で該当なし	2026-11-04	
+143817	Tanda	見つからず			検索で該当なし	2026-11-04	
+129281	Easygenerator	見つからず			検索で該当なし	2026-11-04	
+10760	Trakstar Learn	見つからず			検索で該当なし	2026-11-04	
+172645	Teramind	見つからず			アフィリエイトは見つからず。パートナープログラムのみ	2026-11-04	
+117299	Bookeo	あり	自社	https://getlasso.co/affiliate/bookeo/	第三者ディレクトリに申込ページ bookeo.com/affiliate の記載（公式ページは未開封）	2026-11-04	20%、30日とされる
+125780	Elvanto	見つからず			検索で該当なし（Tithe.ly 傘下）	2026-11-04	
+151020	Pandora FMS	見つからず			アフィリエイトは見つからず。チャネルパートナー制度のみ	2026-11-04	
+77706	DocuWare	あり	自社（紹介パートナー）	https://start.docuware.com/partner-referral	DocuWare 公式の紹介パートナープログラム（成約ごとに手数料、無料で参加）	2026-11-04	リンク型ではなく申込・契約の形
+158889	Website Toolbox	見つからず			検索で該当なし	2026-11-04	
+172471	CYPHER Learning	見つからず			検索で該当なし	2026-11-04	
+144958	ThoughtFarmer	見つからず			検索で該当なし	2026-11-04	
+1039219	contents.ai	要確認	自社？	https://zplatform-ai.pages.dev/ai-affiliate-programs/contentscom/	contents.com の affiliates ページの掲載。contents.ai と同一製品か未確認	2026-11-04	第三者サイトのみ
+140234	Chronus	あり	自社（紹介パートナー）		Chronus 公式のパートナーページに紹介料10%の記載（コンサル向け）	2026-11-04	申込ページのURLは未取得
+156090	LeagueRepublic	見つからず			検索で該当なし	2026-11-04	
+176123	AlertMedia	見つからず			検索で該当なし	2026-11-04	
+131885	Spidergap 360 Feedback	要確認	自社？	https://docs.spidergap.com/discover-the-benefits-of-the-spidergap-partner-program	公式ドキュメントにパートナープログラム。報酬の有無は未確認	2026-11-04	
+184692	Illumine	要確認	自社？	https://illumine.app/join-the-illumine-partner-network	公式のパートナーネットワークページ。報酬条件は未確認	2026-11-04	
+136894	XCALLY	見つからず			アフィリエイトは見つからず。パートナー募集ページのみ	2026-11-04	
+136795	eXo Platform	見つからず			アフィリエイトは見つからず。パートナー制度と貢献者向けの報酬アドオンのみ	2026-11-04	
+133609	Convene	要確認	自社？	https://www.startuphub.ai/startups/azeus-convene/affiliate-program	第三者サイトのみ（affiliates ページあり）。Azeus Convene の公式ページは未確認	2026-11-04	
+73871	Edvance360	見つからず			検索で該当なし	2026-11-04	
+122855	Edsby	見つからず			アフィリエイトは見つからず。リセラー型のパートナー制度のみ	2026-11-04	
+135842	VICIdial	見つからず			検索で該当なし（OSS）	2026-11-04	
+162584	Sign In App	見つからず			アフィリエイトは見つからず。リセラー型のパートナー制度のみ	2026-11-04	
+150664	Sign In Solutions	見つからず			Sign In App と同じ会社。アフィリエイトは見つからず	2026-11-04	
+141727	Yanolja Cloud Solution Channel Manager	見つからず			検索で該当なし	2026-11-04	
+141726	Yanolja Cloud Solution Booking Engine	見つからず			検索で該当なし	2026-11-04	
+147970	Vizito	見つからず			検索で該当なし	2026-11-04	
+183003	Displai	見つからず			検索で該当なし	2026-11-04	
+133845	BookSteam	見つからず			検索で該当なし	2026-11-04	
+93323	RentWorks	見つからず			検索で該当なし	2026-11-04	
+158074	GeneXus	見つからず			アフィリエイトは見つからず。GeneXus Alliance（パートナー制度）のみ	2026-11-04	

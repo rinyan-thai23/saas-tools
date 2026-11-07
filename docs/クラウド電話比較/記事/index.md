@@ -43,3 +43,4 @@ updated: 2026-11-07
 - [無料トライアル比較](/articles/buy-trial-compare/)
 - [申込前チェックリスト](/articles/buy-checklist/)
 - [通話品質の確かめ方](/articles/buy-call-quality/)
+- [英語のクラウド電話を使うメリットと弱み](/articles/english-tools-advantage/)

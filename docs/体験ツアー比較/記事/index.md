@@ -42,3 +42,7 @@ updated: 2026-11-07
 - [電話・表計算から予約システムへ（手順と店頭予約の手数料）](/articles/switch-from-manual/)
 - [FareHarborからBókunへ乗り換える手順](/articles/switch-fareharbor-to-bokun/)
 - [乗り換えチェックリスト（つないでから切る）](/articles/switch-checklist/)
+
+## 日本対応
+
+- [日本の事業者は契約できる？対応国・決済・円の確認表](/articles/jp-contract-payments/)

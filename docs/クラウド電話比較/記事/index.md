@@ -14,3 +14,4 @@ updated: 2026-11-07
 - [Nextiva の評判・口コミ](/articles/nextiva/)
 - [CallHippo の評判・口コミ](/articles/callhippo/)
 - [GoTo Connect の評判・口コミ](/articles/goto-connect/)
+- [Dialpad の評判・口コミ](/articles/dialpad/)

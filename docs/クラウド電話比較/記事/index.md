@@ -15,3 +15,4 @@ updated: 2026-11-07
 - [CallHippo の評判・口コミ](/articles/callhippo/)
 - [GoTo Connect の評判・口コミ](/articles/goto-connect/)
 - [Dialpad の評判・口コミ](/articles/dialpad/)
+- [Aircall の評判・口コミ](/articles/aircall/)

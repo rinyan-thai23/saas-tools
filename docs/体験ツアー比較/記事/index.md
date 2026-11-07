@@ -57,3 +57,4 @@ updated: 2026-11-07
 - [手数料・月額の早見表（月の売上別に計算）](/articles/buy-fee-table/)
 - [予約手数料は誰が払う？](/articles/buy-fee-payer/)
 - [無料トライアル・デモの比較と、試すことのチェックリスト](/articles/buy-trial-compare/)
+- [申込前チェックリスト（日本の事業者向け）](/articles/buy-checklist/)

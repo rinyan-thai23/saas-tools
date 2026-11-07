@@ -11,3 +11,4 @@ updated: 2026-11-07
 日本で日本の電話番号を使いながら、海外のクラウド電話を申し込む前に読むサイトです（準備中）。
 
 - [RingEX（RingCentral）の評判・口コミ](/articles/ringex/)
+- [Nextiva の評判・口コミ](/articles/nextiva/)

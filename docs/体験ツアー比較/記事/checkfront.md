@@ -41,7 +41,7 @@ Google の「Things to do」、Viator、GetYourGuide などとつながります
 WordPress、Drupal、Joomla に対応。予約ウィジェットは4種類から選べます。Zapier でほかのアプリとつなげられます。
 
 ### 2023年に Rezdy と合併
-業界報道によると、Checkfront は2023年6月に、オーストラリアの [Rezdy](/articles/rezdy/) と合併しました。2つのブランドは別々に続けるとされています。値上げの声や、機能の追加が遅いという声に、この合併が関わっているかは確認できていません。
+業界報道によると、Checkfront は2023年6月に、オーストラリアの [Rezdy](/articles/rezdy/) と合併しました。2つのブランドは別々に続けるとされています。ドイツ発の [Regiondo](/articles/regiondo/) も、公式の沿革で同じ年に手を組んだと書いています（資本関係は確認できていません）。値上げの声や、機能の追加が遅いという声に、この合併が関わっているかは確認できていません。
 
 ## Checkfrontの料金はいくら？
 

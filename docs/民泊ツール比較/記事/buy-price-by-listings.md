@@ -1,109 +1,130 @@
 ---
-title: 物件数別の料金早見表｜1・3・5・10・20室で公開料金と見積りのみを区別
+title: 【民泊】管理ツールの料金早見表｜1室・3室・5室・10室の月額を、公式の料金で比較
 slug: buy-price-by-listings
 type: 買う直前
-products: [guesty, hostaway, lodgify, ownerrez, hospitable, igms, uplisting, beds24, sirvoy, pricelabs, hostfully]
-description: 民泊管理ツールの月額を1・3・5・10・20室別に整理。公式の料金から合計が出せる製品と、見積りのみで分からない製品を分けて表示（2026-11-05時点）。
-cards: [Guesty, Hostaway, Lodgify, OwnerRez, Hospitable, iGMS, Uplisting, Beds24, Sirvoy, PriceLabs, Hostfully-Guidebooks]
-updated: 2026-11-05
+products: [ownerrez, igms, hospitable, guesty, lodgify, uplisting, beds24, sirvoy, hostaway, pricelabs, hostfully-guidebooks]
+description: 民泊の管理ツール（PMS・チャネルマネージャー）の月額を、1室・3室・5室・10室で比較。公式の料金表から計算した目安と、料金が公開されていないツール、追加費用、円で払えるかを整理します。
+cards: [OwnerRez, iGMS, Hospitable, Guesty, Lodgify, Uplisting, Beds24, Sirvoy, Hostaway, PriceLabs, Hostfully-Guidebooks]
+updated: 2026-11-07
 pr: true
 ---
 
-この記事にはアフィリエイトリンク（PR）が含まれます。
+# 【民泊】管理ツールの料金早見表｜1室・3室・5室・10室の月額を、公式の料金で比較
 
-# 物件数別の料金早見表｜公開料金と見積りのみを分けて確認
+この記事にはアフィリエイトリンク（PR）が含まれます。紹介報酬の有無で、内容や順番は変えていません。
 
-> **結論**
-> - 公式の料金から、1〜20室の月額がほぼ出せたのは OwnerRez、Hospitable、iGMS、Uplisting、Beds24、Sirvoy。Lodgify は1室分だけ確認でき、3室以上は取得できなかった（未確認）。
-> - Guesty Pro（4室以上）と Hostaway は見積りのみ。公式の価格は確認できなかった。Guesty Lite だけ1〜3室の価格が公開されている。
-> - 通貨は製品ごとに違う。円建てと確認できたのは Beds24 の日本の販売会社だけ（Uplisting・Sirvoy・Beds24 海外公式は円なしと確認。Guesty・Hostaway・iGMS・Hospitable・PriceLabs・Hostfully は円建ての記載が見つからず、できないと確認したわけではない）。為替の換算はしていない。
+## 先に結論：安く見えても、「追加費用」と「通貨」を確かめる
 
-## 料金早見表（月額。月払いと年払いが混在、確認日 2026-11-05）
+> - **3室の月額の目安（月払い）：OwnerRez $70、iGMS PRO 約$70、Hospitable 約$74、Beds24 €24、Sirvoy Pro €59、Uplisting £72、Guesty Lite $87。**
+> - **料金が公開されていないのは、Hostaway と、Guesty の4室以上（Pro）。** 見積りが必要です。
+> - **無料プランがあるのは、iGMS・Hospitable・Sirvoy（1室）・Hostfully Guidebooks（1冊）。** ただし機能や上限に制限があります。
+> - **円で払えるのは、Beds24 の日本の販売会社版（月¥4,580から）だけ。** ほかは、ドル・ユーロ・ポンドです。
+> - **目安は、公式の単価からの私の計算です。** 追加の有料機能、為替、税は含みません。
 
-（計）＝公式の単価表からの計算値。「見積り」「未確認」は金額が確認できなかったもの。Lodgify、Hospitable、iGMS、PriceLabs（単価表）は税別と記載。Guesty・Uplisting・Beds24・Sirvoy などの税の扱いは未確認。月払いか年払いかは行ごとに異なり、年払いは行内に明記（Guesty の Annual、iGMS の年払い）。
+## 料金の目安（月額・月払い）
 
-| 製品・プラン（通貨） | 1室 | 3室 | 5室 | 10室 | 20室 |
-|---|---|---|---|---|---|
-| Guesty Lite（USD。1〜3室のみ） | Pay as you grow $9＋予約の1%／Annual（年払い）$20〜／Monthly（月払い）$29〜 | Pay as you grow $27＋予約の1%／Annual（年払い）$60〜／Monthly（月払い）$87〜（計） | 見積り（Pro） | 見積り（Pro） | 見積り（Pro） |
-| Hostaway | 見積り | 見積り | 見積り | 見積り | 見積り |
-| Lodgify（USD、初期表示。年払いの可能性が高い・推定） | Basic $14／Starter $26／Pro $47／Ultimate $68 | 未確認 | 未確認 | 未確認 | 未確認 |
-| OwnerRez（USD） | $40 | $70（計） | $88 | $127（計） | $196（計） |
-| Hospitable（USD、全室が稼働の場合） | Essentials $0／Host $29／Pro $59／Mogul $99 | Pro $74／Mogul $99（計） | Pro $104／Mogul $159（計） | Pro $179／Mogul $309（計） | Pro $329／Mogul $609（計） |
-| iGMS PRO（USD） | $48 | 約$70（計） | 約$99（計） | 約$174（計） | 約$284（計） |
-| iGMS PRO+（USD） | $69 | 約$94（計） | 約$154（計） | 約$252（計） | 約$385（計） |
-| Uplisting 定額の最安（GBP） | £40 | £72 | £90 | £160 | £260 |
-| Beds24 海外公式（EUR） | €16.60 | €24.00 | €31.40 | €49.90 | €86.90 |
-| Beds24 日本の販売会社（円） | ¥4,580（参考価格） | 未確認 | 未確認 | ¥17,280（参考価格） | ¥24,210（参考価格） |
-| Sirvoy Starter／Pro（EUR） | Free €0（1室のみ）。Starter €12／Pro €44 | €16／€59 | €16／€59 | €22／€79 | €30／€109 |
-| PriceLabs（価格ツール・USD） | $9.99（計） | $28.97（計） | $47.95（計） | $92.90（計） | $177.80（計） |
+「計算」は、公式の単価表から私が計算した値です。公式が合計額を載せているわけではありません。
 
-### 表の読み方
+| 室数 | OwnerRez | iGMS（PRO） | Hospitable | Guesty Lite | Uplisting | Beds24（海外・2チャネル） | Sirvoy（Pro） |
+|---|---|---|---|---|---|---|---|
+| 1室 | $40 | $48 | Host $29 | $29 | £40 | €16.60 | €44 |
+| 3室 | $70 | 約$70 | 約$74（Professional。計算） | $87 | £72 | €24.00 | €59 |
+| 5室 | $88 | 約$99 | $104 | Pro（見積り） | £90（Operator） | €31.40 | €59 |
+| 10室 | $127 | 約$174 | $179（計算） | Pro（見積り） | £160（Operator） | €49.90 | €79 |
 
-- **Lodgify**：初期表示の1物件価格で、支払い周期は明示がなく、年払いと推定（推定）。公式サイトの確認は公開コピー（webflow-mkt）に基づき、www との一致は未照合。Basic は1物件まで、Starter は2物件まで。3室以上は Professional 以上が前提ですが、スライダー計算が取得できず金額は未確認です。
-- **Hospitable**：稼働（チェックインあり）の物件だけが追加料金の対象。Host は最大2物件。Essentials は機能制限あり。公式の料金ページは金額が描画されず、ヘルプ記事の金額から計算。
-- **iGMS**：年払いは PRO で1室 $38、10室 $150、20室 約$227（計）。1泊 $1（最低 $20／物件）の FLEX と、予約5件までの無料プランもあり。
-- **Uplisting**：プランごとに機能が違う最安の組み合わせ。従量プラン（月£0＋予約の3%／1.5%）もあり。
-- **Beds24**：海外公式は、各室が別の部屋タイプで2チャネルの前提の計算値（同じ型の部屋が多いと安くなりうる）。日本の販売会社の3例は、部屋タイプ数とOTA数が例ごとに違い、「プランではなく参考価格」とされています。
-- **PriceLabs**：日本は「Rest of the world」に当たると読んだが、日本の明記は見つかっていない。各件数帯の単価を順に積み上げる解釈で計算した値で、公式の計算機は実行していない。
-- **Guesty Lite**：価格ページに「Limited time offer」の表示がある。現行の通常価格は未確認。
+- **OwnerRez**：1つ目$40、2〜3つ目$15、4つ目$10、5〜9つ目$8、10〜19つ目$7（最低月額$40）。
+- **iGMS**：PRO の1物件あたり（月払い）は、1室$48／3室$23.33／5室$19.80／10室$17.40。年払いは安くなります。
+- **Hospitable**：Professional は基本$59（2物件を含む）＋追加$15/件。Host は$29（最大2物件）。
+- **Guesty Lite**：月払いは月$29/室〜。年払いは月$20/室〜。または、基本料金なしで月$9/室＋予約の1%。
+- **Uplisting**：「物件ごとの単価」と「プランの最低月額」の高い方。Independent Host（4物件まで）は1室£40、3室£72。
+- **Beds24**：基本料＋部屋数＋接続チャネル数。同じタイプの部屋が複数あるときは、さらに安くなります。
+- **Sirvoy**：部屋数の段階で決まる定額。予約サイト連携（チャネルマネージャー）は Pro だけです。
 
-## 見積りのみ・公開が限られる製品
+## 料金が違う仕組み
 
-- **Guesty Pro（4〜199室）**：室数に応じた見積りで価格は非公開。第三者の推定はありますが、数字が一致せず公式の裏付けもないため載せません。
-- **Hostaway**：物件数を答えるフォームから見積り。同じく第三者の推定は載せません。
-- **Hostfully Guidebooks**（ガイドブック、予約管理ではない）：1冊まで無料。Pro は冊数別で、月払いの1冊あたりは 1冊 $12、3冊 $10、5冊 $9、10冊 $7、20冊 $6。合計の計算方式は未確認です。
-
-## 条件別の選び方
-
-| あなたの条件 | 確認できた範囲で言えること |
+| ツール | 仕組み |
 |---|---|
-| 公式の料金だけで基本料金の目安を出したい | OwnerRez、Hospitable、iGMS、Uplisting、Beds24、Sirvoy は表で出せる。機能の追加課金（OwnerRez のロック連携・SMS 等）や、Beds24 海外公式・Hospitable の前提は表の注を参照。総額ではない |
-| 4室以上で、見積りを取って比べる | Guesty Pro と Hostaway に同じ質問（月額・初期費用・契約期間・解約金）を書面で出す |
-| ツール利用料を円で払いたい | 円建てと確認できたのは Beds24 の日本の販売会社だけ（3室・5室は未確認）。Guesty・Hostaway・iGMS・Hospitable・PriceLabs・Hostfully は円建ての記載が見つからなかった |
-| 予約手数料のかからないものを選びたい | OwnerRez、Beds24、Lodgify、Sirvoy は予約手数料なし（Sirvoy は0%）と公式が記載（Lodgify は決済ゲートウェイ経由に1%）。Guesty Lite の Pay as you grow は予約の1%。決済会社の手数料は別 |
+| OwnerRez | 物件数別の料金表。予約数は無制限。予約手数料なし |
+| iGMS | 無料／FLEX（泊数あたり$1、物件ごとに最低月$20）／PRO／PRO+ |
+| Hospitable | 基本料金＋稼働物件の追加料金。無料プラン（Essentials）あり |
+| Guesty | 1〜3室は Lite（公開）。4室以上は見積り |
+| Lodgify | 1物件ごとの月額（Basic $14／Starter $26／Professional $47／Ultimate $68）。3室以上は Professional 以上 |
+| Uplisting | 物件ごとの単価と、プランの最低月額の高い方 |
+| Beds24 | 前払いの従量制（基本料＋部屋数＋チャネル数） |
+| Sirvoy | 部屋数の段階で決まる定額（Free／Starter／Pro） |
+| Hostaway | 見積り制 |
 
-## 申し込みページ（PR）
+**Lodgify の3室以上**：1物件あたりの表示価格は$47〜（Professional）ですが、3室の合計は、公式の料金ページで物件数から計算されるため、この表には載せていません。
 
-[Guesty](/go/guesty/) ／ [Hostaway](/go/hostaway/) ／ [Lodgify](/go/lodgify/) ／ [OwnerRez](/go/ownerrez/) ／ [Hospitable](/go/hospitable/) ／ [iGMS](/go/igms/) ／ [Uplisting](/go/uplisting/) ／ [Beds24（海外公式。PRリンク）](/go/beds24/) ／ [PriceLabs](/go/pricelabs/)
+## 料金に含まれない・別にかかるもの
 
-Sirvoy と Hostfully は公式サイトで確認してください（このサイトのリンクは付けていません）。上の Beds24 のリンクは海外公式（beds24.com）側の紹介リンクです。円建て（¥）の料金は日本の販売会社（WeIns、Co-Reception）版の情報で、日本の販売会社のリンクは付けていません。その申込は海外公式のリンクとは別になります。
+| ツール | 別にかかるもの |
+|---|---|
+| OwnerRez | 独自ドメインの予約サイト、SMS、AI、会計連携、ロック連携（1台月$4）など |
+| iGMS | PRO+、一部の機能。無料プランの直接予約決済は4% |
+| Hospitable | 直接予約の手数料（Professional 以上）、Vrbo の決済方式による手数料（3.9%など） |
+| Guesty | スマートロック（LocksManager）、PriceOptimizer などのアドオン。Lite の従量プランは予約の1% |
+| Lodgify | サイト経由の決済に1%。自社スマートロックは月$7/台 |
+| Uplisting | スマートロック連携、オーナー管理、本人確認、AIの無制限利用（プランによる） |
+| Beds24 | 国内の予約サイト（日本の販売会社）は月¥1,200／部屋タイプ＋初期費用¥3,000。導入支援（海外）は€79から |
+| Sirvoy | SMS（1通あたり）、Google Hotel Ads、複数物件の接続（月€20） |
+| Hostaway | 初期費用（自社の比較ページに「$500」）、有料アドオン（金額は非公開） |
 
-## 申し込む前に確認すること
+## 無料プラン・トライアル
 
-- [ ] 自分の室数で、どのプランが対象か（Hospitable の Host は2室まで等）
-- [ ] 通貨と為替、税別かどうか
-- [ ] 稼働した物件だけが課金対象か（Hospitable、iGMS）
-- [ ] 必要な機能（ロック、直接予約等）がプランに含まれるか。別料金か
+| ツール | 無料プラン | 無料トライアル |
+|---|---|---|
+| iGMS | あり（予約5件・メッセージ10件まで） | 14日間・カード不要 |
+| Hospitable | あり（Essentials、機能に制限） | 14日間・カード不要 |
+| Sirvoy | あり（1室まで。予約サイト連携なし） | 14日間・カード不要 |
+| OwnerRez | なし | 14日間 |
+| Guesty | なし | Lite は14日間・カード不要 |
+| Lodgify | なし | 7日間・カード不要 |
+| Uplisting | なし | 14日間・カード不要 |
+| Beds24 | なし | 海外公式14日間／日本の販売会社1か月 |
+| Hostaway | なし | 公式では確認できず（デモのみ） |
 
-## 未確認のこと
+詳しくは [無料トライアル比較](/articles/buy-free-trial/) へ。
 
-- Guesty Pro、Hostaway の公式の価格と初期費用
-- Lodgify の3・5・10・20室の月額
-- Beds24 日本の販売会社の3室・5室の円建て料金、3例が税込か
-- Hospitable の料金ページの現在の表示（第三者は2026年7月に「Contact sales」へ変わったと記録。未検証）
-- Hostfully Pro の合計額の計算方式
+## 円で払えるか
 
-この記事は法的な助言ではありません。
+円（JPY）で請求できるのは、**Beds24 の日本の販売会社版**（月¥4,580から。クレジットカードのみ）だけです。ほかのツールは、公式の記載で円が確認できません。ドルなどで請求される場合、**為替で実質の手数料が変わります**。Guesty の低評価に、「手数料1%のはずが、通貨を換算すると実質1.6%だった」という投稿があります。
 
-<!-- 追加調査依頼: Lodgify の3・5・10・20室の月額（スライダー計算の結果。各プラン、年払い・月払い） -->
-<!-- 追加調査依頼: Guesty Pro・Hostaway の公式の価格帯、初期費用、契約期間（見積り・営業資料で） -->
-<!-- 追加調査依頼: Beds24 日本の販売会社の料金計算機の結果（1・3・5・10・20室、OTA数別）、税込かどうか -->
-<!-- 追加調査依頼: Hospitable の料金ページの現在の表示（Contact sales への変更の有無） -->
-<!-- 追加調査依頼: PriceLabs の公式の料金計算機で、日本の物件の月額が「Rest of the world」の単価か -->
-<!-- 追加調査依頼: Hostfully Guidebooks Pro の合計額の計算方式（全冊を該当帯の単価か、帯ごとの積み上げか） -->
+## 補助ツールの料金
 
-## 出典
+| ツール | 内容 | 料金の目安 |
+|---|---|---|
+| [PriceLabs](/articles/pricelabs/) | 宿泊料金の自動調整 | 「その他の地域」の単価で、3室 約$29／5室 約$48／10室 約$93（計算）。日本が該当するかは未確認。30日間無料 |
+| [Hostfully Guidebooks](/articles/hostfully-guidebooks/) | 宿泊者向けのデジタル案内 | 1冊は無料。Pro は1冊あたり$12（1冊）〜$6（20冊以上） |
 
-取得日はすべて 2026-11-05。
+## 日本で料金を比べるときの注意
 
-- Guesty：https://www.guesty.com/packages/guesty-lite/ ／ https://www.guesty.com/pricing/
-- Hostaway：https://www.hostaway.com/terms/ ／ https://www.hostaway.com/thank-you-waitlist/
-- Lodgify：https://webflow-mkt.lodgify.com/pricing
-- OwnerRez：https://www.ownerrez.com/support/articles/costs-and-fees ／ https://www.ownerrez.com/pricing
-- Hospitable：https://help.hospitable.com/en/articles/4596748-how-does-our-pricing-work ／ https://hospitable.com/pricing
-- iGMS：https://www.igms.com/pricing/ ／ https://www.igms.com/api/public-endpoints/prices
-- Uplisting：https://www.uplisting.io/pricing
-- Beds24：https://beds24.com/en/pricing/pricing ／ https://co-reception.com/ ／ https://co-reception.com/pricing/
-- Sirvoy：https://sirvoy.com/pricing
-- PriceLabs：https://help.pricelabs.co/portal/en/kb/articles/how-much-does-pricelabs-costs
-- Hostfully Guidebooks：https://hostfully.chargifypay.com/subscribe/mdd4bpc24ydp/digital-guidebooks
+- **民泊新法の人は先に確認**：Airbnb のヘルプには、日本の民泊新法の宿について「ソフト連携で作った掲載は受け付けない」とあります。例外は、Airbnb と契約した日本のAPIパートナーです。**料金が安くても、掲載をつなげられない可能性**があります。
+- **日本語**：Beds24（日本の販売会社経由）以外は、公式に日本語の管理画面・サポートを確認できません。
+- 年180日の管理、届出番号、定期報告などの機能は、各ツールの公式ページに記載が見つかりませんでした。
+
+[OwnerRez を14日間無料で試す（PR）](/go/ownerrez/) ／ [iGMS を14日間無料で試す（PR）](/go/igms/) ／ [Hospitable を無料で試す（PR）](/go/hospitable/)
+
+## よくある質問
+
+### 3室だと、いちばん安いのはどれですか？
+公式の単価からの計算で、OwnerRez の$70、iGMS の PRO（月払い）の約$70、Hospitable の約$74、Beds24 の€24（2チャネル）が低めです。通貨と、含まれる機能が違うので、同じ土俵では比べられません。
+
+### 料金が公開されていないのは？
+Hostaway と、Guesty の4室以上（Pro）です。見積りが必要です。
+
+### 無料で使えるツールはありますか？
+iGMS（予約5件・メッセージ10件まで）、Hospitable（Essentials）、Sirvoy（1室まで）に無料プランがあります。
+
+### 円で払えるツールはありますか？
+Beds24 の日本の販売会社版が、円（月¥4,580から）で、クレジットカード払いです。そのほかは、公式の記載で円が確認できませんでした。
+
+### 年払いにすると、安くなりますか？
+iGMS の PRO、Guesty Lite、Uplisting（Operator・Manager は10%引き）などで安くなります。ただし、iGMS の10室未満の年払いは、途中解約しても返金がありません。
+
+## 関連記事
+
+- 選び方：[無料トライアル比較](/articles/buy-free-trial/)、[最低契約・解約条件](/articles/buy-contract-cancel/)、[申込前チェックリスト](/articles/buy-checklist/)
+- 切り替え：[表計算管理から管理ツールへ](/articles/switch-spreadsheet-to-pms/)
+
+情報は、各ツールの公式サイトとヘルプ、海外のレビューサイトを読んで日本語にまとめたものです。確認日 2026-11-07。料金は変わるため、申込前に公式で再確認してください。法律の助言ではありません。

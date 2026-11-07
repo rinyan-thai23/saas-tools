@@ -1,5 +1,5 @@
 <!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>【体験・ツアー】アソビュー・じゃらん・楽天など日本の予約サイトと、海外の予約システムはつながる？確認できたこと</title><meta name="description" content="日本の体験・ツアー事業者が、アソビュー、じゃらん、楽天トラベルなど日本の予約サイトと、海外の予約システムを連携できるか。10製品の公式の記載と、報道で確認できたことを整理し、つながらないときの現実的なやり方をまとめました。"><meta name="robots" content="noindex,nofollow"><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "【体験・ツアー】アソビュー・じゃらん・楽天など日本の予約サイトと、海外の予約システムはつながる？確認できたこと", "description": "日本の体験・ツアー事業者が、アソビュー、じゃらん、楽天トラベルなど日本の予約サイトと、海外の予約システムを連携できるか。10製品の公式の記載と、報道で確認できたことを整理し、つながらないときの現実的なやり方をまとめました。", "dateModified": "2026-11-07", "inLanguage": "ja", "mainEntityOfPage": "https://rinyan-thai23.github.io/saas-tools/tour/articles/jp-ota-integration/"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "アソビューやじゃらんと連携できる海外の予約システムはありますか？", "acceptedAnswer": {"@type": "Answer", "text": "調べた10製品では、公式に書かれているものはありませんでした。rezio は、Activity Japan との API 連携が公式の沿革にあります。使いたいサイトの名前で、各社に確認してください。"}}, {"@type": "Question", "name": "日本の予約サイトに出しながら、海外の予約システムを使えますか？", "acceptedAnswer": {"@type": "Answer", "text": "使えますが、在庫を自動で合わせられないかもしれません。枠を分ける、手で合わせる、といった運用が必要になる場合があります。"}}, {"@type": "Question", "name": "連携がなくても、二重予約は防げますか？", "acceptedAnswer": {"@type": "Answer", "text": "手で合わせる運用でも、防げます。ただし、担当者の見比べが漏れると起きます。予約が増えたら、連携のある製品への乗り換えを考えてください。"}}]}]}</script><style>:root{--bg:#fff;--fg:#1b1f23;--mut:#5b6670;--line:#d8dee4;--acc:#0b5cad;--soft:#f5f7fa}
+<title>【体験・ツアー】アソビュー・じゃらん・楽天など日本の予約サイトと、海外の予約システムはつながる？確認できたこと</title><meta name="description" content="日本の体験・ツアー事業者が、アソビュー、じゃらん、楽天トラベルなど日本の予約サイトと、海外の予約システムを連携できるか。10製品の公式の記載と、報道で確認できたことを整理し、つながらないときの現実的なやり方をまとめました。"><meta name="robots" content="noindex,nofollow"><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "【体験・ツアー】アソビュー・じゃらん・楽天など日本の予約サイトと、海外の予約システムはつながる？確認できたこと", "description": "日本の体験・ツアー事業者が、アソビュー、じゃらん、楽天トラベルなど日本の予約サイトと、海外の予約システムを連携できるか。10製品の公式の記載と、報道で確認できたことを整理し、つながらないときの現実的なやり方をまとめました。", "dateModified": "2026-11-07", "inLanguage": "ja", "mainEntityOfPage": "https://rinyan-thai23.github.io/saas-tools/tour/articles/jp-ota-integration/"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "アソビューやじゃらんと連携できる海外の予約システムはありますか？", "acceptedAnswer": {"@type": "Answer", "text": "調べた海外中心の10製品では、公式に書かれているものはありませんでした。国産の OMUSUBI は、じゃらん・アソビューなどの予約通知メールの自動取込が公式にあり、JTB BÓKUN と連携します。rezio は、Activity Japan との API 連携が公式の沿革にあります。使いたいサイトの名前で、各社に確認してください。"}}, {"@type": "Question", "name": "日本の予約サイトに出しながら、海外の予約システムを使えますか？", "acceptedAnswer": {"@type": "Answer", "text": "使えますが、在庫を自動で合わせられないかもしれません。枠を分ける、手で合わせる、といった運用が必要になる場合があります。"}}, {"@type": "Question", "name": "連携がなくても、二重予約は防げますか？", "acceptedAnswer": {"@type": "Answer", "text": "手で合わせる運用でも、防げます。ただし、担当者の見比べが漏れると起きます。予約が増えたら、連携のある製品への乗り換えを考えてください。"}}]}]}</script><style>:root{--bg:#fff;--fg:#1b1f23;--mut:#5b6670;--line:#d8dee4;--acc:#0b5cad;--soft:#f5f7fa}
 @media(prefers-color-scheme:dark){:root{--bg:#14181c;--fg:#e6e9ec;--mut:#9aa5af;--line:#2d353d;--acc:#6db3f2;--soft:#1c2228}}
 *{box-sizing:border-box}body{overflow-wrap:anywhere;margin:0;background:var(--bg);color:var(--fg);font:16px/1.85 -apple-system,"Hiragino Sans","Noto Sans JP",sans-serif}
 header,main,footer{max-width:820px;margin:0 auto;padding:0 16px}header{padding-top:14px;padding-bottom:10px;border-bottom:1px solid var(--line)}
@@ -18,8 +18,9 @@ details.src{margin:2em 0;padding:10px 14px;border:1px solid var(--line);border-r
 <h2>先に結論</h2>
 <blockquote>
 <ul>
-<li><strong>調べた10製品のうち、アソビュー・じゃらん・楽天トラベルなど日本の大手予約サイトとの連携が公式に書かれているものは、ありませんでした。</strong> 「つながらない」と確認したわけではなく、<strong>書かれていません</strong>。</li>
-<li><strong>日本の予約サイトとの連携で、記載が見つかったのは1つだけ</strong>：rezio の公式の沿革に、2022年に Activity Japan（アクティビティジャパン）と API でつながった、とあります。</li>
+<li><strong>調べた海外中心の10製品のうち、アソビュー・じゃらん・楽天トラベルなど日本の大手予約サイトとの連携が公式に書かれているものは、ありませんでした。</strong> 「つながらない」と確認したわけではなく、<strong>書かれていません</strong>。</li>
+<li><strong>日本の予約サイトとの連携で、記載が見つかったのは2つ</strong>：①rezio の公式の沿革に、2022年に Activity Japan（アクティビティジャパン）と API でつながった、とあります。②<strong>国産の OMUSUBI は、じゃらん・アソビュー・アクティビティジャパンなどの予約通知メールを自動で取り込む</strong>と公式にあります。</li>
+<li><strong>JTB BÓKUN と OMUSUBI は、2025年9月から連携しています。</strong> 海外の予約サイトの予約（Viator など）を JTB BÓKUN で受け、国内の予約サイトの予約を OMUSUBI で受ける、という組み合わせが、公式の発表にあります。</li>
 <li><strong>日本の予約サイトの在庫を、海外の予約システムと自動で合わせられる前提で選ぶのは危険です。</strong> 使いたいサイトの名前で、各社に確認してください。</li>
 <li>つながらない場合の現実的なやり方は、<strong>「枠を分ける」「手で合わせる」「国内の在庫管理を併用する」</strong>の3つです（下で説明）。</li>
 </ul>
@@ -99,10 +100,11 @@ details.src{margin:2em 0;padding:10px 14px;border:1px solid var(--line);border-r
 <p>日本の予約サイトに出す枠と、海外の予約システムで売る枠を、<strong>最初から別々にします</strong>。たとえば「午前の枠は日本の予約サイト、午後の枠は海外の予約システム」のように決めると、二重予約が起きません。ただし、売れる機会は減ります。</p>
 <h3>2. 手で合わせる</h3>
 <p>予約が入ったら、もう一方の在庫を、<strong>毎回、手で減らします</strong>。件数が少ないうちは現実的ですが、手が空かないと二重予約になります。担当者を決めて、1日に何回か見比べる運用にします（<a href="/saas-tools/tour/articles/switch-checklist/">乗り換えチェックリスト</a>も参考に）。</p>
-<h3>3. 国内の在庫管理を併用する</h3>
-<p>日本の予約サイトの在庫を一元管理する国内の仕組み（上の Actim や、アソビューのウラカタなど）があります。海外の予約システムと併用できるかは、確認できていません。</p>
+<h3>3. 国内の予約台帳を併用する（OMUSUBI × JTB BÓKUN）</h3>
+<p>国産の <a href="/saas-tools/tour/articles/omusubi/">OMUSUBI</a> は、じゃらん・アソビュー・アクティビティジャパンなどの予約通知メールを自動で取り込み、国内の主要な予約サイトの在庫を、管理画面から一括で売り止めできる、と公式にあります（詳細は問い合わせ）。<strong>2025年9月からは、JTB BÓKUN に入った新規予約・キャンセルが、Webhook で OMUSUBI に自動で反映されます</strong>（SEEC と JTB の発表）。海外の予約サイトと国内の予約サイトの両方に出す事業者に向く組み合わせです。ほかの海外製品との併用は、確認できていません。</p>
+<p>上の Actim（2019年）や、アソビューのウラカタも国内の在庫管理の仕組みですが、今の提供状況や、海外の予約システムとの併用は、確認できていません。</p>
 <h3>4. 日本の窓口がある製品を選ぶ</h3>
-<p>rezio は、日本の運営会社（株式会社KKDAY JAPAN）があり、Activity Japan と連携しています。日本の予約サイトとの連携を重視するなら、先に相談する候補です。ただし、アソビューやじゃらんとの連携は、記載が見つかりませんでした。</p>
+<p>rezio は、日本の運営会社（株式会社KKDAY JAPAN）があり、Activity Japan と連携しています。OMUSUBI は、国内の予約サイトの予約メールの自動取込が公式にあります。日本の予約サイトとの連携を重視するなら、この2つを先に相談する候補です。rezio は、アソビューやじゃらんとの連携は記載が見つかりませんでした。</p>
 <h2>各社に聞くこと（コピーして使えます）</h2>
 <ol>
 <li><strong>（使いたい日本の予約サイトの名前）と、連携できますか。</strong> 連携できるなら、どの機能（在庫、予約、価格）が自動で合いますか。</li>
@@ -112,14 +114,14 @@ details.src{margin:2em 0;padding:10px 14px;border:1px solid var(--line);border-r
 </ol>
 <h2>よくある質問</h2>
 <h3>アソビューやじゃらんと連携できる海外の予約システムはありますか？</h3>
-<p>調べた10製品では、公式に書かれているものはありませんでした。rezio は、Activity Japan との API 連携が公式の沿革にあります。使いたいサイトの名前で、各社に確認してください。</p>
+<p>調べた海外中心の10製品では、公式に書かれているものはありませんでした。国産の OMUSUBI は、じゃらん・アソビューなどの予約通知メールの自動取込が公式にあり、JTB BÓKUN と連携します。rezio は、Activity Japan との API 連携が公式の沿革にあります。使いたいサイトの名前で、各社に確認してください。</p>
 <h3>日本の予約サイトに出しながら、海外の予約システムを使えますか？</h3>
 <p>使えますが、在庫を自動で合わせられないかもしれません。枠を分ける、手で合わせる、といった運用が必要になる場合があります。</p>
 <h3>連携がなくても、二重予約は防げますか？</h3>
 <p>手で合わせる運用でも、防げます。ただし、担当者の見比べが漏れると起きます。予約が増えたら、連携のある製品への乗り換えを考えてください。</p>
 <h2>関連記事</h2>
 <ul>
-<li>商品ページ：<a href="/saas-tools/tour/articles/rezio/">rezio</a>、<a href="/saas-tools/tour/articles/bokun/">Bókun</a></li>
+<li>商品ページ：<a href="/saas-tools/tour/articles/omusubi/">OMUSUBI</a>、<a href="/saas-tools/tour/articles/rezio/">rezio</a>、<a href="/saas-tools/tour/articles/bokun/">Bókun</a></li>
 <li>日本対応：<a href="/saas-tools/tour/articles/jp-contract-payments/">契約・決済・円の確認表</a></li>
 <li>乗り換え：<a href="/saas-tools/tour/articles/switch-checklist/">乗り換えチェックリスト</a></li>
 <li>ほかの日本対応・買う直前の記事は、順次追加します。</li>

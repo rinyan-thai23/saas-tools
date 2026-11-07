@@ -40,3 +40,4 @@ updated: 2026-11-07
 ## 乗り換え
 
 - [電話・表計算から予約システムへ（手順と店頭予約の手数料）](/articles/switch-from-manual/)
+- [FareHarborからBókunへ乗り換える手順](/articles/switch-fareharbor-to-bokun/)

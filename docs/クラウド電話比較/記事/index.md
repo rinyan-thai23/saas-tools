@@ -42,3 +42,4 @@ updated: 2026-11-07
 - [料金早見表（10製品）](/articles/buy-fee-table/)
 - [無料トライアル比較](/articles/buy-trial-compare/)
 - [申込前チェックリスト](/articles/buy-checklist/)
+- [通話品質の確かめ方](/articles/buy-call-quality/)

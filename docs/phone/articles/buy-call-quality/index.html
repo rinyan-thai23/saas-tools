@@ -1,0 +1,207 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>【クラウド電話】通話品質の確かめ方｜途切れ・遅れ・エコーを申込前に試すチェックと、総務省の品質の考え方</title><meta name="description" content="クラウド電話の通話品質を、申込前に日本から試す方法をまとめました。総務省の資料にあるR値と050・0AB-Jの品質の区分、口コミで出ている途切れ・遅れ・エコーの声、テスト通話のやり方と、問題の切り分けを整理しています。"><meta name="robots" content="noindex,nofollow"><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "【クラウド電話】通話品質の確かめ方｜途切れ・遅れ・エコーを申込前に試すチェックと、総務省の品質の考え方", "description": "クラウド電話の通話品質を、申込前に日本から試す方法をまとめました。総務省の資料にあるR値と050・0AB-Jの品質の区分、口コミで出ている途切れ・遅れ・エコーの声、テスト通話のやり方と、問題の切り分けを整理しています。", "dateModified": "2026-11-07", "inLanguage": "ja", "mainEntityOfPage": "https://rinyan-thai23.github.io/saas-tools/phone/articles/buy-call-quality/"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "050と03・06で、通話品質は違いますか？", "acceptedAnswer": {"@type": "Answer", "text": "総務省の研究会資料には、0AB〜J IP電話はR値80超、050 IP電話はR値50超が規定されている、と書かれています（古い整理です）。各製品の実際の品質は、試して確かめてください。"}}, {"@type": "Question", "name": "無料トライアルだけで、品質は分かりますか？", "acceptedAnswer": {"@type": "Answer", "text": "一部は分かります。日本の番号でのトライアルができない製品もあるので、日本の番号の通話品質は、申込後に差が出る可能性があります。トライアルの条件は 無料トライアル比較 へ。"}}, {"@type": "Question", "name": "口コミの「途切れる」は、製品のせいですか？", "acceptedAnswer": {"@type": "Answer", "text": "製品の問題か、使う人のネット環境か、口コミからは分かりません。上の切り分けで、自分の環境でも確かめてください。"}}]}]}</script><style>:root{--bg:#fff;--fg:#1b1f23;--mut:#5b6670;--line:#d8dee4;--acc:#0b5cad;--soft:#f5f7fa}
+@media(prefers-color-scheme:dark){:root{--bg:#14181c;--fg:#e6e9ec;--mut:#9aa5af;--line:#2d353d;--acc:#6db3f2;--soft:#1c2228}}
+*{box-sizing:border-box}body{overflow-wrap:anywhere;margin:0;background:var(--bg);color:var(--fg);font:16px/1.85 -apple-system,"Hiragino Sans","Noto Sans JP",sans-serif}
+header,main,footer{max-width:820px;margin:0 auto;padding:0 16px}header{padding-top:14px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+header a{color:var(--fg);text-decoration:none;font-weight:700}nav a{margin-right:14px;font-weight:400;font-size:14px;color:var(--mut)}
+h1{font-size:1.6rem;line-height:1.4;margin:1.4em 0 .6em}h2{font-size:1.25rem;margin:2em 0 .6em;padding-bottom:.3em;border-bottom:1px solid var(--line)}h3{font-size:1.05rem;margin:1.5em 0 .4em}
+a{color:var(--acc)}blockquote{margin:1em 0;padding:.6em 1em;background:var(--soft);border-left:4px solid var(--acc)}blockquote p{margin:.4em 0}
+.tw{overflow-x:auto;margin:1em 0}table{border-collapse:collapse;font-size:14px;line-height:1.6;min-width:100%}th,td{border:1px solid var(--line);padding:6px 9px;vertical-align:top;text-align:left}th{background:var(--soft);white-space:nowrap}
+code{background:var(--soft);padding:1px 4px;border-radius:3px;font-size:.9em}footer{padding-top:20px;padding-bottom:40px;color:var(--mut);font-size:13px;border-top:1px solid var(--line);margin-top:3em}
+ul,ol{padding-left:1.4em}li{margin:.2em 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:1em 0}
+.card{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--soft);text-decoration:none;color:var(--fg);line-height:1.5}
+details.src{margin:2em 0;padding:10px 14px;border:1px solid var(--line);border-radius:8px;background:var(--soft)}details.src summary{cursor:pointer;font-weight:700}details.src h2{display:none}details.src li{font-size:14px}
+.card b{display:block;margin-bottom:4px}.card span{font-size:13px;color:var(--mut)}.card:hover{border-color:var(--acc)}</style></head><body>
+<header><a href="/saas-tools/phone/">クラウド電話比較</a><nav><a href="/saas-tools/phone/compare-table/">総合比較表</a><a href="/saas-tools/phone/disclosure/">広告表示と運営方針</a><a href="/saas-tools/phone/changelog/">更新履歴</a></nav></header>
+<main><h1>【クラウド電話】通話品質の確かめ方</h1>
+<h2>先に結論</h2>
+<blockquote>
+<ul>
+<li><strong>通話品質は、公式の数字だけでは分かりません。</strong> 申込前の無料トライアルで、<strong>日本の自分の環境から、実際に電話をかけて</strong>確かめるのが確実です。</li>
+<li>総務省の資料には、IP電話の品質の考え方があります。<strong>0AB-J のIP電話はR値80超、050のIP電話はR値50超</strong>が規定されている、と資料に書かれています（古い資料です）。<strong>各製品が実際にどう扱われるかは、この記事では判断しません。</strong></li>
+<li>口コミでは、ほぼ全部の製品で、<strong>途切れ・遅れ・エコー</strong>の声があります。製品の差より、<strong>自分のネット環境の影響</strong>も大きいことがあります。切り分けの方法も書きます。</li>
+</ul>
+</blockquote>
+<h2>誰のための記事か</h2>
+<p>トライアルを始める直前または最中の、日本の小さな事業者向けです。「何をどう試せば、通話品質の良し悪しが分かるか」を知りたい人が対象です。</p>
+<h2>総務省の資料にある、IP電話の品質の考え方</h2>
+<p>総務省総合通信基盤局の研究会資料「研究会開催の背景と論点等について」（0AB-J IP電話の品質要件の見直しを検討する研究会の資料）には、次のように書かれています。</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th></th>
+<th>音質（総合品質）</th>
+<th>緊急通報</th>
+<th>FAX</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>0AB〜J IP電話</strong></td>
+<td>アナログ電話相当（<strong>R値80超</strong>）の音質を規定。パケット損失率や遅延の基準値がある</td>
+<td>義務化</td>
+<td>義務化</td>
+</tr>
+<tr>
+<td><strong>050 IP電話</strong></td>
+<td><strong>R値50超</strong>の音質を規定。パケット損失率や遅延の基準値がない</td>
+<td>義務化されていない</td>
+<td>義務化されていない</td>
+</tr>
+<tr>
+<td>その他のIP電話（LINE、Skype等）</td>
+<td>事業用電気通信設備規則の音声伝送役務に関する品質基準は課されない</td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li>同じ資料の別の表には、総合品質として、<strong>0AB-J：R値80超、平均遅延150ミリ秒未満</strong>、<strong>050：R値50超、平均遅延400ミリ秒未満</strong>、という記載があります。</li>
+<li>上の表の「パケット損失率や遅延の基準値」と、ここでの「平均遅延」は、資料の中で別の項目として書かれているため、表現が違って見えます。</li>
+<li>R値と利用者の満足度（ITU-T G.109）の目安：<strong>80以上90未満は満足、70以上80未満は一部の人が不満、60以上70未満は多くの人が不満、50以上60未満はほぼ全員が不満</strong>。携帯電話はR値70超、と書かれています。</li>
+</ul>
+<p><strong>注意</strong>：これは研究会の資料（0AB-J IP電話の品質要件を見直す前の整理）で、<strong>現在の規則とは違う可能性があります</strong>。実際の基準は、総務省の告示・規則の原文で確認してください。また、<strong>クラウド電話の各製品が、どの区分で提供されているかは、この記事では確認していません。</strong> 事業者に、書面で聞いてください。</p>
+<h2>口コミ（海外のレビュー）で出ている、品質の声</h2>
+<p>件数は、話題をキーワードで数えたおおよその数です。詳しくは、各商品ページへ。</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>製品</th>
+<th>品質に関する声（口コミ）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/saas-tools/phone/articles/ringex/">RingEX</a></td>
+<td>電話が短く途切れる、着信を受けられないことがある（改善点で約8%）</td>
+</tr>
+<tr>
+<td><a href="/saas-tools/phone/articles/dialpad/">Dialpad</a></td>
+<td>通話が途切れる、ダイヤルが遅い（改善点で約1割）</td>
+</tr>
+<tr>
+<td><a href="/saas-tools/phone/articles/zoom-phone/">Zoom Phone</a></td>
+<td>ネットが不安定だと音が途切れる、携帯回線への切り替え（フォールバック）がない（2025〜2026年）</td>
+</tr>
+<tr>
+<td><a href="/saas-tools/phone/articles/aircall/">Aircall</a></td>
+<td>通話の途切れ、エコー、遅延（改善点で約8%）</td>
+</tr>
+<tr>
+<td><a href="/saas-tools/phone/articles/callhippo/">CallHippo</a></td>
+<td>音が遅れる、接続が遅い、ダイヤラーの不具合（約5%）</td>
+</tr>
+<tr>
+<td><a href="/saas-tools/phone/articles/nextiva/">Nextiva</a></td>
+<td>通話が途切れる、アプリに入り直す（2025年）</td>
+</tr>
+<tr>
+<td><a href="/saas-tools/phone/articles/goto-connect/">GoTo Connect</a></td>
+<td>アプリで通話が途切れる（2019年）、接続が不安定なことがある（2026年）</td>
+</tr>
+<tr>
+<td><a href="/saas-tools/phone/articles/telnyx/">Telnyx</a></td>
+<td>ブラウザ（WebRTC）で、片方向の音声、発信前の固まり、音声の劣化（2026年8月・低評価）</td>
+</tr>
+<tr>
+<td><a href="/saas-tools/phone/articles/justcall/">JustCall</a></td>
+<td>通話の途切れ、アプリの使いにくさ</td>
+</tr>
+<tr>
+<td><a href="/saas-tools/phone/articles/cloudtalk/">CloudTalk</a></td>
+<td>通話の遅れ、途切れ（2021〜2022年）</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>どの製品にも、品質の不満は出ています。</strong> 口コミは海外の事業者の声で、<strong>日本から使った場合の品質</strong>とは限りません。</p>
+<h2>申込前に、日本から試す方法</h2>
+<h3>準備</h3>
+<ul>
+<li>トライアルを始めたら、<strong>自分のパソコンとスマホ</strong>の両方にアプリを入れる。</li>
+<li>試す場所を決める：<strong>事務所（有線・Wi-Fi）</strong>、<strong>自宅</strong>、<strong>外出先（モバイル回線）</strong>。</li>
+</ul>
+<h3>テスト通話</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>試すこと</th>
+<th>やり方</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>日本国内への発信</strong></td>
+<td>固定電話宛・携帯宛に、各5分以上、話してみる。声が遅れて聞こえないか、被らないか。</td>
+</tr>
+<tr>
+<td><strong>日本からの着信</strong></td>
+<td>自分の携帯・固定電話から、トライアルの番号へかける。出るまでの時間、途切れ。</td>
+</tr>
+<tr>
+<td><strong>時間帯</strong></td>
+<td>朝（9時台）、昼、夕方など、<strong>別の時間帯</strong>で試す。</td>
+</tr>
+<tr>
+<td><strong>回線</strong></td>
+<td>有線、Wi-Fi、モバイル回線で比べる。</td>
+</tr>
+<tr>
+<td><strong>同時通話</strong></td>
+<td>2〜3人で同時にかけて、品質が落ちないか。</td>
+</tr>
+<tr>
+<td><strong>録音の聞き直し</strong></td>
+<td>録音機能がある製品は、録音を聞いて、音質を確かめる。</td>
+</tr>
+<tr>
+<td><strong>エコー・ノイズ</strong></td>
+<td>イヤホンあり・なしで試す。エコーが出ないか。</td>
+</tr>
+<tr>
+<td><strong>転送</strong></td>
+<td>携帯への転送が、切れずにつながるか。</td>
+</tr>
+<tr>
+<td><strong>不具合のとき</strong></td>
+<td>サポートに連絡して、返事の速さと内容を見る。</td>
+</tr>
+</tbody>
+</table></div>
+<h3>記録の仕方</h3>
+<p>簡単な表を作り、<strong>日時、場所、回線、相手（固定／携帯）、感想（○△×）、気づいたこと</strong>を記録します。製品ごとに同じ表で比べます。</p>
+<h2>問題が出たときの切り分け</h2>
+<ol>
+<li><strong>別の回線</strong>（モバイル回線）で、同じ通話を試す。モバイル回線で良ければ、事務所のネット回線が原因の可能性。</li>
+<li><strong>別の端末</strong>（パソコン／スマホ）で試す。端末やアプリが原因かを見る。</li>
+<li><strong>別の時間帯</strong>で試す。混雑の時間帯の影響を見る。</li>
+<li><strong>ほかの通話アプリ</strong>（Web会議など）でも、同じ症状が出るか。出れば、回線の問題の可能性。</li>
+<li>症状が続くときは、<strong>サポートに、日時・症状・環境</strong>を伝える。</li>
+</ol>
+<p>製品によっては、通話の診断ツールがあります（Zoom Phone の診断機能など）。各社に、診断ツールの有無を聞いてください。</p>
+<h2>ネットワーク要件の聞き方</h2>
+<ul>
+<li>各社に、<strong>必要な帯域、遅延、揺らぎ（ジッタ）、パケット損失の目安</strong>を書面で聞く。</li>
+<li>インターネットの出入口（ルーター）の設定（優先制御など）が必要か。</li>
+<li>出典によって数字が違うため、この記事では、一般的な目安の数字は載せません。</li>
+</ul>
+<h2>備え</h2>
+<ul>
+<li>品質が落ちた日のために、<strong>携帯電話への転送</strong>を設定しておく。</li>
+<li>重要な電話は、<strong>固定電話か携帯</strong>も併用する。</li>
+<li><strong>110・119</strong>は、携帯電話などで。→ <a href="/saas-tools/phone/articles/jp-emergency-calls/">110・119にかけられる？</a></li>
+</ul>
+<h2>よくある質問</h2>
+<h3>050と03・06で、通話品質は違いますか？</h3>
+<p>総務省の研究会資料には、0AB〜J IP電話はR値80超、050 IP電話はR値50超が規定されている、と書かれています（古い整理です）。各製品の実際の品質は、試して確かめてください。</p>
+<h3>無料トライアルだけで、品質は分かりますか？</h3>
+<p>一部は分かります。日本の番号でのトライアルができない製品もあるので、<strong>日本の番号の通話品質は、申込後に差が出る</strong>可能性があります。トライアルの条件は <a href="/saas-tools/phone/articles/buy-trial-compare/">無料トライアル比較</a> へ。</p>
+<h3>口コミの「途切れる」は、製品のせいですか？</h3>
+<p>製品の問題か、使う人のネット環境か、口コミからは分かりません。上の切り分けで、自分の環境でも確かめてください。</p>
+<h2>関連記事</h2>
+<ul>
+<li>買う直前：<a href="/saas-tools/phone/articles/buy-fee-table/">料金早見表</a>、<a href="/saas-tools/phone/articles/buy-trial-compare/">無料トライアル比較</a>、<a href="/saas-tools/phone/articles/buy-checklist/">申込前チェックリスト</a></li>
+</ul>
+<p>情報は、総務省の研究会資料、各社の商品ページ、海外のレビューサイトの口コミを読んで日本語にまとめたものです。法律の判断はしていません。確認日 2026-11-07。内容は変わるため、最新の規則は総務省のページで確認してください。</p></main>
+<footer>最終確認日 2026-11-07 ／ 料金・仕様は変わるため、申込前に公式ページで再確認してください。<br><a href="/saas-tools/phone/disclosure/">広告表示と運営方針</a></footer></body></html>

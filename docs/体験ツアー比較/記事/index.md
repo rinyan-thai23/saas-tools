@@ -28,3 +28,7 @@ updated: 2026-11-07
 - [XolaとFareHarborを比較](/articles/vs-xola-fareharbor/)
 - [RezdyとCheckfrontを比較](/articles/vs-rezdy-checkfront/)
 - [BookeoとCheckfrontを比較](/articles/vs-bookeo-checkfront/)
+
+## 代替
+
+- [FareHarborの代替（日本の事業者が選べる6つ）](/articles/alt-fareharbor/)

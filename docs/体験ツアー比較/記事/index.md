@@ -14,3 +14,4 @@ updated: 2026-11-07
 - [Bókun の評判・口コミ](/articles/bokun/)
 - [Xola の評判・口コミ](/articles/xola/)
 - [Checkfront の評判・口コミ](/articles/checkfront/)
+- [Rezdy の評判・口コミ](/articles/rezdy/)

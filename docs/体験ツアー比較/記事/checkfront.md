@@ -40,6 +40,9 @@ Google の「Things to do」、Viator、GetYourGuide などとつながります
 #### 自分のサイトへの組み込み
 WordPress、Drupal、Joomla に対応。予約ウィジェットは4種類から選べます。Zapier でほかのアプリとつなげられます。
 
+### 2023年に Rezdy と合併
+業界報道によると、Checkfront は2023年6月に、オーストラリアの [Rezdy](/articles/rezdy/) と合併しました。2つのブランドは別々に続けるとされています。値上げの声や、機能の追加が遅いという声に、この合併が関わっているかは確認できていません。
+
 ## Checkfrontの料金はいくら？
 
 **料金は公開されています。** 公式の料金ページは、次のとおりです。
@@ -142,7 +145,7 @@ Capterra の表記では、対応言語に日本語が入っています。た�
 
 ## 関連記事
 
-- 同じ種類の商品：[FareHarbor](/articles/fareharbor/)、[Bókun](/articles/bokun/)、[Xola](/articles/xola/)
+- 同じ種類の商品：[FareHarbor](/articles/fareharbor/)、[Bókun](/articles/bokun/)、[Xola](/articles/xola/)、[Rezdy](/articles/rezdy/)（合併先）
 - ほかの予約システムとの比較、代替、日本の予約サイトとの連携は、順次追加します。
 
 情報は、Checkfront の公式サイトと、海外のレビューサイトの口コミを読んで日本語にまとめたものです。確認日 2026-11-07。料金や仕様は変わるため、申込前に公式で再確認してください。

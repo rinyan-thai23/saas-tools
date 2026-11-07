@@ -53,7 +53,7 @@ pr: false
 |---|---|---|---|
 | [Zoom Phone](/articles/zoom-phone/) | 050、0ABJ、0120・0800 | 新しい番号は最短3営業日、書類確認は最大5営業日、番号の移行は最大15営業日 | 円・税別 ¥1,275／¥2,400／¥3,300 |
 | [Dialpad](/articles/dialpad/)（ソフトバンク） | 050、0AB-J | 最短10〜15営業日 | 円・税抜 ¥1,000〜¥3,500。03・06は1番号 月¥500 |
-| [CallHippo](/articles/callhippo/) | 050、03、06、0120・0800（自社の説明） | 050は数日、03・06は15〜25営業日、0120は1〜2週間 | USD $19〜$42 |
+| [CallHippo](/articles/callhippo/) | 050、03、06、0120・0800（自社の説明） | 050は数日、03・06は15〜25営業日、0120は1〜2週間 | USD $18〜$42 |
 | [CloudTalk](/articles/cloudtalk/) | 東京の03、0120・0800（着信のみ） | 03の初回は15〜25営業日 | EUR €25〜。日本の03は月$6＋$6 |
 
 比較は、[Dialpad と Zoom Phone](/articles/vs-dialpad-zoom-phone/)、[CallHippo と Aircall](/articles/vs-callhippo-aircall/) もどうぞ。

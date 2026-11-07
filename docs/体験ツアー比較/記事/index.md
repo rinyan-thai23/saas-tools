@@ -46,3 +46,4 @@ updated: 2026-11-07
 ## 日本対応
 
 - [日本の事業者は契約できる？対応国・決済・円の確認表](/articles/jp-contract-payments/)
+- [アソビュー・じゃらん・楽天など日本の予約サイトとの連携](/articles/jp-ota-integration/)

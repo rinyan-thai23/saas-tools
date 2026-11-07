@@ -1,96 +1,95 @@
 ---
-title: 楽天トラベル・じゃらんと民泊管理ツールの連携は？Rakuten Oyado経由と海外ツールの記載を確認
+title: 【民泊】楽天トラベル・じゃらんに出せる？民泊新法・旅館業・特区民泊の違いと、つなげる管理ツール
 slug: jp-ota-rakuten-jalan
 type: 日本対応
-products: [beds24, guesty, hostaway, lodgify, ownerrez, hospitable, igms, uplisting, sirvoy]
-description: 楽天トラベル・じゃらんnetは民泊新法の施設を対象外とする公式案内を紹介し、Rakuten Oyado経由の接続と、海外の民泊管理ツールの連携の記載を確認できた範囲で整理。
-cards: [日本のOTA連携-楽天トラベルじゃらん等, Beds24, Guesty, Hostaway, Lodgify, OwnerRez, Hospitable, iGMS, Uplisting, Sirvoy, 日本の制度-住宅宿泊事業法ほか]
-updated: 2026-11-05
+products: [beds24, hostaway, guesty, lodgify, ownerrez, hospitable, igms, uplisting, sirvoy]
+description: 楽天トラベル・じゃらんnet に民泊を出せるかを、営業形態（民泊新法・特区民泊・旅館業法）別に整理。窓口の Rakuten Oyado と、つなげる管理ツール（Beds24 など）、海外ツールで確認できなかった点を解説します。
+cards: [日本のOTA連携-楽天トラベルじゃらん等, Beds24, 日本の制度-住宅宿泊事業法ほか]
+updated: 2026-11-07
 pr: true
 ---
 
-この記事にはアフィリエイトリンク（PR）が含まれます。
+# 【民泊】楽天トラベル・じゃらんに出せる？民泊新法・旅館業・特区民泊の違いと、つなげる管理ツール
 
-# 楽天トラベル・じゃらんと民泊管理ツールの連携は？Rakuten Oyado経由と海外ツールの記載を確認
+この記事にはアフィリエイトリンク（PR）が含まれます。リンクは、Beds24 は海外公式（beds24.com）への紹介リンクです。紹介報酬の有無で、内容や順番は変えていません。
 
-> **結論**
-> - 楽天トラベルとじゃらんnet の公式の参画案内は、どちらも住宅宿泊事業法に基づく民泊の施設を対象外としている（2026-11-05 時点）。民泊の施設は、楽天トラベルへは同じ楽天グループの Rakuten Oyado から案内されている。
-> - 海外ツールのうち、公式ページで楽天トラベルへの接続に触れていたのは Beds24（Rakuten Oyado＝旧 Vacation STAY 経由）だけ。ほかの8製品は記載が見つからなかった。「接続できない」と確認したのではない。
-> - 登録の可否や掲載条件の最終確認は、各予約サイトと、行政書士・自治体・保健所などに。この記事は公式ページの記載の紹介までです。
+## 先に結論：民泊新法・特区民泊は、楽天トラベル・じゃらんに直接は出せない
 
-## 予約サイト側の公式の記載
+> - **楽天トラベルもじゃらんnet も、公式の案内で、住宅宿泊事業法（民泊新法）の施設を対象外としています**（じゃらんは特区民泊も）。**対象は、旅館業法の許可がある施設**です。
+> - **民泊新法・特区民泊を楽天トラベルに出す窓口は、楽天グループの Rakuten Oyado**（旧 Vacation STAY）。販売手数料は一律3%、即時予約に対応した施設のみです。
+> - **Rakuten Oyado が「そのまま使える」としているツールは、ねっぱん、AirHost、Beds24、suitebook。** Guesty・Hostaway などの名前はありません。
+> - **今回調べた海外ツールのうち、国内予約サイトへの接続が確認できたのは Beds24**（日本の販売会社経由）。ほかは「できない」と確認したわけではなく、**記載が見つかりませんでした**。
+> - **旅館業法の許可施設は、海外ツールが楽天トラベル・じゃらんにつながるか、各社に直接確認**してください（どのツールでも確認できていません。Beds24 の日本の販売会社を除く）。
 
-| 予約サイト | 公式の記載（原文） | 出典 |
-|---|---|---|
-| 楽天トラベル | 「ただし、ラブホテル、民泊新法（住宅宿泊事業法）の施設様はご参画いただけません。」「住宅宿泊事業法、特区民泊の施設様は同じ楽天グループ運営サイトの『Rakuten Oyado』でご登録を行っております。」 | 楽天トラベル 新規参画ページ |
-| じゃらんnet | 「住宅宿泊事業法に基づく「民泊」、および、国家戦略特区法に基づく「特区民泊」もご参画いただけません。」（更新日の記載なし） | じゃらんnet 参画のご案内 |
-| Rakuten Oyado | 「Rakuten Oyadoに施設を登録、掲載するだけで楽天トラベルにも施設を掲載することができます。」ただし配信は「インスタントブッキング（即時予約確定）」対応施設のみ。販売手数料は「一律３%」（手数料の一部を宿泊者負担にする仕組みの記載あり。詳細は公式で確認） | vacation-stay.com |
-| Airbnb | 日本の住宅宿泊事業のリスティングをソフト連携で作ることは受け付けない（例外は、Airbnbと日本でのライセンス契約を結んだ日本のAPIパートナー）。パートナーの名前は見つからなかった | Airbnb ヘルプ |
+## 営業形態別の、出せる場所
 
-じゃらんの公式案内は「旅館業法」に基づく「宿泊営業許可」を得た施設を参画の対象とし、民泊はFAQでも「ご掲載いただくことができません」と書いています。
-
-整理すると、民泊新法・特区民泊の施設は両社とも対象外と明記されています。一方、旅館業法の許可を持つ施設を各ツールにつなげるかどうかは、今回は各ツールで確認できていません（未確認）。
-
-
-## 海外ツールの記載（2026-11-05 時点）
-
-楽天トラベル・じゃらん・一休.com は、公式な「認定ベンダー一覧」を公式ページで見つけられませんでした。以下は各社が自社ページに書いていること、または国内サイトコントローラー側の公式ページに社名があるかどうかです。
-
-| 製品 | 楽天トラベル | じゃらん | 確度 |
+| 営業形態 | 楽天トラベル | じゃらんnet | 民泊を出す経路 |
 |---|---|---|---|
-| Beds24 | 公式Wiki：「The connection between Beds24 and Rakuten Tavel is made via Vacation STAY.」在庫・料金の送信と、予約・キャンセルの取込ができる。最低・最大泊数のルールなどは送れない。Rakuten Oyado の公式ページにも Beds24 の記載あり | 日本の販売会社（WeIns）のサイトに記載（月1,200円（税込）／部屋タイプ＋初期費用3,000円（税込）／部屋タイプ。WeIns の記載。3つ目の国内OTAは初期費用のみ）。本社Wikiに記載なし。同社は「旅館業許可が必須、民泊新法は対象外」と記載（2020年9月確認） | 楽天は確認済／じゃらんは販売会社の記載のみ |
-| Guesty、Hostaway、OwnerRez、Hospitable、iGMS、Uplisting | 各社のチャネル／連携ページに記載が見つからなかった | 同左 | 未確認 |
-| Lodgify | 公式ページが403で開けず、記載は確認できず | 同左 | 未確認 |
-| Sirvoy | 記載なし（SiteMinder 経由で他サイトにつなぐ旨の記載あり） | 記載なし | 未確認 |
+| 住宅宿泊事業（民泊新法） | 対象外（公式：「ご参画いただけません」） | 対象外 | **Rakuten Oyado**（楽天トラベルへ配信）。じゃらんは経路が見つかっていない |
+| 特区民泊 | 対象外 | 対象外 | **Rakuten Oyado** |
+| 簡易宿所営業（旅館業法） | 対象（旅館業法の営業許可証） | 対象（旅館業法の宿泊営業許可） | 通常の参画。ツール経由の接続は、ツールごとに確認 |
 
-手間いらず・ねっぱん！の公式の連携一覧には楽天グループ・リクルートなどが載っていますが、上の海外9製品の社名は載っていませんでした。
+じゃらんの案内には、更新日の記載がありません。条件は変わりうるため、最新は各サイトの事業者向けの案内で確認してください。
 
-## 国内の他の入口
+## Rakuten Oyado とは
 
-- **Rakuten Oyado の公式ページ**：「ねっぱん、AirHost、Beds24、suitebookをご利用の場合は連携/連動サイトとしてRakuten Oyadoを追加することでそのままご利用いただけます。」PMSで管理する場合も、事前にRakuten Oyadoでの施設登録が必要と書かれています。
-- **AirHost**：公式ヘルプに楽天トラベル連携の仕様（「Rakuten Travel does not support setting a separate cleaning fee.」など）、公式サイトにじゃらんnet のAPI連携の説明があります。
+- 楽天グループが運営する、民泊施設を**楽天トラベルに配信**するための窓口です（旧 Vacation STAY）。
+- 販売手数料は**一律3%**。**即時予約（インスタントブッキング）に対応した施設のみ**が配信対象です。
+- 在庫・料金をツールで管理する場合も、**先に Rakuten Oyado への施設登録**が必要です。
+- 「そのまま使える」既存ツール：**ねっぱん、AirHost、Beds24、suitebook**。Rakuten Oyado に連携サイトとして追加すれば使える、と案内されています。
+- 検索で見つかった、ツール事業者の資料には、民泊新法・特区民泊の施設では、Rakuten Oyado の「準備時間」を「なし」にする設定の案内があります（2026年1月20日以降の仕様。事業者の資料で、公式では未確認）。
 
-## 条件別の見方
+## 海外ツールの接続（確認状況）
 
-| あなたの条件 | 調べた記載から言えること |
+| ツール | 楽天トラベル・じゃらん |
 |---|---|
-| 住宅宿泊事業の届出物件を楽天トラベルにも出したい | 楽天トラベルの公式案内は Rakuten Oyado への登録を示している。海外ツールで公式に接続を書いていたのは Beds24 のみ |
-| 旅館業法の許可がある | 楽天トラベル・じゃらんの公式案内が参画対象とする区分。外部ツールとの接続は各社に個別確認（認定ベンダー一覧は公式で見つからなかった） |
-| 日本語で国内サイトの設定まで相談したい | Beds24 の日本の販売会社（WeIns）が国内OTA連動を案内。ほかの海外ツールは記載が見つからなかった |
+| [Beds24](/articles/beds24/) | 楽天は公式Wikiに「Vacation STAY（Rakuten Oyado）経由」。日本の販売会社（株式会社WeIns）が、楽天トラベル・じゃらん・Yahoo!トラベルの連動を提供（旅館業の許可施設。**じゃらんは民泊新法・特区民泊は掲載対象外**）。月¥1,200／部屋タイプ＋初期費用¥3,000／部屋タイプ（3つ目は初期費用のみ） |
+| [Hostaway](/articles/hostaway/)、[Guesty](/articles/guesty/)、[Lodgify](/articles/lodgify/)、[OwnerRez](/articles/ownerrez/)、[Hospitable](/articles/hospitable/)、[iGMS](/articles/igms/)、[Uplisting](/articles/uplisting/) | 公式ページに記載が見つからなかった（未確認） |
+| [Sirvoy](/articles/sirvoy/) | 記載なし。Agoda には直接接続。SiteMinder 経由の可否は未確認 |
+| [PriceLabs](/articles/pricelabs/) | 連携先（約190件）に名前なし。サイトコントローラー経由の可否は未確認 |
 
-## 申込前にサポートへ送る英文の例
+**注意**：Beds24 の楽天連携は、公式Wiki（Vacation STAY 経由、最終編集 2024-12）と、日本の販売会社の案内（R-Connect の申請など）で記述がそろっておらず、**現行の方式は確認できていません**。申込前に確認してください。
 
-```
-Hello, I run vacation rentals in Japan. Before subscribing, could you confirm in writing:
-1) Does your channel manager connect to Rakuten Travel and Jalan (directly, or via Rakuten Oyado / a Japanese site controller)?
-2) Which data is synced, and is it available for minpaku (Housing Accommodation Business Act) listings?
-```
+## 国内ツールとの関係
 
-## 申し込みページ（PR）
+- ねっぱん！などの国内のサイトコントローラーを使っている人は、[国内ツールから海外ツールへ](/articles/switch-domestic-to-overseas/) に、乗り換えの注意をまとめています。
+- 国内予約サイトを、他社のサイトコントローラーと連動中の場合、Beds24（日本の販売会社）に移すには、**先に解除して、売り止め**が必要です。
 
-Beds24（海外公式。PRリンク）：[Beds24](/go/beds24/)（日本語・円建て・国内OTA連動の案内は日本の販売会社（WeIns）版の情報で、その申込は海外公式のリンクとは別です。窓口を確認してください）／Guesty：[Guesty](/go/guesty/)／Hostaway：[Hostaway](/go/hostaway/)／Lodgify：[Lodgify](/go/lodgify/)／OwnerRez：[OwnerRez](/go/ownerrez/)／Hospitable：[Hospitable](/go/hospitable/)／iGMS：[iGMS](/go/igms/)／Uplisting：[Uplisting](/go/uplisting/)
+## Airbnb など海外サイトとの関係（民泊新法の人）
 
-## 未確認のこと
+- Airbnb のヘルプには、日本の民泊新法の宿について「ソフト連携で作った掲載は受け付けない」とあります。例外は、Airbnb と契約した日本のAPIパートナーです。**どのツールが該当するか確認できていません。**
+- Airbnb は、**届出番号を自分でログインして追加**する必要があります（ツールを使っていても）。
 
-- 楽天トラベル・じゃらん・一休.com の現行の外部ツール連携の仕様・認定ベンダー（楽天の R-Connect は2014年の公式ページと第三者の記事のみ）
-- Beds24 の楽天トラベル連携の手順が、Rakuten Oyado 経由と、WeIns が案内する R-Connect 経由のどちらが現行か
-- 海外8製品（Guesty、Hostaway、Lodgify、OwnerRez、Hospitable、iGMS、Uplisting、Sirvoy）の楽天トラベル・じゃらんへの接続可否
-- Rakuten Oyado の個別連携ページ（502エラーで開けず）、Booking.com の日本の民泊に関する規則
-- 手間いらず公式サイトに「不正アクセスに関する経過および対応について（第二報）」の見出しがある（本文・日付は未確認）
+## ツールを選ぶときの確認
 
-<!-- 追加調査依頼: Guesty、Hostaway、Lodgify、OwnerRez、Hospitable、iGMS、Uplisting、Sirvoy の楽天トラベル・じゃらん連携の有無（各社のヘルプ・サポートに質問した回答、または Rakuten Oyado／国内SC経由の接続の有無）。Lodgify は公式ページが403 -->
-<!-- 追加調査依頼: Rakuten Oyado の個別連携ページ（vacation-stay.jp 配下、502で未取得）と、連携可能なPMS・サイトコントローラーの一覧の現行版 -->
-<!-- 追加調査依頼: 楽天トラベルの R-Connect の現行仕様・申込条件・手数料、じゃらんの接続方法（リクルート公式）。Beds24 の楽天連携は Rakuten Oyado 経由と WeIns 案内の R-Connect 経由のどちらが現行か -->
-<!-- 追加調査依頼: 簡易宿所・旅館業許可の物件の、楽天トラベル・じゃらん・一休.com への参画条件と外部ツール連携（一休は公式ページが403） -->
-<!-- 追加調査依頼: Airbnb の「日本のAPIパートナー」の名前、Booking.com の日本の民泊（届出番号）に関する規則 -->
+1. 自分の営業形態（民泊新法／特区民泊／旅館業法）を決める。
+2. 出したい国内サイト（楽天トラベル・じゃらん・Yahoo!トラベルなど）が、その営業形態を受け付けるか、各サイトの案内で確認。
+3. 民泊新法・特区民泊で楽天トラベルに出すなら、**Rakuten Oyado に登録**し、対応ツールを選ぶ。
+4. 旅館業法の許可施設なら、ツールに「楽天トラベル・じゃらんに接続できるか」を書面で確認。
+5. 接続の追加費用、同期の間隔（Beds24 の日本の販売会社は約50秒）、売り止めの手順を確認。
 
-## 出典
+より細かい項目は [申込前チェックリスト](/articles/buy-checklist/) にあります。
 
-取得日はすべて 2026-11-05。
+[Beds24 海外公式を見る（PR）](/go/beds24/)
 
-| 項目 | 出典URL |
-|---|---|
-| OTA連携・1-1-01, 1-1-02, 1-1-08〜1-1-10, 1-2-01, 1-5-02, 1-5-03 | https://travel.rakuten.co.jp/info/hotel_msg.html ／ https://www.jalan.net/jalan/doc/howto/10sankaku.html ／ https://vacation-stay.com/host.html ／ https://www.airbnb.com/help/article/2351 |
-| OTA連携・3-01〜3-13, 2-1〜2-4, 2-6 | https://wiki.beds24.com/index.php/Rakuten ／ https://co-reception.com/beds24%e5%af%be%e5%bf%9cota/ ／ https://note.com/beds24japan/n/n7114273b8a5c ／ https://www.temairazu.com/partner ／ https://www.neppan.com/collaboration/ ／ https://support.airhost.co/en/articles/8659935-channel-creating-and-synchronizing-rakuten-travel-channel ／ https://airhost.jp/integration/jalan-net |
-| Beds24・3. チャネル「じゃらん」「楽天トラベル」、2-2「国内OTA連携の追加料金」 | https://co-reception.com/jalan-rakuten-ikyu/ |
-| 各製品・3. チャネル／OTA連携 3-01〜3-12 | https://www.guesty.com/features/channel-manager/ ／ https://www.hostaway.com/features/channel-manager/ ／ https://www.lodgify.com/channel-manager/ ／ https://www.ownerrez.com/channel-management ／ https://hospitable.com/integrations ／ https://www.igms.com/channel-manager/ ／ https://www.uplisting.io/integrations ／ https://help.sirvoy.com/setting-up-new-channels/all-of-sirvoy%E2%80%99s-booking-channel-partners |
+## よくある質問
+
+### 民泊新法の宿は、楽天トラベルに出せますか？
+楽天トラベルの公式案内では、民泊新法の施設は対象外です。民泊を楽天トラベルに出す窓口として、楽天グループの Rakuten Oyado が案内されています。販売手数料は一律3%です。
+
+### じゃらんnet に民泊は出せますか？
+じゃらんnet の公式案内では、住宅宿泊事業法に基づく民泊と特区民泊は、対象外です。対象は旅館業法の宿泊営業許可を得た施設です。
+
+### Guesty や Hostaway は、楽天トラベルにつながりますか？
+公式ページに、楽天トラベルへの接続の記載は見つかりませんでした。「つながらない」と確認したわけではないため、旅館業法の許可施設は、各社に直接確認してください。Rakuten Oyado の対応ツールの一覧にも、名前はありません。
+
+### 日本の予約サイトにつなげられる管理ツールは？
+今回調べた海外ツールでは、公式の記載で確認できたのは、Beds24（日本の販売会社経由）です。Rakuten Oyado の「そのまま使える」ツールとして、ねっぱん・AirHost・Beds24・suitebook が案内されています。
+
+## 関連記事
+
+- 日本対応：[住宅宿泊事業法への対応](/articles/jp-minpaku-law/)、[日本語UI・日本語サポート](/articles/jp-japanese-ui-support/)
+- 乗り換え：[国内ツールから海外ツールへ](/articles/switch-domestic-to-overseas/)
+- ツール：[Beds24 の評判・口コミ](/articles/beds24/)
+
+情報は、楽天トラベル・Rakuten Oyado・じゃらんnet の公式案内（2026-11-05 確認）、各ツールの公式サイトとヘルプ、ツール事業者の資料を読んで日本語にまとめたものです。確認日 2026-11-07。条件は変わるため、各サイトの最新の案内で再確認してください。法律の助言ではありません。

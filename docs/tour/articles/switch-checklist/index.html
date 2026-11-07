@@ -1,0 +1,107 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>【体験・ツアー】予約システムの乗り換えチェックリスト｜二重予約を防ぐ「つないでから切る」順番</title><meta name="description" content="体験・ツアーの予約システムを乗り換えるときのチェックリスト。二重予約を防ぐ順番、事前の書き出し、並行運用、切り替え日の作業、日本の予約サイトを使っている場合の注意点を整理しました。"><meta name="robots" content="noindex,nofollow"><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "【体験・ツアー】予約システムの乗り換えチェックリスト｜二重予約を防ぐ「つないでから切る」順番", "description": "体験・ツアーの予約システムを乗り換えるときのチェックリスト。二重予約を防ぐ順番、事前の書き出し、並行運用、切り替え日の作業、日本の予約サイトを使っている場合の注意点を整理しました。", "dateModified": "2026-11-07", "inLanguage": "ja", "mainEntityOfPage": "https://rinyan-thai23.github.io/saas-tools/tour/articles/switch-checklist/"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "並行運用は何日ですか？", "acceptedAnswer": {"@type": "Answer", "text": "一般的には1〜2週間です（日本のホテル向けの解説）。体験・ツアーでは、商品と予約の数で変わります。公式の決まりではありません。"}}, {"@type": "Question", "name": "切り替えは、いつがいいですか？", "acceptedAnswer": {"@type": "Answer", "text": "予約が少ない時期です。繁忙期の直前は避けます。"}}, {"@type": "Question", "name": "日本の予約サイトを使っていても、乗り換えられますか？", "acceptedAnswer": {"@type": "Answer", "text": "乗り換えられますが、日本のサイトとの連携がない製品では、在庫を手で合わせる必要があります。連携できるか、各社に聞いてください。"}}]}]}</script><style>:root{--bg:#fff;--fg:#1b1f23;--mut:#5b6670;--line:#d8dee4;--acc:#0b5cad;--soft:#f5f7fa}
+@media(prefers-color-scheme:dark){:root{--bg:#14181c;--fg:#e6e9ec;--mut:#9aa5af;--line:#2d353d;--acc:#6db3f2;--soft:#1c2228}}
+*{box-sizing:border-box}body{overflow-wrap:anywhere;margin:0;background:var(--bg);color:var(--fg);font:16px/1.85 -apple-system,"Hiragino Sans","Noto Sans JP",sans-serif}
+header,main,footer{max-width:820px;margin:0 auto;padding:0 16px}header{padding-top:14px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+header a{color:var(--fg);text-decoration:none;font-weight:700}nav a{margin-right:14px;font-weight:400;font-size:14px;color:var(--mut)}
+h1{font-size:1.6rem;line-height:1.4;margin:1.4em 0 .6em}h2{font-size:1.25rem;margin:2em 0 .6em;padding-bottom:.3em;border-bottom:1px solid var(--line)}h3{font-size:1.05rem;margin:1.5em 0 .4em}
+a{color:var(--acc)}blockquote{margin:1em 0;padding:.6em 1em;background:var(--soft);border-left:4px solid var(--acc)}blockquote p{margin:.4em 0}
+.tw{overflow-x:auto;margin:1em 0}table{border-collapse:collapse;font-size:14px;line-height:1.6;min-width:100%}th,td{border:1px solid var(--line);padding:6px 9px;vertical-align:top;text-align:left}th{background:var(--soft);white-space:nowrap}
+code{background:var(--soft);padding:1px 4px;border-radius:3px;font-size:.9em}footer{padding-top:20px;padding-bottom:40px;color:var(--mut);font-size:13px;border-top:1px solid var(--line);margin-top:3em}
+ul,ol{padding-left:1.4em}li{margin:.2em 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:1em 0}
+.card{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--soft);text-decoration:none;color:var(--fg);line-height:1.5}
+details.src{margin:2em 0;padding:10px 14px;border:1px solid var(--line);border-radius:8px;background:var(--soft)}details.src summary{cursor:pointer;font-weight:700}details.src h2{display:none}details.src li{font-size:14px}
+.card b{display:block;margin-bottom:4px}.card span{font-size:13px;color:var(--mut)}.card:hover{border-color:var(--acc)}</style></head><body>
+<header><a href="/saas-tools/tour/">体験・ツアー予約システム比較</a><nav><a href="/saas-tools/tour/compare-table/">総合比較表</a><a href="/saas-tools/tour/disclosure/">広告表示と運営方針</a><a href="/saas-tools/tour/changelog/">更新履歴</a></nav></header>
+<main><h1>【体験・ツアー】予約システムの乗り換えチェックリスト｜二重予約を防ぐ「つないでから切る」順番</h1>
+<h2>先に結論</h2>
+<blockquote>
+<ul>
+<li><strong>二重予約を防ぐ一番の原則は、「新しい方をつないでから、古い方を切る」順番です。</strong> 切る順番を間違えると、その間に二重予約が起きます。</li>
+<li><strong>ほとんどの場合、切り替えの日までの予約は古いシステムで、その日以降の新しい予約は新しいシステムで受けます。</strong></li>
+<li><strong>2つのシステムを並行して動かす期間は、短く、毎日見比べる</strong>のが一般的です。</li>
+<li>この記事は、海外の導入・移行の解説（複数の会社のブログ）と、日本の予約・システム移行の解説を元にした<strong>一般的な進め方</strong>です。各社の公式手順ではありません。</li>
+</ul>
+</blockquote>
+<h2>0. 乗り換える前に決めること</h2>
+<ul>
+<li>[ ] <strong>いつ乗り換えるか</strong>：繁忙期の前ではなく、予約が少ない時期に。移行に必要な日数は、海外の解説では「小さな事業者で数日〜1週間ほど」とされています（目安。製品や商品の数で変わります）。</li>
+<li>[ ] <strong>誰が担当するか</strong>：移行の責任者を1人決めます。毎日の見比べも、その人が行います。</li>
+<li>[ ] <strong>今のシステムの解約条件</strong>：契約期間、解約の方法、データを書き出せる期間を、書面で確認します。</li>
+<li>[ ] <strong>新しいシステムの契約条件</strong>：日本の事業者として契約できるか、円で受け取れるか、日本語のサポートがあるか。各製品の商品ページの「日本で使える？」の節に、確認できたこと・できなかったことをまとめています。</li>
+</ul>
+<h2>1. 事前に書き出す（古いシステムが使えるうちに）</h2>
+<ul>
+<li>[ ] <strong>顧客の一覧</strong>（名前、連絡先）</li>
+<li>[ ] <strong>先の日付の予約をすべて</strong>（日付、商品、人数、名前、連絡先、支払い済みか、どの販売先から来たか）</li>
+<li>[ ] <strong>過去の予約</strong>（会計や分析のため）</li>
+<li>[ ] <strong>未使用のギフトカード・クーポン</strong>がある場合は、その残高</li>
+<li>[ ] <strong>商品の設定</strong>（定員、開始時間、料金、キャンセルの規定、締め切り）を、画面を見ながら書き出す</li>
+</ul>
+<p><strong>FareHarbor の例</strong>：他社の移行案内によると、FareHarbor は予約レポートを期間を指定してCSVで出せます（<a href="/saas-tools/tour/articles/switch-fareharbor-to-bokun/">手順</a>）。</p>
+<h2>2. 新しいシステムを準備する</h2>
+<ul>
+<li>[ ] 無料トライアルや、テスト用のアカウントで、<strong>実際の商品を1〜2つ</strong>登録します。</li>
+<li>[ ] テスト予約を入れて、<strong>確認メール、決済、キャンセル</strong>が正しく動くか確認します。</li>
+<li>[ ] 予約を取り込む方法を確認します（表計算での取り込みなど）。製品によって違います。</li>
+<li>[ ] <strong>日本語の窓口がある製品</strong>（<a href="/saas-tools/tour/articles/rezio/">rezio</a>、<a href="/saas-tools/tour/articles/bokun/">Bókun の日本版</a>）なら、設定の相談を先にします。</li>
+</ul>
+<h2>3. 予約サイト（OTA）を「つないでから切る」</h2>
+<ul>
+<li>[ ] <strong>新しいシステムに、予約サイトを先につなぎます。</strong> この時点では、古いシステムも動いています。</li>
+<li>[ ] <strong>両方に在庫が出ている間は、空き枠を絞る（売り止めにする）</strong>など、二重予約が起きない運用にします。</li>
+<li>[ ] 新しい方で、<strong>予約サイトごとの商品の対応づけ</strong>を確認します（予約サイトの分類は、自分の商品の分け方と違うことがあります）。</li>
+<li>[ ] 新しい方の接続が正しく動いたのを確認してから、<strong>古い方の接続を外します。</strong></li>
+<li>[ ] 接続が「つながっている」と表示されていても、<strong>実際に予約が入るか、テストで確認します。</strong> 口コミに、「つながっていると表示されたが、設定が正しくなく予約を逃した」という声があります（Bókun）。</li>
+</ul>
+<p><strong>日本の予約サイト（じゃらん、アソビュー、楽天など）を使っている場合</strong>：どの製品も、日本のサイトとの連携は確認できていません。連携がないと、日本のサイトの在庫は<strong>手で</strong>合わせることになります。使いたいサイト名で、各社に聞いてください。</p>
+<h2>4. 切り替えの日</h2>
+<ul>
+<li>[ ] <strong>切り替えの日付を、全員に伝えます</strong>（スタッフ、電話の担当者）。</li>
+<li>[ ] その日から、<strong>新しい予約は新しいシステムだけ</strong>に入れます。電話・窓口の予約も、新しいシステムに入れます。</li>
+<li>[ ] 切り替え前の予約は、古いシステムで対応を続けるか、新しい方に入れ直すか、決めておきます。</li>
+<li>[ ] <strong>切り替え時点で、最後にもう一度、予約を見比べます。</strong> 切り替えの直前に入った予約が、漏れていないか確認します。</li>
+<li>[ ] <strong>団体や貸切の予約が切り替え日をまたぐ場合</strong>は、両方のシステムで、すべての枠を手で確認します。</li>
+</ul>
+<h2>5. 並行運用の期間（短く、毎日見比べる）</h2>
+<ul>
+<li>[ ] <strong>1〜2週間</strong>ほど、新旧の予約を毎日見比べるのが一般的です（日本のホテル向けの移行の解説にもあります）。体験・ツアーでは、商品と予約の数に合わせて短くしても構いません。</li>
+<li>[ ] ずれを見つけたら、原因を書きます（電話の予約の入れ忘れ、接続の遅れなど）。</li>
+<li>[ ] 見比べは、<strong>1人の担当者</strong>が行います。</li>
+</ul>
+<h2>6. 古いシステムを止める</h2>
+<ul>
+<li>[ ] すべての予約サイトの接続が、新しいシステムに切り替わったことを確認します。</li>
+<li>[ ] 古いシステムにしかない予約（切り替え前の予約）が、<strong>すべて実施された</strong>ことを確認します。実施前に解約しない。</li>
+<li>[ ] <strong>データの書き出しを、解約の前に、もう一度</strong>行います。</li>
+<li>[ ] 解約の連絡と、請求が止まることを、書面で確認します。</li>
+</ul>
+<h2>7. 失敗したときの戻し方</h2>
+<ul>
+<li>[ ] <strong>古いシステムに戻す手順を、先に決めておきます</strong>（日本の移行の解説でも勧められています）。</li>
+<li>[ ] 戻す条件（例：2日続けて二重予約が出た）を決めておきます。</li>
+<li>[ ] 古いシステムの解約は、新しい方が安定してからにします。</li>
+</ul>
+<h2>乗り換えで多い失敗</h2>
+<ul>
+<li><strong>電話・窓口の予約を新しいシステムに入れ忘れる</strong></li>
+<li><strong>先の日付の予約を取り込み忘れる</strong></li>
+<li><strong>古い方を先に切って、予約サイトの在庫が空になる／古いまま残る</strong></li>
+<li><strong>サポートが英語で、設定の相談ができない</strong></li>
+</ul>
+<h2>よくある質問</h2>
+<h3>並行運用は何日ですか？</h3>
+<p>一般的には1〜2週間です（日本のホテル向けの解説）。体験・ツアーでは、商品と予約の数で変わります。公式の決まりではありません。</p>
+<h3>切り替えは、いつがいいですか？</h3>
+<p>予約が少ない時期です。繁忙期の直前は避けます。</p>
+<h3>日本の予約サイトを使っていても、乗り換えられますか？</h3>
+<p>乗り換えられますが、日本のサイトとの連携がない製品では、在庫を手で合わせる必要があります。連携できるか、各社に聞いてください。</p>
+<h2>関連記事</h2>
+<ul>
+<li>乗り換え：<a href="/saas-tools/tour/articles/switch-from-manual/">電話・表計算から予約システムへ</a>、<a href="/saas-tools/tour/articles/switch-fareharbor-to-bokun/">FareHarborからBókunへ</a></li>
+<li>代替：<a href="/saas-tools/tour/articles/alt-fareharbor/">FareHarborの代替</a>、<a href="/saas-tools/tour/articles/alt-xola/">Xolaの代替</a>、<a href="/saas-tools/tour/articles/alt-rezdy/">Rezdyの代替</a>、<a href="/saas-tools/tour/articles/alt-checkfront/">Checkfrontの代替</a></li>
+<li>ほかの日本対応・買う直前の記事は、順次追加します。</li>
+</ul>
+<p>情報は、海外の導入・移行の解説、日本の予約・システム移行の解説、各社の公式サイトを読んで日本語にまとめたものです。確認日 2026-11-07。製品ごとの手順は、各社のサポートで確認してください。</p></main>
+<footer>最終確認日 2026-11-07 ／ 料金・仕様は変わるため、申込前に公式ページで再確認してください。<br><a href="/saas-tools/tour/disclosure/">広告表示と運営方針</a></footer></body></html>

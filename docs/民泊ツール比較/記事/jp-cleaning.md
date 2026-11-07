@@ -1,95 +1,98 @@
 ---
-title: 清掃タスク・清掃会社との連携を比べる｜民泊管理ツール各社の公式の記載を確認
+title: 【民泊】清掃管理の自動化｜海外の管理ツールの清掃タスク機能と、日本の清掃スタッフが使うときの注意
 slug: jp-cleaning
 type: 日本対応
-products: [guesty, hostaway, lodgify, ownerrez, hospitable, igms, uplisting, beds24, sirvoy]
-description: 民泊管理ツール9製品の清掃タスク機能と、清掃会社・清掃アプリとの連携を公式の記載から整理。日本の清掃会社で使えるかは未確認の点が多い。
-cards: [Guesty, Hostaway, Lodgify, OwnerRez, Hospitable, iGMS, Uplisting, Beds24, Sirvoy, PriceLabs, Hostfully-Guidebooks]
-updated: 2026-11-05
+products: [guesty, hostaway, lodgify, hospitable, ownerrez, igms, uplisting, beds24, sirvoy]
+description: 民泊の清掃の手配を自動化する、海外の管理ツールの清掃タスク機能を比較。予約に連動してタスクが作られる仕組み、清掃スタッフの使い方、日本語の壁と、日本の清掃管理サービスとの連携の考え方を整理します。
+cards: [Guesty, Hostaway, Lodgify, Hospitable, OwnerRez, iGMS, Uplisting, Beds24, Sirvoy]
+updated: 2026-11-07
 pr: true
 ---
 
-この記事にはアフィリエイトリンク（PR）が含まれます。
+# 【民泊】清掃管理の自動化｜海外の管理ツールの清掃タスク機能と、日本の清掃スタッフが使うときの注意
 
-# 清掃タスク・清掃会社との連携を比べる
+この記事にはアフィリエイトリンク（PR）が含まれます。紹介報酬の有無で、内容や順番は変えていません。
 
-> **結論**
-> - 清掃に関する機能は、調べた9製品すべてに公式の記載があった（OwnerRez は清掃スタッフ用ポータルが中心で、社内のタスク機能の詳細は未確認）。差が出るのは、使えるプランと、外部の清掃サービスとの連携先。
-> - Lodgify は Ultimate プランのみ。Hospitable と Sirvoy は全プランに記載がある。
-> - 日本の清掃会社と使えるか、清掃スタッフが使う画面が日本語かは、公式の記載が見つからなかった（できないと確認したわけではない）。日本語での清掃管理の案内が確認できたのは Beds24 の日本の販売会社だけ（ほかの製品の日本語の清掃関連資料の有無は調べていない）。
+## 先に結論：清掃タスクの自動作成は、ほとんどのツールにある。壁は「清掃スタッフの言語」
 
-## 比較表（公式の記載、取得日 2026-11-05）
+> - **予約に連動して清掃タスクが自動でできる**機能は、Guesty、Hostaway、Lodgify、Uplisting、Sirvoy、iGMS、OwnerRez など、調べた範囲の多くの公式ページに載っています。予約が変わると、タスクも変わる、と書くツールもあります。
+> - **日本の清掃スタッフが使うときの壁は、言語。** ほとんどのツールで、スタッフ向けの画面やアプリが日本語かは、確認できていません。
+> - **日本語で使える清掃管理は、国内サービスや、日本の販売会社経由の Beds24 周辺**にあります（検索で見つかった例：Beds24 と API 連携する国内の清掃管理サービス）。
+> - **アプリを入れたくない清掃スタッフ向けに、SMSで案内する方法**を紹介するツールもあります（Guesty の説明）。
+> - **民泊新法の人は、先に Airbnb の扱いを確認。** 清掃管理の前提になる予約サイトの接続が、受け付けられない場合があります。
 
-| 製品 | 清掃タスクの機能 | 使えるプラン | 外部の清掃サービスとの連携 |
-|---|---|---|---|
-| Guesty | 自動タスク作成（チェックアウト後など）、清掃スタッフが写真・メモを残す、権限を絞って清掃スタッフに見せる | 記載なし（未確認） | 未確認 |
-| Hostaway | 予約に基づいてタスクを自動作成。予約が変わるとタスクも変わる | 記載なし（未確認） | 未確認 |
-| Lodgify | 「Cleaning and task management」 | **Ultimate のみ** | Turno の無料サブスクが Ultimate に付くとの記載 |
-| OwnerRez | 清掃スタッフ用のポータルが基本料金に含まれる。社内の清掃タスク機能の詳細は未確認 | 基本料金内（Rezzy AI は1物件月 $9 の有料機能で、タスクを自動作成するとの説明） | Turno、Breezeway、Operto Teams、ResortCleaning、TIDY ほか12件ほど |
-| Hospitable | Tasks Manager／Tasks App、清掃員への支払い機能、Cleaner Marketplace | **全プラン**。清掃員への支払い機能は手数料あり（Essentials 2.5%、有料プラン 1.5%、いずれも1回あたり上限 US$5） | 未確認 |
-| iGMS | タスクの自動作成・割り当て、チェックリスト、SMS通知、チーム管理。iCal 接続のカレンダーでもタスクは自動作成（公式の説明） | 無料プランに清掃員の招待あり（タスク機能のプラン条件は未確認） | Turno、Operto Teams、Cleanster |
-| Uplisting | Cleaning Scheduler（細部は未確認） | 記載なし（未確認） | Turno、Lula.Cleaning、Cleanster ほか |
-| Beds24 | 「Housekeeping」機能。日本の販売会社が清掃レポート・清掃管理の解説記事と、清掃管理システム「CRS」（Beds24連携）を案内。サブアカウントで清掃会社に権限付きで共有できる | 記載なし（未確認） | CRS（日本の販売会社が案内）。サブアカウントは月額 ¥830（税込表記。日本の販売会社のオプション一覧） |
-| Sirvoy | 「Cleaning & housekeeping scheduling」 | **全プラン** | 未確認 |
+## 清掃機能の比較（公式の記載）
 
-PriceLabs（価格ツール）と Hostfully Guidebooks（ガイドブック）は、この機能の対象外です。
+| ツール | 清掃・タスクの機能 | 清掃スタッフの扱い |
+|---|---|---|
+| [Hostaway](/articles/hostaway/) | 予約に連動して自動作成。予約が変わるとタスクも変わる | 記載を確認できず |
+| [Guesty](/articles/guesty/) | チェックアウト後に清掃・整備のタスクを自動作成。タスクはチェックアウト時刻に紐づき、予約の変更で更新（公式ブログ）。大規模は建物・物件グループ・種類別のルール（Pro） | 清掃スタッフ向けの権限設定。SMSで案内して、ブラウザで確認する方法 |
+| [Lodgify](/articles/lodgify/) | タスク管理、自動化ツール | 記載を確認できず |
+| [Hospitable](/articles/hospitable/) | チーム管理・運営（メニューにあり）。清掃スタッフや共同ホストの招待 | 招待できる |
+| [OwnerRez](/articles/ownerrez/) | チームのログインが無制限。オーナー用・清掃スタッフ用のポータル | 専用のポータルがある |
+| [iGMS](/articles/igms/) | 清掃・チーム管理が得意と口コミで評判。清掃員・共同ホストの招待（無料プランにも） | 招待できる |
+| [Uplisting](/articles/uplisting/) | 清掃スケジューラー。物件ごとに手順・チェックリスト・スケジュール。複数の清掃業者に対応 | 複数の清掃業者を設定できる |
+| [Beds24](/articles/beds24/) | 国内の清掃管理サービスとの連携（検索で見つかった例）。日本の販売会社の案内は、今回未確認 | 日本の販売会社経由で相談 |
+| [Sirvoy](/articles/sirvoy/) | 清掃・ハウスキーピングのスケジュール（全プラン） | 記載を確認できず |
+| [PriceLabs](/articles/pricelabs/)、[Hostfully Guidebooks](/articles/hostfully-guidebooks/) | 該当なし（価格ツール／案内） | － |
 
-### 補足（確度の注意）
+「記載を確認できず」は、「できない」ではなく、公式ページで該当の記載を見つけられなかったということです。
 
-- iGMS は、解約手続き（アカウント削除）でテンプレート・メモ・清掃指示も消えると、ヘルプに書かれています。
-- Beds24 のサブアカウントは、清掃会社への共有に使えると日本の販売会社が説明していますが、料金（¥830）が清掃会社用にそのまま当たるかは未確認です。料金ページには「3名以上は作業用アカウント月額830円」という別の呼称もあります。
-- Lodgify の確認は公開コピー（webflow-mkt）に基づき、www の公式ページとの一致は照合していません。
-- 外部サービス（Turno など）が日本の清掃会社で使えるか、日本語で使えるかは、どの製品の公式の記載にも見つかりませんでした。
+## 清掃機能の選び方
 
-## 条件別の選び方
+### 1. 自動でタスクができるか
+- チェックアウトの時刻に合わせて、次のゲストの有無も踏まえて、タスクが作られるか。
+- **予約が変更・キャンセルされたとき**、タスクも変わるか（Hostaway、Guesty が説明）。
 
-| あなたの条件 | 確認できた範囲で言えること |
-|---|---|
-| プランを上げずに清掃タスクを使いたい | Hospitable と Sirvoy は全プランに記載あり。Lodgify は Ultimate のみ |
-| 清掃会社に画面を見せたい（権限を絞って） | Guesty（権限を絞った表示）、OwnerRez（清掃ポータルが基本料金内）、Beds24（サブアカウント）に記載あり |
-| 外部の清掃アプリ（Turno 等）とつなぎたい | OwnerRez、iGMS、Uplisting、Lodgify（Ultimate）に連携先の記載あり。日本で使えるかは未確認 |
-| 日本語で清掃管理の案内を受けたい | Beds24 の日本の販売会社の解説とCRS案内が確認できた。ほかの製品の日本語の清掃関連資料は、今回は調べていない |
+### 2. 清掃スタッフが使えるか
+- スタッフは、**アプリを入れるか、ブラウザだけか、SMSか**。日本の清掃スタッフに、英語のアプリを使ってもらうのは、負担になりえます。
+- 画面の言語（日本語か）。多くのツールで、スタッフ向け画面の日本語は、公式に確認できませんでした。
+- **スタッフの権限**（見られる情報を絞れるか。ゲストの個人情報など）。
 
-## 申し込みページ（PR）
+### 3. 報告の仕方
+- 終わったら、**スマホで完了を報告**できるか。写真やチェックリストが使えるか（ツールによる。今回は詳細を確認していません）。
 
-[Guesty](/go/guesty/) ／ [Hostaway](/go/hostaway/) ／ [Lodgify](/go/lodgify/) ／ [OwnerRez](/go/ownerrez/) ／ [Hospitable](/go/hospitable/) ／ [iGMS](/go/igms/) ／ [Uplisting](/go/uplisting/) ／ [Beds24（海外公式。PRリンク）](/go/beds24/)
+### 4. 清掃業者と連携するか
+- Turno のような、清掃の手配と支払いを担う別のサービスと連携する方法もあります（Hostfully のページに連携の記載。日本で使えるかは未確認）。
+- **国内の清掃管理サービス**と、API で連携しているものがあります（Beds24 との連携の例）。
 
-Sirvoy は公式サイトで直接確認してください（このサイトのリンクは付けていません）。上の Beds24 のリンクは海外公式（beds24.com）側の紹介リンクです。日本の販売会社（WeIns、Co-Reception）のリンクは付けていません。清掃管理の解説・CRS・¥830のオプションは日本の販売会社版の情報で、その申込は海外公式のリンクとは別になります。
+## 日本で清掃を管理するときの注意
 
-## 申し込む前に確認すること
+- **スタッフの言語**：日本語の画面があるか、なければ、**スマホのSMSやメールで、日本語の指示を送れるか**を確認してください。自動メッセージのテンプレートの言語も、ツールによって限られます（Hospitable は英・西・仏・独など）。
+- **清掃の時間**：チェックアウト後の清掃の時間と、次のチェックインの間に余裕があるか。タスクが自動でできても、**時間の確保**は運営の問題です。
+- **スマートロック**：清掃スタッフ用の暗証番号を別に発行できるか（[スマートロック連携](/articles/jp-smartlock/)）。
+- **民泊新法の人は先に確認**：Airbnb のヘルプには、日本の民泊新法の宿について「ソフト連携で作った掲載は受け付けない」とあります。例外は、Airbnb と契約した日本のAPIパートナーです。**どのツールが該当するか確認できていません。**
+- 年180日の管理、届出番号などの機能は、各ツールの公式ページに記載が見つかりませんでした。
 
-- [ ] 清掃タスクが、いま検討しているプランで使えるか
-- [ ] 清掃スタッフ・清掃会社が使う画面の言語（日本語かどうか）。ログインの人数と費用
-- [ ] 予約の変更・キャンセルで、タスクが自動で変わるか（Hostaway は変わると記載）
-- [ ] 外部の清掃サービスを使う場合、日本の清掃会社が対応しているか
-- [ ] 清掃員への支払い機能を使う場合の手数料（Hospitable）
+## 申し込む前に聞く質問
 
-## 未確認のこと
+1. 予約に連動して、清掃タスクが自動でできるか。変更・キャンセルで更新されるか。
+2. 清掃スタッフは、**アプリ・ブラウザ・SMS**のどれで使うか。日本語の画面や案内は使えるか。
+3. スタッフに見せる情報の範囲（権限）と、スタッフの数による追加費用（OwnerRez はチームのログイン無制限、Hospitable・iGMS は招待可）。
+4. 完了の報告（写真・チェックリスト）の方法。
+5. 国内の清掃管理サービスと、API で連携できるか。
 
-- Guesty・Hostaway・Uplisting・Beds24 で、清掃タスクが使えるプランの条件
-- 外部清掃サービスの、日本での利用可否と日本語対応
-- 清掃スタッフが使う画面（Tasks App など）の対応言語
-- OwnerRez の社内の清掃タスク機能の詳細、Uplisting の Cleaning Scheduler の細部
-- Beds24「CRS」の機能と料金、Hospitable の Cleaner Marketplace が日本で使えるか
+より細かい項目は [申込前チェックリスト](/articles/buy-checklist/) にあります。
 
-この記事は法的な助言ではありません。
+[Hostaway の見積り（PR）](/go/hostaway/) ／ [iGMS を14日間無料で試す（PR）](/go/igms/) ／ [Hospitable を無料で試す（PR）](/go/hospitable/)
 
-<!-- 追加調査依頼: Guesty・Hostaway・Uplisting・Beds24（公式）の清掃タスクが使えるプラン条件（料金表・ヘルプで） -->
-<!-- 追加調査依頼: 清掃スタッフ向け画面（Guesty のタスク画面、Hospitable の Tasks App、iGMS、OwnerRez の清掃ポータル）の対応言語に日本語があるか -->
-<!-- 追加調査依頼: Beds24 日本の販売会社の清掃管理システム「CRS」の機能・料金・契約先、サブアカウント（¥830）の清掃会社への適用 -->
-<!-- 追加調査依頼: Turno、Breezeway、Operto Teams、Cleanster、Lula.Cleaning 等が日本の物件・日本の清掃会社で使えるか（各社公式の対応地域） -->
-<!-- 追加調査依頼: Hospitable の Cleaner Marketplace の対象地域、OwnerRez の社内の清掃タスク機能、Uplisting の Cleaning Scheduler の機能詳細 -->
+## よくある質問
 
-## 出典
+### 清掃タスクを自動で作れるツールは？
+調べた範囲の公式ページでは、Guesty、Hostaway、Lodgify、Uplisting、Sirvoy、iGMS、OwnerRez に、予約に連動するタスクや清掃の機能の記載があります。詳細は各ツールで確認してください。
 
-取得日はすべて 2026-11-05。
+### 清掃スタッフが英語を読めなくても使えますか？
+スタッフ向けの画面の日本語は、多くのツールで確認できませんでした。アプリを使わず、SMS やメールで日本語の指示を送る方法、国内の清掃管理サービスを併用する方法があります。
 
-- Guesty：https://www.guesty.com/features/tasks-management/
-- Hostaway：https://www.hostaway.com/features/automation-tools/
-- Lodgify：https://webflow-mkt.lodgify.com/pricing
-- OwnerRez：https://www.ownerrez.com/pricing ／ https://www.ownerrez.com/integrations
-- Hospitable：https://hospitable.com/pricing
-- iGMS：https://www.igms.com/pricing/ ／ https://igms.com/integrations ／ https://www.igms.com/features/channel-manager/ ／ https://help.igms.com/en/articles/9927743-how-do-i-cancel-my-igms-subscription
-- Uplisting：https://www.uplisting.io/integrations ／ https://support.uplisting.io/en/category/operations-y639hn/
-- Beds24：https://beds24.com/en/features/features ／ https://co-reception.com/オプション一覧/ ／ https://wiki.beds24.com/index.php/Co-Reception
-- Sirvoy：https://sirvoy.com/pricing
+### 清掃スタッフの人数が増えると、費用は増えますか？
+OwnerRez はチームのログインが無制限、Hospitable と iGMS は清掃員・共同ホストを招待できます。ほかは、プランによる違いを確認してください。
+
+### 日本語で使える清掃管理は？
+検索では、国内の清掃管理サービスが、Beds24 と API で連携している例が見つかりました。今回は、その内容を確認していません。
+
+## 関連記事
+
+- 日本対応：[スマートロック連携](/articles/jp-smartlock/)、[日本語UI・日本語サポート](/articles/jp-japanese-ui-support/)、[英語UIだけで運用できるか](/articles/jp-english-ui/)
+- 選び方：[申込前チェックリスト](/articles/buy-checklist/)
+
+情報は、各ツールの公式サイトとヘルプ、検索で見つかった事業者の資料を読んで日本語にまとめたものです。確認日 2026-11-07。機能は変わるため、申込前に公式で再確認してください。

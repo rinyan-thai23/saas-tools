@@ -53,6 +53,29 @@ pr: false
 3. [申込前チェックリスト](/articles/buy-checklist/)
    公式ページの記載同士が食い違う項目があります（例：Uplisting は料金ページが「契約なし」、利用規約が「最低12か月」。Lodgify はサポート時間の記載がページごとに違う。後者は [サポート時間](/articles/buy-support-hours-jst/) の記事に書いています）。申込前に各社へ確かめる項目を並べます。
 
+## ツール別に知りたいとき
+
+使うかもしれないツールを1つずつ、評判・口コミ、料金、日本で使えるかまで詳しくまとめています。
+
+### 予約管理ツール（PMS・チャネルマネージャー）
+| ツール | 一言で |
+|---|---|
+| [Hostaway](/articles/hostaway/) | 導入支援が手厚い。口コミは契約・営業の説明のズレに注意 |
+| [Guesty](/articles/guesty/) | 1〜3室の Lite は料金公開。サポートと請求に不満が出やすい |
+| [Lodgify](/articles/lodgify/) | 自分の予約サイト作りが得意。更新の通知なしの自動更新に注意 |
+| [Hospitable](/articles/hospitable/) | メッセージの自動化が強い。無料プランあり。管理画面は英語のみ |
+| [OwnerRez](/articles/ownerrez/) | 料金表が公開。サポートの評価が高い |
+| [iGMS](/articles/igms/) | 2〜8室向け。無料プランあり。自動返信が好評 |
+| [Uplisting](/articles/uplisting/) | 都市部の複数物件向け。契約条件が公式ページ同士で食い違う |
+| [Beds24](/articles/beds24/) | 月€15.50から。日本語版と国内の予約サイト連携は日本の販売会社経由 |
+
+### 補助ツール（料金・案内・小規模宿）
+| ツール | 一言で |
+|---|---|
+| [PriceLabs](/articles/pricelabs/) | 宿泊料金の自動調整。日本語ページあり。予約管理はできない |
+| [Hostfully Guidebooks](/articles/hostfully-guidebooks/) | 宿泊者向けのデジタル案内。1冊は無料 |
+| [Sirvoy](/articles/sirvoy/) | 小さな宿向けの予約管理。1室は無料。ゲスト向けは日本語あり |
+
 ## 記事の入口
 
 ### 比較：2つのツールで迷っているとき

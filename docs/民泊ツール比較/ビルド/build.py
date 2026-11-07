@@ -53,6 +53,7 @@ code{background:var(--soft);padding:1px 4px;border-radius:3px;font-size:.9em}foo
 ul,ol{padding-left:1.4em}li{margin:.2em 0}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:1em 0}
 .card{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--soft);text-decoration:none;color:var(--fg);line-height:1.5}
+details.src{margin:2em 0;padding:10px 14px;border:1px solid var(--line);border-radius:8px;background:var(--soft)}details.src summary{cursor:pointer;font-weight:700}details.src h2{display:none}details.src li{font-size:14px}
 .card b{display:block;margin-bottom:4px}.card span{font-size:13px;color:var(--mut)}.card:hover{border-color:var(--acc)}"""
 
 def render(slug, fm, body):
@@ -66,6 +67,10 @@ def render(slug, fm, body):
             return f'<a href="{href}" rel="nofollow noopener" target="_blank"'
         return m.group(0)
     html_body = re.sub(r'<a href="([^"]+)"', fix, html_body)
+    # 出典・情報源は折りたたむ（本文を読みやすくする）
+    m = re.search(r"<h2>(出典|情報源と取得日)</h2>", html_body)
+    if m:
+        html_body = (html_body[:m.start()] + f'<details class="src"><summary>根拠を見る（{m.group(1)}）</summary>' + html_body[m.start():] + "</details>")
     html_body = html_body.replace('href="/', f'href="{BASE}/')
     robots = "" if PUBLISH else '<meta name="robots" content="noindex,nofollow">'
     title = html.escape(fm.get("title", slug))

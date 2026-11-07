@@ -8,8 +8,10 @@ from pathlib import Path
 import markdown
 
 ROOT = Path(__file__).resolve().parent.parent
-SRC, OUT = ROOT / "記事", ROOT.parent / "minpaku"  # GitHub Pages(docs)で /minpaku/ として公開
-BASE = next((a.split("=", 1)[1].rstrip("/") for a in sys.argv if a.startswith("--base=")), "/saas-tools/minpaku")  # 独自ドメインなら --base=''  
+CFG = {"名前": "民泊ツール比較", "出力": "minpaku", "go禁止": ["sirvoy", "hostfully"]}  # サイト設定.json があれば上書き（カテゴリごと）
+if (ROOT / "サイト設定.json").exists(): CFG.update(json.loads((ROOT / "サイト設定.json").read_text(encoding="utf-8")))
+SRC, OUT = ROOT / "記事", ROOT.parent / CFG["出力"]  # GitHub Pages(docs)で /<出力>/ として公開
+BASE = next((a.split("=", 1)[1].rstrip("/") for a in sys.argv if a.startswith("--base=")), "/saas-tools/" + CFG["出力"])  # 独自ドメインなら --base=''  
 PUBLISH = "--publish" in sys.argv
 errors, warnings = [], []
 
@@ -95,7 +97,7 @@ def render(slug, fm, body):
     desc = html.escape(fm.get("description", ""))
     return f"""<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title}</title><meta name="description" content="{desc}">{robots}{jsonld(slug, fm, html_body)}<style>{CSS}</style></head><body>
-<header><a href="{BASE}/">民泊ツール比較</a><nav><a href="{BASE}/compare-table/">総合比較表</a><a href="{BASE}/disclosure/">広告表示と運営方針</a><a href="{BASE}/changelog/">更新履歴</a></nav></header>
+<header><a href="{BASE}/">{CFG["名前"]}</a><nav><a href="{BASE}/compare-table/">総合比較表</a><a href="{BASE}/disclosure/">広告表示と運営方針</a><a href="{BASE}/changelog/">更新履歴</a></nav></header>
 <main>{html_body}</main>
 <footer>最終確認日 {html.escape(fm.get("updated",""))} ／ 料金・仕様は変わるため、申込前に公式ページで再確認してください。<br><a href="{BASE}/disclosure/">広告表示と運営方針</a></footer></body></html>"""
 
@@ -106,7 +108,7 @@ for slug, (fm, body) in pages.items():
     for href in re.findall(r"\]\((/[^)\s]*)\)", body):
         h = href.split("#")[0]
         if h not in valid: errors.append(f"{slug}: リンク切れ {href}")
-        if re.match(r"/go/(sirvoy|hostfully)", h): errors.append(f"{slug}: Sirvoy/Hostfullyへの/go/ {h}")
+        if re.match(r"/go/(" + "|".join(CFG["go禁止"]) + r")\b", h) and CFG["go禁止"]: errors.append(f"{slug}: アフィリ無し製品への/go/ {h}")
     if re.search(r"/go/", body) and "PR" not in body[:700] and "広告" not in body[:700]:
         errors.append(f"{slug}: /go/ リンクがあるのに冒頭にPR表記がない")
     for w in ["追加調査依頼", "TODO", "事実カード"]:

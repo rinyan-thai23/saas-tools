@@ -1,11 +1,11 @@
-# 記事1本の自動チェック。使い方: python3 -I 取得スクリプト/10_記事チェック.py 記事のmdパス
+# 記事1本の自動チェック。使い方: python3 -I 取得スクリプト/10_記事チェック.py 記事のmdパス [ジャンル名=民泊]
 # 1) タイトルにジャンル名(民泊)  2) 内部リンクが実在  3) 禁句  4) 本文の金額($/€/£/¥)が商品ページ(type: 商品)のどれかに載っているか
 import sys, re, glob, os
-p = sys.argv[1]; d = os.path.dirname(os.path.abspath(p))
+p = sys.argv[1]; genre = sys.argv[2] if len(sys.argv) > 2 else "民泊"; d = os.path.dirname(os.path.abspath(p))
 t = open(p, encoding="utf-8").read(); out = []
 m = re.match(r"---\n(.*?)\n---\n(.*)", t, re.S); fm, body = m.group(1), m.group(2)
 title = re.search(r"title: (.*)", fm).group(1)
-if "民泊" not in title: out.append(f"タイトルに『民泊』なし: {title}")
+if genre not in title: out.append(f"タイトルに『{genre}』なし: {title}")
 slugs = {os.path.basename(f)[:-3] for f in glob.glob(d + "/*.md")}
 for h in re.findall(r"\]\(/articles/([^/)]+)/\)", body):
     if h not in slugs: out.append(f"リンク先なし: /articles/{h}/")

@@ -27,3 +27,4 @@ updated: 2026-11-07
 - [BókunとCheckfrontを比較](/articles/vs-bokun-checkfront/)
 - [XolaとFareHarborを比較](/articles/vs-xola-fareharbor/)
 - [RezdyとCheckfrontを比較](/articles/vs-rezdy-checkfront/)
+- [BookeoとCheckfrontを比較](/articles/vs-bookeo-checkfront/)

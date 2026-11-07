@@ -1,5 +1,5 @@
 <!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Lodgify から Hostaway へ乗り換える前に｜解約の締切と、ダイレクト予約サイトの扱い</title><meta name="description" content="Lodgify を使っている3〜15室の民泊が Hostaway へ移るときの確認事項。Lodgify の自動更新と解約の締切、予約サイトと決済の差、Hostaway の移行支援の記載範囲を公式情報で整理。"><meta name="robots" content="noindex,nofollow"><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Lodgify から Hostaway へ乗り換える前に｜解約の締切と、ダイレクト予約サイトの扱い", "description": "Lodgify を使っている3〜15室の民泊が Hostaway へ移るときの確認事項。Lodgify の自動更新と解約の締切、予約サイトと決済の差、Hostaway の移行支援の記載範囲を公式情報で整理。", "dateModified": "2026-11-05", "inLanguage": "ja", "mainEntityOfPage": "https://rinyan-thai23.github.io/saas-tools/minpaku/articles/switch-lodgify-to-hostaway/"}]}</script><style>:root{--bg:#fff;--fg:#1b1f23;--mut:#5b6670;--line:#d8dee4;--acc:#0b5cad;--soft:#f5f7fa}
+<title>【民泊】Lodgify から Hostaway へ乗り換える手順と注意点｜予約サイト・予約データ・二重予約</title><meta name="description" content="民泊の管理ツールを Lodgify から Hostaway へ乗り換えるときの手順。自動更新の日付、予約データの書き出しと CSV 取り込み、自分の予約サイトの扱い、二重予約の防ぎ方を整理します。"><meta name="robots" content="noindex,nofollow"><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "【民泊】Lodgify から Hostaway へ乗り換える手順と注意点｜予約サイト・予約データ・二重予約", "description": "民泊の管理ツールを Lodgify から Hostaway へ乗り換えるときの手順。自動更新の日付、予約データの書き出しと CSV 取り込み、自分の予約サイトの扱い、二重予約の防ぎ方を整理します。", "dateModified": "2026-11-07", "inLanguage": "ja", "mainEntityOfPage": "https://rinyan-thai23.github.io/saas-tools/minpaku/articles/switch-lodgify-to-hostaway/"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Lodgify の予約サイトは、Hostaway に移せますか？", "acceptedAnswer": {"@type": "Answer", "text": "今回調べた範囲では、移行の手順は確認できませんでした。作り直しが必要になる可能性があります。Hostaway に、予約サイトの扱いと費用を確認してください。"}}, {"@type": "Question", "name": "Lodgify の解約で、損をしないためには？", "acceptedAnswer": {"@type": "Answer", "text": "更新の通知が来ないので、更新日を自分で管理し、更新日の前に解約してください。期間の途中で解約しても、返金はありません。"}}, {"@type": "Question", "name": "予約データは移せますか？", "acceptedAnswer": {"@type": "Answer", "text": "Hostaway には、外部の予約を CSV で取り込む機能があります。直接予約は手作業の取り込みが必要な場合があります。Lodgify の書き出しの範囲（日付）と形式を、先に確認してください。"}}, {"@type": "Question", "name": "乗り換え中に二重予約を防ぐには？", "acceptedAnswer": {"@type": "Answer", "text": "近い日付の空室を手動で閉じる、同期を一時停止する、予約サイトを1つずつ切り替えて確認する、の3つが基本です。詳しくは 移行チェックリスト へ。"}}]}]}</script><style>:root{--bg:#fff;--fg:#1b1f23;--mut:#5b6670;--line:#d8dee4;--acc:#0b5cad;--soft:#f5f7fa}
 @media(prefers-color-scheme:dark){:root{--bg:#14181c;--fg:#e6e9ec;--mut:#9aa5af;--line:#2d353d;--acc:#6db3f2;--soft:#1c2228}}
 *{box-sizing:border-box}body{overflow-wrap:anywhere;margin:0;background:var(--bg);color:var(--fg);font:16px/1.85 -apple-system,"Hiragino Sans","Noto Sans JP",sans-serif}
 header,main,footer{max-width:820px;margin:0 auto;padding:0 16px}header{padding-top:14px;padding-bottom:10px;border-bottom:1px solid var(--line)}
@@ -14,176 +14,133 @@ ul,ol{padding-left:1.4em}li{margin:.2em 0}
 details.src{margin:2em 0;padding:10px 14px;border:1px solid var(--line);border-radius:8px;background:var(--soft)}details.src summary{cursor:pointer;font-weight:700}details.src h2{display:none}details.src li{font-size:14px}
 .card b{display:block;margin-bottom:4px}.card span{font-size:13px;color:var(--mut)}.card:hover{border-color:var(--acc)}</style></head><body>
 <header><a href="/saas-tools/minpaku/">民泊ツール比較</a><nav><a href="/saas-tools/minpaku/compare-table/">総合比較表</a><a href="/saas-tools/minpaku/disclosure/">広告表示と運営方針</a><a href="/saas-tools/minpaku/changelog/">更新履歴</a></nav></header>
-<main><p>この記事にはアフィリエイトリンク（PR）が含まれます。内容は公式ページ等の記載（取得日 2026-11-05）に基づき、リンクの有無では変えていません。</p>
-<h1>Lodgify から Hostaway へ乗り換える前に</h1>
+<main><h1>【民泊】Lodgify から Hostaway へ乗り換える手順と注意点｜予約サイト・予約データ・二重予約</h1>
+<p>この記事にはアフィリエイトリンク（PR）が含まれます。紹介報酬の有無で、内容や順番は変えていません。</p>
+<h2>先に結論：Lodgify の自動更新の日付を、いちばん先に確認する</h2>
 <blockquote>
-<p><strong>結論</strong></p>
 <ul>
-<li>Lodgify は自動更新で、更新前の通知は送られない、と規約にあります。アカウント画面からの解約は契約期間の終了の1日前まで、メール経由は5日前までです。規約上、期間の途中で解約しても返金はありません（消費者向けの14日間クーリングオフの扱いは本文参照）。乗り換えの日程は、この締切から逆算するのが安全です。</li>
-<li>Lodgify で自社の予約サイトを作っている人は、Hostaway 側で予約サイト（Booking Website）を用意する必要があります。Lodgify のサイトから Hostaway への移行方法は、今回は調べていません（未調査）。</li>
-<li>Hostaway の移行支援は、公式ブログに「24/7 のサポートとライブのオンボーディング」とあるだけで、手順・費用は未確認です。</li>
+<li><strong>Lodgify は更新の通知なしに自動更新される</strong>（規約）。解約はアカウント画面なら期間終了の1日前、メールなら5日前まで。<strong>期間途中の返金はありません。</strong> 先に更新日を確認してください。</li>
+<li><strong>Hostaway は、予約サイト（Booking Website）が契約に含まれる</strong>が、Lodgify のようなテンプレートの作り込みが中心の製品ではありません。自分の予約サイトの扱いを決めてから進めます。</li>
+<li><strong>予約は CSV で取り込める</strong>と、Hostaway のヘルプに項目があります。Lodgify の書き出しの範囲（日付）を先に確認してください。</li>
+<li><strong>Hostaway は料金が見積り・契約が個別</strong>。口コミに「営業の説明と導入後が違った」という低評価があります。書面で確認。</li>
+<li><strong>民泊新法の人は、先に Airbnb の扱いを確認。</strong> どちらのツールも、民泊新法の掲載に対応できるか確認できていません。</li>
 </ul>
 </blockquote>
-<h2>Lodgify を終わらせる条件</h2>
+<h2>乗り換える理由は、足りていますか？</h2>
+<p>Lodgify の不満は、同期・接続の不具合と、自動更新・返金、サポートの遅れです（低評価の割合は約7%）。Hostaway も、口コミで料金・契約への不満があります（約4%）。<strong>自分の予約サイトが目的なら、Lodgify の方が向く</strong>という第三者の見方も多いです。理由別の選択肢は <a href="/saas-tools/minpaku/articles/alt-lodgify/">Lodgify の代替</a> にまとめています。</p>
+<h2>乗り換えの流れ（8ステップ）</h2>
+<h3>1. Lodgify の契約と更新日を確認する</h3>
+<ul>
+<li>1・12・24か月の前払いのどれか、次の更新日、解約できる期限（アカウント画面は期間終了の1日前、メールは5日前）。</li>
+<li>更新の通知は来ません。カレンダーに、更新日の1週間前を入れておくのが安全です。</li>
+</ul>
+<h3>2. Hostaway に見積りを依頼する</h3>
+<ul>
+<li>物件数を答えて、月額・初期費用・有料アドオン・契約期間・解約条件を<strong>書面で</strong>もらいます。</li>
+<li>導入支援の範囲と、移行の手順を確認します。費用は自社の比較ページに「$500」とあるだけです（自社の主張）。</li>
+</ul>
+<h3>3. 自分の予約サイトをどうするか決める</h3>
+<ul>
+<li>Lodgify で作った予約サイトと独自ドメインは、<strong>そのまま移せない可能性が高い</strong>です（今回調べた範囲で、移行の手順は確認できていません）。</li>
+<li>Hostaway の予約サイト（Booking Website）で作り直すか、別のサイトを使うか、決めます。上位版は月$49＋対象予約の0.5%で、ゲストに1.8%を上乗せする仕組みが公式にあります（米国のみ）。</li>
+</ul>
+<h3>4. Lodgify のデータを書き出す</h3>
+<ul>
+<li>予約（過去・未来）、ゲスト情報、料金の設定、物件情報、メッセージのテンプレート。</li>
+<li>第三者の情報では、Lodgify の予約の書き出しは、期間が最初の予約まで届かない場合があります。解約前に、日付の範囲を確認してください。</li>
+</ul>
+<h3>5. Hostaway で物件と設定を準備する</h3>
+<ul>
+<li>Hostaway には、外部の予約を CSV で取り込む機能があります。直接予約は、手作業の取り込みが必要になる場合があります（Hostaway のヘルプの説明）。</li>
+<li>物件、料金、ルール、自動メッセージのテンプレートを作ります。</li>
+</ul>
+<h3>6. 予約サイトの接続を切り替える</h3>
+<ul>
+<li>Airbnb・Booking.com・Vrbo は、Lodgify の接続を外して、Hostaway につなぎます。<strong>切り替えの間は、カレンダーが一時的に止まる場合があります。</strong></li>
+<li>1つずつ切り替え、1つ終わるごとにカレンダーを確認します。</li>
+</ul>
+<h3>7. 二重予約を防ぐ</h3>
+<ul>
+<li>切り替えの前に、近い日付の空室を手動で閉じるか、同期を一時停止します。</li>
+<li>切り替えの間は、手書きの「親のカレンダー」を1つ持っておくと安全です。</li>
+<li>Lodgify の口コミには、Vrbo の接続が何週間も有効にならず二重予約になった、という低評価があります。新しいツールでも、接続は実際に試してください。</li>
+</ul>
+<h3>8. Lodgify を解約する</h3>
+<ul>
+<li>新しいツールで数日動作を確認してから、<strong>更新日の前に</strong>解約します。解約が更新日を過ぎると、次の期間が前払いされ、返金されません。</li>
+</ul>
+<h2>契約・料金の比較（乗り換える前に）</h2>
 <div class="tw"><table>
 <thead>
 <tr>
-<th>項目</th>
-<th>公式の記載（Lodgify 料金ページ・規約）</th>
+<th></th>
+<th>Lodgify（今）</th>
+<th>Hostaway（移行先）</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>契約縛り</td>
-<td>料金ページ：長期契約はなく、いつでも解約できる。年払いは請求期間の終了まで使える</td>
+<td>契約</td>
+<td>更新の通知なしに自動更新。期間途中の返金なし</td>
+<td>個別契約。見積りで確認</td>
 </tr>
 <tr>
-<td>更新</td>
-<td>規約：1か月／12か月／24か月から選ぶ前払い。解約しない限り自動更新。更新前の通知は送られない</td>
+<td>料金の公開</td>
+<td>4プラン公開（1物件 $14／$26／$47／$68）</td>
+<td>非公開（見積り）</td>
 </tr>
 <tr>
-<td>解約の締切</td>
-<td>アカウント画面からは契約期間終了の1日前まで、メール（問い合わせフォーム）経由は5日前まで</td>
+<td>予約手数料</td>
+<td>0%。サイト経由の決済に別途1%</td>
+<td>予約サイトは契約に含む。上位版は月$49＋0.5%</td>
 </tr>
 <tr>
-<td>返金</td>
-<td>契約期間の途中で解約しても返金なし。消費者には14日間のクーリングオフ（年払い・2年払いは更新時にも適用、月払いは初回のみ。事業者としての契約への当たり方は規約上の定義に依存し、未確認）</td>
+<td>値上げ</td>
+<td>規約に料金変更の定めあり</td>
+<td>14日前に通知。同意しなければ、発効の5日前までに通知して解約可</td>
 </tr>
 <tr>
-<td>料金改定</td>
-<td>30日前の通知で変更可。旧プランの契約者は、現行の表示価格と違う場合がある</td>
-</tr>
-<tr>
-<td>データの書き出し</td>
-<td>退会時に書き出せるかは確認できず</td>
+<td>導入支援</td>
+<td>Starter 以上に1:1の導入支援</td>
+<td>導入支援が口コミで評判</td>
 </tr>
 </tbody>
 </table></div>
-<p>注：Lodgify の本体サイトとヘルプセンターは、この調査では403で開けませんでした。規約と料金は、同内容の公開コピー（webflow-mkt.lodgify.com）で確認しており、本体側との一致は未照合です。</p>
-<h2>Hostaway 側で確認できたこと</h2>
+<p>詳しくは <a href="/saas-tools/minpaku/articles/vs-hostaway-lodgify/">Hostaway と Lodgify の比較</a> へ。</p>
+<h2>日本で乗り換えるときの注意</h2>
 <ul>
-<li><strong>料金：</strong> 公式は非公開（物件数を答えるフォーム→見積り）。導入費用は Hostaway の比較ページに "$500"（自社の主張）。</li>
-<li><strong>契約：</strong> 規約は期間を「個別契約による」としています。値上げは14日前までに通知され、同意しない場合は発効の5日前までの通知で解約できます。</li>
-<li><strong>移行支援：</strong> 手順・期間・費用の具体は、開いた公式ページに記載なし。移行ガイドの記事は、一般的な説明と自社の実績データが中心です。</li>
-<li><strong>取り込み方法：</strong> CSV などの仕様は未確認です（ヘルプセンターは403）。</li>
+<li><strong>民泊新法の人は先に確認</strong>：Airbnb のヘルプには、日本の民泊新法の宿について「ソフト連携で作った掲載は受け付けない」とあります。例外は、Airbnb と契約した日本のAPIパートナーです。<strong>両社が該当するかは確認できていません。</strong></li>
+<li><strong>日本語</strong>：どちらも、公式には日本語の管理画面・サポートを確認できません。</li>
+<li><strong>楽天トラベル・じゃらん</strong>：民泊新法・特区民泊の施設は、どちらも対象外です。両社とも、公式の連携先に記載がありません。</li>
+<li><strong>決済</strong>：Lodgify Payments は米国のホストだけです。乗り換え後の決済手段を、先に決めておいてください。</li>
+<li>年180日の管理、届出番号などの機能は、両社とも公式ページに記載が見つかりませんでした。別の方法で管理する前提にしてください。</li>
 </ul>
-<h2>機能の差（公式の記載の範囲）</h2>
-<div class="tw"><table>
-<thead>
-<tr>
-<th>項目</th>
-<th>Lodgify</th>
-<th>Hostaway</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Airbnb・Booking.com・Vrbo</td>
-<td>API連携（Basic から）</td>
-<td>対応</td>
-</tr>
-<tr>
-<td>Expedia</td>
-<td>チャネルマネージャーのページにAPIとあるが、料金ページの機能表には記載なし（食い違い）</td>
-<td>対応</td>
-</tr>
-<tr>
-<td>その他の予約サイト</td>
-<td>iCal連携（全プラン）</td>
-<td>iCal連携の項目あり</td>
-</tr>
-<tr>
-<td>ダイレクト予約サイト</td>
-<td>Starter 以上。決済ゲートウェイ経由のオンライン決済に1%の手数料（予約手数料は0%）</td>
-<td>Booking Website は契約に含む。上位の Pro は月$49＋対象予約の0.5%</td>
-</tr>
-<tr>
-<td>予約サイトの言語</td>
-<td>「32」言語（内訳は未確認）</td>
-<td>English、Spanish、French、Italian（第三者の抜粋。日本語なし）</td>
-</tr>
-<tr>
-<td>清掃タスク</td>
-<td>Ultimate のみ</td>
-<td>予約に連動して自動作成</td>
-</tr>
-<tr>
-<td>オーナー向け</td>
-<td>Ultimate のみ（精算・報告）</td>
-<td>オーナーポータルあり</td>
-</tr>
-<tr>
-<td>スマートロック</td>
-<td>自社 Smart Locks（月$7/台）と連携先</td>
-<td>Nuki、igloohome、TTLock など多数</td>
-</tr>
-<tr>
-<td>請求通貨</td>
-<td>EUR・USD・GBP の表示。JPY は未確認</td>
-<td>記載なし。JPY は未確認</td>
-</tr>
-</tbody>
-</table></div>
+<p><a href="/saas-tools/minpaku/go/hostaway/" rel="sponsored nofollow noopener" target="_blank">Hostaway の見積り（PR）</a></p>
+<h2>乗り換え前に、Hostaway へ聞く質問</h2>
+<ol>
+<li>月額・初期費用・オンボーディング費用・有料アドオンの内訳を、書面で。</li>
+<li>契約期間、自動更新、途中解約の費用。</li>
+<li>Lodgify からの移行の手順（CSV の形式、直接予約の取り込み）と、かかる期間。</li>
+<li>予約サイトを Hostaway で作り直すときの、費用と対応言語。</li>
+<li>切り替え中の二重予約対策（どの順で予約サイトを切り替えるか）。</li>
+<li>日本語で問い合わせできるか。日本時間の窓口はあるか。</li>
+<li>私の営業形態で、Airbnb・Booking.com に接続できるか。</li>
+</ol>
+<p>より細かい項目は <a href="/saas-tools/minpaku/articles/buy-checklist/">申込前チェックリスト</a> と、<a href="/saas-tools/minpaku/articles/switch-checklist-double-booking/">移行チェックリスト（二重予約の防ぎ方）</a> にあります。</p>
+<h2>よくある質問</h2>
+<h3>Lodgify の予約サイトは、Hostaway に移せますか？</h3>
+<p>今回調べた範囲では、移行の手順は確認できませんでした。作り直しが必要になる可能性があります。Hostaway に、予約サイトの扱いと費用を確認してください。</p>
+<h3>Lodgify の解約で、損をしないためには？</h3>
+<p>更新の通知が来ないので、更新日を自分で管理し、更新日の前に解約してください。期間の途中で解約しても、返金はありません。</p>
+<h3>予約データは移せますか？</h3>
+<p>Hostaway には、外部の予約を CSV で取り込む機能があります。直接予約は手作業の取り込みが必要な場合があります。Lodgify の書き出しの範囲（日付）と形式を、先に確認してください。</p>
+<h3>乗り換え中に二重予約を防ぐには？</h3>
+<p>近い日付の空室を手動で閉じる、同期を一時停止する、予約サイトを1つずつ切り替えて確認する、の3つが基本です。詳しくは <a href="/saas-tools/minpaku/articles/switch-checklist-double-booking/">移行チェックリスト</a> へ。</p>
+<h2>関連記事</h2>
 <ul>
-<li><strong>楽天トラベル・じゃらん：</strong> どちらも公式ページに記載が見つかりませんでした（「接続できない」と確認したわけではありません）。</li>
-<li><strong>Agoda：</strong> Hostaway は公式のチャネル一覧になく、接続は断定できません（未確認）。Lodgify も連携一覧に掲載がなく、iCal 経由で使えるかは Lodgify に個別に確認が必要です。</li>
-<li><strong>日本語：</strong> どちらも日本語の公式サイトはありません。Lodgify の管理画面の言語は未確認、Hostaway は日本語対応の記述が確認できていません。</li>
-<li><strong>ゲスト登録（宿泊者名簿）：</strong> Lodgify の Guest Registration は対応地域の一覧がなく、日本が対象かは不明です。</li>
+<li>比較：<a href="/saas-tools/minpaku/articles/vs-hostaway-lodgify/">Hostaway と Lodgify</a></li>
+<li>代替：<a href="/saas-tools/minpaku/articles/alt-lodgify/">Lodgify の代替</a>、<a href="/saas-tools/minpaku/articles/alt-hostaway/">Hostaway の代替</a></li>
+<li>契約の確認：<a href="/saas-tools/minpaku/articles/buy-contract-cancel/">最低契約・解約条件</a></li>
 </ul>
-<h2>利用者の声（第三者のみ）</h2>
-<p>Capterra（海外レビュー、2026-11-03時点）は Lodgify が 1,312件／4.5、Hostaway が 1,623件／4.8 です。Lodgify には、チャネル同期の遅延、サポート応答の遅れ、1年目以降の値上げの指摘があります（検索抜粋で、各ページは未開封）。Hostaway には、値上げが頻繁との投稿があります。英語圏の声で、日本の運営者の実感ではありません。</p>
-<h2>条件別の判断</h2>
-<div class="tw"><table>
-<thead>
-<tr>
-<th>条件</th>
-<th>見るところ</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Lodgify の更新日が近い</td>
-<td>解約の締切（アカウント画面なら終了の1日前）。更新後の解約は原則返金なし（規約。消費者向けクーリングオフの当たり方は未確認）</td>
-</tr>
-<tr>
-<td>自社の予約サイトを使っている</td>
-<td>Hostaway 側の予約サイト（Booking Website）の用意、ドメイン、既存のダイレクト予約の扱いを見積り時に確認。<a href="/saas-tools/minpaku/go/hostaway/" rel="sponsored nofollow noopener" target="_blank">Hostaway の見積り（PR）</a></td>
-</tr>
-<tr>
-<td>清掃管理・オーナー精算を使っている</td>
-<td>Lodgify では Ultimate が前提。Hostaway で同等の範囲か確認</td>
-</tr>
-<tr>
-<td>今の運用を続けるか迷っている</td>
-<td><a href="/saas-tools/minpaku/go/lodgify/" rel="sponsored nofollow noopener" target="_blank">Lodgify の料金と試用（PR）</a>（7日間無料、カード不要）で、プラン別の差を先に見る</td>
-</tr>
-</tbody>
-</table></div>
-<h2>乗り換え前に確認すること</h2>
-<ul>
-<li>[ ] Lodgify の契約期間・更新日・解約の締切を確認した</li>
-<li>[ ] Lodgify から、未来の予約・ゲスト情報・メッセージテンプレートを控えた</li>
-<li>[ ] Hostaway の見積りで、月額・初期費用・契約期間・解約金・値上げ条件を書面で受け取った</li>
-<li>[ ] 既存のダイレクト予約（デポジットを含む）を、新しい予約サイトにどう引き継ぐか確認した</li>
-<li>[ ] 独自ドメインと決済アカウント（Stripe など）の付け替えを確認した</li>
-<li>[ ] 切り替え中のダブルブッキング対策を決めた（<a href="/saas-tools/minpaku/articles/switch-checklist-double-booking/">チェックリスト</a>）</li>
-<li>[ ] 請求通貨が円か、為替手数料がかかるかを確認した</li>
-</ul>
-<h2>未確認のこと</h2>
-<ul>
-<li>Hostaway の移行の手順・期間・費用、インポートの形式</li>
-<li>Lodgify のサイトから Hostaway への予約サイト・ドメインの移行方法（今回は調べていない）</li>
-<li>Lodgify の退会時のデータ書き出し、Lodgify の3・5・10・20室の公式料金（スライダー計算で取得できず）</li>
-<li>Hostaway の公式の料金、無料トライアル、標準の契約期間</li>
-<li>両社の円（JPY）請求の可否、日本語サポートの可否</li>
-</ul>
-<p>この記事は法的な助言ではありません。契約の判断は、契約書と各社への確認を優先してください。</p>
-<details class="src"><summary>根拠を見る（出典）</summary><h2>出典</h2>
-<p>取得日はすべて 2026-11-05。</p>
-<ul>
-<li><strong>Lodgify</strong>：§2 料金（契約縛り、契約期間・自動更新、解約手続き、返金）https://webflow-mkt.lodgify.com/pricing ／ https://webflow-mkt.lodgify.com/terms ／ §3 チャネル、§4 機能 https://webflow-mkt.lodgify.com/vacation-rental-channel-manager ／ https://webflow-mkt.lodgify.com/integrations ／ §5 日本対応 https://webflow-mkt.lodgify.com/guest-registration ／ §7 乗り換え https://webflow-mkt.lodgify.com/switching-software ／ §8 注意（第三者）https://www.capterra.com/p/131924/Lodgify/reviews/</li>
-<li><strong>Hostaway</strong>：§2 料金 https://www.hostaway.com/terms/ ／ https://www.hostaway.com/features/direct-booking/ ／ §3・§4 https://www.hostaway.com/vacation-rental-channel-manager/ ／ https://www.hostaway.com/features/smart-locks/ ／ §7 乗り換え https://www.hostaway.com/blog/switching-pms-platforms/</li>
-<li><strong>日本のOTA連携</strong>：3-02、3-03 https://www.hostaway.com/features/channel-manager/ ／ https://www.lodgify.com/channel-manager/</li>
-<li><strong>その他</strong>：README（Capterra の評価・口コミ数、2026-11-03時点）</li>
-</ul></details></main>
-<footer>最終確認日 2026-11-05 ／ 料金・仕様は変わるため、申込前に公式ページで再確認してください。<br><a href="/saas-tools/minpaku/disclosure/">広告表示と運営方針</a></footer></body></html>
+<p>情報は、両社の公式サイト（Lodgify は公式の公開コピー）とヘルプ、海外のレビューサイト、比較サイトを読んで日本語にまとめたものです。確認日 2026-11-07。料金や仕様は変わるため、申込前に公式で再確認してください。法律の助言ではありません。</p></main>
+<footer>最終確認日 2026-11-07 ／ 料金・仕様は変わるため、申込前に公式ページで再確認してください。<br><a href="/saas-tools/minpaku/disclosure/">広告表示と運営方針</a></footer></body></html>

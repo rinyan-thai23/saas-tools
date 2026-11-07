@@ -66,12 +66,12 @@ def jsonld(slug, fm, html_body):
     if fm.get("type") == "商品":
         g.append({"@type": "SoftwareApplication", "name": fm.get("product", slug), "applicationCategory": "BusinessApplication",
                   "operatingSystem": "Web", "url": fm.get("official", ""), "description": fm.get("description", "")})
-        m = re.search(r"<h2>よくある質問</h2>(.*?)(?=<h2>|$)", html_body, re.S)
-        qa = re.findall(r"<h3>(.*?)</h3>\s*<p>(.*?)</p>", m.group(1), re.S) if m else []
-        strip = lambda x: html.unescape(re.sub(r"<[^>]+>", "", x)).strip()
-        if qa:
-            g.append({"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": strip(q),
-                      "acceptedAnswer": {"@type": "Answer", "text": strip(a)}} for q, a in qa]})
+    m = re.search(r"<h2>よくある質問</h2>(.*?)(?=<h2>|$)", html_body, re.S)
+    qa = re.findall(r"<h3>(.*?)</h3>\s*<p>(.*?)</p>", m.group(1), re.S) if m else []
+    strip = lambda x: html.unescape(re.sub(r"<[^>]+>", "", x)).strip()
+    if qa:
+        g.append({"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": strip(q),
+                  "acceptedAnswer": {"@type": "Answer", "text": strip(a)}} for q, a in qa]})
     return '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@graph": g}, ensure_ascii=False) + "</script>"
 
 def render(slug, fm, body):

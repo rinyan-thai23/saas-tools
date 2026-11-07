@@ -1,0 +1,10 @@
+132178|RingEX|https://www.capterra.jp/software/132178/ringcentral-mvp
+175788|Nextiva|https://www.capterra.jp/software/175788/nextiva
+159578|CallHippo|https://www.capterra.jp/software/159578/callhippo
+163604|GoToConnect|https://www.capterra.jp/software/163604/GoTo-Connect
+190976|Dialpad|https://www.capterra.jp/software/190976/dialpad-sell
+144486|Aircall|https://www.capterra.jp/software/144486/aircall
+182004|CloudTalk|https://www.capterra.jp/software/182004/cloudtalk
+208535|ZoomPhone|https://www.capterra.jp/software/208535/zoom-phone
+157853|JustCall|https://www.capterra.jp/software/157853/justcall
+173804|Telnyx|https://www.capterra.jp/software/173804/telnyx

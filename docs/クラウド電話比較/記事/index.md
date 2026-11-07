@@ -28,3 +28,4 @@ updated: 2026-11-07
 - [Nextiva と RingEX を比較](/articles/vs-nextiva-ringex/)
 - [RingEX の代替](/articles/alt-ringex/)
 - [Dialpad の代替](/articles/alt-dialpad/)
+- [Zoom Phone の代替](/articles/alt-zoom-phone/)

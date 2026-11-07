@@ -3,7 +3,7 @@
 - 既定は noindex（公開前）。--publish では運営者情報の未記入・仮リンクをエラーにする。
 - /go/<slug>/ は ビルド/go-links.tsv の遷移先へ飛ばす。アフィリURLが決まったらこのTSVだけ書き換える。
 """
-import csv, html, re, shutil, sys
+import csv, html, json, re, shutil, sys
 from pathlib import Path
 import markdown
 
@@ -56,6 +56,24 @@ ul,ol{padding-left:1.4em}li{margin:.2em 0}
 details.src{margin:2em 0;padding:10px 14px;border:1px solid var(--line);border-radius:8px;background:var(--soft)}details.src summary{cursor:pointer;font-weight:700}details.src h2{display:none}details.src li{font-size:14px}
 .card b{display:block;margin-bottom:4px}.card span{font-size:13px;color:var(--mut)}.card:hover{border-color:var(--acc)}"""
 
+ORIGIN = "https://rinyan-thai23.github.io"  # 独自ドメインにしたらここを変える
+
+def jsonld(slug, fm, html_body):
+    """検索エンジン向けの構造化データ。商品ページは SoftwareApplication と FAQPage も入れる（他社集計の評価点は入れない）。"""
+    url = ORIGIN + BASE + url_for(slug, fm)
+    g = [{"@type": "Article", "headline": fm.get("title", slug), "description": fm.get("description", ""),
+          "dateModified": fm.get("updated", ""), "inLanguage": "ja", "mainEntityOfPage": url}]
+    if fm.get("type") == "商品":
+        g.append({"@type": "SoftwareApplication", "name": fm.get("product", slug), "applicationCategory": "BusinessApplication",
+                  "operatingSystem": "Web", "url": fm.get("official", ""), "description": fm.get("description", "")})
+        m = re.search(r"<h2>よくある質問</h2>(.*?)(?=<h2>|$)", html_body, re.S)
+        qa = re.findall(r"<h3>(.*?)</h3>\s*<p>(.*?)</p>", m.group(1), re.S) if m else []
+        strip = lambda x: html.unescape(re.sub(r"<[^>]+>", "", x)).strip()
+        if qa:
+            g.append({"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": strip(q),
+                      "acceptedAnswer": {"@type": "Answer", "text": strip(a)}} for q, a in qa]})
+    return '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@graph": g}, ensure_ascii=False) + "</script>"
+
 def render(slug, fm, body):
     html_body = markdown.markdown(body, extensions=["tables", "sane_lists"])
     html_body = html_body.replace("<table>", '<div class="tw"><table>').replace("</table>", "</table></div>")
@@ -76,7 +94,7 @@ def render(slug, fm, body):
     title = html.escape(fm.get("title", slug))
     desc = html.escape(fm.get("description", ""))
     return f"""<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{title}</title><meta name="description" content="{desc}">{robots}<style>{CSS}</style></head><body>
+<title>{title}</title><meta name="description" content="{desc}">{robots}{jsonld(slug, fm, html_body)}<style>{CSS}</style></head><body>
 <header><a href="{BASE}/">民泊ツール比較</a><nav><a href="{BASE}/compare-table/">総合比較表</a><a href="{BASE}/disclosure/">広告表示と運営方針</a><a href="{BASE}/changelog/">更新履歴</a></nav></header>
 <main>{html_body}</main>
 <footer>最終確認日 {html.escape(fm.get("updated",""))} ／ 料金・仕様は変わるため、申込前に公式ページで再確認してください。<br><a href="{BASE}/disclosure/">広告表示と運営方針</a></footer></body></html>"""

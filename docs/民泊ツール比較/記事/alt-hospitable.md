@@ -1,102 +1,106 @@
 ---
-title: Hospitable の代替ツール｜英語のみ・物件数で増える料金から選ぶ5候補
+title: 【民泊】Hospitable の代替・乗り換え先｜理由別に選ぶ6つのツール
 slug: alt-hospitable
 type: 代替
-products: [hospitable, ownerrez, igms, beds24, uplisting, hostaway]
-description: Hospitableの管理画面が英語のみ・定型メッセージに日本語なし・物件数で増える料金が合わない人へ。5候補を条件別に整理（2026-11-05時点の公式情報）
-cards: [Hospitable, OwnerRez, iGMS, Beds24, Uplisting, Hostaway, 日本のOTA連携-楽天トラベルじゃらん等, 日本の制度-住宅宿泊事業法ほか]
-updated: 2026-11-05
+products: [hospitable, hostaway, guesty, lodgify, ownerrez, igms, beds24, sirvoy]
+description: Hospitable をやめたい・別のツールを探したい民泊運営者向け。サポートの融通、連携先の少なさ、日本語など理由別に Hostaway・Guesty・OwnerRez・iGMS・Beds24・Sirvoy を比較します。
+cards: [Hospitable, Hostaway, Guesty, OwnerRez, iGMS, Beds24, Sirvoy]
+updated: 2026-11-07
 pr: true
 ---
 
-この記事にはアフィリエイトリンク（PR）が含まれます。
+# 【民泊】Hospitable の代替・乗り換え先｜理由別に選ぶ6つのツール
 
-# Hospitable の代替ツール：言語・物件数別の料金・日本対応で選ぶ5候補
+この記事にはアフィリエイトリンク（PR）が含まれます。紹介報酬の有無で、内容や順番は変えていません。
 
-> **結論**
-> - Hospitable の合わない点が「管理画面が英語のみ」「定型メッセージの対応言語に日本語がない」なら、日本語UIを公式で確認できたのは Beds24 の日本の販売会社版（WeIns / Co-Reception。リンクなし）だけ。その申込は [Beds24（海外公式。PRリンク）](/go/beds24/)とは別。
-> - 「物件が増えるほど追加料金が積み上がる」点（Professional／Mogul の話で、Essentials は追加料金なし）が理由なら、物件数が増えるほど単価が下がる料金表の [OwnerRez](/go/ownerrez/)・[iGMS](/go/igms/) が出発点。
-> - 楽天トラベル／じゃらんの記載は、OwnerRez・iGMS・Uplisting・Hostaway も Hospitable と同様に公式で見つからなかった（Beds24 は日本の販売会社版が提供と記載）。
+## 先に結論：Hospitable をやめたい「理由」で、代わりが変わります
 
-## 先に知っておくこと
+> - **サポートの融通に不満 → OwnerRez（サポートの評価が高い）、Hostaway（導入支援が手厚い）。**
+> - **連携先が足りない（Expedia など）→ Guesty（Pro は60以上と公式）、Hostaway。** ただし料金は見積りです。
+> - **自動返信だけが不満なら、乗り換えの前に、Hospitable 自身の設定の見直しも。** AI返信（Inbox AI）と、ルールで動く自動返信があります。
+> - **日本語・国内の予約サイトがほしい → Beds24（日本の販売会社経由）。**
+> - **小さな宿向けの予約管理 → Sirvoy（1室は無料。ゲスト向けは日本語あり）。**
+> - **どれも、日本語は期待薄です。** Hospitable は管理画面が英語のみです。
 
-- 楽天トラベル（公式の参画ページ）は民泊新法の施設は参画不可で、同グループの「Rakuten Oyado」を案内。じゃらんnet（公式）も民泊新法・特区民泊は不可。両社とも民泊新法・特区民泊は対象外と明記しているが、旅館業法の許可施設への接続可否は各ツールで未確認。制度の判断はこの記事ではしない。
-- Airbnb の公式ヘルプは、日本の住宅宿泊事業ではソフト連携で作ったリスティングを受け付けないとし（例外の「日本のAPIパートナー」の名前は見つからなかった）、届出番号は Airbnb に直接ログインして入れる案内。既存の掲載を接続する場合の扱いは未確認。
+## Hospitable をやめたくなる主な理由（口コミと契約から）
 
-## Hospitable が合わなくなりやすい点
+Capterra の海外レビュー57件で、Hospitable の1〜2点は3件（約5%）でした。件数が少なく、傾向は目安です。日本語の口コミは見つかっていません。
 
-| 項目 | 内容 | 確度 |
+| 理由 | 口コミ・契約の内容 |
+|---|---|
+| サポートの融通 | 休日に問い合わせを閉じられた。カードを変えたら古い料金の優遇が戻らず、担当に裁量がなかった。Essentials はサポートがAIとコミュニティのみ |
+| 機能の信頼性 | 自動メッセージや Airbnb との自動同期が動かないことがある（低評価の1件） |
+| 連携先 | 大手ツールより機能・連携が少ない。Expedia などはカレンダー取り込み（iCal）のみ |
+| 料金 | 物件が少ないホストには割高、という声 |
+| 機能不足 | 30日以上の長期滞在向け（保証金の回収など）がほしい、という声 |
+| 料金ツールとの競合 | PriceLabs をつなぐと、Hospitable 側で料金を設定できなくなる |
+| 日本語 | 管理画面は英語のみ。ゲスト向けの定型も日本語なし |
+
+詳しくは [Hospitable の評判・口コミ](/articles/hospitable/) へ。
+
+## 理由別の代替（早見表）
+
+| ツール | 向く理由 | 注意点 |
 |---|---|---|
-| 言語 | 管理画面は英語のみ（公式FAQ）。定型メッセージは英・西・仏・独で、日本語の追加要望（2026-06-08 投稿）は取得時（2026-11-05）に「New」・票1で、実装済みかは未確認。ダイレクト予約サイトも英・西・仏・独 | 確認済 |
-| 料金の増え方 | 基本料金＋稼働物件ごとの追加（Professional $15／Mogul $30）。Essentials は基本 $0・追加物件料金なし（機能制限あり。サポートは AI とコミュニティのみ）。20室で Professional $329／Mogul $609（計算値）。21室以上は個別相談 | 確認済（計算値） |
-| プランの壁 | オーナーポータルは Mogul のみ。ダイレクト予約サイト・スマートロックは Professional 以上。Essentials のサポートは AI とコミュニティのみ | 確認済 |
-| 契約・返金 | 年払いは12か月、30日経過後は返金なし。規約上、期間途中の解約でも返金・クレジットなし | 確認済 |
-| 接続 | Expedia は iCal のみ（一方向、即時でない）。Vrbo の接続が切れていると予約を即時に作れず二重予約になりうる（公式ヘルプ） | 確認済 |
-| 利用者の声 | カード変更で旧レートを失った（1.0評価）、1物件だと高い（Capterra）、通知が弱くアプリがログアウトする（G2の検索要約）との口コミ | 口コミの記載／G2は第三者のみ |
-| 日本対応 | JPY 請求（請求通貨は請求住所で決まり自分で変更不可）、適格請求書（T番号）、届出番号の専用欄、楽天・じゃらんは記載が見つからなかった | 未確認 |
+| [OwnerRez](/articles/ownerrez/) | サポートの評価が高い。縛りなし。料金表が公開（3室 月$70の目安） | 画面は英語中心。覚えることが多い。メール中心 |
+| [Hostaway](/articles/hostaway/) | 導入支援が手厚い。Expedia など多くの予約サイト | 料金は見積り。契約・解約に不満の声 |
+| [Guesty](/articles/guesty/) | 予約サイトの接続数が多い（Pro）。Agoda も公式に掲載 | 低評価の割合が高い（約13%）。Pro は13か月の契約 |
+| [iGMS](/articles/igms/) | 無料プランと泊数払い。チーム・清掃の管理 | Agoda は一覧になし。接続時に設定が消える警告 |
+| [Beds24](/articles/beds24/) | 安い。日本の販売会社経由で日本語版、国内予約サイト | 画面が古く、自分で調べて使う |
+| [Sirvoy](/articles/sirvoy/) | 1室は無料。ゲスト向け予約画面は日本語を含む31言語。Agoda に直接接続 | 民泊の自動化は弱い。予約サイト連携は Pro のみ。前払い残高制 |
 
-## 条件別の選び方
+この記事では、Smoobu や Hostex など、今回調べていないツールは扱っていません。
 
-| あなたの不満・条件 | まず見る候補 | 理由 |
-|---|---|---|
-| 日本語・円・国内サイト | Beds24 の日本の販売会社版（WeIns / Co-Reception。リンクなし） | 日本語UI・円建て。ゲスト言語コードに ja があり、メール送信言語の判定にも使われる。この版の申込は海外公式のリンクとは別 |
-| 物件が増えても単価を抑えたい | OwnerRez／iGMS | OwnerRez は10〜19物件目が各$7、iGMS は5室で1物件$19.80→10室で$17.40（PRO月払い） |
-| Expedia を API で | Beds24／Hostaway | Beds24 は Preferred Partner 表示、Hostaway も API。OwnerRez は記載なし、iGMS は iCal、Uplisting は Vrbo 経由か iCal |
-| オーナーポータルを安く | OwnerRez／iGMS（PRO 以上） | OwnerRez は基本料金内（精算は別料金）。Hospitable は Mogul のみ |
-| ダイレクト予約の手数料 | OwnerRez／Beds24 | どちらも予約手数料なし。Hospitable は Basic 1%／Premium 4%＋3% |
+## 理由別の詳しい選び方
 
-## 候補の比較表
+### サポートを重視したい
+- **OwnerRez**：サポートが良い点に挙がる割合が約44%。ただしメール中心で、24時間ではありません。
+- **Hostaway**：導入支援が口コミで評判。ただし「営業の説明と導入後が違った」という低評価もあるため、契約を書面で確認。
 
-月額は月払いの目安。「計算値」は公式の単価表から当方で計算。通貨は各社の表示のまま。Hospitable（現状）は Professional／Mogul の順に 5室 $104／$159、10室 $179／$309、20室 $329／$609。
+### 予約サイトの接続を増やしたい
+- Hospitable の接続先は Airbnb・Vrbo・Booking.com・Agoda で、Expedia などは iCal のみです。**Guesty の Pro は60以上、Hostaway は Expedia に対応**（それぞれ公式の記載）。どちらも料金は見積りで、契約も重めです。
 
-| 項目 | OwnerRez | iGMS | Beds24 | Uplisting | Hostaway |
-|---|---|---|---|---|---|
-| 5室 | $88（公式表示） | PRO 約$99 | €31.40（計算値*） | £90（Operator） | 公式は非公開 |
-| 10室 | $127 | PRO 約$174 | €49.90 | £160 | 公式は非公開 |
-| 20室 | $196 | PRO 約$284 | €86.90 | £260（Manager） | 公式は非公開 |
-| 契約・解約 | 契約なし。返金なし | 月払いは解約手数料なし | 公式は月末まで1か月前通知。日本側は最低1か月 | 料金ページ「契約なし」、規約に「最低12か月」 | 個別契約による |
-| 管理画面の日本語 | なし | なし（英・西） | あり（日本の販売会社版） | 記載なし | 記載が見つからなかった |
-| 楽天／じゃらん | 記載が見つからなかった | 記載が見つからなかった | 日本の販売会社版が提供（楽天の現行方式は未確認） | 記載が見つからなかった | 記載が見つからなかった |
-| Expedia | 連携一覧に独立した記載なし | iCal のみ | API（Preferred Partner） | Vrbo 経由（保証なし）か iCal | API |
-| 海外レビュー（Capterra、2026-11-03時点） | 271件／4.9 | 307件／4.6 | 117件／4.7 | 129件／4.7 | 1,623件／4.8 |
+### 自動返信だけが不満
+- Hospitable には、AIが返信案を作る「Inbox AI」と、ルールで動く自動返信があります。外部のAI返信ツールと連携する選択肢も、公式のヘルプに載っています。乗り換えの前に、まずここを見直す価値があります。
 
-OwnerRez・iGMS・Uplisting は計算値。\* 公式の計算式（基本€12.90＋1室€2.60＋部屋タイプ数×チャネル数×€0.55）。各室が別の部屋タイプで2チャネルの場合。請求との一致は未確認。Hospitable は 145件／4.7。Capterra は英語圏のレビューで、日本の運営者の実感ではない。
+### 日本語・国内の予約サイトがほしい
+- **Beds24**：日本の販売会社（株式会社WeIns）経由で、日本語の画面・サポート、楽天トラベル・じゃらんなどの連携（旅館業法の許可施設）。民泊新法・特区民泊は、じゃらんは対象外です。
+- **Sirvoy**：ゲストが見る予約画面は日本語対応。管理画面は日本語なし。
 
-## 候補ごとの要点
+## 乗り換えの前に（Hospitable から移るとき）
 
-- **OwnerRez**：1物件目 $40。契約なし、14日トライアル、カードのみ。UI は11言語に日本語なし。Hosted Sites・SMS などは別料金。iGMS と直接比べたい場合は [iGMS と Hospitable の比較](/articles/vs-igms-hospitable/)。
-- **iGMS**：UI は英語・スペイン語。年払い（10物件未満）は返金不可。内蔵の Dynamic Pricing は日本が対象外の表示（PRO+）。ゲスト向けは「109言語」とあるが日本語を含むかは未確認。
-- **Beds24**：海外公式（ユーロ建て、英独のみ。PRリンクはこちら）と日本の販売会社版（円建て、日本語、最低1か月・解約は毎月20日までにメール、再登録5万円）で条件が別。日本語UI・円建ては販売会社版の情報で、申込は海外公式のリンクとは別。日本側の例は10室・3部屋タイプ・5サイトで ¥17,280／月（税込かは明記なし）。
-- **Uplisting**：10〜300室超向けと自己説明（20室未満の利用者も多いとも記載）。請求通貨に JPY なし。
-- **Hostaway**：価格は見積り。値上げは14日前に通知。日本語UI・サポート言語の記載が見つからなかった。
+1. **契約を確認する**：月払いは当月末で解約。年払いは、トライアル開始から30日を過ぎると返金なし。
+2. **新しいツールを先に準備する**：今のツールをすぐ止めず、並行して準備。
+3. **予約と接続の移し方を決める**：既存の予約は、手入力か CSV になる場合があります。
+4. **PriceLabs の再接続**：別のツールにつなぎ直す手順が必要です。
+5. **Airbnb の接続の扱い**：Airbnb のヘルプには、日本の民泊新法の宿について「ソフト連携で作った掲載は受け付けない」とあります。例外は、Airbnb と契約した日本のAPIパートナーです。**どの代替ツールも該当するか確認できていない**ため、申込前に Airbnb と各社に確認してください。
 
-## 申し込む前に確認すること
+## 日本で使うときの注意（代替先すべて共通）
 
-- [ ] Hospitable を年払いにしている場合は更新日を確認（30日経過後は更新期間の終わりに解約が有効、返金なし）。月払いは当月末で終了
-- [ ] 切替時の空室同期：Airbnb は同時に1つの公式ソフトとしかフルアクセスで接続できない（Uplisting の公式説明）。iGMS・OwnerRez は、API 接続したチャネルに iCal を併用しない
-- [ ] JPY 払いと適格請求書：OwnerRez・iGMS・Uplisting・Hostaway は記載が見つからなかった（[円請求・インボイスの整理](/articles/jp-yen-invoice/)）
-- [ ] 宿泊者名簿は全員分、外国人は旅券番号と旅券の写しの保存（観光庁）。日本の名簿の記載事項に合う本体機能の記載は、Beds24 日本側の有料オプション以外は見つからなかった（ID・パスポート確認の機能は Hospitable・Beds24・Uplisting などにあるが、日本の名簿要件との適合は未確認）
-- [ ] 無料トライアル中に実際の掲載を接続し、二重予約にならないかを確認する
+- **日本語**：Beds24（日本の販売会社経由）以外は、公式に日本語の管理画面・サポートを確認できません。
+- **楽天トラベル・じゃらん**：民泊新法・特区民泊の施設は、どちらも対象外です。
+- 年180日の管理、届出番号、定期報告、インボイスなどの機能は、各ツールの公式ページに記載が見つかりませんでした（「できない」と確認したわけではありません）。
 
-## 未確認のこと
+[OwnerRez を14日間無料で試す（PR）](/go/ownerrez/) ／ [Hostaway の見積り（PR）](/go/hostaway/) ／ [Guesty の料金と申込（PR）](/go/guesty/)
 
-- Hospitable からのデータ書き出し（今回は調べていない）、日本語サポートの可否と対応時間。料金ページの月額は JavaScript 描画のためヘルプ記事の金額で確認（第三者の「Contact sales」報告は未検証）。
-- 楽天トラベル・じゃらんへの配信可否（記載が見つからなかっただけで、できないと確認したわけではない）、Akerun・SESAME との連携。価格は取得日時点。
+## よくある質問
 
-## 出典
+### Hospitable の代わりに、一番おすすめなのはどれですか？
+理由によって変わります。サポートなら OwnerRez や Hostaway、予約サイトの接続数なら Guesty や Hostaway、日本語や国内の予約サイトなら Beds24（日本の販売会社経由）です。自動返信だけが不満なら、乗り換えの前に Hospitable の設定を見直してください。
 
-取得日 2026-11-05。
+### Hospitable から乗り換えるとき、データは引き継げますか？
+Hospitable から出すときの手順は、今回調べた範囲では確認できませんでした。新しいツール側が他ツールからの移行を支援するか（OwnerRez は代行なし）を確認してください。
 
-- Hospitable：https://help.hospitable.com/en/articles/4596748-how-does-our-pricing-work ／ https://help.hospitable.com/en/articles/8060844-faqs-troubleshooting-account-settings ／ https://feedback.hospitable.com/p/add-japanese-as-a-language-option-in-pre-defined-guest ／ https://help.hospitable.com/en/articles/14189123-understanding-how-reservations-sync-across-channels
-- https://www.ownerrez.com/support/articles/costs-and-fees ／ https://www.igms.com/pricing/ ／ https://beds24.com/en/pricing/pricing ／ https://co-reception.com/pricing/ ／ https://www.uplisting.io/pricing ／ https://www.hostaway.com/terms/ ／ https://www.uplisting.io/switch-to-uplisting
-- https://travel.rakuten.co.jp/info/hotel_msg.html ／ https://www.jalan.net/jalan/doc/howto/10sankaku.html ／ https://www.airbnb.com/help/article/2351 ／ https://www.mlit.go.jp/kankocho/minpaku/business/host/responsibility01.html
+### Hospitable を解約するときの注意は？
+月払いは契約も縛りもなく、当月末で終了します。年払いは12か月で、トライアル開始から30日以内は全額返金、それ以降は返金なしです。
 
-<!-- 追加調査依頼:
-1. Hospitable の日本語サポートの可否と、人間のサポートの対応時間・タイムゾーン。
-2. Hospitable の JPY での請求可否（請求通貨の全文リスト）と適格請求書（T番号・消費税）の扱い。
-3. Hospitable の現在の料金ページの月額（画面表示）と、「Contact sales」表示への変更の有無。
-4. Hospitable を解約するときのデータ書き出しの手順と対象。
-5. OwnerRez・iGMS・Uplisting・Hostaway・Hospitable が iCal・サイトコントローラー・Rakuten Oyado 経由で楽天トラベル／じゃらんに配信できるかの公式な記載。
-6. iGMS のゲスト向け「109言語」に日本語が含まれるか。
-7. /go/beds24/ の遷移先が海外公式（beds24.com の紹介リンク）で確定か。日本の販売会社（WeIns）に紹介制度があるか。/go/uplisting/ の申込（Rewardful）画面の規約。
--->
+### 日本語で使える代わりのツールはありますか？
+Beds24 の日本の販売会社（株式会社WeIns）版が、日本語の画面とサポートを提供しています。そのほかは、公式には確認できませんでした。
+
+## 関連記事
+
+- 比較：[Hospitable と Hostaway](/articles/vs-hospitable-hostaway/)、[iGMS と Hospitable](/articles/vs-igms-hospitable/)、[Uplisting と Hospitable](/articles/vs-uplisting-hospitable/)
+- 乗り換え：[iGMS から Hospitable へ](/articles/switch-igms-to-hospitable/)
+- 契約の確認：[最低契約・解約条件](/articles/buy-contract-cancel/)
+
+情報は、各ツールの公式サイトとヘルプ、海外のレビューサイトの口コミ、比較サイトを読んで日本語にまとめたものです。確認日 2026-11-07。料金や仕様は変わるため、申込前に公式で再確認してください。法律の助言ではありません。

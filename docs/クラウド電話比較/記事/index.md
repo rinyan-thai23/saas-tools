@@ -35,3 +35,4 @@ updated: 2026-11-07
 - [乗り換え・導入前のチェックリスト](/articles/switch-checklist/)
 - [日本の電話番号の取り方と審査](/articles/jp-number-acquisition/)
 - [110・119にかけられる？緊急通報の扱いと備え](/articles/jp-emergency-calls/)
+- [日本語で使える？日本語の公式サイト・画面・サポート](/articles/jp-language-support/)

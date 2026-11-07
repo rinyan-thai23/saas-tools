@@ -18,3 +18,4 @@ updated: 2026-11-07
 - [TrekkSoft の評判・口コミ](/articles/trekksoft/)
 - [Bookeo の評判・口コミ](/articles/bookeo/)
 - [Regiondo の評判・口コミ](/articles/regiondo/)
+- [Zaui の評判・口コミ](/articles/zaui/)

@@ -25,3 +25,4 @@ updated: 2026-11-07
 - [RingEX と Zoom Phone を比較](/articles/vs-ringex-zoom-phone/)
 - [CallHippo と Aircall を比較](/articles/vs-callhippo-aircall/)
 - [Aircall と Dialpad を比較](/articles/vs-aircall-dialpad/)
+- [Nextiva と RingEX を比較](/articles/vs-nextiva-ringex/)

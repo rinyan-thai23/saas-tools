@@ -13,3 +13,4 @@ updated: 2026-11-07
 - [FareHarbor の評判・口コミ](/articles/fareharbor/)
 - [Bókun の評判・口コミ](/articles/bokun/)
 - [Xola の評判・口コミ](/articles/xola/)
+- [Checkfront の評判・口コミ](/articles/checkfront/)

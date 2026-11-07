@@ -35,3 +35,4 @@ updated: 2026-11-07
 - [FareHarborの代替（日本の事業者が選べる6つ）](/articles/alt-fareharbor/)
 - [Xolaの代替](/articles/alt-xola/)
 - [Rezdyの代替](/articles/alt-rezdy/)
+- [Checkfrontの代替](/articles/alt-checkfront/)

@@ -8,4 +8,4 @@ updated: 2026-11-07
 
 # 更新履歴
 
-- 2026-11-07：サイトを開始。商品ページ9本（FareHarbor、Bókun、Xola、Checkfront、Rezdy、TrekkSoft、Bookeo、Regiondo、Zaui）と比較表を公開準備。
+- 2026-11-07：サイトを開始。商品ページ11本（国産 OMUSUBI、rezio、Bókun（JTB BÓKUN）、海外製8製品）、比較6本、代替4本、乗り換え3本、日本対応6本、買う直前4本、固定ページを公開準備。

@@ -1,154 +1,142 @@
 ---
-title: Guesty と Lodgify を比較：日本の民泊で申し込む前に確認すること
+title: 【民泊】Guesty と Lodgify どっちがいい？規模・料金・口コミ・日本で使えるかを比較
 slug: vs-guesty-lodgify
 type: 比較
 products: [guesty, lodgify]
-description: 日本の民泊（3〜15室）向けに Guesty と Lodgify を比較。料金の公開度、契約縛り、日本語対応、楽天・じゃらんの扱いを公式情報で整理。
+description: 民泊管理ツールの Guesty と Lodgify を、規模・料金・契約・口コミ・日本で使えるかで比較。小さく始めるか、予約サイトの接続数を重視するかで選び方が変わります。
 cards: [Guesty, Lodgify, 日本のOTA連携-楽天トラベルじゃらん等, 日本の制度-住宅宿泊事業法ほか]
-updated: 2026-11-05
+updated: 2026-11-07
 pr: true
 ---
 
-# Guesty と Lodgify を比較：日本の民泊で申し込む前に
+# 【民泊】Guesty と Lodgify どっちがいい？規模・料金・口コミ・日本で使えるかを比較
 
-この記事にはアフィリエイトリンク（PR）が含まれます。内容は公式ページ等の記載（取得日 2026-11-05）に基づき、リンクの有無では変えていません。
+この記事にはアフィリエイトリンク（PR）が含まれます。紹介報酬の有無で、内容や順番は変えていません。
 
-> **結論**
-> - 3室までなら Guesty Lite の料金が公式に出ています（Pay as you grow なら月$27＋予約の1%、計算値）。4室以上の Guesty Pro は価格非公開の見積りです。Lodgify は1物件あたりの表示価格が出ていますが（公式サイトの公開コピーから取得。www 側との一致は未照合）、3室以上の合計は取得できませんでした。
-> - 契約の重さは対照的です。Guesty は規約上13か月＋自動更新と早期解約金があり（契約書の記載が優先）、Lodgify は「長期契約なし」としつつ、自動更新で更新前の通知がなく途中解約の返金もありません。
-> - 日本語の管理画面は、どちらも公式には確認できませんでした。楽天トラベル・じゃらんも、どちらの公式ページにも記載が見つかりませんでした（「接続できない」と確認したわけではありません）。
+## 先に結論：自分の予約サイトが目的なら Lodgify、物件が増える予定なら Guesty
 
-## 先に知っておくこと（日本で使うときの前提）
+> - **自分の予約サイトを持ちたい、1〜2室で安く始めたい → Lodgify。** Basic は1物件の表示価格$14から、7日間カード不要で試せます。
+> - **物件が増える予定、予約サイトの接続数を重視 → Guesty。** Pro は60以上の予約サイトに接続できます（公式）。ただし4室以上は見積りです。
+> - **1〜3室で、予約サイトの接続が3つで足りる → Guesty Lite も候補。** 料金が公開され、14日間カード不要で試せます。
+> - **口コミの低評価の割合が低いのは Lodgify。** 約7%（Guesty は約13%）。ただし Lodgify は同期・接続の不満が目立ちます。
+> - **日本語の画面・サポートが必須 → どちらも不向き。**
 
-予約サイト自身が公式ページに書いている条件です（法律の判断ではありません）。
+## 2つのツールの違い（早見表）
 
-- **楽天トラベル**：旅館業法の営業許可証を取得した施設が対象。「民泊新法（住宅宿泊事業法）の施設様はご参画いただけません」。民泊新法・特区民泊は「Rakuten Oyado」で登録、と案内。
-- **じゃらんnet**：旅館業法の宿泊営業許可を得た施設が対象。住宅宿泊事業法に基づく民泊と特区民泊は「ご参画いただけません」。
-- **Rakuten Oyado** で「そのまま使える」とされる既存ツールは、ねっぱん、AirHost、Beds24、suitebook。Guesty・Lodgify の名前は載っていません。
-- **Airbnb**：ヘルプに「In Japan, we don't accept listings created through software connections for places to stay (minpaku)…」とあり、例外は日本のAPIパートナー。その名前は公式で見つかりませんでした。既存の掲載を後からつなぐ場合の扱いは未確認です。届出番号は「ツールを使っていても、自分でログインして」追加する必要があります。
-- 取得できた両社の公式ページに、届出番号・年180日の管理・定期報告・適格請求書（インボイス）に当たる機能の記載は見つかりませんでした（Guesty のページには "Japan" の語が0件）。宿泊者名簿は、日本の名簿要件に合う本体機能の記載は見つかりませんでした（GuestVerify／AutoComply／Guest Registration という機能名はありますが、日本で使えるかは未確認）。
-
-## 比較表
-
-【確認済】公式ページ・規約を開いて確認／【第三者のみ】公式を開けず第三者情報だけ／【未確認】確かめられていない／【計算値】公式の単価からの計算。金額は USD。
-
-Lodgify の情報は公式サイトの公開コピー（webflow-mkt.lodgify.com）から取得しました。www.lodgify.com は開けず、同内容かは未照合です。
-
-### 料金・契約
-
-| 項目 | Guesty | Lodgify |
+| | Guesty | Lodgify |
 |---|---|---|
-| 公開価格 | Lite（1〜3室）：Pay as you grow 月$9/室＋予約の1%、Annual 月$20/室〜、Monthly 月$29/室〜。Pro（4〜199室）は見積り【確認済】 | 1物件の表示：Basic $14／Starter $26／Professional $47／Ultimate $68。周期は年払いと推定【確認済・周期は推定】 |
-| 3室の目安 | Lite：月$27＋予約の1%／Annual 月$60〜／Monthly 月$87〜【計算値】 | Basic は1物件、Starter は2物件まで。3室は Professional 以上が前提。合計額は取得できず【未確認】 |
-| 5室以上 | Pro は非公開。第三者の推定は1室あたり月$40〜$72（公式の裏付けなし）【第三者のみ】 | 取得できず【未確認】 |
-| 無料トライアル | Lite：14日間、カード不要。Pro：記載を確認できず【確認済／未確認】 | 7日間、カード不要【確認済】 |
-| 契約期間 | 規約：初期13か月、以後12か月ごとに自動更新。更新しない場合は30日前までに書面通知。契約書の記載が優先。Lite に同じ規約が当たるかは未確認【確認済】 | 料金ページは "no long-term contract, cancel any time"（長期契約なし、いつでも解約可）。一方、規約は1・12・24か月の前払いで自動更新、更新前の通知なし【確認済・両方を併記】 |
-| 解約 | 期間途中は最低月額×残り月数の早期解約金。全リスティングの停止手順が終わるまで契約が続く【確認済】 | 画面からは期間終了の1日前まで、メールは5日前まで。途中解約は返金なし【確認済】 |
-| 値上げ | 規約は事前通知（日数の記載なし）。FAQには「契約期間中にコアソフトの価格は変わらない」【確認済・併記】 | 規約で30日前に通知。旧プランの契約者は表示価格と異なりうる【確認済】 |
-| ダイレクト予約 | 予約エンジンに percentage-based fees なし（決済会社の手数料は別）。ただし Lite の Pay as you grow は予約ごとに1%【確認済】 | 予約手数料なし。オンライン決済に別途1%（ゲートウェイ手数料は別）【確認済】 |
-| 請求通貨 | 原則USD。他通貨の選択肢を提供しうると規約。JPYは未確認 | 価格表示は EUR／USD／GBP。JPYは見当たらない【確認済】 |
+| 得意なこと | 多くの予約サイトとの接続、AIの自動化、物件が増えたときの運営 | 自分の予約サイトを作ること |
+| 小規模向けのプラン | Lite（1〜3室） | Basic（1物件まで）、Starter（2物件まで） |
+| 料金の公開 | 1〜3室の Lite だけ公開。4室以上は見積り | 4プラン公開 |
+| 1物件の月額 | 月$29〜（月払い）、$20〜（年払い）、または月$9＋予約の1% | $14／$26／$47／$68（表示価格、年払いと推定） |
+| 無料トライアル | Lite は14日間・カード不要 | 7日間・カード不要 |
+| 契約（規約） | Pro は最初の13か月＋自動更新。早期解約金 | 更新の通知なしに自動更新。期間途中の返金なし |
+| 口コミの低評価率 | 約13%（約180件中24件） | 約7%（約190件中14件） |
+| 日本語 | 画面・サポートとも確認できず | 同じ |
 
-### チャネル・機能
+各ツールの詳しい情報は、[Guesty の評判・口コミ](/articles/guesty/)、[Lodgify の評判・口コミ](/articles/lodgify/)にまとめています。
 
-| 項目 | Guesty | Lodgify |
+## 規模で選ぶ：何室から、何室まで
+
+- **1室**：Lodgify は Basic が使えます。Guesty Lite も使えます（従量なら基本料金なしで、予約額の1%＋1室月$9）。
+- **2室**：Lodgify は Starter（2物件まで）。Guesty Lite も同様に使えます。
+- **3室**：Lodgify は Professional 以上が前提で、1物件あたり$47〜。Guesty Lite は、従量なら月$27＋予約の1%、月払いなら月$87です（公式の単価からの計算）。
+- **4室以上**：Guesty は Pro（見積り）に移ります。Lodgify は Professional／Ultimate のまま、物件数で月額が増えます。
+
+第三者の比較でも、「Lodgify は個人や小規模のホスト向け、Guesty は中〜大規模の管理会社向け」という見方が多めでした。
+
+## 予約サイトとの接続：数の差は、Guesty の主張
+
+- **Guesty**：Lite は Airbnb・Booking.com・Vrbo の3つ。Pro は60以上（公式）。Agoda は公式に掲載があります。
+- **Lodgify**：Airbnb・Booking.com・Vrbo と連携。Expedia は、ページによって記載が食い違っています。
+
+Guesty の比較ページには、「Guesty は60以上、Lodgify は5」と書かれています。**これは Guesty 自身の主張**で、第三者の検証は確認できませんでした。実際に使いたい予約サイトが接続できるかを、公式の一覧で確認してください。
+
+## 料金：小規模は Lodgify が分かりやすい
+
+| | Guesty | Lodgify |
 |---|---|---|
-| Airbnb・Booking.com・Vrbo | 各社の公式API（双方向）。Lite はこの3つ【確認済】 | API連携（Basic から）【確認済】 |
-| Expedia | Pro 以上【確認済】 | チャネルのページは API 接続、料金ページの機能表には記載なし。記述が食い違う |
-| Agoda | 公式のチャネル一覧とFAQに掲載【確認済】 | 連携一覧になし【未確認】 |
-| 楽天・じゃらん | 表示された一覧に記載なし。全チャネル一覧の全文は取得できず【未確認】 | 連携一覧・チャネルページに記載なし【未確認】 |
-| 清掃タスク | 自動作成、清掃スタッフ向けの権限設定【確認済】 | Ultimate のみ【確認済】 |
-| オーナー向け | オーナーポータルは Pro 以上（Lite は対象外） | 精算・レポートは Ultimate のみ。専用ポータルかは記載なし |
-| スマートロック | LocksManager（有料アドオン）、40+ブランドの主張。Akerun・SESAME は未確認 | 自社 Smart Locks（月$7/台）と連携一覧。Akerun・SESAME の記載なし |
-| ダイレクト予約サイト | 全プランで予約エンジン、30言語。日本語は公式で未確認（ヘルプ抜粋は予約エンジンの日本語に言及）【第三者のみ】 | Starter 以上。32言語と表記、日本語の有無は公式で確認できず |
-| 決済 | GuestyPay は米国・カナダ・EU/UK のみ。外部決済は Stripe 等 | Stripe・PayPal 等。Lodgify Payments は米国のみ。日本での Stripe 利用可否は両社とも未確認 |
+| 1〜3室 | **Lite**：月$9/室＋1%、月$20/室〜（年払い）、月$29/室〜（月払い） | Basic $14、Starter $26、Professional $47、Ultimate $68（1物件） |
+| 4室以上 | **Pro**：見積り | 公式の料金ページで物件数から計算 |
+| 手数料 | Lite の従量プランは予約ごとに1%。ダイレクト予約の手数料はなし | 予約手数料0%。サイト経由の決済に別途1% |
 
-### 日本での使いやすさ・乗り換え
+- **請求通貨**：どちらも円は確認できません。Guesty の低評価に、「手数料1%のはずが、通貨を換算すると実質1.6%だった」という投稿があります。
+- **サポートの手段**：Lodgify は、メールは全プラン、電話は Professional 以上、ライブチャットは Ultimate だけ。Guesty は、口コミで電話窓口がないという声があります。
 
-| 項目 | Guesty | Lodgify |
+## 契約と解約：どちらも自動更新に注意
+
+- **Guesty**：Pro の規約は、最初の13か月、以後12か月ごとの自動更新。途中解約は、最低月額×残り月数の早期解約金です（契約書の記載が優先）。Lite に同じ規約が当たるかは未確認です。
+- **Lodgify**：1・12・24か月の前払いが、更新の通知なしに自動更新されます。解約は期間終了の1日前（アカウント画面）か5日前（メール）まで。期間途中の返金はありません。
+
+どちらも、自動更新の日付を**自分で管理**する必要があります。
+
+## 口コミ：不満の出方が違う
+
+Capterra の海外レビュー（Guesty約180件、Lodgify約190件）を読んだ結果です。英語圏の運営者の声が中心で、日本の運営者の声ではありません。
+
+| | Guesty | Lodgify |
 |---|---|---|
-| 公式サイトの言語 | en・es・fr・de・it・pt。日本語なし【確認済】 | 7言語。日本語なし【確認済】 |
-| 管理画面の日本語 | 2019年の公式ブログで追加言語は仏・西・伊・葡・独。現行は検索抜粋で、日本語はリスティング内容と予約エンジンのみ【第三者のみ】 | サインアップ画面は en・de・es・it・fr・pt。管理画面そのものは未取得 |
-| サポート言語 | 英・西・仏・伊・独・ヘブライ・葡。日本語は一覧にない【確認済】 | 24/7 の記載とプラン別（電話は Professional 以上、チャットは Ultimate のみ）の記載が食い違う。言語の一覧なし |
-| 宿泊者名簿 | GuestVerify、有料アドオン AutoComply。日本で使えるかは未確認 | Guest Registration。日本が対象かは不明 |
-| 移行支援 | Pro は ProSwitch（専任担当、30日目安、多くのチャネルで約30分のダウンタイム）。Lite は "1-on-1 onboarding"（詳細未確認） | 無料オンボーディングで予約・ゲストデータを取り込むと記載。Basic は自己オンボーディング。形式は未確認 |
+| 良い点で多い話題 | 予約サイトの連携・同期（約4割）、使いやすさ、メッセージの自動化 | 予約サイトの連携（約4分の1）、サポート、使いやすさ |
+| 改善点で多い話題 | 料金・請求（約4分の1）、サポート、接続の不具合 | 同期・接続の不具合、料金、サポートの遅れ |
+| 特徴的な低評価 | 決済の処理が止まった、既存ツールが外れた、実質1.6%の手数料 | Vrbo の接続が何週間も有効にならず二重予約、年間契約の自動更新で返金なし |
 
-Capterra の製品情報に Guesty の日本語対応の表示があると README に記録されていますが、何が日本語対応なのかは未確認です。海外レビュー（Capterra、2026-11-03時点、英語圏の評価）：Guesty 1,031件／4.6、Lodgify 1,312件／4.5。検索抜粋では、Guesty に契約期間・早期解約金の説明がなかったとする苦情（BBB）、Lodgify にチャネル同期の遅れ・1年目以降の値上げの指摘があります（各ページ本文は未読）。
+**どちらも、低評価に「同期・接続」と「サポート」の不満が出ます。** Guesty は割合が高く、請求・決済の不満も目立ちます。Lodgify は割合が低めですが、複数サイトの同期が重要な運営では、トライアルで接続を確認してください。
 
-## 条件別の選び方
+## 日本で使うときの注意（両社共通）
 
-- **1〜3室で、価格を見てカード登録なしで試したい人：** Guesty Lite。ただし接続先は3チャネルで、オーナーポータルは使えません。4室以上は Pro（見積り）に移ります。
-- **契約の縛りを避けたい人：** Lodgify は「長期契約なし」です。ただし自動更新の通知がないため、更新日と締切（1日前／5日前）を控えてください。Guesty は規約上13か月＋自動更新が基本です。
-- **Agoda も使う人：** Guesty は公式に掲載があります。Lodgify は確認できていません。
-- **清掃タスクやオーナー精算まで使う人：** Lodgify は Ultimate が前提。Guesty は Pro 以上でオーナーポータルがあります。
-- **楽天トラベル・じゃらんが必須の人：** 民泊新法・特区民泊の施設は両サイトの対象外と各社が書いています。旅館業法の許可施設については、Guesty・Lodgify とも接続可否が未確認なので、申込前に各社へ問い合わせてください。
+- **日本語**：どちらも公式サイトに日本語ページがありません。管理画面・サポートの日本語も確認できませんでした。
+- **民泊新法の人は先に確認**：Airbnb のヘルプには、日本の民泊新法の宿について「ソフト連携で作った掲載は受け付けない」とあります。例外は、Airbnb と契約した日本のAPIパートナーで、**両社が該当するかは確認できていません。**
+- **楽天トラベル・じゃらん**：民泊新法・特区民泊の施設は、どちらも対象外です。両社とも、公式の連携先に楽天トラベル・じゃらんの記載がありません。
+- **決済**：Lodgify Payments も GuestyPay も、日本で使えるか確認できません（Lodgify は米国のホストのみ、GuestyPay は米国・カナダ・EU/UK のみ）。
+- 年180日の管理、届出番号、定期報告、インボイスなどの機能は、**両社とも公式ページに記載が見つかりませんでした**（「できない」と確認したわけではありません）。
 
-[Guesty の料金と申込（PR）](/go/guesty/) ／ [Lodgify の料金と申込（PR）](/go/lodgify/)
+## あなたはどっち？ 状況別のおすすめ
 
-## 申し込む前に確認すること
+| あなたの状況 | おすすめ |
+|---|---|
+| 自分の予約サイトを、まず安く作りたい | Lodgify（Basic／Starter、7日間無料） |
+| 1〜3室で、Airbnb・Booking.com・Vrbo だけでよい | どちらも試せる。Guesty Lite（14日）と Lodgify（7日）を比べる |
+| 物件が増える予定。予約サイトの接続数を重視 | Guesty（Pro は見積り） |
+| Agoda も使う | Guesty（Lodgify は連携一覧にない） |
+| 契約の自動更新を避けたい | どちらも書面で確認。更新日は自分で管理 |
+| 楽天トラベル・じゃらんが必須 | どちらも要問い合わせ（旅館業法の許可施設のみ） |
+| 日本語の画面・サポートが必須 | どちらも不向き。[日本語UI・日本語サポート](/articles/jp-japanese-ui-support/) へ |
 
-- [ ] 営業形態（届出／許可／特区）で、使いたい予約サイトに載せられるか
-- [ ] Airbnb に、民泊新法の掲載（既存分を含む）をツールにつなげるかを確認した
-- [ ] Guesty Pro の見積りで、月額・オンボーディング費用・アドオンの内訳を書面で受け取った
-- [ ] Guesty の契約期間、自動更新、早期解約金の計算を確認した
-- [ ] Lodgify で、物件数に必要なプランと合計額、自動更新と解約締切を確認した
-- [ ] 円で請求されるか、USD／EUR／GBP の場合のカードの為替手数料を確認した
-- [ ] 日本語のサポートと日本時間の窓口を書面で確認した
-- [ ] 英語の管理画面で運用できるか、トライアルで試した
-- [ ] 宿泊者名簿・年180日・定期報告・インボイスを、ツール内か別の方法かで決めた
+[Guesty の料金と申込（PR）](/go/guesty/) ／ [Lodgify の料金と無料トライアル（PR）](/go/lodgify/)
 
-## 未確認のこと
+## 申し込む前に、両社へ聞く質問
 
-- Guesty Pro の公式価格・初期費用、Lite と Pro で規約が同じか
-- Lodgify の3・5・10・20室の料金、管理画面の対応言語
-- 両社のヘルプセンター（Guesty は403、Lodgify は403または名前解決失敗）
-- 円（JPY）の請求・決済、日本での Stripe 利用可否
-- 楽天トラベル・じゃらんへの接続（Guesty は全チャネル一覧の全文が未取得）、Lodgify の Agoda 接続
-- 日本の宿泊者名簿・届出番号・180日管理・定期報告・インボイスへの対応
-- Akerun・SESAME など日本製スマートロックへの対応
-- 日本語・日本時間のサポート
+1. 自分の物件数・使いたい機能での、正確な月額（アドオン込み）。
+2. 契約期間、自動更新の日付の通知、途中解約の費用と返金。
+3. 使いたい予約サイトに接続できるか（Agoda、Expedia など）。
+4. 請求通貨は円にできるか。ドル請求なら、実質の手数料はいくらか。
+5. 日本語で問い合わせできるか。日本時間の窓口、電話の有無。
+6. 私の営業形態で、Airbnb・楽天トラベル・じゃらんに接続できるか。
+7. 今使っているツールがある場合、導入時に設定や接続が外れないか。
 
-この記事は法的な助言ではありません。制度の判断は観光庁・自治体などの一次資料で確認してください。
+より細かい項目は [申込前チェックリスト](/articles/buy-checklist/) にあります。
 
-## 出典
+## よくある質問
 
-取得日はすべて 2026-11-05。表記は「項目：URL」。
+### Guesty と Lodgify の一番大きな違いは何ですか？
+Lodgify は自分の予約サイトを作ることが中心で、小規模の運営者向けです。Guesty は予約サイトの接続数と物件が増えたときの運営に強い、と公式は説明します。口コミの低評価の割合は、Guesty が約13%、Lodgify が約7%でした。
 
-**Guesty**
-- 料金（Lite）、トライアル：https://www.guesty.com/packages/guesty-lite/ ／ 料金（Pro）、ダイレクト予約手数料：https://www.guesty.com/pricing/
-- 契約縛り、解約、値上げ、請求通貨：https://www.guesty.com/terms-of-service/
-- 第三者の推定：https://www.roommaster.com/blog/guesty-pricing
-- チャネル：https://www.guesty.com/features/channel-manager/
-- 機能：https://www.guesty.com/features/tasks-management/ ／ https://www.guesty.com/features/guesty-locks-manager/ ／ https://www.guesty.com/features/homeowners-portal/ ／ https://www.guesty.com/features/guesty-websites/ ／ https://www.guesty.com/features/guestypay/
-- 日本対応：https://www.guesty.com/page-sitemap.xml ／ https://www.guesty.com/blog/going-global-guesty-is-now-available-in-5-new-languages/ ／ https://help.guesty.com/hc/en-gb/articles/33725965313181-Managing-language-and-region-settings ／ https://www.guesty.com/onboarding/
-- 乗り換え：https://www.guesty.com/switch-to-pms/
-- 注意点（BBB）：https://prod.bbb.org/us/ca/covina/profile/internet-service/guesty-1216-635428/complaints
+### 1〜2室なら、どちらが安いですか？
+Lodgify の Basic は1物件の表示価格$14から、Starter は$26です。Guesty Lite は、従量なら基本料金なしで、1室あたり月$9＋予約の1%、月払いなら月$29です。どちらも、請求通貨と手数料を確認してください。
 
-**Lodgify**（実際に開いたURL）
-- 料金・契約・手数料・チャネル・機能：https://webflow-mkt.lodgify.com/pricing ／ https://webflow-mkt.lodgify.com/vacation-rental-channel-manager ／ https://webflow-mkt.lodgify.com/integrations ／ https://webflow-mkt.lodgify.com/smart-locks ／ https://webflow-mkt.lodgify.com/lodgify-payments
-- 規約：https://webflow-mkt.lodgify.com/terms
-- 日本対応：https://www.lodgify.com/sitemap.xml ／ https://webflow-mkt.lodgify.com/contact ／ https://webflow-mkt.lodgify.com/guest-registration
-- 乗り換え：https://webflow-mkt.lodgify.com/switching-software
-- 注意点（第三者）：https://www.capterra.com/p/131924/Lodgify/reviews/
+### 無料トライアルがあるのはどちらですか？
+どちらにもあります。Guesty Lite は14日間、Lodgify は7日間で、ともにカード登録は不要です。
 
-**日本のOTA連携**
-- 1-1-01、1-1-02：https://travel.rakuten.co.jp/info/hotel_msg.html ／ 1-1-10：https://vacation-stay.com/host.html
-- 1-2-01：https://www.jalan.net/jalan/doc/howto/10sankaku.html
-- 1-5-02、1-5-03、1-5-04：https://www.airbnb.com/help/article/2351 ／ https://www.airbnb.com/help/article/2177
-- 3-01、3-03：https://www.guesty.com/features/channel-manager/ ／ https://www.lodgify.com/channel-manager/
+### 自動更新に気をつけるのはどちらですか？
+どちらも気をつけてください。Guesty Pro は最初の13か月と自動更新、Lodgify は更新の通知なしの自動更新で、期間途中の返金がありません。
 
-**日本の制度**
-- A-07、A-26：https://laws.e-gov.go.jp/law/429AC0000000065 ／ https://laws.e-gov.go.jp/law/429M60000900002
+### 日本語で使えるのはどちらですか？
+どちらも、公式には日本語の管理画面もサポートも確認できませんでした。英語の画面で運用できるかを、トライアルで確かめてください。
 
-**その他**
-- README（Capterra の評価・口コミ数、Guesty の日本語対応表示）：../README.md
+## 関連記事
 
-<!-- 追加調査依頼: Guesty Pro の公式の価格帯・オンボーディング費用・契約期間の実例。Lite と Pro で規約が同じか -->
-<!-- 追加調査依頼: Lodgify の3・5・10・20室の合計額と、初期表示の支払い周期（月払い／年払い）。www.lodgify.com 本体と公開コピーの一致 -->
-<!-- 追加調査依頼: Guesty・Lodgify の円（JPY）請求・決済の可否、日本での Stripe・PayPal 利用可否 -->
-<!-- 追加調査依頼: Guesty・Lodgify のサポートの日本語対応可否と日本時間の窓口 -->
-<!-- 追加調査依頼: Guesty・Lodgify の管理画面の現行の対応言語（Guesty は help.guesty.com が403） -->
-<!-- 追加調査依頼: Capterra で Guesty に日本語対応と表示されている範囲（管理画面かリスティング／予約エンジンか） -->
-<!-- 追加調査依頼: Guesty の全チャネル一覧の全文での楽天トラベル・じゃらんの有無。Lodgify の Agoda 接続（iCal 運用を含む） -->
-<!-- 追加調査依頼: Airbnb の日本の民泊新法の掲載を、両社のソフト連携につなげるかの扱いと、例外となる日本のAPIパートナー名 -->
-<!-- 追加調査依頼: GuestVerify／AutoComply／Lodgify Guest Registration が日本の宿泊者名簿・旅券確認に使えるか -->
-<!-- 追加調査依頼: 両社の適格請求書（インボイス）、届出番号表示、年180日管理、定期報告への対応 -->
+- 他の比較：[Guesty と Hostaway](/articles/vs-guesty-hostaway/)、[Hostaway と Lodgify](/articles/vs-hostaway-lodgify/)、[Beds24 と Lodgify](/articles/vs-beds24-lodgify/)
+- 代替を探す：[Guesty の代替](/articles/alt-guesty/)、[Lodgify の代替](/articles/alt-lodgify/)
+- 乗り換える：[Lodgify から Hostaway へ](/articles/switch-lodgify-to-hostaway/)
+
+情報は、両社の公式サイト（Lodgify は公式の公開コピー）と海外のレビューサイトの口コミ、比較サイトを読んで日本語にまとめたものです。確認日 2026-11-07。料金や仕様は変わるため、申込前に公式で再確認してください。法律の助言ではありません。

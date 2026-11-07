@@ -18,3 +18,4 @@ updated: 2026-11-07
 - [Aircall の評判・口コミ](/articles/aircall/)
 - [CloudTalk の評判・口コミ](/articles/cloudtalk/)
 - [Zoom Phone の評判・口コミ](/articles/zoom-phone/)
+- [JustCall の評判・口コミ](/articles/justcall/)

@@ -6,3 +6,4 @@ Dialpad done
 Aircall done
 CloudTalk done
 ZoomPhone done
+JustCall done

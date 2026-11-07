@@ -8,7 +8,8 @@ from pathlib import Path
 import markdown
 
 ROOT = Path(__file__).resolve().parent.parent
-SRC, OUT = ROOT / "記事", ROOT / "出力"
+SRC, OUT = ROOT / "記事", ROOT.parent / "minpaku"  # GitHub Pages(docs)で /minpaku/ として公開
+BASE = next((a.split("=", 1)[1].rstrip("/") for a in sys.argv if a.startswith("--base=")), "/saas-tools/minpaku")  # 独自ドメインなら --base=''  
 PUBLISH = "--publish" in sys.argv
 errors, warnings = [], []
 
@@ -65,14 +66,15 @@ def render(slug, fm, body):
             return f'<a href="{href}" rel="nofollow noopener" target="_blank"'
         return m.group(0)
     html_body = re.sub(r'<a href="([^"]+)"', fix, html_body)
+    html_body = html_body.replace('href="/', f'href="{BASE}/')
     robots = "" if PUBLISH else '<meta name="robots" content="noindex,nofollow">'
     title = html.escape(fm.get("title", slug))
     desc = html.escape(fm.get("description", ""))
     return f"""<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title}</title><meta name="description" content="{desc}">{robots}<style>{CSS}</style></head><body>
-<header><a href="/">民泊ツール比較</a><nav><a href="/compare-table/">総合比較表</a><a href="/disclosure/">広告表示と運営方針</a><a href="/changelog/">更新履歴</a></nav></header>
+<header><a href="{BASE}/">民泊ツール比較</a><nav><a href="{BASE}/compare-table/">総合比較表</a><a href="{BASE}/disclosure/">広告表示と運営方針</a><a href="{BASE}/changelog/">更新履歴</a></nav></header>
 <main>{html_body}</main>
-<footer>最終確認日 {html.escape(fm.get("updated",""))} ／ 料金・仕様は変わるため、申込前に公式ページで再確認してください。<br><a href="/disclosure/">広告表示と運営方針</a></footer></body></html>"""
+<footer>最終確認日 {html.escape(fm.get("updated",""))} ／ 料金・仕様は変わるため、申込前に公式ページで再確認してください。<br><a href="{BASE}/disclosure/">広告表示と運営方針</a></footer></body></html>"""
 
 if OUT.exists(): shutil.rmtree(OUT)
 for slug, (fm, body) in pages.items():

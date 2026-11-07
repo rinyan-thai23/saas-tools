@@ -1,0 +1,263 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hostaway と OwnerRez を比較：日本の民泊で申し込む前に確認すること</title><meta name="description" content="日本の民泊（3〜15室）向けに Hostaway と OwnerRez を比較。料金の公開度、契約・解約、日本語対応、楽天・じゃらんの扱いを公式情報で整理。"><meta name="robots" content="noindex,nofollow"><style>:root{--bg:#fff;--fg:#1b1f23;--mut:#5b6670;--line:#d8dee4;--acc:#0b5cad;--soft:#f5f7fa}
+@media(prefers-color-scheme:dark){:root{--bg:#14181c;--fg:#e6e9ec;--mut:#9aa5af;--line:#2d353d;--acc:#6db3f2;--soft:#1c2228}}
+*{box-sizing:border-box}body{overflow-wrap:anywhere;margin:0;background:var(--bg);color:var(--fg);font:16px/1.85 -apple-system,"Hiragino Sans","Noto Sans JP",sans-serif}
+header,main,footer{max-width:820px;margin:0 auto;padding:0 16px}header{padding-top:14px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+header a{color:var(--fg);text-decoration:none;font-weight:700}nav a{margin-right:14px;font-weight:400;font-size:14px;color:var(--mut)}
+h1{font-size:1.6rem;line-height:1.4;margin:1.4em 0 .6em}h2{font-size:1.25rem;margin:2em 0 .6em;padding-bottom:.3em;border-bottom:1px solid var(--line)}h3{font-size:1.05rem;margin:1.5em 0 .4em}
+a{color:var(--acc)}blockquote{margin:1em 0;padding:.6em 1em;background:var(--soft);border-left:4px solid var(--acc)}blockquote p{margin:.4em 0}
+.tw{overflow-x:auto;margin:1em 0}table{border-collapse:collapse;font-size:14px;line-height:1.6;min-width:100%}th,td{border:1px solid var(--line);padding:6px 9px;vertical-align:top;text-align:left}th{background:var(--soft);white-space:nowrap}
+code{background:var(--soft);padding:1px 4px;border-radius:3px;font-size:.9em}footer{padding-top:20px;padding-bottom:40px;color:var(--mut);font-size:13px;border-top:1px solid var(--line);margin-top:3em}
+ul,ol{padding-left:1.4em}li{margin:.2em 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:1em 0}
+.card{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--soft);text-decoration:none;color:var(--fg);line-height:1.5}
+.card b{display:block;margin-bottom:4px}.card span{font-size:13px;color:var(--mut)}.card:hover{border-color:var(--acc)}</style></head><body>
+<header><a href="/saas-tools/minpaku/">民泊ツール比較</a><nav><a href="/saas-tools/minpaku/compare-table/">総合比較表</a><a href="/saas-tools/minpaku/disclosure/">広告表示と運営方針</a><a href="/saas-tools/minpaku/changelog/">更新履歴</a></nav></header>
+<main><h1>Hostaway と OwnerRez を比較：日本の民泊で申し込む前に</h1>
+<p>この記事にはアフィリエイトリンク（PR）が含まれます。内容は公式ページ等の記載（取得日 2026-11-05）に基づき、リンクの有無では変えていません。</p>
+<blockquote>
+<p><strong>結論</strong></p>
+<ul>
+<li>料金が最も具体的に出ているのは OwnerRez です。物件数別の基本料金表が公式にあり、最低月額は$40、契約縛り・予約手数料なし、14日間の無料トライアルがあります。Hostaway は価格非公開で、見積りを取る形でした。</li>
+<li>OwnerRez は機能の一部（オーナー精算、SMS、ダイレクト予約サイト、QuickBooks 連携など）が別料金で、必要な機能を足すと基本料金の目安より高くなります。</li>
+<li>日本語の管理画面は、OwnerRez は公式の表示言語の一覧に日本語がなく、Hostaway は記述を確認できませんでした。楽天トラベル・じゃらんは、どちらの公式ページにも記載が見つかりませんでした。</li>
+</ul>
+</blockquote>
+<h2>先に知っておくこと（日本で使うときの前提）</h2>
+<p>予約サイト自身が公式ページに書いている条件です（法律の判断ではありません）。</p>
+<ul>
+<li><strong>楽天トラベル</strong>：旅館業法の営業許可証を取得した施設が対象。「民泊新法（住宅宿泊事業法）の施設様はご参画いただけません」。民泊新法・特区民泊は「Rakuten Oyado」で登録、と案内。</li>
+<li><strong>じゃらんnet</strong>：旅館業法の宿泊営業許可を得た施設が対象。住宅宿泊事業法に基づく民泊と特区民泊は「ご参画いただけません」。</li>
+<li><strong>Rakuten Oyado</strong> で「そのまま使える」とされる既存ツールは、ねっぱん、AirHost、Beds24、suitebook。Hostaway・OwnerRez の名前は載っていません。</li>
+<li><strong>Airbnb</strong>：ヘルプに「In Japan, we don't accept listings created through software connections for places to stay (minpaku)…」とあり、例外は日本のAPIパートナー。その名前は公式で見つかりませんでした。既存の掲載を後からつなぐ場合の扱いは未確認です。届出番号は「ツールを使っていても、自分でログインして」追加する必要があります。</li>
+<li>取得できた公式ページに、届出番号・年180日の管理・定期報告・適格請求書（インボイス）に当たる機能の記載は、両社とも見つかりませんでした。宿泊者名簿は、日本の名簿要件に合う機能の記載は見つかりませんでした（Chekin 等の外部サービスとの提携・連携はありますが、日本の要件に合うかは未確認）。OwnerRez はサイトマップに japan・JPY・rakuten・jalan を含むURLがありませんでした。</li>
+</ul>
+<h2>比較表</h2>
+<p>【確認済】公式ページ・規約を開いて確認／【自社の主張】公式が書くが第三者の検証なし／【第三者のみ】公式を開けず第三者情報だけ／【未確認】確かめられていない／【計算値】公式の料金表からの計算。金額は USD。</p>
+<h3>料金・契約</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>Hostaway</th>
+<th>OwnerRez</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>公開価格</td>
+<td>非公開。物件数のフォーム→見積り【確認済】</td>
+<td>物件数に応じた月額表を公式サポート記事で公開。1物件目$40、2〜3物件目各$15、4物件目$10、5〜9物件目各$8、10〜19物件目各$7、20〜49物件目各$6【確認済】</td>
+</tr>
+<tr>
+<td>目安</td>
+<td>公式の数字なし。第三者の推定は食い違う（5〜9室で月$175〜$250 など）【第三者のみ】</td>
+<td>3室$70／5室$88／10室$127／20室$196。5室のみ公式ページに合計表示、他は計算値【計算値】</td>
+</tr>
+<tr>
+<td>最低料金</td>
+<td>公式にはなし【未確認】</td>
+<td>月$40（全物件を停止していても）【確認済】</td>
+</tr>
+<tr>
+<td>基本料金に含まれるもの</td>
+<td>契約内容による</td>
+<td>チャネル管理、チームのログイン無制限、オーナー／清掃スタッフ用ポータル、電子署名、トリガー・自動返信【確認済】</td>
+</tr>
+<tr>
+<td>別料金</td>
+<td>アドオンの金額は非公開。QuickBooks 連携は1物件$4【確認済】</td>
+<td>Property Management（精算）、QuickBooks、Hosted Sites、SMS、Rezzy AI、ドアロック直接連携（1台月$4）など【確認済】</td>
+</tr>
+<tr>
+<td>無料トライアル</td>
+<td>公式で確認できず。デモ申込あり【未確認】</td>
+<td>14日間。プレミアム機能も期間中は無料【確認済】</td>
+</tr>
+<tr>
+<td>契約縛り・解約</td>
+<td>規約は期間を個別契約に委ねる。通常の解約手続き・解約金は規約本文になし【確認済】</td>
+<td>契約・早期解約金なし。いつでも閉鎖でき、未使用期間の返金なし【確認済】</td>
+</tr>
+<tr>
+<td>予約手数料</td>
+<td>予約サイトは契約に含む。Booking Website Pro は月$49＋対象予約の0.5%【確認済】</td>
+<td>「No commissions, no guest fees, or per-booking fees」。決済事業者の手数料は別【確認済】</td>
+</tr>
+<tr>
+<td>支払い・通貨</td>
+<td>請求通貨は記載なし。JPYは未確認</td>
+<td>クレジットカード必須、料金表示はUSD【確認済】</td>
+</tr>
+<tr>
+<td>契約主体</td>
+<td>Hostaway Opco Oy（フィンランド）。紛争はヘルシンキの簡易仲裁（英語）【確認済】</td>
+<td>OwnerRez, Inc.（米国）。準拠法はワイオミング州法、英語版が優先【確認済】</td>
+</tr>
+</tbody>
+</table></div>
+<h3>チャネル・機能</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>Hostaway</th>
+<th>OwnerRez</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>接続方式</td>
+<td>Airbnb・Booking.com・Vrbo・Expedia に対応。比較ページでは直接API接続【確認済／自社の主張】</td>
+<td>Vrbo・Airbnb・Booking.com・Google Vacation Rentals に直接API連携【確認済】</td>
+</tr>
+<tr>
+<td>Expedia・Agoda</td>
+<td>Expedia は対応。Agoda は公式の一覧になく断定できない【未確認】</td>
+<td>連携一覧に独立した記載なし【未確認】</td>
+</tr>
+<tr>
+<td>楽天・じゃらん</td>
+<td>一覧・マーケットプレイスに記載なし【未確認】</td>
+<td>連携一覧・サイトマップに記載なし【未確認】</td>
+</tr>
+<tr>
+<td>iCal</td>
+<td>マーケットプレイスに項目あり（仕組みの詳細は未精査）</td>
+<td>全チャネルで可能。ただし同じチャネルでAPI連携との併用は不可。iCal中心の運用では全物件×全サイトで取り込みと書き出しの両方を設定</td>
+</tr>
+<tr>
+<td>自動メッセージ</td>
+<td>テンプレートとトリガーで自動送信。受信メッセージの翻訳あり</td>
+<td>トリガー・自動返信は基本料金込み。SMS は有料</td>
+</tr>
+<tr>
+<td>清掃タスク</td>
+<td>予約に連動して自動作成</td>
+<td>清掃スタッフ用ポータルは基本料金内。社内のタスク機能の詳細は未確認</td>
+</tr>
+<tr>
+<td>スマートロック</td>
+<td>Nuki、igloohome、TTLock 等多数。Akerun・SESAME は見当たらない</td>
+<td>Schlage、Igloohome、Hubitat を直接連携ほか。Akerun・SESAME の記載なし</td>
+</tr>
+<tr>
+<td>ダイレクト予約サイト</td>
+<td>Booking Website は契約に含む。言語は English・Spanish・French・Italian、日本語なし【第三者のみ】</td>
+<td>予約ウィジェットは基本料金内。Hosted Sites、WordPress Plugin は有料</td>
+</tr>
+<tr>
+<td>会計</td>
+<td>QuickBooks Online 連携</td>
+<td>QuickBooks Online 連携（有料）。freee 等の記載なし</td>
+</tr>
+</tbody>
+</table></div>
+<h3>日本での使いやすさ・乗り換え</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>Hostaway</th>
+<th>OwnerRez</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>管理画面の日本語</td>
+<td>記述を確認できず【第三者のみ。ヘルプは403】</td>
+<td>公式サポート記事の表示言語の一覧は英語ほか10言語（スペイン語、フランス語、オランダ語、ドイツ語など）で、日本語は挙がっていない【確認済】</td>
+</tr>
+<tr>
+<td>サポート</td>
+<td>24時間電話の主張【自社の主張】。対応言語の記載なし</td>
+<td>メール、問い合わせフォーム、アプリ内チケット。「すぐには返信できない場合がある」。時間・言語の記載なし</td>
+</tr>
+<tr>
+<td>通貨・決済</td>
+<td>JPYの請求・決済は未確認</td>
+<td>1物件に設定できる通貨は1つで換算はしない（2023年の社員の回答）。JPY運用の可否は公式で確認できず。Stripe・PayPal 等は日本での利用可否が未確認</td>
+</tr>
+<tr>
+<td>宿泊者名簿</td>
+<td>提携に Chekin 等。日本の要件に合うかは未確認</td>
+<td>連携に Chekin 等。本体機能の記載は確認できず</td>
+</tr>
+<tr>
+<td>移行支援</td>
+<td>"live onboarding" の記載。自社の比較ページで導入費$500。手順・期間の具体は見つからず</td>
+<td>無料の1時間 "Jumpstart" 通話（設定の説明）。他社データの移行代行の記載なし。Excel テンプレートで予約・料金などを取り込める</td>
+</tr>
+</tbody>
+</table></div>
+<p>海外レビュー（Capterra、2026-11-03時点、英語圏の評価）：Hostaway 1,623件／4.8、OwnerRez 271件／4.9。OwnerRez は公式サイト上のレビューに「Steep Learning Curve」の見出しがあります。メール返信が遅いとの少数の指摘は第三者の抜粋で、本文は未読です。Hostaway は値上げ・サポートの質の指摘が検索抜粋にあります。</p>
+<h2>条件別の選び方</h2>
+<ul>
+<li><strong>料金を公式ページで見て計算したい人：</strong> OwnerRez。物件数別の基本料金表が公式にあります。ただしオーナー精算やダイレクト予約サイトなどを足すと上がります。</li>
+<li><strong>契約の縛りを避けたい人：</strong> OwnerRez は契約・解約金なしですが、未使用期間は返金されません。Hostaway は期間が個別契約なので、見積り時に確認します。</li>
+<li><strong>Expedia も使う人：</strong> Hostaway は対応。OwnerRez は連携一覧に記載がありません。</li>
+<li><strong>設定の細かさより導入の手早さを重視する人：</strong> OwnerRez は設定が細かい分、学習に時間がかかるという声があります。Hostaway は見積りで導入支援の中身を確認してください。</li>
+<li><strong>楽天トラベル・じゃらんが必須の人：</strong> 民泊新法・特区民泊の施設は両サイトの対象外と各社が書いています。旅館業法の許可施設については、Hostaway・OwnerRez とも接続可否が未確認なので、申込前に各社へ問い合わせてください。</li>
+</ul>
+<p><a href="/saas-tools/minpaku/go/hostaway/" rel="sponsored nofollow noopener" target="_blank">Hostaway の見積り（PR）</a> ／ <a href="/saas-tools/minpaku/go/ownerrez/" rel="sponsored nofollow noopener" target="_blank">OwnerRez の料金と申込（PR）</a></p>
+<h2>申し込む前に確認すること</h2>
+<ul>
+<li>[ ] 営業形態（届出／許可／特区）で、使いたい予約サイトに載せられるか</li>
+<li>[ ] Airbnb に、民泊新法の掲載（既存分を含む）をツールにつなげるかを確認した</li>
+<li>[ ] Hostaway の見積りで、月額・初期費用・アドオンの内訳を書面で受け取った</li>
+<li>[ ] OwnerRez で、必要な機能（精算、サイト、SMS、ロック）を足した月額を試算した</li>
+<li>[ ] カード払いのみ・USD請求で、為替手数料を含めて許容できるか</li>
+<li>[ ] 日本語のサポートと日本時間の窓口を書面で確認した</li>
+<li>[ ] 英語の管理画面で運用できるか、14日トライアル（OwnerRez）やデモ（Hostaway）で試した</li>
+<li>[ ] 物件の通貨を円にできるか（OwnerRez は1物件1通貨）を確認した</li>
+<li>[ ] 宿泊者名簿・年180日・定期報告・インボイスを、ツール内か別の方法かで決めた</li>
+</ul>
+<h2>未確認のこと</h2>
+<ul>
+<li>Hostaway の公式価格・無料トライアル・標準の契約期間、ヘルプセンター（403）の内容</li>
+<li>OwnerRez の円（JPY）運用、ゲストフォームの対応言語の完全な一覧、サポートの対応時間と言語</li>
+<li>両社の楽天トラベル・じゃらん・Agoda への接続（OwnerRez の iCal 運用の可否は未検証）</li>
+<li>日本の宿泊者名簿・届出番号・180日管理・定期報告・インボイスへの対応</li>
+<li>Akerun・SESAME など日本製スマートロックへの対応</li>
+<li>第三者の評価の一次情報（Capterra 等の本文）</li>
+</ul>
+<p>この記事は法的な助言ではありません。制度の判断は観光庁・自治体などの一次資料で確認してください。</p>
+<h2>出典</h2>
+<p>取得日はすべて 2026-11-05。表記は「項目：URL」。</p>
+<p><strong>Hostaway</strong></p>
+<ul>
+<li>契約・解約・値上げ・契約主体：https://www.hostaway.com/terms/ ／ 料金ページ：https://www.hostaway.com/pricing/</li>
+<li>第三者の推定：https://www.roommaster.com/blog/hostaway-pricing ／ 導入費用：https://www.hostaway.com/compare/hostaway-vs-guesty/</li>
+<li>ダイレクト予約・デモ：https://www.hostaway.com/features/direct-booking/ ／ https://www.hostaway.com/get-free-demo/ ／ QuickBooks：https://www.hostaway.com/features/quickbooks-integration/</li>
+<li>チャネル：https://www.hostaway.com/vacation-rental-channel-manager/ ／ https://www.hostaway.com/blog/list-property-on-agoda/ ／ https://www.hostaway.com/marketplace/ical/</li>
+<li>機能：https://www.hostaway.com/features/communication/ ／ https://www.hostaway.com/features/automation-tools/ ／ https://www.hostaway.com/features/smart-locks/ ／ https://www.hostaway.com/marketplace/chekin/</li>
+<li>日本対応：https://www.hostaway.com/sitemap-0.xml ／ https://www.hostaway.com/solutions/for-property-managers/</li>
+<li>乗り換え：https://www.hostaway.com/blog/switching-pms-platforms/</li>
+<li>注意点（口コミ）：https://www.softwareadvice.com/hotel-management/hostaway-profile/reviews/</li>
+</ul>
+<p><strong>OwnerRez</strong></p>
+<ul>
+<li>料金・契約縛り・予約手数料：https://www.ownerrez.com/pricing ／ 料金表・プレミアム機能・ロック：https://www.ownerrez.com/support/articles/costs-and-fees</li>
+<li>解約・返金：https://www.ownerrez.com/support/articles/closing-your-account ／ https://www.ownerrez.com/support/articles/refund-policy</li>
+<li>運営会社：https://www.ownerrez.com/support/articles/privacy-security-terms-of-service</li>
+<li>チャネル・iCal：https://www.ownerrez.com/integrations ／ https://www.ownerrez.com/support/articles/channel-management-calendar-import-export</li>
+<li>日本対応：https://www.ownerrez.com/support/articles/guests-multi-language-guest-forms ／ https://www.ownerrez.com/support/articles/my-account-ask-for-help ／ 通貨：https://www.ownerrez.com/forums/general-help/booking-page-show-prices-in-other-currency ／ https://www.ownerrez.com/sitemap.xml</li>
+<li>乗り換え：https://www.ownerrez.com/onboarding ／ https://www.ownerrez.com/support/articles/jumpstart ／ https://www.ownerrez.com/support/articles/importing-outside-bookings</li>
+<li>注意点：https://www.ownerrez.com/vacation-rental-channel-manager ／ https://www.capterra.com/p/100831/OwnerRez/reviews/?page=2</li>
+</ul>
+<p><strong>日本のOTA連携</strong></p>
+<ul>
+<li>1-1-01、1-1-02：https://travel.rakuten.co.jp/info/hotel_msg.html ／ 1-1-10：https://vacation-stay.com/host.html</li>
+<li>1-2-01：https://www.jalan.net/jalan/doc/howto/10sankaku.html</li>
+<li>1-5-02、1-5-03、1-5-04：https://www.airbnb.com/help/article/2351 ／ https://www.airbnb.com/help/article/2177</li>
+<li>3-02、3-04：https://www.hostaway.com/features/channel-manager/ ／ https://www.ownerrez.com/channel-management</li>
+</ul>
+<p><strong>日本の制度</strong></p>
+<ul>
+<li>A-07、A-26：https://laws.e-gov.go.jp/law/429AC0000000065 ／ https://laws.e-gov.go.jp/law/429M60000900002</li>
+</ul>
+<p><strong>その他</strong></p>
+<ul>
+<li>README（Capterra の評価・口コミ数、2026-11-03時点）：../README.md</li>
+</ul></main>
+<footer>最終確認日 2026-11-05 ／ 料金・仕様は変わるため、申込前に公式ページで再確認してください。<br><a href="/saas-tools/minpaku/disclosure/">広告表示と運営方針</a></footer></body></html>

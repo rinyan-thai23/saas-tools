@@ -36,3 +36,7 @@ updated: 2026-11-07
 - [Xolaの代替](/articles/alt-xola/)
 - [Rezdyの代替](/articles/alt-rezdy/)
 - [Checkfrontの代替](/articles/alt-checkfront/)
+
+## 乗り換え
+
+- [電話・表計算から予約システムへ（手順と店頭予約の手数料）](/articles/switch-from-manual/)

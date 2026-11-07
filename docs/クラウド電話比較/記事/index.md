@@ -31,3 +31,4 @@ updated: 2026-11-07
 - [Zoom Phone の代替](/articles/alt-zoom-phone/)
 - [Aircall の代替](/articles/alt-aircall/)
 - [固定電話・スマホからクラウド電話へ乗り換える手順](/articles/switch-from-landline/)
+- [今の電話番号をそのままクラウド電話へ移せる？](/articles/switch-keep-number/)

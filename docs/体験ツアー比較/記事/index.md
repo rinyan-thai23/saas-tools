@@ -11,3 +11,4 @@ updated: 2026-11-07
 日本で体験・ツアーを運営する人が、海外の予約システムを申し込む前に読むサイトです（準備中）。
 
 - [FareHarbor の評判・口コミ](/articles/fareharbor/)
+- [Bókun の評判・口コミ](/articles/bokun/)

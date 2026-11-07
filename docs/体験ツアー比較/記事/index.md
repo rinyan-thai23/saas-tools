@@ -23,3 +23,4 @@ updated: 2026-11-07
 ## 比較
 
 - [BókunとFareHarborを比較](/articles/vs-bokun-fareharbor/)
+- [BókunとRezdyを比較](/articles/vs-bokun-rezdy/)

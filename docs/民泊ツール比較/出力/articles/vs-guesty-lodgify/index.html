@@ -1,0 +1,259 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Guesty と Lodgify を比較：日本の民泊で申し込む前に確認すること</title><meta name="description" content="日本の民泊（3〜15室）向けに Guesty と Lodgify を比較。料金の公開度、契約縛り、日本語対応、楽天・じゃらんの扱いを公式情報で整理。"><meta name="robots" content="noindex,nofollow"><style>:root{--bg:#fff;--fg:#1b1f23;--mut:#5b6670;--line:#d8dee4;--acc:#0b5cad;--soft:#f5f7fa}
+@media(prefers-color-scheme:dark){:root{--bg:#14181c;--fg:#e6e9ec;--mut:#9aa5af;--line:#2d353d;--acc:#6db3f2;--soft:#1c2228}}
+*{box-sizing:border-box}body{overflow-wrap:anywhere;margin:0;background:var(--bg);color:var(--fg);font:16px/1.85 -apple-system,"Hiragino Sans","Noto Sans JP",sans-serif}
+header,main,footer{max-width:820px;margin:0 auto;padding:0 16px}header{padding-top:14px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+header a{color:var(--fg);text-decoration:none;font-weight:700}nav a{margin-right:14px;font-weight:400;font-size:14px;color:var(--mut)}
+h1{font-size:1.6rem;line-height:1.4;margin:1.4em 0 .6em}h2{font-size:1.25rem;margin:2em 0 .6em;padding-bottom:.3em;border-bottom:1px solid var(--line)}h3{font-size:1.05rem;margin:1.5em 0 .4em}
+a{color:var(--acc)}blockquote{margin:1em 0;padding:.6em 1em;background:var(--soft);border-left:4px solid var(--acc)}blockquote p{margin:.4em 0}
+.tw{overflow-x:auto;margin:1em 0}table{border-collapse:collapse;font-size:14px;line-height:1.6;min-width:100%}th,td{border:1px solid var(--line);padding:6px 9px;vertical-align:top;text-align:left}th{background:var(--soft);white-space:nowrap}
+code{background:var(--soft);padding:1px 4px;border-radius:3px;font-size:.9em}footer{padding-top:20px;padding-bottom:40px;color:var(--mut);font-size:13px;border-top:1px solid var(--line);margin-top:3em}
+ul,ol{padding-left:1.4em}li{margin:.2em 0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:1em 0}
+.card{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--soft);text-decoration:none;color:var(--fg);line-height:1.5}
+.card b{display:block;margin-bottom:4px}.card span{font-size:13px;color:var(--mut)}.card:hover{border-color:var(--acc)}</style></head><body>
+<header><a href="/">民泊ツール比較</a><nav><a href="/compare-table/">総合比較表</a><a href="/disclosure/">広告表示と運営方針</a><a href="/changelog/">更新履歴</a></nav></header>
+<main><h1>Guesty と Lodgify を比較：日本の民泊で申し込む前に</h1>
+<p>この記事にはアフィリエイトリンク（PR）が含まれます。内容は公式ページ等の記載（取得日 2026-11-05）に基づき、リンクの有無では変えていません。</p>
+<blockquote>
+<p><strong>結論</strong></p>
+<ul>
+<li>3室までなら Guesty Lite の料金が公式に出ています（Pay as you grow なら月$27＋予約の1%、計算値）。4室以上の Guesty Pro は価格非公開の見積りです。Lodgify は1物件あたりの表示価格が出ていますが（公式サイトの公開コピーから取得。www 側との一致は未照合）、3室以上の合計は取得できませんでした。</li>
+<li>契約の重さは対照的です。Guesty は規約上13か月＋自動更新と早期解約金があり（契約書の記載が優先）、Lodgify は「長期契約なし」としつつ、自動更新で更新前の通知がなく途中解約の返金もありません。</li>
+<li>日本語の管理画面は、どちらも公式には確認できませんでした。楽天トラベル・じゃらんも、どちらの公式ページにも記載が見つかりませんでした（「接続できない」と確認したわけではありません）。</li>
+</ul>
+</blockquote>
+<h2>先に知っておくこと（日本で使うときの前提）</h2>
+<p>予約サイト自身が公式ページに書いている条件です（法律の判断ではありません）。</p>
+<ul>
+<li><strong>楽天トラベル</strong>：旅館業法の営業許可証を取得した施設が対象。「民泊新法（住宅宿泊事業法）の施設様はご参画いただけません」。民泊新法・特区民泊は「Rakuten Oyado」で登録、と案内。</li>
+<li><strong>じゃらんnet</strong>：旅館業法の宿泊営業許可を得た施設が対象。住宅宿泊事業法に基づく民泊と特区民泊は「ご参画いただけません」。</li>
+<li><strong>Rakuten Oyado</strong> で「そのまま使える」とされる既存ツールは、ねっぱん、AirHost、Beds24、suitebook。Guesty・Lodgify の名前は載っていません。</li>
+<li><strong>Airbnb</strong>：ヘルプに「In Japan, we don't accept listings created through software connections for places to stay (minpaku)…」とあり、例外は日本のAPIパートナー。その名前は公式で見つかりませんでした。既存の掲載を後からつなぐ場合の扱いは未確認です。届出番号は「ツールを使っていても、自分でログインして」追加する必要があります。</li>
+<li>取得できた両社の公式ページに、届出番号・年180日の管理・定期報告・適格請求書（インボイス）に当たる機能の記載は見つかりませんでした（Guesty のページには "Japan" の語が0件）。宿泊者名簿は、日本の名簿要件に合う本体機能の記載は見つかりませんでした（GuestVerify／AutoComply／Guest Registration という機能名はありますが、日本で使えるかは未確認）。</li>
+</ul>
+<h2>比較表</h2>
+<p>【確認済】公式ページ・規約を開いて確認／【第三者のみ】公式を開けず第三者情報だけ／【未確認】確かめられていない／【計算値】公式の単価からの計算。金額は USD。</p>
+<p>Lodgify の情報は公式サイトの公開コピー（webflow-mkt.lodgify.com）から取得しました。www.lodgify.com は開けず、同内容かは未照合です。</p>
+<h3>料金・契約</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>Guesty</th>
+<th>Lodgify</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>公開価格</td>
+<td>Lite（1〜3室）：Pay as you grow 月$9/室＋予約の1%、Annual 月$20/室〜、Monthly 月$29/室〜。Pro（4〜199室）は見積り【確認済】</td>
+<td>1物件の表示：Basic $14／Starter $26／Professional $47／Ultimate $68。周期は年払いと推定【確認済・周期は推定】</td>
+</tr>
+<tr>
+<td>3室の目安</td>
+<td>Lite：月$27＋予約の1%／Annual 月$60〜／Monthly 月$87〜【計算値】</td>
+<td>Basic は1物件、Starter は2物件まで。3室は Professional 以上が前提。合計額は取得できず【未確認】</td>
+</tr>
+<tr>
+<td>5室以上</td>
+<td>Pro は非公開。第三者の推定は1室あたり月$40〜$72（公式の裏付けなし）【第三者のみ】</td>
+<td>取得できず【未確認】</td>
+</tr>
+<tr>
+<td>無料トライアル</td>
+<td>Lite：14日間、カード不要。Pro：記載を確認できず【確認済／未確認】</td>
+<td>7日間、カード不要【確認済】</td>
+</tr>
+<tr>
+<td>契約期間</td>
+<td>規約：初期13か月、以後12か月ごとに自動更新。更新しない場合は30日前までに書面通知。契約書の記載が優先。Lite に同じ規約が当たるかは未確認【確認済】</td>
+<td>料金ページは "no long-term contract, cancel any time"（長期契約なし、いつでも解約可）。一方、規約は1・12・24か月の前払いで自動更新、更新前の通知なし【確認済・両方を併記】</td>
+</tr>
+<tr>
+<td>解約</td>
+<td>期間途中は最低月額×残り月数の早期解約金。全リスティングの停止手順が終わるまで契約が続く【確認済】</td>
+<td>画面からは期間終了の1日前まで、メールは5日前まで。途中解約は返金なし【確認済】</td>
+</tr>
+<tr>
+<td>値上げ</td>
+<td>規約は事前通知（日数の記載なし）。FAQには「契約期間中にコアソフトの価格は変わらない」【確認済・併記】</td>
+<td>規約で30日前に通知。旧プランの契約者は表示価格と異なりうる【確認済】</td>
+</tr>
+<tr>
+<td>ダイレクト予約</td>
+<td>予約エンジンに percentage-based fees なし（決済会社の手数料は別）。ただし Lite の Pay as you grow は予約ごとに1%【確認済】</td>
+<td>予約手数料なし。オンライン決済に別途1%（ゲートウェイ手数料は別）【確認済】</td>
+</tr>
+<tr>
+<td>請求通貨</td>
+<td>原則USD。他通貨の選択肢を提供しうると規約。JPYは未確認</td>
+<td>価格表示は EUR／USD／GBP。JPYは見当たらない【確認済】</td>
+</tr>
+</tbody>
+</table></div>
+<h3>チャネル・機能</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>Guesty</th>
+<th>Lodgify</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Airbnb・Booking.com・Vrbo</td>
+<td>各社の公式API（双方向）。Lite はこの3つ【確認済】</td>
+<td>API連携（Basic から）【確認済】</td>
+</tr>
+<tr>
+<td>Expedia</td>
+<td>Pro 以上【確認済】</td>
+<td>チャネルのページは API 接続、料金ページの機能表には記載なし。記述が食い違う</td>
+</tr>
+<tr>
+<td>Agoda</td>
+<td>公式のチャネル一覧とFAQに掲載【確認済】</td>
+<td>連携一覧になし【未確認】</td>
+</tr>
+<tr>
+<td>楽天・じゃらん</td>
+<td>表示された一覧に記載なし。全チャネル一覧の全文は取得できず【未確認】</td>
+<td>連携一覧・チャネルページに記載なし【未確認】</td>
+</tr>
+<tr>
+<td>清掃タスク</td>
+<td>自動作成、清掃スタッフ向けの権限設定【確認済】</td>
+<td>Ultimate のみ【確認済】</td>
+</tr>
+<tr>
+<td>オーナー向け</td>
+<td>オーナーポータルは Pro 以上（Lite は対象外）</td>
+<td>精算・レポートは Ultimate のみ。専用ポータルかは記載なし</td>
+</tr>
+<tr>
+<td>スマートロック</td>
+<td>LocksManager（有料アドオン）、40+ブランドの主張。Akerun・SESAME は未確認</td>
+<td>自社 Smart Locks（月$7/台）と連携一覧。Akerun・SESAME の記載なし</td>
+</tr>
+<tr>
+<td>ダイレクト予約サイト</td>
+<td>全プランで予約エンジン、30言語。日本語は公式で未確認（ヘルプ抜粋は予約エンジンの日本語に言及）【第三者のみ】</td>
+<td>Starter 以上。32言語と表記、日本語の有無は公式で確認できず</td>
+</tr>
+<tr>
+<td>決済</td>
+<td>GuestyPay は米国・カナダ・EU/UK のみ。外部決済は Stripe 等</td>
+<td>Stripe・PayPal 等。Lodgify Payments は米国のみ。日本での Stripe 利用可否は両社とも未確認</td>
+</tr>
+</tbody>
+</table></div>
+<h3>日本での使いやすさ・乗り換え</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>項目</th>
+<th>Guesty</th>
+<th>Lodgify</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>公式サイトの言語</td>
+<td>en・es・fr・de・it・pt。日本語なし【確認済】</td>
+<td>7言語。日本語なし【確認済】</td>
+</tr>
+<tr>
+<td>管理画面の日本語</td>
+<td>2019年の公式ブログで追加言語は仏・西・伊・葡・独。現行は検索抜粋で、日本語はリスティング内容と予約エンジンのみ【第三者のみ】</td>
+<td>サインアップ画面は en・de・es・it・fr・pt。管理画面そのものは未取得</td>
+</tr>
+<tr>
+<td>サポート言語</td>
+<td>英・西・仏・伊・独・ヘブライ・葡。日本語は一覧にない【確認済】</td>
+<td>24/7 の記載とプラン別（電話は Professional 以上、チャットは Ultimate のみ）の記載が食い違う。言語の一覧なし</td>
+</tr>
+<tr>
+<td>宿泊者名簿</td>
+<td>GuestVerify、有料アドオン AutoComply。日本で使えるかは未確認</td>
+<td>Guest Registration。日本が対象かは不明</td>
+</tr>
+<tr>
+<td>移行支援</td>
+<td>Pro は ProSwitch（専任担当、30日目安、多くのチャネルで約30分のダウンタイム）。Lite は "1-on-1 onboarding"（詳細未確認）</td>
+<td>無料オンボーディングで予約・ゲストデータを取り込むと記載。Basic は自己オンボーディング。形式は未確認</td>
+</tr>
+</tbody>
+</table></div>
+<p>Capterra の製品情報に Guesty の日本語対応の表示があると README に記録されていますが、何が日本語対応なのかは未確認です。海外レビュー（Capterra、2026-11-03時点、英語圏の評価）：Guesty 1,031件／4.6、Lodgify 1,312件／4.5。検索抜粋では、Guesty に契約期間・早期解約金の説明がなかったとする苦情（BBB）、Lodgify にチャネル同期の遅れ・1年目以降の値上げの指摘があります（各ページ本文は未読）。</p>
+<h2>条件別の選び方</h2>
+<ul>
+<li><strong>1〜3室で、価格を見てカード登録なしで試したい人：</strong> Guesty Lite。ただし接続先は3チャネルで、オーナーポータルは使えません。4室以上は Pro（見積り）に移ります。</li>
+<li><strong>契約の縛りを避けたい人：</strong> Lodgify は「長期契約なし」です。ただし自動更新の通知がないため、更新日と締切（1日前／5日前）を控えてください。Guesty は規約上13か月＋自動更新が基本です。</li>
+<li><strong>Agoda も使う人：</strong> Guesty は公式に掲載があります。Lodgify は確認できていません。</li>
+<li><strong>清掃タスクやオーナー精算まで使う人：</strong> Lodgify は Ultimate が前提。Guesty は Pro 以上でオーナーポータルがあります。</li>
+<li><strong>楽天トラベル・じゃらんが必須の人：</strong> 民泊新法・特区民泊の施設は両サイトの対象外と各社が書いています。旅館業法の許可施設については、Guesty・Lodgify とも接続可否が未確認なので、申込前に各社へ問い合わせてください。</li>
+</ul>
+<p><a href="/go/guesty/" rel="sponsored nofollow noopener" target="_blank">Guesty の料金と申込（PR）</a> ／ <a href="/go/lodgify/" rel="sponsored nofollow noopener" target="_blank">Lodgify の料金と申込（PR）</a></p>
+<h2>申し込む前に確認すること</h2>
+<ul>
+<li>[ ] 営業形態（届出／許可／特区）で、使いたい予約サイトに載せられるか</li>
+<li>[ ] Airbnb に、民泊新法の掲載（既存分を含む）をツールにつなげるかを確認した</li>
+<li>[ ] Guesty Pro の見積りで、月額・オンボーディング費用・アドオンの内訳を書面で受け取った</li>
+<li>[ ] Guesty の契約期間、自動更新、早期解約金の計算を確認した</li>
+<li>[ ] Lodgify で、物件数に必要なプランと合計額、自動更新と解約締切を確認した</li>
+<li>[ ] 円で請求されるか、USD／EUR／GBP の場合のカードの為替手数料を確認した</li>
+<li>[ ] 日本語のサポートと日本時間の窓口を書面で確認した</li>
+<li>[ ] 英語の管理画面で運用できるか、トライアルで試した</li>
+<li>[ ] 宿泊者名簿・年180日・定期報告・インボイスを、ツール内か別の方法かで決めた</li>
+</ul>
+<h2>未確認のこと</h2>
+<ul>
+<li>Guesty Pro の公式価格・初期費用、Lite と Pro で規約が同じか</li>
+<li>Lodgify の3・5・10・20室の料金、管理画面の対応言語</li>
+<li>両社のヘルプセンター（Guesty は403、Lodgify は403または名前解決失敗）</li>
+<li>円（JPY）の請求・決済、日本での Stripe 利用可否</li>
+<li>楽天トラベル・じゃらんへの接続（Guesty は全チャネル一覧の全文が未取得）、Lodgify の Agoda 接続</li>
+<li>日本の宿泊者名簿・届出番号・180日管理・定期報告・インボイスへの対応</li>
+<li>Akerun・SESAME など日本製スマートロックへの対応</li>
+<li>日本語・日本時間のサポート</li>
+</ul>
+<p>この記事は法的な助言ではありません。制度の判断は観光庁・自治体などの一次資料で確認してください。</p>
+<h2>出典</h2>
+<p>取得日はすべて 2026-11-05。表記は「項目：URL」。</p>
+<p><strong>Guesty</strong></p>
+<ul>
+<li>料金（Lite）、トライアル：https://www.guesty.com/packages/guesty-lite/ ／ 料金（Pro）、ダイレクト予約手数料：https://www.guesty.com/pricing/</li>
+<li>契約縛り、解約、値上げ、請求通貨：https://www.guesty.com/terms-of-service/</li>
+<li>第三者の推定：https://www.roommaster.com/blog/guesty-pricing</li>
+<li>チャネル：https://www.guesty.com/features/channel-manager/</li>
+<li>機能：https://www.guesty.com/features/tasks-management/ ／ https://www.guesty.com/features/guesty-locks-manager/ ／ https://www.guesty.com/features/homeowners-portal/ ／ https://www.guesty.com/features/guesty-websites/ ／ https://www.guesty.com/features/guestypay/</li>
+<li>日本対応：https://www.guesty.com/page-sitemap.xml ／ https://www.guesty.com/blog/going-global-guesty-is-now-available-in-5-new-languages/ ／ https://help.guesty.com/hc/en-gb/articles/33725965313181-Managing-language-and-region-settings ／ https://www.guesty.com/onboarding/</li>
+<li>乗り換え：https://www.guesty.com/switch-to-pms/</li>
+<li>注意点（BBB）：https://prod.bbb.org/us/ca/covina/profile/internet-service/guesty-1216-635428/complaints</li>
+</ul>
+<p><strong>Lodgify</strong>（実際に開いたURL）</p>
+<ul>
+<li>料金・契約・手数料・チャネル・機能：https://webflow-mkt.lodgify.com/pricing ／ https://webflow-mkt.lodgify.com/vacation-rental-channel-manager ／ https://webflow-mkt.lodgify.com/integrations ／ https://webflow-mkt.lodgify.com/smart-locks ／ https://webflow-mkt.lodgify.com/lodgify-payments</li>
+<li>規約：https://webflow-mkt.lodgify.com/terms</li>
+<li>日本対応：https://www.lodgify.com/sitemap.xml ／ https://webflow-mkt.lodgify.com/contact ／ https://webflow-mkt.lodgify.com/guest-registration</li>
+<li>乗り換え：https://webflow-mkt.lodgify.com/switching-software</li>
+<li>注意点（第三者）：https://www.capterra.com/p/131924/Lodgify/reviews/</li>
+</ul>
+<p><strong>日本のOTA連携</strong></p>
+<ul>
+<li>1-1-01、1-1-02：https://travel.rakuten.co.jp/info/hotel_msg.html ／ 1-1-10：https://vacation-stay.com/host.html</li>
+<li>1-2-01：https://www.jalan.net/jalan/doc/howto/10sankaku.html</li>
+<li>1-5-02、1-5-03、1-5-04：https://www.airbnb.com/help/article/2351 ／ https://www.airbnb.com/help/article/2177</li>
+<li>3-01、3-03：https://www.guesty.com/features/channel-manager/ ／ https://www.lodgify.com/channel-manager/</li>
+</ul>
+<p><strong>日本の制度</strong></p>
+<ul>
+<li>A-07、A-26：https://laws.e-gov.go.jp/law/429AC0000000065 ／ https://laws.e-gov.go.jp/law/429M60000900002</li>
+</ul>
+<p><strong>その他</strong></p>
+<ul>
+<li>README（Capterra の評価・口コミ数、Guesty の日本語対応表示）：../README.md</li>
+</ul></main>
+<footer>最終確認日 2026-11-05 ／ 料金・仕様は変わるため、申込前に公式ページで再確認してください。<br><a href="/disclosure/">広告表示と運営方針</a></footer></body></html>

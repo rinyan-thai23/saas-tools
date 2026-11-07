@@ -34,3 +34,4 @@ updated: 2026-11-07
 - [今の電話番号をそのままクラウド電話へ移せる？](/articles/switch-keep-number/)
 - [乗り換え・導入前のチェックリスト](/articles/switch-checklist/)
 - [日本の電話番号の取り方と審査](/articles/jp-number-acquisition/)
+- [110・119にかけられる？緊急通報の扱いと備え](/articles/jp-emergency-calls/)
